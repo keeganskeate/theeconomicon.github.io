@@ -260,7 +260,7 @@
 
 	ul.icons {
 		cursor: default;
-		padding-bottom: .5em;
+		padding-bottom: 2em;
 	}
 
 		ul.icons li {
@@ -313,7 +313,7 @@
 
 		ul.actions.vertical li {
 			display: block;
-			padding: 1.5em 0 0 0;
+			padding: .5em 0 0 0;
 		}
 
 			ul.actions.vertical li:first-child {
