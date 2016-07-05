@@ -260,7 +260,7 @@
 
 	ul.icons {
 		cursor: default;
-		padding-bottom: 2em;
+		padding-bottom: .5em;
 	}
 
 		ul.icons li {
@@ -747,7 +747,7 @@
 		}
 
 		#footer .copyright {
-			margin-top: 1em;
+			margin-top: 3em;
 			text-align: center;
 		}
 
