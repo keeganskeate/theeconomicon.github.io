@@ -220,7 +220,7 @@
 /* Icon */
 
 	.icon {
-		position: center;
+		position: relative;
 	}
 
 		.icon:before {
