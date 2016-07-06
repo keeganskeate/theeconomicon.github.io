@@ -595,6 +595,8 @@
 		position: absolute;
 		top: 0;
 		right: 0;
+		display: block;
+    		text-align: center;
 	}
 
 		#nav > ul {
@@ -645,7 +647,7 @@
 					
 				}
    /* submenu positioning*/
-#nav ul {
+#nav > ul {
   position: absolute;
   white-space: nowrap;
   border-bottom: 5px solid  #82b440;
@@ -653,36 +655,36 @@
   z-index: 1;
   left: -99999em;
 }
-#nav > li:hover > ul {
+#nav ul > li:hover > ul {
   left: auto;
   padding-top: 0px  ;
   min-width: 100%;
 }
-#nav > li  ul {  border-left:1px solid #82b440;}
-#nav > li ul {  border-right:1px solid #82b440;}
-#nav > li li ul {  border-left:1px solid #82b440;}
-#nav > li li ul {  border-right:1px solid #82b440;}
+#nav ul > li  ul {  border-left:1px solid #82b440;}
+#nav ul > li ul {  border-right:1px solid #82b440;}
+#nav ul > li li ul {  border-left:1px solid #82b440;}
+#nav ul > li li ul {  border-right:1px solid #82b440;}
 
 
-#nav > li li:hover > ul { 
+#nav ul > li li:hover > ul { 
  /* margin-left: 1px */
   left: 100%;
   top: -1px;
 }
 /* arrow hover styling */
-#nav > li > a:first-child:nth-last-child(2):before { 
+#nav ul > li > a:first-child:nth-last-child(2):before { 
   border-top-color: #fff; 
 }
-#nav > li:hover > a:first-child:nth-last-child(2):before {
+#nav ul > li:hover > a:first-child:nth-last-child(2):before {
   border: 5px solid transparent; 
   border-bottom-color: #82b440;
   margin-top:-5px
 }
-#nav li li > a:first-child:nth-last-child(2):before {  
+#nav ul > li li > a:first-child:nth-last-child(2):before {  
   border-left-color: #fff; 
   margin-top: -5px
 }
-#nav li li:hover > a:first-child:nth-last-child(2):before {
+#nav ul > li li:hover > a:first-child:nth-last-child(2):before {
   border: 5px solid transparent; 
   border-right-color: #82b440;
   right: 10px; 
