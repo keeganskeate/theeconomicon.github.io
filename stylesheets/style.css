@@ -630,9 +630,7 @@
 					display: none;
 				}
 				#nav >ul > li > a:hover {
-   					text-decoration: underline;
-   					background-color: #555;
-    					color: white;
+    					color: #82b440;
 				} 
 
 /* Dropotron */
