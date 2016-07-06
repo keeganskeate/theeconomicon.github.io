@@ -601,7 +601,7 @@
 			margin: 0;
 		}
 
-			#nav > ul > li {
+			#nav > ul > li > a {
 				border-radius: 4px;
 				display: inline-block;
 				margin-left: 0.5em;
