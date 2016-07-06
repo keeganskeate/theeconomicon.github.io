@@ -567,7 +567,7 @@
 		display: none;
 	}
 
-	.homepage #nav {
+	.homepage nav {
 		position: static;
 		right: none;
 		text-align: center;
@@ -590,7 +590,110 @@
 		#logo a {
 			color: inherit;
 		}
+nav {    
+    display: block;
+    text-align: center;
+  }
+  nav ul {
+    margin: 0;
+    padding:0;
+    list-style: none;
+  }
+  .nav a {
+    display:block; 
+    background: #222222; 
+    color:white; 
+    text-decoration: none;
+    padding: .8em 1.8em;
+    text-transform: uppercase;
+    font-size: 1em;letter-spacing: 2px;
+    text-shadow: 0 -1px 0 #000;
+    position: relative;
+  }
+  .nav{  
+    vertical-align: top; 
+    display: inline-block;
+    box-shadow: 1px -1px -1px 1px #000, -1px 1px -1px 1px #fff, 0 0 6px 3px #fff;
+    border-radius:6px;
+  }
+  .nav li{position: relative;}
+  .nav > li { 
+    float:left;
+    
+  } 
+  .nav > li > a { 
+    margin-bottom:1px;
+    
+  }
+  .nav > li:hover , .nav > li:hover >a{  border-bottom-color:#82b440;}
+  .nav li:hover > a { color:#82b440; }
+  .nav > li:first-child  { border-radius: 4px 0 0 4px;} 
+  .nav > li:first-child>a{border-radius: 4px 0 0 0;}
+  .nav > li:last-child  { 
+  	border-radius: 0 0 4px 0; 
+  	margin-right: 0;
+  } 
+  .nav > li:last-child >a{border-radius: 0 4px 0 0; }
+  .nav li li a { margin-top:1px}
+  
+  
+  
+    .nav li a:first-child:nth-last-child(2):before { 
+     content:""; 
+     position: absolute; 
+     height:0; 
+     width: 0; 
+     border: 5px solid transparent; 
+     top: 50% ;
+     right:5px;  
+   }
+   
+   
+   
+   
+   
+   /* submenu positioning*/
+.nav ul {
+  position: absolute;
+  white-space: nowrap;
+  border-bottom: 5px solid  #82b440;
+  border-top: 5px solid  #82b440;
+  z-index: 1;
+  left: -99999em;
+}
+.nav > li:hover > ul {
+  left: auto;
+  padding-top: 0px  ;
+  min-width: 100%;
+}
+.nav > li li ul {  border-left:1px solid #82b440;}
 
+
+.nav > li li:hover > ul { 
+ /* margin-left: 1px */
+  left: 100%;
+  top: -1px;
+}
+/* arrow hover styling */
+.nav > li > a:first-child:nth-last-child(2):before { 
+  border-top-color: #fff; 
+}
+.nav > li:hover > a:first-child:nth-last-child(2):before {
+  border: 5px solid transparent; 
+  border-bottom-color: #82b440;
+  margin-top:-5px
+}
+.nav li li > a:first-child:nth-last-child(2):before {  
+  border-left-color: #fff; 
+  margin-top: -5px
+}
+.nav li li:hover > a:first-child:nth-last-child(2):before {
+  border: 5px solid transparent; 
+  border-right-color: #82b440;
+  right: 10px; 
+}
+
+/*
 	#nav {
 		position: absolute;
 		top: 0;
@@ -599,6 +702,8 @@
 
 		#nav > ul {
 			margin: 0;
+			padding:0;
+			list-style: none;
 		}
 
 			#nav > ul > li  {
@@ -629,12 +734,12 @@
 				#nav > ul > li > ul {
 					display: none;
 				}
-				#nav >ul > li > a:hover {
+				#nav > li > a:hover {
     					color: #82b440;
-				} 
+				}  */
 
 /* Dropotron */
-	.dropotron {
+/*	.dropotron {
 		top: 2em;
 		background: rgba(32, 32, 32, 0.75);
 		border-radius: 4px;
@@ -663,7 +768,7 @@
 		.dropotron.level-0 {
 			border-radius: 0 0 4px 4px;
 			font-size: 1em;
-			margin-left: -0.5em;
+			margin-left: -0.5em; */
 		}
 /* Banner */
 
