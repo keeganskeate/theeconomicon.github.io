@@ -642,7 +642,7 @@
     					color: #82b440;
 				}
 				/* arrow hover styling */
-				#nav ul > li:first-child:nth-last-child(2):before { 
+				/*#nav ul > li:first-child:nth-last-child(2):before { 
 				  border-top-color: #fff; 
 				}
 				.#nav ul >li:hover > li:first-child:nth-last-child(2):before {
