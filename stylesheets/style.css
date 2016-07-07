@@ -90,7 +90,7 @@
 	}
 
 	hr {
-		border-top: solid 1px #95EA49  ;
+		border-top: solid 1px #82b440  ;
 		border: 0;
 		margin-bottom: 1.5em;
 	}
@@ -589,6 +589,7 @@
 
 		#logo a {
 			color: inherit;
+			background:#95EA49;
 		}
 
 	#nav {
