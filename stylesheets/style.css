@@ -640,7 +640,7 @@
 				#nav > ul > li > ul {
 					display: none;
 				}
-				#nav > li > a:hover {
+				#nav ul > li > a:hover {
     					color: #82b440;
 				}
 
