@@ -647,12 +647,12 @@
 /* Dropotron */
 .dropotron {
 		top: 2em;
-		background: #555555;
+		background: #222222;
 		border-radius: 4px;
 		color: inherit;
 		min-width: 12em;
 		padding: 1em 0;
-		color: white;
+		color: #82b440;
 	}
 
 		.dropotron > li {
