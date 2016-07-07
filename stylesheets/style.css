@@ -645,7 +645,7 @@
 /* Dropotron */
 .dropotron {
 		top: 2em;
-		background: rgba(0, 0, 0,);
+		background: rgba(0, 0, 0,0.5);
 		border-radius: 4px;
 		border-bottom: 5px solid  #82b440;
   		border-top: 5px solid  #82b440;
