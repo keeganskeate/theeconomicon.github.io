@@ -610,7 +610,7 @@
 				display: inline-block;
 				margin-left: 0.5em;
 				padding: 0 0.5em;
-				background: #222222; 
+				background: inherit; 
 				color:white; 
 				text-decoration: none;
 				text-transform: uppercase;
@@ -645,12 +645,12 @@
 /* Dropotron */
 .dropotron {
 		top: 2em;
-		background: #222222;
+		background: inherit;
 		border-radius: 4px;
 		color: inherit;
 		min-width: 12em;
 		padding: 1em 0;
-		color: #82b440;
+		color: white;
 	}
 
 		.dropotron > li {
