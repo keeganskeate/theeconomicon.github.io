@@ -561,6 +561,7 @@
 
 		#header .container {
 			position: relative;
+			background:#4E49EA ;
 		}
 
 	.homepage #logo {
@@ -579,7 +580,6 @@
 		text-transform: uppercase;
 		font-size: 2em;
 		font-weight: 400;
-		background:#95EA49;
 	}
 
 		#logo h1 {
