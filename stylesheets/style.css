@@ -679,6 +679,13 @@
 			font-size: 1em;
 			margin-left: -0.5em;
 		}
+			.dropotron.level-1 {
+			border-right:4px solid #82b440;
+			border-left:4px solid #82b440;
+			border-radius: 0 0 4px 4px;
+			font-size: 1em;
+			margin-left: -0.5em;
+		}
 /* Banner */
 
 	#banner {
