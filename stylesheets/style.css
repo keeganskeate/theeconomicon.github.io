@@ -658,11 +658,12 @@
 		.dropotron > li {
 			line-height: 2em;
 			padding: 0 1em;
-			border-right:4px solid #82b440;
-			border-left:4px solid #82b440;
 		}
 
 			.dropotron > li > a {
+				
+				border-right:4px solid #82b440;
+				border-left:4px solid #82b440;
 				color: inherit;
 				letter-spacing: 2px;
 				text-decoration: none;
