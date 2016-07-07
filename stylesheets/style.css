@@ -645,9 +645,9 @@
 				}
 
 /* Dropotron */
-/*	.dropotron {
+.dropotron {
 		top: 2em;
-		background: rgba(32, 32, 32, 0.75);
+		background: #222222;
 		border-radius: 4px;
 		color: inherit;
 		min-width: 12em;
@@ -668,14 +668,14 @@
 			}
 
 			.dropotron > li.active > a, .dropotron > li:hover > a {
-				color: inherit;
+				color: #82b440;
 			}
 
 		.dropotron.level-0 {
 			border-radius: 0 0 4px 4px;
 			font-size: 1em;
 			margin-left: -0.5em;
-		} */
+		}
 /* Banner */
 
 	#banner {
