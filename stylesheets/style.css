@@ -662,8 +662,6 @@
 
 			.dropotron > li > a {
 				
-				border-right:4px solid #82b440;
-				border-left:4px solid #82b440;
 				color: inherit;
 				letter-spacing: 2px;
 				text-decoration: none;
@@ -675,6 +673,8 @@
 			}
 
 		.dropotron.level-0 {
+			border-right:4px solid #82b440;
+			border-left:4px solid #82b440;
 			border-radius: 0 0 4px 4px;
 			font-size: 1em;
 			margin-left: -0.5em;
