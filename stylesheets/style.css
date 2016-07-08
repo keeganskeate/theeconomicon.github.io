@@ -695,6 +695,7 @@
 				letter-spacing: 2px;
 				text-decoration: none;
 				text-transform: uppercase;
+				height: 0;
 				-moz-transition: all 200ms ease-in;
 				-webkit-transition: all 200ms ease-in;
 				-o-transition: all 200ms ease-in;
