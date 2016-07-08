@@ -554,7 +554,7 @@
 	#header {
 		color: white;
 		height: 4em;
-		background: #222222;
+		background: rgba(0, 0, 0, 0.5);
 	}
 
 		#header .container {
