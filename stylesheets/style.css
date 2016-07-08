@@ -675,6 +675,7 @@
 		min-width: 12em;
 		padding: 1em 0;
 		color: white;
+		height: 0;
 		-moz-transition: all 200ms ease-in;
 		-webkit-transition: all 200ms ease-in;
 		-o-transition: all 200ms ease-in;
@@ -702,6 +703,7 @@
 			}
 			.dropotron > li.active > a, .dropotron > li:hover > a {
 				color: #82b440;
+				height: 36px;
 			}
 	.dropotron.level-0 {
 		border-right:2px solid #82b440;
