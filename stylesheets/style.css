@@ -662,6 +662,10 @@
 				}
 /* Dropotron */
 .dropotron {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-o-appearance: none;
+		-ms-appearance: none;
 		top: 2em;
 		background: #222222;
 		border-radius: 4px;
@@ -671,17 +675,30 @@
 		min-width: 12em;
 		padding: 1em 0;
 		color: white;
+		-moz-transition: all 200ms ease-in;
+		-webkit-transition: all 200ms ease-in;
+		-o-transition: all 200ms ease-in;
+		-ms-transition: all 200ms ease-in;
+		transition: all 200ms ease-in;
 	}
 		.dropotron > li {
 			line-height: 2em;
 			padding: 0 1em;
 		}
 			.dropotron > li > a {
-				
+				-moz-appearance: none;
+				-webkit-appearance: none;
+				-o-appearance: none;
+				-ms-appearance: none;
 				color: inherit;
 				letter-spacing: 2px;
 				text-decoration: none;
 				text-transform: uppercase;
+				-moz-transition: all 200ms ease-in;
+				-webkit-transition: all 200ms ease-in;
+				-o-transition: all 200ms ease-in;
+				-ms-transition: all 200ms ease-in;
+				transition: all 200ms ease-in;
 			}
 			.dropotron > li.active > a, .dropotron > li:hover > a {
 				color: #82b440;
