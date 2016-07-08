@@ -670,7 +670,7 @@
 		border-top: 2px solid  #82b440;
 		color: inherit;
 		min-width: 12em;
-		padding: 0.5em 0;
+		padding: 0em 0;
 		color: white;
 		-moz-transition: all 200ms ease-in;
 		-webkit-transition: all 200ms ease-in;
@@ -680,7 +680,7 @@
 	}
 		.dropotron > li {
 			line-height: 2em;
-			padding: 0 0.5em;
+			padding: 0 0em;
 		}
 			.dropotron > li > a {
 				-moz-appearance: none;
