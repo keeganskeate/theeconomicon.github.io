@@ -607,6 +607,10 @@
 		}
 
 			#nav > ul > li  {
+				-moz-appearance: none;
+				-webkit-appearance: none;
+				-o-appearance: none;
+				-ms-appearance: none;
 				border-radius: 4px;
 				display: inline-block;
 				margin-left: 0.5em;
@@ -618,6 +622,11 @@
 				font-size: 1em;letter-spacing: 2px;
 				text-shadow: 0 -1px 0 #000;
 				position: relative;
+				-moz-transition: all 0.35s ease-in-out;
+				-webkit-transition: all 0.35s ease-in-out;
+				-o-transition: all 0.35s ease-in-out;
+				-ms-transition: all 0.35s ease-in-out;
+				transition: all 0.35s ease-in-out;	
 			}
 				#nav > ul > li a {
 					color: inherit;
@@ -647,8 +656,8 @@
 		top: 2em;
 		background: #222222;
 		border-radius: 4px;
-		border-bottom: 4px solid  #82b440;
-		border-top: 4px solid  #82b440;
+		border-bottom: 2px solid  #82b440;
+		border-top: 2px solid  #82b440;
 		color: inherit;
 		min-width: 12em;
 		padding: 1em 0;
@@ -669,15 +678,15 @@
 				color: #82b440;
 			}
 	.dropotron.level-0 {
-		border-right:4px solid #82b440;
-		border-left:4px solid #82b440;
+		border-right:2px solid #82b440;
+		border-left:2px solid #82b440;
 		border-radius: 0 0 4px 4px;
 		font-size: 1em;
 		margin-left:-0.5em;
 	}
 		.dropotron.level-1 {
-			border-right:4px solid #82b440;
-			border-left:4px solid #82b440;
+			border-right:2px solid #82b440;
+			border-left:2px solid #82b440;
 			border-radius: 0 0 4px 4px;
 			font-size: 1em;
 			margin-left:-0.5em;
