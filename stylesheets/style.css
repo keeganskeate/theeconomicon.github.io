@@ -622,11 +622,11 @@
 				font-size: 1em;letter-spacing: 2px;
 				text-shadow: 0 -1px 0 #000;
 				position: relative;
-				-moz-transition: all 0.35s ease-in-out;
-				-webkit-transition: all 0.35s ease-in-out;
-				-o-transition: all 0.35s ease-in-out;
-				-ms-transition: all 0.35s ease-in-out;
-				transition: all 0.35s ease-in-out;	
+				-moz-transition: all 200ms ease-in;
+				-webkit-transition: all 200ms ease-in;
+				-o-transition: all 200ms ease-in;
+				-ms-transition: all 200ms ease-in;
+				transition: all 200ms ease-in;	
 			}
 				#nav > ul > li a {
 					-moz-appearance: none;
@@ -640,11 +640,11 @@
 					text-transform: uppercase;
 					font-weight: 400;
 					font-size: 1em;
-					-moz-transition: all 0.35s ease-in-out;
-					-webkit-transition: all 0.35s ease-in-out;
-					-o-transition: all 0.35s ease-in-out;
-					-ms-transition: all 0.35s ease-in-out;
-					transition: all 0.35s ease-in-out;
+					-moz-transition: all 200ms ease-in;
+					-webkit-transition: all 200ms ease-in;
+					-o-transition: all 200ms ease-in;
+					-ms-transition: all 200ms ease-in;
+					transition: all 200ms ease-in;
 				}
 				#nav > ul > li:first-child {
 					margin-left: 0;
