@@ -607,7 +607,7 @@
 
 			#nav > ul > li  {
 				border-radius: 4px;
-				display: block;
+				display: inline-block;
 				margin-left: 0.5em;
 				padding: 0 0.5em;
 				background: inherit; 
@@ -641,25 +641,6 @@
 				#nav ul > li:hover {
     					color: #82b440;
 				}
-				/* arrow hover styling */
-				/*#nav ul > li:first-child:nth-last-child(2):before { 
-				  border-top-color: #fff; 
-				}
-				.#nav ul >li:hover > li:first-child:nth-last-child(2):before {
-				  border: 5px solid transparent; 
-				  border-bottom-color: #82b440;
-				  margin-top:-5px
-				}
-				#nav ul >li li > li:first-child:nth-last-child(2):before {  
-				  border-left-color: #fff; 
-				  margin-top: -5px
-				}
-				#nav ul > li li:hover > li:first-child:nth-last-child(2):before {
-				  border: 5px solid transparent; 
-				  border-right-color: #82b440;
-				  right: 10px; 
-				}
-
 /* Dropotron */
 .dropotron {
 		top: 2em;
@@ -672,12 +653,10 @@
 		padding: 1em 0;
 		color: white;
 	}
-
 		.dropotron > li {
 			line-height: 2em;
 			padding: 0 1em;
 		}
-
 			.dropotron > li > a {
 				
 				color: inherit;
@@ -685,20 +664,17 @@
 				text-decoration: none;
 				text-transform: uppercase;
 			}
-
 			.dropotron > li.active > a, .dropotron > li:hover > a {
 				color: #82b440;
 			}
-			
-
-		.dropotron.level-0 {
-			border-right:4px solid #82b440;
-			border-left:4px solid #82b440;
-			border-radius: 0 0 4px 4px;
-			font-size: 1em;
-			margin-left:-0.5em;
-		}
-			.dropotron.level-1 {
+	.dropotron.level-0 {
+		border-right:4px solid #82b440;
+		border-left:4px solid #82b440;
+		border-radius: 0 0 4px 4px;
+		font-size: 1em;
+		margin-left:-0.5em;
+	}
+		.dropotron.level-1 {
 			border-right:4px solid #82b440;
 			border-left:4px solid #82b440;
 			border-radius: 0 0 4px 4px;
@@ -706,18 +682,15 @@
 			margin-left:-0.5em;
 		}
 /* Banner */
-
 	#banner {
 		padding: 6em 0em 3em 0em;
 		text-align: center;
 		text-transform: uppercase;
 		color: white;
 	}
-
 		#banner .container {
 			padding: 0em 8em;
 		}
-
 		#banner h2 {
 			display: inline-block;
 			padding: 0.50em 0.30em;
@@ -725,7 +698,6 @@
 			font-size: 3em;
 			font-weight: 400;
 		}
-
 		#banner span, #banner p {
 			display: block;
 			letter-spacing: 1px;
@@ -733,7 +705,6 @@
 			font-size: 1.6em;
 			font-weight: 300;
 		}
-
 		#banner span {
 			padding: 1em 0em;
 		}
