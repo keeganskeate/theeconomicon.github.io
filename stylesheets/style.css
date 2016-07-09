@@ -502,7 +502,6 @@
 			}
 
 				.wrapper.style2 .major h2 {
-					width: 30%;
 					display: block;
 					margin-bottom: 0.70em;
 					letter-spacing: 1px;
@@ -511,7 +510,9 @@
 					font-size: 1.6em;
 					font-weight: 400;
 				}
-
+				.wrapper.style2 .major .h2 a{
+					width: 80%;
+				}
 				.wrapper.style2 .major .byline {
 					letter-spacing: normal;
 					line-height: 1.6em;
