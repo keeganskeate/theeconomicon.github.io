@@ -605,7 +605,7 @@
 		position: absolute;
 		top: 0;
 		right: 0;
-		display: block;
+		display: none;
     		text-align: center;
 	}
 
@@ -870,8 +870,3 @@
 		text-transform: uppercase;
 		font-weight: 700;
 	}
-* {
-  background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;
-}
