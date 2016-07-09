@@ -745,11 +745,11 @@
 			background: #82b440;
 			font-size: 3em;
 			font-weight: 400;
-			-moz-transition: all 200ms ease-in;
-			-webkit-transition: all 200ms ease-in;
-			-o-transition: all 200ms ease-in;
-			-ms-transition: all 200ms ease-in;
-			transition: all 200ms ease-in;
+			-moz-transition: all 0.35s ease-in;
+			-webkit-transition: all 0.35s ease-in;
+			-o-transition: all 0.35s ease-in;
+			-ms-transition: all 0.35s ease-in;
+			transition: all 0.35s ease-in;
 		}
 		
 		#banner h2:hover{
