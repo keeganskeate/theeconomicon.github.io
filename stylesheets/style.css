@@ -609,7 +609,7 @@
 		position: absolute;
 		top: 0;
 		right: 0;
-		display: inline-block;
+		display: block;
     		text-align: center;
 	}
 
@@ -735,10 +735,19 @@
 		}
 /* Banner */
 	#banner {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-o-appearance: none;
+		-ms-appearance: none;
 		padding: 6em 0em 3em 0em;
 		text-align: center;
 		text-transform: uppercase;
 		color: white;
+		-moz-transition: all .35s ease-in;
+		-webkit-transition: all .35s ease-in;
+		-o-transition: all .35s ease-in;
+		-ms-transition: all .35s ease-in;
+		transition: all .35s ease-in;
 	}
 		#banner .container {
 			padding: 0em 8em;
