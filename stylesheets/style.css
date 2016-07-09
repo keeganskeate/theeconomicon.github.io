@@ -10,6 +10,7 @@
 		margin: 0px;
 		padding: 0px;
 		width:100%;
+		overflow-x: hidden;
 		overflow-y: auto;
 	}
 
@@ -753,7 +754,7 @@
 		}
 		#banner h2 {
 			line-height: 1em;
-			display: inline-block;
+			display: block;
 			padding: 0.5em .3em;
 			background: #82b440;
 			font-size: 3em;
