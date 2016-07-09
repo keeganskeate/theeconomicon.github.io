@@ -477,8 +477,9 @@
 			input[type="reset"].alt:hover,
 			input[type="button"].alt:hover,
 			.button.one:hover {
-				background: #f2f2f2;
-				color: #82b440;
+				background: #42B440;
+				color: white;
+				border-color: #82b440;
 			}
 		input[type="submit"].fit,
 		input[type="reset"].fit,
@@ -752,7 +753,7 @@
 		-webkit-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
-		padding: 3em 0em 3em 0em;
+		padding: 3em 0em 4em 0em;
 		text-align: center;
 		text-transform: uppercase;
 		color: #49B440;
@@ -776,7 +777,7 @@
 		
 		#banner .container h2:hover{
 			background: none;
-			color: white;
+			color: #82b440;
 		}
 		#banner span, #banner p{
 			color: #49B440;
