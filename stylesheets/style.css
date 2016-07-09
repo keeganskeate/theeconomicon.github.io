@@ -519,7 +519,7 @@
 				}
 
 			.wrapper.style2 h3 {
-				display: inline-block;
+				display: block;
 				margin-bottom: 1em;
 				letter-spacing: 1px;
 				line-height: 1.8em;
@@ -625,7 +625,7 @@
 				-o-appearance: none;
 				-ms-appearance: none;
 				border-radius: 2px;
-				display: inline-block;
+				display: block;
 				margin-left: 0.5em;
 				padding: 0 0.5em;
 				background: inherit; 
