@@ -752,10 +752,10 @@
 		-webkit-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
-		padding: 2em 0em 8em 0em;
+		padding: 3em 0em 3em 0em;
 		text-align: center;
 		text-transform: uppercase;
-		color: white;
+		color: #49B440;
 		-moz-transition: all .35s ease-in;
 		-webkit-transition: all .35s ease-in;
 		-o-transition: all .35s ease-in;
@@ -769,14 +769,14 @@
 			line-height: 1em;
 			display: inline-block;
 			padding: 0.2em .2em;
-			background: #49B440;
+			background: none;
 			font-size: 3.2 em;
 			font-weight: 700;
 		}
 		
 		#banner .container h2:hover{
 			background: none;
-			color: #49B440;
+			color: white;
 		}
 		#banner span, #banner p{
 			color: #49B440;
