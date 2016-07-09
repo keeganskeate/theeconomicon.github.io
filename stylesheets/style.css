@@ -36,7 +36,7 @@
 	}
 
 	a {
-		color: #82b440;
+		color: #49B440;
 		text-decoration: underline;
 	}
 
@@ -93,13 +93,13 @@
 	}
 
 	hr {
-		border-top: solid 1px #82b440  ;
+		border-top: solid 1px #49B440  ;
 		border: 0;
 		margin-bottom: 1.5em;
 	}
 
 	blockquote {
-		border-left: solid 0.5em #82b440;
+		border-left: solid 0.5em #49B440;
 		font-style: italic;
 		padding: 1em 0 1em 2em;
 	}
@@ -147,7 +147,7 @@
 		-ms-appearance: none;
 		appearance: none;
 		background: none;
-		border: solid 1px #82b440;
+		border: solid 1px #49B440;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -160,7 +160,7 @@
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #82b440;
+			border-color: #49B440;
 		}
 
 	input[type="text"],
@@ -377,7 +377,7 @@
 			display: inline-block;
 			padding-right: 1em;
 			font-size: 1.4em;
-			color: #82b440;
+			color: #49B440;
 		}
 
 		ul.special-icons p {
@@ -427,8 +427,8 @@
 		background: none;
 		border-radius: none;
 		border: 2px solid;
-		border-color: #82b440;
-		color: #82b440;
+		border-color: #49B440;
+		color: #49B440;
 		cursor: pointer;
 		display: inline-block;
 		padding: 0.90em 1.2em;
@@ -531,7 +531,7 @@
 
 		.wrapper.style3 {
 			padding-bottom: 6em;
-			background: #82b440;
+			background: #49B440;
 			text-align: center;
 			color: white;
 		}
@@ -550,7 +550,7 @@
 		}
 
 		.wrapper.style5 {
-			background: #82b440;
+			background: #49B440;
 			text-align: center;
 			color: white;
 		}
@@ -665,14 +665,14 @@
 				}
 
 				#nav > ul > li.active a {
-					color: #49B440;
+					color: #82b440;
 				}
 
 				#nav > ul > li > ul {
 					display: none;
 				}
 				#nav ul > li:hover {
-    					color: #49B440;
+    					color: #82b440;
 				}
 /* Dropotron */
 .dropotron {
@@ -715,7 +715,7 @@
 				transition: all 200ms ease-in;
 			}
 			.dropotron > li.active > a, .dropotron > li:hover > a {
-				color: #49B440;
+				color: #82b440;
 			}
 			.dropotron:hover {
 				background: #555555;
@@ -757,13 +757,14 @@
 			line-height: 1em;
 			display: inline-block;
 			padding: 0.5em .3em;
-			background: #82b440;
+			background: #49B440;
 			font-size: 2.6em;
 			font-weight: 700;
 		}
 		
 		#banner h2:hover{
-			background: #49B440;
+			background: white;
+			color: #82b440;
 		}
 		#banner span, #banner p{
 			display: block;
