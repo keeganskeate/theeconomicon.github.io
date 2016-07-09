@@ -863,7 +863,7 @@
 		}
 		
 		#copyright p{
-			text-transform: lowercase;
+			text-transform: none;
 		}
 
 /* Extra */
