@@ -744,7 +744,7 @@
 			padding: 0em 8em;
 		}
 		#banner h2 {
-			display: block;
+			display: inline-block;
 			padding: 0.50em 0.30em;
 			background: #82b440;
 			font-size: 3em;
@@ -755,7 +755,7 @@
 			background: #49B440;
 		}
 		#banner span, #banner p {
-			display: inline-block;
+			display: block;
 			letter-spacing: 1px;
 			text-transform: uppercase;
 			font-size: 1.6em;
