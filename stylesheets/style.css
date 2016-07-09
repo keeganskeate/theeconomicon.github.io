@@ -197,7 +197,7 @@
 	}
 
 		.image.fit {
-			display: block;
+			display: none;
 		}
 
 			.image.fit img {
