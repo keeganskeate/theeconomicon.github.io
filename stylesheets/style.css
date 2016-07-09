@@ -502,7 +502,7 @@
 			}
 
 				.wrapper.style2 .major h2 {
-					display: inline-block;
+					display: block;
 					margin-bottom: 0.70em;
 					letter-spacing: 1px;
 					line-height: 1.8em;
