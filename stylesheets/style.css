@@ -574,7 +574,7 @@
 		}
 
 	.homepage #logo {
-		display: none;
+		display: block;
 	}
 
 	.homepage #nav {
@@ -592,7 +592,7 @@
 	}
 
 		#logo h1 {
-			display: none;
+			display: inline-block;
 			margin: 0;
 			padding: 0;
 		}
