@@ -766,6 +766,7 @@
 		#banner .container h2:hover{
 			background: #f2f2f2;
 			color: #82b440;
+			border-style: solid;
 			border-color: #82b440;
 		}
 		#banner span, #banner p{
