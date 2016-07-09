@@ -752,7 +752,7 @@
 		-webkit-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
-		padding: 2em 0em 6em 0em;
+		padding: 2em 0em 8em 0em;
 		text-align: center;
 		text-transform: uppercase;
 		color: white;
@@ -770,7 +770,7 @@
 			display: inline-block;
 			padding: 0.2em .2em;
 			background: #49B440;
-			font-size: 2.6em;
+			font-size: 3.2 em;
 			font-weight: 700;
 		}
 		
