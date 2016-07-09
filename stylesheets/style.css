@@ -259,7 +259,18 @@
 	ul.icons {
 		cursor: default;
 		padding-bottom: 2em;
+		-moz-transition: all 0.35s ease-in-out;
+		-webkit-transition: all 0.35s ease-in-out;
+		-o-transition: all 0.35s ease-in-out;
+		-ms-transition: all 0.35s ease-in-out;
+		transition: all 0.35s ease-in-out;
 	}
+	
+		ul.icons a:hover {
+			color: #49B440;
+			opacity: 1;
+			}
+
 
 		ul.icons li {
 			display: inline-block;
