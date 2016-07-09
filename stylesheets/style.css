@@ -1,11 +1,10 @@
 @import url("font-awesome-4.6.3/css/font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 /*
-	Solarize by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	Theme colors: Primary - #82b440, Secondary - #49B440
+	Original template designed by TEMPLATED (templated.co)
 */
-/* Basic */
+/* Basic Format*/
 	body {
 		background: #222222;
 		margin:0;
@@ -667,7 +666,7 @@
 					display: none;
 				}
 				#nav ul > li:hover {
-    					color: #82b440;
+    					color: #49B440;
 				}
 /* Dropotron */
 .dropotron {
@@ -710,7 +709,7 @@
 				transition: all 200ms ease-in;
 			}
 			.dropotron > li.active > a, .dropotron > li:hover > a {
-				color: #82b440;
+				color: #49B440;
 			}
 	.dropotron.level-0 {
 		border-right:2px solid #82b440;
@@ -737,11 +736,24 @@
 			padding: 0em 8em;
 		}
 		#banner h2 {
+			-moz-appearance: none;
+			-webkit-appearance: none;
+			-o-appearance: none;
+			-ms-appearance: none;
 			display: inline-block;
 			padding: 0.50em 0.30em;
 			background: #82b440;
 			font-size: 3em;
 			font-weight: 400;
+			-moz-transition: all 200ms ease-in;
+			-webkit-transition: all 200ms ease-in;
+			-o-transition: all 200ms ease-in;
+			-ms-transition: all 200ms ease-in;
+			transition: all 200ms ease-in;
+		}
+		
+		#banner h2:hover{
+			color: #49B440;
 		}
 		#banner span, #banner p {
 			display: block;
