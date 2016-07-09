@@ -365,6 +365,14 @@
 			font-weight: 400;
 			font-size: 1.2em;
 		}
+		
+		ul.title h2{
+			margin-bottom: 0.80em;
+			line-height: 2em;
+			font-weight: 400;
+			font-size: 1.2em;
+			
+		}
 
 		ul.special-icons span {
 			line-height: 190%;
