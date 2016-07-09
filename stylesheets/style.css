@@ -9,6 +9,7 @@
 		background: #222222;
 		margin: 0px;
 		padding: 0px;
+		min-width: 100%;
 	}
 
 		html.loading,body.loading * {
