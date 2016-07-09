@@ -752,7 +752,7 @@
 		-webkit-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
-		padding: 6em 0em 3em 0em;
+		padding: 2em 0em 2em 0em;
 		text-align: center;
 		text-transform: uppercase;
 		color: white;
@@ -768,7 +768,7 @@
 		#banner .container h2 {
 			line-height: 1em;
 			display: inline-block;
-			padding: 0.1em .5em;
+			padding: 0.25em .25em;
 			background: #49B440;
 			font-size: 2.6em;
 			font-weight: 700;
