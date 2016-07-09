@@ -115,7 +115,7 @@
 		}
 
 		header.major .byline {
-			display: block;
+			display: none;
 			padding-top: 1em;
 			letter-spacing: 1px;
 			font-size: 1.4em;
@@ -574,7 +574,7 @@
 		}
 
 	.homepage #logo {
-		display: block;
+		display: none;
 	}
 
 	.homepage #nav {
