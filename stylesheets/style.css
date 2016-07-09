@@ -362,8 +362,7 @@
 		ul.icons h3 {
 			margin-bottom: 0.80em;
 			line-height: 2em;
-			text-transform: uppercase;
-			font-weight: 700;
+			font-weight: 400;
 			font-size: 1.2em;
 		}
 
@@ -753,13 +752,13 @@
 		#banner .container {
 			padding: 0em 0em;
 		}
-		#banner h2 {
+		#banner .container h2 {
 			line-height: 1em;
 			display: inline-block;
 			padding: 0.5em .3em;
 			background: #82b440;
 			font-size: 2.6em;
-			font-weight: 400;
+			font-weight: 700;
 		}
 		
 		#banner h2:hover{
