@@ -753,7 +753,7 @@
 		}
 		#banner h2 {
 			line-height: 1em;
-			display: inline;
+			display: inline-block;
 			padding: 0.5em .3em;
 			background: #82b440;
 			font-size: 3em;
