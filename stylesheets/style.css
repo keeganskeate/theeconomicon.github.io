@@ -763,7 +763,7 @@
 		#banner h2:hover{
 			background: #49B440;
 		}
-		#banner span, #banner p {
+		#banner span, #banner p, #banner a{
 			display: block;
 			letter-spacing: 1px;
 			text-transform: uppercase;
