@@ -448,8 +448,8 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background: #82b440;
-			color: white;
+			background: white;
+			color: #82b440;
 		}
 
 		input[type="submit"].alt,
@@ -490,7 +490,7 @@
 
 		.wrapper.style1 {
 			padding: 0em;
-			background: #222222 url(../images/bus_stats_pic_light.png) -15% no-repeat;
+			background: #222222 url(../images/bus_stats_pic_light.png) -10% no-repeat;
 			background-size: cover;
 		}
 
