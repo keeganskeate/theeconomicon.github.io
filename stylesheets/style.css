@@ -115,7 +115,7 @@
 		}
 
 		header.major .byline {
-			display: none;
+			display: block;
 			padding-top: 1em;
 			letter-spacing: 1px;
 			font-size: 1.4em;
@@ -201,17 +201,17 @@
 		}
 
 			.image.fit img {
-				display: block;
+				display: none;
 				width: 100%;
 			}
 
 		.image.feature {
-			display: block;
+			display: none;
 			margin: 0 0 2em 0;
 		}
 
 			.image.feature img {
-				display: block;
+				display: none;
 				width: 100%;
 			}
 
