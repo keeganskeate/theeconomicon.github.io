@@ -710,6 +710,8 @@
 			}
 			.dropotron > li.active > a, .dropotron > li:hover > a {
 				color: #49B440;
+			}
+			.dropotron:hover {
 				background: #555555;
 			}
 	.dropotron.level-0 {
