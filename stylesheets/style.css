@@ -536,8 +536,8 @@
 		}
 
 			.wrapper.style3 .container {
-				padding-left: 6em;
-				padding-right: 6em;
+				padding-left: 0em;
+				padding-right: 0em;
 			}
 
 			.wrapper.style3 p {
@@ -750,7 +750,7 @@
 		transition: all .35s ease-in;
 	}
 		#banner .container {
-			padding: 0em 8em;
+			padding: 0em 0em;
 		}
 		#banner h2 {
 			display: inline-block;
