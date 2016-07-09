@@ -119,7 +119,7 @@
 		}
 
 		header.major .byline {
-			display: block;
+			display: inline-block;
 			padding-top: 1em;
 			letter-spacing: 1px;
 			font-size: 1.4em;
@@ -502,7 +502,7 @@
 			}
 
 				.wrapper.style2 .major h2 {
-					display: block;
+					display: inline-block;
 					margin-bottom: 0.70em;
 					letter-spacing: 1px;
 					line-height: 1.8em;
@@ -519,7 +519,7 @@
 				}
 
 			.wrapper.style2 h3 {
-				display: block;
+				display: inline-block;
 				margin-bottom: 1em;
 				letter-spacing: 1px;
 				line-height: 1.8em;
