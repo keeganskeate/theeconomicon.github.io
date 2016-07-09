@@ -114,7 +114,7 @@
 	}
 
 		header.major h2 {
-			line-height: 2.6em;
+			line-height: 1.8em;
 			font-size: 2.6em;
 			font-weight: 700;
 		}
@@ -754,6 +754,7 @@
 			padding: 0em 0em;
 		}
 		#banner h2 {
+			line-height: 1.8em;
 			display: inline-block;
 			padding: 0.5em 0.3em;
 			background: #82b440;
