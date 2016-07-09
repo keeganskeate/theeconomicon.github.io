@@ -592,7 +592,7 @@
 	}
 
 		#logo h1 {
-			display: inline-block;
+			display: none;
 			margin: 0;
 			padding: 0;
 		}
@@ -605,7 +605,7 @@
 		position: absolute;
 		top: 0;
 		right: 0;
-		display: none;
+		display: block;
     		text-align: center;
 	}
 
