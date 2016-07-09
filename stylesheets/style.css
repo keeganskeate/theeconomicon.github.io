@@ -5,9 +5,13 @@
 	Original template designed by TEMPLATED (templated.co)
 */
 /* Basic Format*/
-	body {
+	html,body {
 		background: #222222;
-		margin:0;
+		width: 100%;
+		height: 100%;
+		margin: 0px;
+		padding: 0px;
+		overflow-x: hidden;
 	}
 
 		body.loading * {
