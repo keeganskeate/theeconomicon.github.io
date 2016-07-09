@@ -489,7 +489,7 @@
 			padding: 0em;
 			background: #222222 url(../images/banner.jpg) no-repeat;
 			min-width: 100%;
-			background-size: contain;
+			background-size: cover;
 		}
 
 
