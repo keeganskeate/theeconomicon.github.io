@@ -11,7 +11,7 @@
 		padding: 0px;
 	}
 
-		body.loading * {
+		html.loading,body.loading * {
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
 			-o-transition: none !important;
@@ -197,21 +197,21 @@
 	}
 
 		.image.fit {
-			display: none;
+			display: block;
 		}
 
 			.image.fit img {
-				display: none;
+				display: block;
 				width: 100%;
 			}
 
 		.image.feature {
-			display: none;
+			display: block;
 			margin: 0 0 2em 0;
 		}
 
 			.image.feature img {
-				display: none;
+				display: block;
 				width: 100%;
 			}
 
