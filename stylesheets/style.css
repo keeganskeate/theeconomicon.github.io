@@ -915,6 +915,7 @@
     font-size: 16px;
     border: none;
     cursor: pointer;
+    float: left;
 }
 /* Dropdown button on hover & focus */
 .dropbtn li:hover, .dropbtn li:focus {
