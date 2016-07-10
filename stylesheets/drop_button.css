@@ -17,7 +17,7 @@
 	-o-appearance: none;
 	-ms-appearance: none;
 	float: left center;
-	background:url(../images/e_logo.png) no-repeat;
+	background:url(../images/bluebook_background.png) no-repeat;
 	background-size: 75%;
 	opacity:0.75;
 	position: relative;
@@ -38,7 +38,7 @@
 	display: none;
 	min-width: 200px;
 	position: absolute;
-	background: none url(../images/bluebook_background.png) no-repeat;
+	background: url(../images/bluebook_background.png) no-repeat;
 	background-size: 75%;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	color:  #82b440;}
