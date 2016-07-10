@@ -37,13 +37,13 @@
 	min-width: 200px;
 	position: absolute;
 	background-color: #f2f2f2;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	color:  #42B440;}
 .dropdown-content a {
-	color:  #42B440;
 	padding: 8px 16px;
 	text-decoration: none;
 	display: block;}
-.dropdown-content:hover:after {
+.dropdown-content:hover {
 	background-color: #82b440
 	color: #82b440;
 }
