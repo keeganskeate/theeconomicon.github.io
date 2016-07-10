@@ -907,8 +907,11 @@
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
-		.floatbutton:hover {  opacity: .1;  filter:alpha(opacity=100); }
+		.floatbutton:hover {  opacity: 1;  filter:alpha(opacity=10); }
 .floatbutton .popoutpanel {  display: none; }
-.floatbutton:hover .popoutpanel {  display: block; color:black; border-radius: 40px; background-color: #42B440;
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		.floatbutton:hover .popoutpanel {  display: block; color:black; border-radius: 40px; background-color: #42B440;
 } 
 .scrollpanel {  height: 300px;  overflow-y: auto; }
