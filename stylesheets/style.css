@@ -887,9 +887,6 @@
 	}
 /* Popout */
 #floatnav { position:relative; 	top: 0px; left: 0; text-align: center;	float: left; }
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
 	.floatbutton {  		
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -912,7 +909,7 @@
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: inherit;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -929,6 +926,7 @@
 .dropdown {
     position: relative;
     display: inline-block;
+    line-height:4em;
 }
 
 /* Dropdown Content (Hidden by Default) */
