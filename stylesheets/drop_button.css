@@ -32,7 +32,7 @@
 	transition: all 0.35s ease-in-out; }
 .dropdown:hover {  opacity: 1;  filter:alpha(opacity=100); }
 .dropdown:onclick {  opacity: 1;  filter:alpha(opacity=100); }
-.dropdown-content {
+div.dropdown-content {
 	display: none;
 	min-width: 200px;
 	position: absolute;
