@@ -38,6 +38,8 @@
 	display: none;
 	min-width: 200px;
 	position: absolute;
+	width: 82px;
+	height: 57px;
 	background: url(../images/bluebook_background.png) no-repeat;
 	background-size: contain;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
