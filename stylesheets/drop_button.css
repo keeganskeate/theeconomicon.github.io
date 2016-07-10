@@ -43,7 +43,7 @@
 	padding: 8px 16px;
 	text-decoration: none;
 	display: block;}
-.dropdown-content a:hover::after {
+.dropdown-content:hover:after {
 	background-color: #82b440
 	color: #82b440;
 }
