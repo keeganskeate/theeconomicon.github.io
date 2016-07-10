@@ -39,11 +39,11 @@
 	background-color: #f2f2f2;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
 .dropdown-content a {
-	color:  #82b440;
+	color:  #42B440;
 	padding: 8px 16px;
 	text-decoration: none;
 	display: block;}
-.dropdown-content:hover {
+.dropdown-content a:hover::after {
 	background-color: #82b440
 	color: #82b440;
 }
