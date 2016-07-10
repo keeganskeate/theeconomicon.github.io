@@ -918,13 +918,18 @@
 		-webkit-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
-		float: left; background:url(../images/e_logo.png) no-repeat; background-size: 90%; position: relative; margin: 4px 0 0 0; display: inline-block; line-height:2em;
+		float: left; background:url(../images/e_logo.png) no-repeat; background-size: 90%; position: relative; margin: 2px 0 0 0; display: inline-block; line-height:2em;
 		-moz-transition: all 0.35s ease-in-out;
 		-webkit-transition: all 0.35s ease-in-out;
 		-o-transition: all 0.35s ease-in-out;
 		-ms-transition: all 0.35s ease-in-out;
 		transition: all 0.35s ease-in-out; }
-.dropdown:hover, .dropdown:focus: { opacity: .5;  filter:alpha(opacity=50);}
+.dropdown::after {
+    transition: opacity .35s ease;
+}
+.dropdown:hover::after {
+    opacity: 0.5;  filter:alpha(opacity=50);
+}
 .dropdown-content {display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
 /* Links inside the dropdown */
 .dropdown-content a { color: black; padding: 12px 16px; text-decoration: none; display: inline-block;}
