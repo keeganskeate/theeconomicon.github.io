@@ -30,8 +30,8 @@
 	-o-transition: all 0.35s ease-in-out;
 	-ms-transition: all 0.35s ease-in-out;
 	transition: all 0.35s ease-in-out; }
-.dropdown:hover {  opacity: 1;  filter:alpha(opacity=100); }
-.dropdown:onclick {  opacity: 1;  filter:alpha(opacity=100); }
+.dropdown.dropbtn:hover {  opacity: 1;  filter:alpha(opacity=100); }
+.dropdown.dropbtn:onclick {  opacity: 1;  filter:alpha(opacity=100); }
 .dropdown-content {
 	display: none;
 	min-width: 200px;
@@ -43,7 +43,7 @@
 	padding: 8px 16px;
 	text-decoration: none;
 	display: block;}
-.dropdown-content:hover {
+.dropdown.dropdown-content a:hover {
 	background-color: #82b440
 	color: #82b440;
 }
