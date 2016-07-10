@@ -908,7 +908,7 @@
 
 
 /* Dropdown Button */
-.dropbtn {background:url(../images/e_logo.png) left center no-repeat; ; color: white; padding: 10px; font-size: 1.8em; border: none; cursor: pointer;}
+.dropbtn {background:inherit; ; color: white; padding: 10px; font-size: 1.8em; border: none; cursor: pointer;}
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus { background-color: #42B440;}
 /* The container <div> - needed to position the dropdown content */
@@ -923,15 +923,3 @@
 @keeganskeate
 Commit changesuse JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
-.myButton{
-    background:url(./images/e_logo.png) no-repeat;
-    cursor:pointer;
-    border:none;
-    width:100px;
-    height:100px;
-}
-
-.myButton:active  /* use Dot here */
-{   
-    background:url(./images/e_logo.png) no-repeat;
-}
