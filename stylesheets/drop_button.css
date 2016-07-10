@@ -1,0 +1,46 @@
+/* Dropdown Button */
+.dropbtn {
+	background:none; 
+	background-size: 90%;
+	padding: 30px;
+	position: relative;
+	color: white;
+	font-size: 2em;
+	border: none;
+	outline:none;
+	cursor: pointer;}
+.dropbtn:hover, .dropbtn:focus: {
+	opacity: .5;  filter:alpha(opacity=50);}
+.dropdown {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-o-appearance: none;
+	-ms-appearance: none;
+	float: left;
+	background:url(../images/e_logo.png) no-repeat;
+	background-size: 90%;
+	opacity:0.75;
+	position: relative;
+	margin: 2.5px 0 0 0;
+	display: inline-block;
+	line-height:2em;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
+	-ms-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out; }
+.dropdown:hover {  opacity: 1;  filter:alpha(opacity=100); }
+.dropdown:onclick {  opacity: 1;  filter:alpha(opacity=100); }
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: inline-block;}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.show {display:block;}
