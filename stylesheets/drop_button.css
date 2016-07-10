@@ -16,7 +16,7 @@
 	-webkit-appearance: none;
 	-o-appearance: none;
 	-ms-appearance: none;
-	float: left;
+	float: left center;
 	background:url(../images/e_logo.png) no-repeat;
 	background-size: 75%;
 	opacity:0.75;
