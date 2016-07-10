@@ -39,7 +39,7 @@
 	min-width: 200px;
 	position: absolute;
 	background: url(../images/bluebook_background.png) no-repeat;
-	background-size: 10%;
+	background-size: cover;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	color:  #82b440;}
 .dropdown-content a {
