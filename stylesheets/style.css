@@ -890,6 +890,7 @@
 	relative; 
 	top: 0px;
 	left: 0; 
+	text-align: center;
 }
 .floatbutton {  padding: 5px 30px 5px 15px; height: 50px;  width: 50px; }
 .popoutpanel {  margin: 0px 0 0 0px;  padding: 10px 20px 15px;  width: 200px; }
