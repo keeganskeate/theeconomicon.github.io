@@ -895,7 +895,7 @@
 		-webkit-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
-		float: left; padding: 10px 30px 5px 10px; height: 25px;  width: 25px;
+		float: left; padding: 10px 30px -55px 10px; height: 25px;  width: 25px;
 		-moz-transition: all 0.35s ease-in-out;
 		-webkit-transition: all 0.35s ease-in-out;
 		-o-transition: all 0.35s ease-in-out;
