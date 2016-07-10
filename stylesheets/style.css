@@ -485,7 +485,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0em 4em 0em;
+		padding: 4em 0em 2em 0em;
 	}
 
 		.wrapper.style1 {
@@ -740,7 +740,7 @@
 		-webkit-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
-		padding: 1em 0em 2em 0em;
+		padding: 1em 0em 3em 0em;
 		text-align: center;
 		text-transform: uppercase;
 		color: #49B440;
@@ -776,7 +776,7 @@
 		}
 		#banner span {
 			font-weight:500;
-			padding: .5em 0em 2em 0em;
+			padding: .5em 0em 3em 0em;
 		}
 
 /* Main */
