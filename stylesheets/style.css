@@ -892,6 +892,6 @@
 .floatbutton {  opacity: 1;  filter:alpha(opacity=100); }
 .floatbutton:hover {  opacity: .1;  filter:alpha(opacity=100); }
 .floatbutton .popoutpanel {  display: none; }
-.floatbutton:hover .popoutpanel {  display: block; 
+.floatbutton:hover .popoutpanel {  display: block; color:white; border-radius: 40px; background-color: #fff;
 } 
 .scrollpanel {  height: 300px;  overflow-y: auto; }
