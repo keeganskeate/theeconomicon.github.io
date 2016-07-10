@@ -44,7 +44,7 @@
 	text-decoration: none;
 	display: block;}
 /*Needs to be fixed! */
-.dropdown-content a:hover {
+.dropdown-content > li > a:hover {
 	background-color: #82b440
 	color: #82b440;
 }
