@@ -33,11 +33,10 @@
 .dropdown:hover {  opacity: 1;  filter:alpha(opacity=100); }
 .dropdown:onclick {  opacity: 1;  filter:alpha(opacity=100); }
 .dropdown-content {
-	line-height:1.4px;
 	margin: 0px -20px 0px 0px;
 	display: none;
 	min-width: 200px;
-	position: absolute;
+	position: left;
 	background-color: #f2f2f2;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	color:  #42B440;
