@@ -903,15 +903,11 @@
 		transition: all 0.35s ease-in-out;
 	}
 .popoutpanel {  margin: 0px 0 0 0px;  padding: 15px 20px 10px;  width: 200px; }
-.floatbutton {  opacity: 1;  filter:alpha(opacity=100); }
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		input[type="button"]:hover,
-		.floatbutton:hover {  opacity: 1;  filter:alpha(opacity=10); }
+.floatbutton:before {  opacity: 1;  filter:alpha(opacity=100); }
+		.floatbutton:focus {  opacity: 1;  filter:alpha(opacity=10); }
 .floatbutton .popoutpanel {  display: none; }
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		input[type="button"]:hover,
-		.floatbutton:hover .popoutpanel {  display: block; color:black; border-radius: 40px; background-color: #42B440;
+		.floatbutton:focus .popoutpanel {  display: block; color:black; border-radius: 40px; background-color: #42B440;
+		pointer-events: auto;
 } 
 .scrollpanel {  height: 300px;  overflow-y: auto; }
+
