@@ -918,7 +918,7 @@
 		-webkit-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
-		float: left; background:url(../images/e_logo.png) no-repeat; background-size: 90%; opacity:0.5;
+		float: left; background:url(../images/e_logo.png) no-repeat; background-size: 90%; opacity:0.5; border: none;
 		position: relative; margin: 2px 0 0 0; display: inline-block; line-height:2em;
 		-moz-transition: all 0.35s ease-in-out;
 		-webkit-transition: all 0.35s ease-in-out;
