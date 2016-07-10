@@ -1,7 +1,7 @@
 /* Dropdown Button */
 .dropbtn {
 	background:none; 
-	background-size: 80%;
+	background-size: 75%;
 	padding: 30px;
 	position: relative;
 	color: white;
@@ -18,10 +18,9 @@
 	-ms-appearance: none;
 	float: left;
 	background:url(../images/e_logo.png) no-repeat;
-	background-size: 800%;
+	background-size: 75%;
 	opacity:0.75;
 	position: relative;
-	padding: 20px 0px 0px 20px;
 	margin: 5px 0 0 0;
 	display: inline-block;
 	line-height:2em;
