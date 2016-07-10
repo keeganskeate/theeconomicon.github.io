@@ -33,7 +33,7 @@
 .dropdown:hover {  opacity: 1;  filter:alpha(opacity=100); }
 .dropdown:onclick {  opacity: 1;  filter:alpha(opacity=100); }
 .dropdown-content {
-	margin: 0px -20px 0px 0px;
+	right:0px;
 	display: none;
 	min-width: 200px;
 	position: relative;
