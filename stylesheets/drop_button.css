@@ -39,10 +39,10 @@
 	background-color: #f2f2f2;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	color:  #42B440;
-	border-radius:50%;
+	border-radius:40px;
 }
 .dropdown-content a {
-	padding: 4px 16px 4px 0px;
+	padding: 4px 0px 20px 0px;
 	text-decoration: none;
 	display: block;}
 /*Needs to be fixed! */
