@@ -914,7 +914,7 @@
     display: inline-block;
 }
 .onclick-menu:before {
-    content: "click me!";
+    content: <img src="images/e_logo.png" height="50" width="50" alt="About" />
 }
 .onclick-menu:focus {
     /* clicking on label should toggle the menu */
@@ -924,6 +924,7 @@
     /*  opacity is 1 in opened state (see below) */
     opacity: 1;
     visibility: visible;
+    background-color: #42B440;
 
     /* don't let pointer-events affect descendant elements */
     pointer-events: auto;
