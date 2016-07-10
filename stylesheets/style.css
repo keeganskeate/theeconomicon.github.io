@@ -923,3 +923,10 @@
 @keeganskeate
 Commit changesuse JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+div.myButton input {
+    background:url(/images/e_logo.png) no-repeat;
+    cursor:pointer;
+    width: 200px;
+    height: 100px;
+    border: none;
+}
