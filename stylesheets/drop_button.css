@@ -21,6 +21,7 @@
 	background-size: 90%;
 	opacity:0.75;
 	position: relative;
+	padding: 20px 0px 0px 20px;
 	margin: 2.5px 0 0 0;
 	display: inline-block;
 	line-height:2em;
@@ -34,7 +35,6 @@
 .dropdown-content {
 	display: none;
 	min-width: 200px;
-	padding: 20px 0px 0px 0px;
 	position: absolute;
 	background-color: #f2f2f2;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
