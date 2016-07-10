@@ -910,7 +910,7 @@
 /* Dropdown Button */
 .dropbtn {background:url(../images/e_logo.png) no-repeat; background-size: 100%; padding: 25px; position: relative; color: white; font-size: 1.8em; border: none; cursor: pointer;}
 /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus { opacity: 1;  filter:alpha(opacity=100);}
+.dropbtn:hover, .dropbtn:focus { opacity: .5;  filter:alpha(opacity=50);}
 /* The container <div> - needed to position the dropdown content */
 .dropdown {float: left; background:url(../images/e_logo.png) no-repeat; background-size: 100%; position: relative; display: inline-block; line-height:2em;}
 /* Dropdown Content (Hidden by Default) */
