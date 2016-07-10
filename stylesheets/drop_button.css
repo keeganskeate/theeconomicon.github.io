@@ -32,19 +32,18 @@
 	transition: all 0.35s ease-in-out; }
 .dropdown:hover {  opacity: 1;  filter:alpha(opacity=100); }
 .dropdown:onclick {  opacity: 1;  filter:alpha(opacity=100); }
-div.dropdown-content {
+.dropdown-content {
 	display: none;
 	min-width: 200px;
 	position: absolute;
 	background-color: #f2f2f2;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
-div.dropdown-content a {
+.dropdown-content a {
 	color: black;
-	background-color: inherit;
 	padding: 8px 16px;
 	text-decoration: none;
 	display: block;}
-div.dropdown-content a:hover {
+.dropdown-content:hover {
 	background-color: #82b440
 	color: #82b440;
 }
