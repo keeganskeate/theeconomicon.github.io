@@ -904,37 +904,7 @@
 	}
 .popoutpanel {  margin: 0px 0 0 0px;  padding: 15px 20px 10px;  width: 200px; }
 .floatbutton:before {  opacity: 1;  filter:alpha(opacity=100); }
-		.floatbutton:hover {  opacity: 1;  filter:alpha(opacity=10); }
+		.floatbutton:onclick {  opacity: 1;  filter:alpha(opacity=10); }
 .floatbutton .popoutpanel {  display: none; }
-		.floatbutton:hover .popoutpanel {  display: block; color:black; border-radius: 40px; background-color: #42B440;} 
+		.floatbutton:onclick .popoutpanel {  display: block; color:black; border-radius: 40px; background-color: #42B440;} 
 .scrollpanel {  height: 300px;  overflow-y: auto; }
-
-.onclick-menu {
-    position: relative;
-    display: inline-block;
-}
-.onclick-menu:before {
-    content: <img src="images/e_logo.png" height="50" width="50" alt="About" />
-}
-.onclick-menu:focus {
-    /* clicking on label should toggle the menu */
-    pointer-events: none;
-}
-.onclick-menu:focus .onclick-menu-content {
-    /*  opacity is 1 in opened state (see below) */
-    opacity: 1;
-    visibility: visible;
-    background-color: #42B440;
-
-    /* don't let pointer-events affect descendant elements */
-    pointer-events: auto;
-}
-.onclick-menu-content {
-    position: absolute;
-    z-index: 1;
-
-    /* use opacity to fake immediate toggle */
-    opacity: 0;
-    visibility: hidden;
-    transition: visibility 0.5s;
-}
