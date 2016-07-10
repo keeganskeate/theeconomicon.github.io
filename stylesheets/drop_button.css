@@ -33,6 +33,7 @@
 .dropdown:hover {  opacity: 1;  filter:alpha(opacity=100); }
 .dropdown:onclick {  opacity: 1;  filter:alpha(opacity=100); }
 .dropdown-content {
+	line-height:2em;
 	display: none;
 	min-width: 200px;
 	position: absolute;
@@ -42,7 +43,7 @@
 	border-radius:40px;
 }
 .dropdown-content a {
-	padding: 4px 0px 20px 0px;
+	padding: 4px 0px 80px 0px;
 	text-decoration: none;
 	display: block;}
 /*Needs to be fixed! */
