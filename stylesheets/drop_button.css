@@ -41,7 +41,7 @@
 .dropdown-content a {
 	color: black;
 	background-color: inherit;
-	padding: 14px 16px;
+	padding: 8px 16px;
 	text-decoration: none;
 	display: block;}
 .dropdown-content li > a:hover {
