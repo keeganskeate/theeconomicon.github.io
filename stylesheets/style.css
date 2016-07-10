@@ -908,7 +908,7 @@
 
 
 /* Dropdown Button */
-.dropbtn {background:inherit; ; color: white; padding: 10px; font-size: 1.8em; border: none; cursor: pointer;}
+.dropbtn {background:url(../images/bus_stats_pic_light.png) 25px 25px left center no-repeat;; ; color: white; padding: 10px; font-size: 1.8em; border: none; cursor: pointer;}
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus { background-color: #42B440;}
 /* The container <div> - needed to position the dropdown content */
