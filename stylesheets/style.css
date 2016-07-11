@@ -726,14 +726,15 @@
 			}
 			/*For highlighting options uncomment  .dropotron > li:hover {background: #246CBD;} */
 	.dropotron.level-0 {
-		border-radius: 0 0 10px 10px;
+		border-radius: 0 0 5px 5px;
 		font-size: 1em;
 		margin-left:0em;
 	}
 		.dropotron.level-1 {
-			border-radius: 10px;
+			border-radius: 5px;
 			font-size: 1em;
 			margin-left:0em;
+			margin-top:1em;
 		}
 /* Banner */
 	#banner {
