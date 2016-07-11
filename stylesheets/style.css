@@ -654,7 +654,7 @@
 					letter-spacing: 2px;
 					text-decoration: none;
 					text-transform: uppercase;
-					font-weight: 400;
+					font-weight: 500;
 					font-size: 1em;
 					-moz-transition: all 200ms ease-in;
 					-webkit-transition: all 200ms ease-in;
@@ -685,8 +685,8 @@
 		top: 2em;
 		background: #222222;
 		border-radius: 2px;
-		border-bottom: 2px solid  #82b440;
-		border-top: 2px solid  #82b440;
+		border-bottom: 2px solid  #42B440;
+		border-top: 2px solid  #42B440;
 		color: inherit;
 		min-width: 12em;
 		padding: 0.0em 0.0em;
@@ -720,11 +720,11 @@
 				color: #42B440;
 			}
 			.dropotron > li:hover {
-				background: #B3E8FF;
+				background: #BEEFFE;
 			}
 	.dropotron.level-0 {
-		border-right:2px solid #82b440;
-		border-left:2px solid #82b440;
+		border-right:2px solid #42B440;
+		border-left:2px solid #42B440;
 		border-radius: 0 0 2px 2px;
 		font-size: 1em;
 		margin-left:0em;
