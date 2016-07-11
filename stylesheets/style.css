@@ -654,7 +654,7 @@
 					letter-spacing: 2px;
 					text-decoration: none;
 					text-transform: uppercase;
-					font-weight: 400;
+					font-weight: 500;
 					font-size: 1em;
 					-moz-transition: all 200ms ease-in;
 					-webkit-transition: all 200ms ease-in;
@@ -688,7 +688,7 @@
 		border-bottom: 2px solid  #42B440;
 		border-top: 2px solid  #42B440;
 		color: inherit;
-		font-weight: 400;
+		font-weight: 500;
 		min-width: 12em;
 		padding: 0.0em 0.0em;
 		color: white;
@@ -708,7 +708,7 @@
 				-o-appearance: none;
 				-ms-appearance: none;
 				color: inherit;
-				font-weight: 400;
+				font-weight: 500;
 				letter-spacing: 2px;
 				text-decoration: none;
 				text-transform: uppercase;
@@ -720,7 +720,7 @@
 			}
 			.dropotron > li.active > a, .dropotron > li:hover > a {
 				color: #42B440;
-				font-weight: 400;
+				font-weight: 500;
 			}
 			.dropotron > li:hover {
 				background: #246CBD;
