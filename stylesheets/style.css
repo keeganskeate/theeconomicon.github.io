@@ -704,7 +704,7 @@
 			line-height: 2em;
 			padding: 0 0.5em;
 		}
-			.dropotron > li:focus > a {
+			.dropotron > li > a {
 				-moz-appearance: none;
 				-webkit-appearance: none;
 				-o-appearance: none;
@@ -727,16 +727,12 @@
 			}
 			/*For highlighting options uncomment  .dropotron > li:hover {background: #246CBD;} */
 	.dropotron.level-0 {
-		border-right:2px solid #42B440;
-		border-left:2px solid #42B440;
-		border-radius: 0 0 2px 2px;
+		border-radius: 0 0 10px 10px;
 		font-size: 1em;
 		margin-left:0em;
 	}
 		.dropotron.level-1 {
-			border-right:2px solid #42B440;
-			border-left:2px solid #42B440;
-			border-radius: 0 0 2px 2px;
+			border-radius: 0 0 10px 10px;
 			font-size: 1em;
 			margin-left:0em;
 		}
