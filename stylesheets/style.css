@@ -688,7 +688,6 @@
 		top: 2em;
 		background: #222222;
 		border-radius: 2px;
-		border-bottom: 2px solid  #42B440;
 		color: inherit;
 		font-weight: 500;
 		min-width: 12em;
@@ -732,7 +731,7 @@
 		margin-left:0em;
 	}
 		.dropotron.level-1 {
-			border-radius: 0 0 10px 10px;
+			border-radius: 10px;
 			font-size: 1em;
 			margin-left:0em;
 		}
