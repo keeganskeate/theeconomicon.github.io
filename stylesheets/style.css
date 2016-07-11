@@ -717,10 +717,10 @@
 				transition: all 200ms ease-in;
 			}
 			.dropotron > li.active > a, .dropotron > li:hover > a {
-				color: #82b440;
+				color: #42B440;
 			}
 			.dropotron > li:hover {
-				background: #7CCFF3;
+				background: #B3E8FF;
 			}
 	.dropotron.level-0 {
 		border-right:2px solid #82b440;
