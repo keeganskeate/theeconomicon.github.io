@@ -44,10 +44,10 @@
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	color:  #82b440;
 	font-size: 1.6em;
-	font-weight: 400;
+	font-weight: 500;
 }
 .dropdown-content a {
-	padding: 4px 0px 80px 0px;
+	padding: 10px 0px 60px 0px;
 	text-decoration: none;
 	display: block;}
 /*Needs to be fixed! */
