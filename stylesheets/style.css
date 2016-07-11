@@ -669,6 +669,7 @@
 
 				#nav > ul > li.active a {
 					color: #42B440;
+					font-weight: 500;
 				}
 
 				#nav > ul > li > ul {
@@ -676,6 +677,7 @@
 				}
 				#nav ul > li:hover {
     					color: #42B440;
+    					font-weight: 500;
 				}
 /* Dropotron */
 .dropotron {
