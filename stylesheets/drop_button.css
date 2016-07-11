@@ -43,7 +43,8 @@
 	background-size: 100%;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	color:  #82b440;
-	font-weight: 200;
+	font-size: 1.6em;
+	font-weight: 400;
 }
 .dropdown-content a {
 	padding: 4px 0px 80px 0px;
