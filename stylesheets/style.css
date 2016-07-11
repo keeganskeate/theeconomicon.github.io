@@ -725,9 +725,7 @@
 				color: #42B440;
 				font-weight: 500;
 			}
-			.dropotron > li:hover {
-				background: #246CBD;
-			}
+			/*For highlighting options uncomment  .dropotron > li:hover {background: #246CBD;} */
 	.dropotron.level-0 {
 		border-right:2px solid #42B440;
 		border-left:2px solid #42B440;
