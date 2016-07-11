@@ -21,7 +21,7 @@
 	background-size: 75%;
 	opacity:0.75;
 	position: relative;
-	padding: 0px 0px 5px 0px;
+	padding: 0px 0px 0px 0px;
 	margin: 8px 0 0 0px;
 	display: inline-block;
 	line-height:2em;
@@ -34,6 +34,7 @@
 .dropdown:onclick {  opacity: 1;  filter:alpha(opacity=100); }
 .dropdown-content {
 	line-height: 1em;
+	top:0px;
 	right:0px;
 	display: none;
 	position: absolute;
