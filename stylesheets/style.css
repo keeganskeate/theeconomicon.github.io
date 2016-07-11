@@ -667,14 +667,14 @@
 				}
 
 				#nav > ul > li.active a {
-					color: #82b440;
+					color: #42B440;
 				}
 
 				#nav > ul > li > ul {
 					display: none;
 				}
 				#nav ul > li:hover {
-    					color: #82b440;
+    					color: #42B440;
 				}
 /* Dropotron */
 .dropotron {
@@ -688,6 +688,7 @@
 		border-bottom: 2px solid  #42B440;
 		border-top: 2px solid  #42B440;
 		color: inherit;
+		font-weight: 500;
 		min-width: 12em;
 		padding: 0.0em 0.0em;
 		color: white;
@@ -707,6 +708,7 @@
 				-o-appearance: none;
 				-ms-appearance: none;
 				color: inherit;
+				font-weight: 500;
 				letter-spacing: 2px;
 				text-decoration: none;
 				text-transform: uppercase;
@@ -720,7 +722,7 @@
 				color: #42B440;
 			}
 			.dropotron > li:hover {
-				background: #BEEFFE;
+				background: #246CBD;
 			}
 	.dropotron.level-0 {
 		border-right:2px solid #42B440;
@@ -730,8 +732,8 @@
 		margin-left:0em;
 	}
 		.dropotron.level-1 {
-			border-right:2px solid #82b440;
-			border-left:2px solid #82b440;
+			border-right:2px solid #42B440;
+			border-left:2px solid #42B440;
 			border-radius: 0 0 2px 2px;
 			font-size: 1em;
 			margin-left:0em;
