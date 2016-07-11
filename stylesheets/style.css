@@ -704,7 +704,7 @@
 			line-height: 2em;
 			padding: 0 0.5em;
 		}
-			.dropotron > li > a {
+			.dropotron:focus > li > a {
 				-moz-appearance: none;
 				-webkit-appearance: none;
 				-o-appearance: none;
@@ -720,7 +720,7 @@
 				-ms-transition: all 200ms ease-in;
 				transition: all 200ms ease-in;
 			}
-			.dropotron:focus > li.active > a,
+			.dropotron > li.active > a,
 			.dropotron > li:hover > a {
 				color: #42B440;
 				font-weight: 500;
