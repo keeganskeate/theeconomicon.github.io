@@ -700,7 +700,7 @@
 		transition: all 200ms ease-in;
 	}
 		.dropotron > li {
-			line-height: 2em;
+			line-height: 2.25em;
 			padding: 0 0.5em;
 		}
 			.dropotron > li > a {
