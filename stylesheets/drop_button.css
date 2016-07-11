@@ -44,8 +44,8 @@
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	color:  #82b440;
 	font-size: 1.6em;
-	font-weight: 500;
 	font-family: 'Josefin Slab', serif;
+	font-weight: 800;
 }
 .dropdown-content a {
 	padding: 20px 0px 40px 0px;
