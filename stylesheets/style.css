@@ -686,13 +686,12 @@
 		-o-appearance: none;
 		-ms-appearance: none;
 		top: 2em;
-		background: #222222;
+		background: #FFEBD0;
 		border-radius: 2px;
 		color: inherit;
 		font-weight: 500;
 		min-width: 12em;
 		padding: 0.0em 0.0em;
-		color: white;
 		-moz-transition: all 200ms ease-in;
 		-webkit-transition: all 200ms ease-in;
 		-o-transition: all 200ms ease-in;
@@ -708,6 +707,7 @@
 				-webkit-appearance: none;
 				-o-appearance: none;
 				-ms-appearance: none;
+				text-shadow: 0 -1px 0 #000;
 				color: inherit;
 				font-weight: 500;
 				letter-spacing: 2px;
