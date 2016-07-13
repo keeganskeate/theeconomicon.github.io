@@ -450,7 +450,7 @@
 		input[type="button"]:hover,
 		.button:hover {
 			background: #42B440;
-			color: #white;
+			color: white;
 			border-color: #42B440;
 		}
 
@@ -467,7 +467,7 @@
 			input[type="button"].alt:hover,
 			.button.alt:hover {
 				background: #f2f2f2;
-				color: #42B440;
+				color: white;
 			}
 		input[type="submit"].fit,
 		input[type="reset"].fit,
