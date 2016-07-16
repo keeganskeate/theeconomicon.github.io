@@ -633,6 +633,10 @@
 /* Dropotron */
 
 	.dropotron {
+		-moz-appearance: none;
+ 		-webkit-appearance: none;
+ 		-o-appearance: none;
+ 		-ms-appearance: none;
 		top: 2em;
 		background: rgba(32, 32, 32, 0.75);
 		border-radius: 4px;
@@ -640,6 +644,11 @@
 		min-width: 12em;
 		padding: 1em 0;
 		color: white;
+		-moz-transition: all 200ms ease-in;
+ 		-webkit-transition: all 200ms ease-in;
+ 		-o-transition: all 200ms ease-in;
+ 		-ms-transition: all 200ms ease-in;
+ 		transition: all 200ms ease-in;
 	}
 
 		.dropotron > li {
