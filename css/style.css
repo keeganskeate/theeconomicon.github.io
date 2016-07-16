@@ -665,6 +665,7 @@
 
 			.dropotron > li.active > a, .dropotron > li:hover > a {
 				color: inherit;
+				background:#FFE788;
 			}
 
 		.dropotron.level-0 {
