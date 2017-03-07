@@ -86,7 +86,7 @@ p, ul, ol, dl, table, blockquote {
 		position: relative;
 		top: -0.5em;
 	}
-	hr.copyright-divider {
+	hr.divider {
 		border-top: solid 4px #131516;
 		border: 0;
 		margin-bottom: 1.5em;
