@@ -212,16 +212,31 @@ p, ul, ol, dl, table, blockquote {
 			position: relative;
 		}
 
-	#header hr{
-		color: #2D004F;
-	    display: block;
-	    border-style: inset;
-	    border-width: 2px;
-	}
+		#header hr{
+			color: #2D004F;
+			display: block;
+			border-style: inset;
+			border-width: 2px;
+		}
 
 	.homepage #logo {
 		display: none;
 	}
+		#logo {
+			line-height: 2em;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			font-size: 2em;
+			font-weight: 500;
+		}
+			#logo h1 {
+				display: inline-block;
+				margin: 0;
+				padding: 0;
+			}
+			#logo a {
+				color: inherit;
+			}
 
 	.homepage #nav {
 		position: static;
@@ -229,25 +244,6 @@ p, ul, ol, dl, table, blockquote {
 		margin: 0 auto;
 		text-align: center;
 	}
-
-	#logo {
-		line-height: 2em;
-		letter-spacing: 2px;
-		text-transform: uppercase;
-		font-size: 2em;
-		font-weight: 500;
-	}
-
-		#logo h1 {
-			display: inline-block;
-			margin: 0;
-			padding: 0;
-		}
-
-		#logo a {
-			color: inherit;
-		}
-
 	#nav {
 		position: absolute;
 		top: 0;
@@ -318,11 +314,10 @@ p, ul, ol, dl, table, blockquote {
 					line-height: 2em;
 				}
 				
-				#nav ul li.active,
-				#nav ul li:hover {
+				#nav ul > li > a.active,
+				#nav ul > li > a:hover {
 					color: #B2E522;
 				}
-
 				#nav > ul > li > ul {
 					display: none;
 				}
@@ -450,7 +445,7 @@ p, ul, ol, dl, table, blockquote {
 		color: inherit;
 	}
 	
-	#icons:hover {
+	#icons a:hover {
 		color: #B2E522;
 	}
 
