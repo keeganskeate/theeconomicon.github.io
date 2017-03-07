@@ -255,6 +255,7 @@ p, ul, ol, dl, table, blockquote {
 		}
 
 			#nav > ul > li  {
+				background: #E8E8E8;
 				-moz-appearance: none;
 				-webkit-appearance: none;
 				-o-appearance: none;
@@ -311,7 +312,9 @@ p, ul, ol, dl, table, blockquote {
 /* Dropotron */
 .dropotron {
 		top: 2em;
-		background: inherit;
+		background: #fff;
+		-moz-box-shadow: 0px 0px 4px #444;
+		-webkit-box-shadow: 0px 0px 4px #444;
 		border-radius: 2px;
 		color: inherit;
 		font-weight: 500;
