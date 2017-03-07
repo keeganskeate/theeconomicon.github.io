@@ -144,7 +144,7 @@ html,body, input, select, textarea {
 		padding-top: 3em;
 	}
 
-/* Form */
+/* Form
 
 	input[type="text"],
 	input[type="password"],
@@ -249,8 +249,7 @@ html,body, input, select, textarea {
 		.icon > .label {
 			display: none;
 		}
-
-/* Lists */
+/* Lists
 
 	ol.default {
 		list-style: decimal;
@@ -381,7 +380,8 @@ html,body, input, select, textarea {
 			padding-left: 2.7em;
 		}
 
-/* Tables */
+*/
+/* Tables 
 
 	table {
 		width: 100%;
@@ -409,7 +409,7 @@ html,body, input, select, textarea {
 				background: #555555;
 				color: #fff;
 			}
-
+*/
 /* Button */
 
 	input[type="submit"],
@@ -648,13 +648,12 @@ html,body, input, select, textarea {
  		-o-appearance: none;
  		-ms-appearance: none;
 		top: 2em;
-		background: rgba(32, 32, 32, 0.75);
 		border-radius: 4px;
 		color: inherit;
 		min-width: 12em;
 		padding: 1em 0;
 		color: white;
-		background: #FFE788;
+		background: rgba(45, 0, 79, 0.25);
 		-moz-transition: all 200ms ease-in;
  		-webkit-transition: all 200ms ease-in;
  		-o-transition: all 200ms ease-in;
@@ -675,7 +674,7 @@ html,body, input, select, textarea {
 			}
 
 			.dropotron > li.active > a, .dropotron > li:hover > a {
-				color: inherit;
+				color: #B2E522;
 			}
 
 		.dropotron.level-0 {
@@ -700,7 +699,7 @@ html,body, input, select, textarea {
 		#banner h2 {
 			display: inline-block;
 			padding: 0.50em 0.30em;
-			background: #82b440;
+			background: inherit;
 			font-size: 3em;
 			font-weight: 400;
 		}
@@ -782,7 +781,7 @@ html,body, input, select, textarea {
 			color: #B2E522;
 		}
 
-/* Extra */
+/* Extra
 
 	#extra1 h2 {
 		display: block;
@@ -804,7 +803,7 @@ html,body, input, select, textarea {
 		font-weight: 400;
 	}
 
-/* Team */
+/* Team
 
 	#team h3 {
 		margin-bottom: 0.50em;
