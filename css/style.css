@@ -2,17 +2,30 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 
 /*
-	Solarize by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	Main Style Sheet for The Economicon website
+
+	Theme Colors
+			Black: #131516
+			Light White: #F2F3F4
+			White:#F7F5E6
+			Off White: #E8E8E8
+			Darkest White: #D6D6D6
+			Light Purple: 
+			Dark Purple: #2D004F
+			Light Green: #B2E522
+			
 */
 
 /* Basic */
 
-	body {
-		background: #222222;
-	}
-
+html,body {
+	background: #F2F3F4;
+	margin: 0 auto;
+	padding: 0px;
+	width:100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
 		body.loading * {
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
@@ -26,13 +39,13 @@
 			animation: none !important;
 		}
 
-	body, input, select, textarea {
-		color: #555555;
-		font-family: 'Open Sans', sans-serif;
-		font-size: 12pt;
-		font-weight: 300;
-		line-height: 1.65em;
-	}
+html,body, input, select, textarea {
+	color: #131516;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	line-height: 1.65em;
+}
 
 	a {
 		color: #82b440;
