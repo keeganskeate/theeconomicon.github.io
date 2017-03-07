@@ -212,6 +212,17 @@ p, ul, ol, dl, table, blockquote {
 			position: relative;
 		}
 
+	# header hr{
+		color: #2D004F;
+	    display: block;
+	    margin-top: 0.5em;
+	    margin-bottom: 0.5em;
+	    margin-left: auto;
+	    margin-right: auto;
+	    border-style: inset;
+	    border-width: 1px;
+	}
+
 	.homepage #logo {
 		display: none;
 	}
