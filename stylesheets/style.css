@@ -212,15 +212,11 @@ p, ul, ol, dl, table, blockquote {
 			position: relative;
 		}
 
-	# header hr{
+	#header hr{
 		color: #2D004F;
 	    display: block;
-	    margin-top: 0.5em;
-	    margin-bottom: 0.5em;
-	    margin-left: auto;
-	    margin-right: auto;
 	    border-style: inset;
-	    border-width: 1px;
+	    border-width: 2px;
 	}
 
 	.homepage #logo {
@@ -457,15 +453,9 @@ p, ul, ol, dl, table, blockquote {
 		color: inherit;
 	}
 
-		#footer .major hr {
-			border-bottom: 4px solid;
-			border-color: inherit;
-		}
-
-		#footer .minor hr {
-			border-bottom: 4px solid;
-			border-color: inherit;
-			opacity: .05;
+		#footer hr {
+			border-bottom: 2px solid;
+			border-color: #2D004F;
 		}
 
 		#footer .major h2 {
