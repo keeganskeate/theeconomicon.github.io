@@ -504,7 +504,7 @@ p, ul, ol, dl, table, blockquote {
 		-ms-appearance: none;
 		appearance: none;
 		background: #B2E522;
-		border-radius: none;
+		border-radius: 50px;
 		color: #fff;
 		cursor: pointer;
 		display: inline-block;
@@ -533,6 +533,7 @@ p, ul, ol, dl, table, blockquote {
 		input[type="reset"].alt,
 		input[type="button"].alt,
 		.button.alt {
+			border-radius: 50px;
 			background: #2D004F ;
 			color: #fff;
 		}
