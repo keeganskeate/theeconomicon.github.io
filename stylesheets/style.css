@@ -255,18 +255,19 @@ p, ul, ol, dl, table, blockquote {
 		}
 
 			#nav > ul > li  {
-				background: #E8E8E8;
 				-moz-appearance: none;
 				-webkit-appearance: none;
 				-o-appearance: none;
 				-ms-appearance: none;
 				border-radius: 2px;
 				display: inline-block;
-				margin-left: 0.5em;
+				float: right;
+				margin-left: 0.0em;
 				padding: 0 0.5em;
 				text-decoration: none;
 				text-transform: uppercase;
-				font-size: 1em;letter-spacing: 2px;
+				font-size: 1em;
+				letter-spacing: 2px;
 				font-weight: 500;
 				text-shadow: 0 -1px 0 #000;
 				position: relative;
@@ -293,10 +294,18 @@ p, ul, ol, dl, table, blockquote {
 					-ms-transition: all 200ms ease-in;
 					transition: all 200ms ease-in;
 				}
-				#nav > ul > li:first-child {
-					margin-left: 0;
+				#nav ul li:first-child {
+					float: left;
+					border: none;
+					padding: 0;
 				}
 
+				#nav > ul > li:first-child {
+					margin-left: 0;
+					position: relative;
+					line-height: 2em;
+				}
+				
 				#nav > ul > li.active a {
 					color: #B2E522;
 					font-weight: 500;
