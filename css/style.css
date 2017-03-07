@@ -748,11 +748,10 @@ html,body, input, select, textarea {
 	#footer {
 		padding: 6em 0 2em 0;
 		text-align: center;
-		color: white;
 	}
 
 		#footer hr {
-			border-bottom: 1px solid;
+			border-bottom: 4px solid;
 			border-color: inherit;
 			opacity: .05;
 		}
@@ -775,16 +774,12 @@ html,body, input, select, textarea {
 
 	#copyright {
 		position: relative;
-		text-transform: uppercase;
-		text-align: center;
 		padding: 3em 0em 3em 0em;
-		color: inherit;
-		opacity: .40;
 	}
 
 		#copyright a {
 			text-decoration: none;
-			color: inherit;
+			color: #B2E522;
 		}
 
 /* Extra */
