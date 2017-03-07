@@ -318,8 +318,8 @@ p, ul, ol, dl, table, blockquote {
 					line-height: 2em;
 				}
 				
-				#nav > ul > li.active a,
-				#nav ul > li a:hover {
+				#nav ul li.active,
+				#nav ul li:hover {
 					color: #B2E522;
 				}
 
@@ -363,12 +363,10 @@ p, ul, ol, dl, table, blockquote {
 				color: #B2E522;
 			}
 	.dropotron.level-0 {
-		border-radius: 0 0 5px 5px;
 		font-size: 1em;
 		margin-left:0em;
 	}
 		.dropotron.level-1 {
-			border-radius: 5px;
 			font-size: 1em;
 			margin-left:0em;
 			margin-top:1em;
