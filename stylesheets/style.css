@@ -449,6 +449,10 @@ p, ul, ol, dl, table, blockquote {
 		background: #D6D6D6;
 		color: inherit;
 	}
+	
+	#footer.icons:hover {
+		color: #B2E522;
+	}
 
 	hr.copyright-divider {
 			display: block;
