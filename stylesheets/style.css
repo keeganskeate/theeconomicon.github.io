@@ -311,17 +311,13 @@ p, ul, ol, dl, table, blockquote {
 					line-height: 2em;
 				}
 				
-				#nav > ul > li.active a {
+				#nav > ul > li.active,
+				#nav ul > li:hover {
 					color: #B2E522;
-					font-weight: 500;
 				}
 
 				#nav > ul > li > ul {
 					display: none;
-				}
-				#nav ul > li:hover {
-    					color: #B2E522;
-    					font-weight: 500;
 				}
 /* Dropotron */
 .dropotron {
@@ -358,10 +354,8 @@ p, ul, ol, dl, table, blockquote {
 			}
 			.dropotron > li.active > a,
 			.dropotron > li:hover > a {
-				color: #42B440;
-				font-weight: 500;
+				color: #B2E522;
 			}
-			/*For highlighting options uncomment  .dropotron > li:hover {background: #246CBD;} */
 	.dropotron.level-0 {
 		border-radius: 0 0 5px 5px;
 		font-size: 1em;
