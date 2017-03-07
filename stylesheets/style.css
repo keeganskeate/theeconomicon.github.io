@@ -453,7 +453,7 @@ p, ul, ol, dl, table, blockquote {
 		color: inherit;
 	}
 
-		#footer hr.copyright-divider {
+	hr.copyright-divider {
 			display: block;
 			height: 1px;
 			border: 0;
