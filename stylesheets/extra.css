@@ -1,0 +1,259 @@
+/* Extra
+
+	#extra1 h2 {
+		display: block;
+		margin-bottom: 1em;
+		letter-spacing: 1px;
+		line-height: 1.8em;
+		text-transform: uppercase;
+		font-size: 1.8em;
+		font-weight: 400;
+	}
+
+	#extra1 h3 {
+		display: block;
+		margin-bottom: 1em;
+		letter-spacing: 1px;
+		line-height: 1.6em;
+		text-transform: uppercase;
+		font-size: 1.6em;
+		font-weight: 400;
+	}
+
+/* Team
+
+	#team h3 {
+		margin-bottom: 0.50em;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+
+/* Form
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	textarea {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-o-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		background: none;
+		border: solid 1px #49B440;
+		color: inherit;
+		display: block;
+		outline: 0;
+		padding: 0.75em;
+		text-decoration: none;
+		width: 100%;
+	}
+
+		input[type="text"]:focus,
+		input[type="password"]:focus,
+		input[type="email"]:focus,
+		textarea:focus {
+			border-color: #49B440;
+		}
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"] {
+		line-height: 1em;
+	}
+
+	::-webkit-input-placeholder {
+		color: inherit;
+		opacity: 0.5;
+		position: relative;
+		top: 3px;
+	}
+
+	:-moz-placeholder {
+		color: inherit;
+		opacity: 0.5;
+	}
+
+	::-moz-placeholder {
+		color: inherit;
+		opacity: 0.5;
+	}
+
+	:-ms-input-placeholder {
+		color: inherit;
+		opacity: 0.5;
+	}
+
+	.formerize-placeholder {
+		color: rgba(85, 85, 85, 0.5) !important;
+	}
+
+/* Tables
+
+	table {
+		width: 100%;
+	}
+
+		table.default {
+			width: 100%;
+		}
+
+			table.default tbody tr {
+				border-bottom: solid 1px #82b440;
+			}
+
+			table.default td {
+				padding: 0.5em 1em 0.5em 1em;
+			}
+
+			table.default th {
+				font-weight: 700;
+				padding: 0.5em 1em 0.5em 1em;
+				text-align: left;
+			}
+
+			table.default thead {
+				background: #555555;
+				color: #fff;
+			}
+/* Lists
+
+	ol.default {
+		list-style: decimal;
+		padding-left: 1.25em;
+	}
+
+		ol.default li {
+			padding-left: 0.25em;
+		}
+
+	ul.default {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+		ul.default li {
+			padding: 0.40em 0em;
+		}
+
+	ul.icons {
+		cursor: default;
+		padding-bottom: 2em;
+		-moz-transition: all 0.35s ease-in-out;
+		-webkit-transition: all 0.35s ease-in-out;
+		-o-transition: all 0.35s ease-in-out;
+		-ms-transition: all 0.35s ease-in-out;
+		transition: all 0.35s ease-in-out;
+	}
+	
+		ul.icons a:hover {
+			color: #82b440;
+			opacity: 1;
+			}
+
+
+		ul.icons li {
+			display: inline-block;
+			line-height: 1em;
+			padding: 0.5em 1em;
+		}
+
+			ul.icons li:first-child {
+				padding-left: 0;
+			}
+
+			ul.icons li span {
+				display: none;
+			}
+
+			ul.icons li a {
+				text-decoration: none;
+				font-size: 2em;
+				color: inherit;
+				opacity: 0.2;
+				-moz-transition: all 0.35s ease-in-out;
+				-webkit-transition: all 0.35s ease-in-out;
+				-o-transition: all 0.35s ease-in-out;
+				-ms-transition: all 0.35s ease-in-out;
+				transition: all 0.35s ease-in-out;
+			}
+
+			ul.icons li a:hover {
+				color: #49B440;
+				opacity: 1;
+			}
+
+	ul.actions {
+		cursor: default;
+	}
+
+		ul.actions:last-child {
+			margin-bottom: 0;
+		}
+
+		ul.actions li {
+			display: inline-block;
+			padding: 0 0 0 1.5em;
+		}
+
+			ul.actions li:first-child {
+				padding: 0;
+			}
+
+		ul.actions.vertical li {
+			display: block;
+			padding: 1.5em 0 0 0;
+		}
+
+			ul.actions.vertical li:first-child {
+				padding: 0;
+			}
+
+	ul.special-icons {
+		margin: 0em;
+		padding: 0em;
+	}
+
+		ul.special-icons > li {
+			position: relative;
+			padding: 0.50em 0em 0.50em 0em;
+		}
+
+		ul.special-icons > li:before {
+			position: absolute;
+			left: 0;
+			top: 2em;
+			display: block;
+			background: none;
+			font-size: 2em;
+			border-radius: 5px;
+		}
+
+		ul.special-icons > li:first-child {
+			border-top: none;
+		}
+
+		ul.icons h3 {
+			margin-bottom: 0.80em;
+			line-height: 2em;
+			font-weight: 400;
+			font-size: 1.2em;
+		}
+
+		ul.special-icons span {
+			line-height: 190%;
+		}
+
+		ul.special-icons .fa {
+			float: left;
+			display: inline-block;
+			padding-right: 1em;
+			font-size: 1.4em;
+			color: #49B440;
+		}
+
+		ul.special-icons p {
+			padding-left: 2.7em;
+		}
