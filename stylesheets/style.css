@@ -314,10 +314,10 @@ p, ul, ol, dl, table, blockquote {
 					line-height: 2em;
 				}
 				
-				#nav ul > li > a.active,
-				#nav ul > li > a:hover {
-					color: #B2E522;
-				}
+				#nav > li.active > a,
+				#nav > li:hover > a {
+				color: #B2E522;
+			}
 				#nav > ul > li > ul {
 					display: none;
 				}
