@@ -454,7 +454,15 @@ p, ul, ol, dl, table, blockquote {
 	}
 
 		#footer hr {
+			display: block;
+			height: 1px;
+			border: 0;
+			border-top: 2px solid;
+			margin: 1em 0;
+			padding: 0; 
 			color: #2D004F;
+			background-color: #2D004F;
+			border-color: #2D004F;
 			border-bottom: 2px solid;
 		}
 
