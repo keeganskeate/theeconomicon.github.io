@@ -454,8 +454,8 @@ p, ul, ol, dl, table, blockquote {
 	}
 
 		#footer hr {
+			color: #2D004F;
 			border-bottom: 2px solid;
-			border-color: #2D004F;
 		}
 
 		#footer .major h2 {
