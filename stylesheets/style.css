@@ -219,6 +219,7 @@ p, ul, ol, dl, table, blockquote {
 	.homepage #nav {
 		position: static;
 		right: none;
+		margin: 0 auto;
 		text-align: center;
 	}
 
@@ -246,12 +247,16 @@ p, ul, ol, dl, table, blockquote {
 		right: 0;
 		display: block;
     		text-align: center;
+		padding: 0em;
+    		margin: 0 auto;
+    		vertical-align: baseline;
 	}
 
 		#nav > ul {
 			margin: 0;
 			padding:0;
 			list-style-type: none;
+			vertical-align: bottom;
 		}
 
 			#nav > ul > li  {
