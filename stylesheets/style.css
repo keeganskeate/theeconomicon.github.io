@@ -279,7 +279,7 @@ p, ul, ol, dl, table, blockquote {
 					-webkit-appearance: none;
 					-o-appearance: none;
 					-ms-appearance: none;
-					line-height: 66px;
+					height: inherit;
 					letter-spacing: 2px;
 					text-decoration: none;
 					text-transform: uppercase;
