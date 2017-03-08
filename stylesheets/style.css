@@ -191,13 +191,13 @@ p, ul, ol, dl, table, blockquote {
 /* Header */
 
 	#header {
-		height: 66px;
+		height: 70px;
+		-moz-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
+		-webkit-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
 	}
 
 		#header .container {
 			position: relative;
-			-moz-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
-			-webkit-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
 		}
 
 		#header hr {
@@ -235,7 +235,7 @@ p, ul, ol, dl, table, blockquote {
 	}
 	#nav {
 		position: absolute;
-		height: 66px;
+		height: inherit;
 		top: 0;
 		right: 0;
 		display: block;
@@ -321,8 +321,8 @@ p, ul, ol, dl, table, blockquote {
 .dropotron {
 		top: 2em;
 		background: #fff;
-		-moz-box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.15);
-		-webkit-box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.15);
+		-moz-box-shadow: 0px 1px 2px 2px rgba(70,70,70,0.3);
+		-webkit-box-shadow: 0px 1px 2px 2px rgba(70,70,70,0.3);
 		color: #131516;
 		font-weight: 500;
 		min-width: 12em;
