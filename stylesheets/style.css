@@ -441,7 +441,6 @@ p, ul, ol, dl, table, blockquote {
 	#footer {
 		padding: 6em 0 2em 0;
 		text-align: center;
-		background: #D6D6D6;
 		color: inherit;
 	}
 	
@@ -465,55 +464,6 @@ p, ul, ol, dl, table, blockquote {
 		#footer .major h2 {
 			color: inherit;
 		}
-
-		#footer .major .byline {
-			color: inherit;
-			opacity: .4;
-		}
-
-		#footer .copyright {
-			margin-top: 3em;
-			text-align: center;
-		}
-
-#footer .contactbin{margin: 1em;}
-	#footer .contactbin{
-		display: inline-block;margin: auto;
-		border: 1px solid #333A56;
-		-moz-box-shadow: 0px 0px 4px #444;
-		-webkit-box-shadow: 0px 0px 4px #444;
-        	width:95%;
-		overflow:auto;
-		background: #E8E8E8}
-@media only screen and (max-width: 980px){ #footer .contactbin{ display:block; width:auto;}}
-
-@media only screen and (max-width: 980px){ #footer .contactbin div{ float:none;}}
-
-.contactbin div {position:relative;float:left;text-align:left;vertical-align:top;}
-		.contactbin div li{line-height: 1.6em;}
-		.contactbin div li a:hover{text-decoration: underline;color:  #373D3F;}
-
-	#contactsection {display:inline-block;overflow:hidden;padding: 1em 0;margin: auto;width:33.3%;}
-@media only screen and (max-width: 980px){ #contactsection{ margin:0 1em;width:auto; }}
-#contactwrap {float: left;position: relative;left: 50%;}
-#contactitem {float: left;position: relative;left: -50%;}
-
-
-
-	#footer li{
-		text-align: left;
-		color: #373D3F;
-	}
-		#footer .profiletext a:hover,
-		#footer .contactbin a:hover
-		{text-decoration: underline;}
-	
-	#footer ul{
-		padding: 0em;
-	}
-#footer .contactbin li{
-		line-height: 2em;
-	}
 		#footer h3{
 			font-weight: 400;
 			color:  #131516;
@@ -522,13 +472,79 @@ p, ul, ol, dl, table, blockquote {
 			padding:0em 0 .5em 0;
 		}
 		#footer h6{
-			text-align:left;padding:0em;
+			text-align:left;
+			padding:0em;
 		}
 
+		#footer .major .byline {
+			color: inherit;
+			opacity: .4;
+		}
+		#footer li{
+			text-align: left;
+			color: #373D3F;
+		}
+			#footer .profiletext a:hover,
+			#footer .contactbin a:hover
+			{text-decoration: underline;}
+
+		#footer ul{
+			padding: 0em;
+		}
+
+#footer .contactbin{
+	margin: 1em;
+	}
+	#footer .contactbin{
+		display: inline-block;
+		margin: auto;
+        	width:95%;
+		overflow:auto;
+	}
+
+@media only screen and (max-width: 980px){ #footer .contactbin{ display:block; width:auto;}}
+@media only screen and (max-width: 980px){ #footer .contactbin div{ float:none;}}
+
+.contactbin div {
+	position:relative;
+	float:left;
+	text-align:left;
+	vertical-align:top;
+	}
+		.contactbin div li{
+			line-height: 1.6em;
+			}
+		.contactbin div li a:hover{
+			text-decoration: underline;
+			color:  #B2E522
+			}
+	#contactsection {
+		display:inline-block;
+		overflow:hidden;
+		padding: 1em 0;
+		margin: auto;
+		width:33.3%;
+		}
+@media only screen and (max-width: 980px){ #contactsection{ margin:0 1em;width:auto; }}
+#contactwrap {
+	float: left;
+	position: relative;
+	left: 50%;
+	}
+#contactitem {
+	float: left;
+	position: relative;
+	left: -50%;
+	}
+#footer .contactbin li{
+		line-height: 2em;
+	}
 
 
-
-
+		#footer .copyright {
+			margin-top: 3em;
+			text-align: center;
+		}
 
 /* Copyright */
 
