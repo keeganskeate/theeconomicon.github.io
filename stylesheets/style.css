@@ -208,15 +208,6 @@ p, ul, ol, dl, table, blockquote {
 				margin: 0 auto;
 			}
 
-		#header hr.second {
-				height: 1px;
-				background-color:#2D004F;
-				color:#2D004F;
-				opacity:0.5;
-				border: 0 none;
-				margin: 0 auto;
-			}
-
 	.homepage #logo {
 		display: none;
 	}
@@ -245,13 +236,12 @@ p, ul, ol, dl, table, blockquote {
 	#nav {
 		position: absolute;
 		height: 66px;
-		padding-top: 4px;
 		top: 0;
 		right: 0;
 		display: block;
     		text-align: center;
 		padding: 0em;
-    		margin: 0 auto;
+    		margin: 4px auto 0 auto;
     		vertical-align: baseline;
 	}
 
