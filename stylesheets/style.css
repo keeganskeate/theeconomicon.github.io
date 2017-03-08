@@ -198,12 +198,22 @@ p, ul, ol, dl, table, blockquote {
 			position: relative;
 		}
 
-		#header hr{
-			color: #2D004F;
-			display: block;
-			border-style: inset;
-			border-width: 2px;
-		}
+		#header hr {
+				height: 4px;
+				background-color:#2D004F;
+				color:#2D004F;
+				border: 0 none;
+				margin: 0 auto;
+			}
+
+		#header hr.second {
+				height: 1px;
+				background-color:#2D004F;
+				color:#2D004F;
+				opacity:0.5;
+				border: 0 none;
+				margin: 0 auto;
+			}
 
 	.homepage #logo {
 		display: none;
@@ -395,34 +405,26 @@ p, ul, ol, dl, table, blockquote {
 			font-size:1.2em;
 			text-align:left;
 		}
-
 /* Main */
-
 	#main {
 		padding: 4em 0;
 	}
-
 		#main #content .major, #main #sidebar .major {
 			text-align: left;
 		}
-
 		#main #sidebar section {
 			margin-top: 4em;
 		}
-
 			#main #sidebar section:first-child {
 				margin-top: 0;
 			}
-
 		#main #sidebar .major {
 			padding-bottom: 2em;
 		}
-
 			#main #sidebar .major h2 {
 				line-height: .25em;
 				font-size: 1.8em;
 			}
-
 /* Footer */
 
 	#footer {
