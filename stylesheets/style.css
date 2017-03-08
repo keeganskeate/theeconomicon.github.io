@@ -271,7 +271,7 @@ p, ul, ol, dl, table, blockquote {
 				display: inline-block;
 				float: right;
 				margin-left: 0.0em;
-				padding: 0 0.5em;
+				padding: 0 0 0 4em;
 				text-decoration: none;
 				text-transform: uppercase;
 				font-size: 1em;
@@ -373,7 +373,7 @@ p, ul, ol, dl, table, blockquote {
 		-o-appearance: none;
 		-ms-appearance: none;
 		padding: 1em 0em 2em 0em;
-		text-align: center;
+		text-align: left;
 		text-transform: uppercase;
 		color: inherit;
 		-moz-transition: all .35s ease-in;
@@ -386,23 +386,12 @@ p, ul, ol, dl, table, blockquote {
 			margin: 0 auto;
 			padding: 0em 0em;
 		}
-		#banner .container h2 {
-			line-height: 1em;
-			display: inline-block;
-			padding: 0.2em .2em;
-			font-size: 1.6em;
-			font-weight: 400;
-		}
-		
-		#banner .container h2:hover{
-			color: #B2E522;
-		}
 		#banner span, #banner p{
+			display: inline-block;
 			color: inherit;
-			display: block;
-			letter-spacing: 1px;
 			text-transform: uppercase;
-			font-size: 1.6em;
+			letter-spacing: 1px;
+			font-size: 1.4em;
 			font-weight: 400;
 		}
 		#banner span {
@@ -448,23 +437,6 @@ p, ul, ol, dl, table, blockquote {
 	#footer a:hover {
 		color: #B2E522;
 	}
-
-	hr.copyright-divider {
-			display: block;
-			height: 1px;
-			border: 0;
-			border-top: 2px solid;
-			margin: 1em 0;
-			padding: 0; 
-			color: #2D004F;
-			background-color: #2D004F;
-			border-color: #2D004F;
-			border-bottom: 2px solid;
-		}
-
-		#footer .major h2 {
-			color: inherit;
-		}
 		#footer h3{
 			font-size: 1.4em;
 			font-weight: 300;
@@ -473,16 +445,10 @@ p, ul, ol, dl, table, blockquote {
 			text-align: left;
 			padding:0em 0 .5em 0;
 		}
-		#footer h6{
-			text-align:left;
-			padding:0em;
-		}
-
 		#footer li{
 			text-align: left;
 			color: #2D004F;
 		}
-			#footer .profiletext a:hover,
 			#footer .contactbin a:hover
 			{text-decoration: underline;}
 
@@ -543,6 +509,14 @@ p, ul, ol, dl, table, blockquote {
 			margin-top: 3em;
 			text-align: center;
 		}
+hr {
+width: 80%;
+height: 8px;
+background-color:#131516;
+color:#131516;
+border: 0 none;
+margin: 5px auto;
+}
 
 /* Copyright */
 
