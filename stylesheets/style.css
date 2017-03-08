@@ -282,6 +282,7 @@ p, ul, ol, dl, table, blockquote {
 					display: table-cell;
 					height: inherit;
 					vertical-align: bottom;
+					padding-bottom: 1em;
 					letter-spacing: 2px;
 					text-decoration: none;
 					text-transform: uppercase;
