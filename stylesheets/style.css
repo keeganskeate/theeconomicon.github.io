@@ -443,6 +443,7 @@ p, ul, ol, dl, table, blockquote {
 			color: #2D004F;
 		}
 		#footer ul{
+			list-style: none;
 			padding: 0em;
 		}
 
