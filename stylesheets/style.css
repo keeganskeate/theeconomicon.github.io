@@ -314,8 +314,8 @@ p, ul, ol, dl, table, blockquote {
 					line-height: 2em;
 				}
 				
-				#nav > li.active > a,
-				#nav > li:hover > a {
+				#nav > ul > li.active > a,
+				#nav > ul > li:hover > a {
 				color: #B2E522;
 			}
 				#nav > ul > li > ul {
@@ -383,14 +383,15 @@ p, ul, ol, dl, table, blockquote {
 		transition: all .35s ease-in;
 	}
 		#banner .container {
+			margin: 0 auto;
 			padding: 0em 0em;
 		}
 		#banner .container h2 {
 			line-height: 1em;
 			display: inline-block;
 			padding: 0.2em .2em;
-			font-size: 4.8 em;
-			font-weight: 700;
+			font-size: 1.6em;
+			font-weight: 400;
 		}
 		
 		#banner .container h2:hover{
@@ -465,10 +466,11 @@ p, ul, ol, dl, table, blockquote {
 			color: inherit;
 		}
 		#footer h3{
-			font-weight: 400;
+			font-size: 1.4em;
+			font-weight: 300;
 			color:  #131516;
 			text-shadow: 0 -1px 0 #000;
-			text-align: center;
+			text-align: left;
 			padding:0em 0 .5em 0;
 		}
 		#footer h6{
@@ -476,13 +478,9 @@ p, ul, ol, dl, table, blockquote {
 			padding:0em;
 		}
 
-		#footer .major .byline {
-			color: inherit;
-			opacity: .4;
-		}
 		#footer li{
 			text-align: left;
-			color: #373D3F;
+			color: #2D004F;
 		}
 			#footer .profiletext a:hover,
 			#footer .contactbin a:hover
@@ -498,7 +496,6 @@ p, ul, ol, dl, table, blockquote {
 	#footer .contactbin{
 		display: inline-block;
 		margin: auto;
-        	width:95%;
 		overflow:auto;
 	}
 
@@ -538,6 +535,7 @@ p, ul, ol, dl, table, blockquote {
 	}
 #footer .contactbin li{
 		line-height: 2em;
+		font-size: 1.2em;
 	}
 
 
