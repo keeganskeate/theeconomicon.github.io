@@ -523,7 +523,7 @@ p, ul, ol, dl, table, blockquote {
 		overflow:hidden;
 		padding: 1em 0;
 		margin: auto;
-		width:33.3%;
+		width:25%;
 		}
 @media only screen and (max-width: 980px){ #contactsection{ margin:0 1em;width:auto; }}
 #contactwrap {
