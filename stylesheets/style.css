@@ -196,6 +196,8 @@ p, ul, ol, dl, table, blockquote {
 
 		#header .container {
 			position: relative;
+			-moz-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
+			-webkit-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
 		}
 
 		#header hr {
