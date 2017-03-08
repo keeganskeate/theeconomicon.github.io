@@ -381,6 +381,10 @@ p, ul, ol, dl, table, blockquote {
 			font-weight:500;
 			padding: .5em 0em 2em 0em;
 		}
+		#banner h1{
+			font-size:1.2em;
+			text-align:left;
+		}
 
 /* Main */
 
