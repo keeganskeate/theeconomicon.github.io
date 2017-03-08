@@ -515,23 +515,21 @@ margin: 5px auto;
 }
 
 /* Copyright */
-
 	#copyright {
+		text-align:left;
+		font-size:8em;
 		position: relative;
 		padding: 3em 0em 3em 0em;
 		color: inherit;
 	}
-
 		#copyright a {
 			text-decoration: none;
 		}
-		
 		#copyright p{
 			text-transform: none;
 		}
 
-/* Button */
-
+/* Buttons */
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -558,7 +556,6 @@ margin: 5px auto;
 		-ms-transition: all 0.35s ease-in-out;
 		transition: all 0.35s ease-in-out;
 	}
-
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
@@ -566,16 +563,32 @@ margin: 5px auto;
 			background: #2D004F;
 			color: #B2E522;
 		}
-
-		input[type="submit"].alt,
-		input[type="reset"].alt,
-		input[type="button"].alt,
-		.button.alt {
-			border-radius: 50px;
-			background: #2D004F ;
-			color: #fff;
+	input[type="submit"].alt,
+	input[type="reset"].alt,
+	input[type="button"].alt,
+	.button.alt {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-o-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		border-radius: 50px;
+		background: #2D004F ;
+		color: #fff;
+		cursor: pointer;
+		display: inline-block;
+		padding: 0.90em 1.2em;
+		letter-spacing: 1px;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 1.4em;
+		-moz-transition: all 0.35s ease-in-out;
+		-webkit-transition: all 0.35s ease-in-out;
+		-o-transition: all 0.35s ease-in-out;
+		-ms-transition: all 0.35s ease-in-out;
+		transition: all 0.35s ease-in-out;
 		}
-
 			input[type="submit"].alt:hover,
 			input[type="reset"].alt:hover,
 			input[type="button"].alt:hover,
@@ -583,40 +596,15 @@ margin: 5px auto;
 				background: #B2E522;
 				color: #2D004F;
 			}
-/* Image
-
+/* Images
 	.image {
 		border: 0;
 		position: relative;
 	}
-
-		.image.fit {
-			display: block;
-		}
-
-			.image.fit img {
-				display: block;
-				width: 100%;
-				max-width: 100%
-			}
-
-		.image.feature {
-			display: block;
-			margin: 0 0 2em 0;
-		}
-
-			.image.feature img {
-				display: block;
-				width: 100%;
-				max-width: 100%
-			}
-
-/* Icon */
-
+/* Icons
 	.icon {
 		position: relative;
 	}
-
 		.icon:before {
 			content: "";
 			-moz-osx-font-smoothing: grayscale;
@@ -626,7 +614,6 @@ margin: 5px auto;
 			font-weight: normal;
 			text-transform: none !important;
 		}
-
 		.icon > .label {
 			display: none;
 		}
