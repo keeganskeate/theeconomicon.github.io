@@ -425,14 +425,13 @@ p, ul, ol, dl, table, blockquote {
 		text-align: center;
 		color: inherit;
 	}
-
-	#footer .container {
+		#footer .container {
 			position: relative;
+			width:95%;
+			}	
+		#footer a:hover {
+			color: #B2E522;
 		}
-	
-	#footer a:hover {
-		color: #B2E522;
-	}
 		#footer h3{
 			font-size: 1.4em;
 			font-weight: 300;
@@ -445,9 +444,6 @@ p, ul, ol, dl, table, blockquote {
 			text-align: left;
 			color: #2D004F;
 		}
-			#footer .contactbin a:hover
-			{text-decoration: underline;}
-
 		#footer ul{
 			padding: 0em;
 		}
@@ -460,6 +456,9 @@ p, ul, ol, dl, table, blockquote {
 		margin: auto;
 		overflow:auto;
 	}
+		#footer .contactbin a:hover{
+			text-decoration: underline;
+			}
 
 @media only screen and (max-width: 980px){ #footer .contactbin{ display:block; width:auto;}}
 @media only screen and (max-width: 980px){ #footer .contactbin div{ float:none;}}
@@ -472,10 +471,6 @@ p, ul, ol, dl, table, blockquote {
 	}
 		.contactbin div li{
 			line-height: 1.6em;
-			}
-		.contactbin div li a:hover{
-			text-decoration: underline;
-			color:  #B2E522
 			}
 	#contactsection {
 		display:inline-block;
