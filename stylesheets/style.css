@@ -355,6 +355,7 @@ p, ul, ol, dl, table, blockquote {
 		-webkit-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
+		display: block;
 		padding: 1em 0em 2em 0em;
 		text-align: left;
 		text-transform: uppercase;
