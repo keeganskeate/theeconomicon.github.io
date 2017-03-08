@@ -427,6 +427,7 @@ p, ul, ol, dl, table, blockquote {
 	}
 		#footer .container {
 			position: relative;
+			margin:0;
 			width:95%;
 			}	
 		#footer a:hover {
@@ -512,7 +513,7 @@ margin: 5px auto;
 /* Copyright */
 	#copyright {
 		text-align:left;
-		font-size:8em;
+		font-size:.8em;
 		position: relative;
 		padding: 3em 0em 3em 0em;
 		color: inherit;
