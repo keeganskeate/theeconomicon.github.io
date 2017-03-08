@@ -538,7 +538,7 @@ p, ul, ol, dl, table, blockquote {
 		appearance: none;
 		background: #B2E522;
 		border-radius: 50px;
-		color: #fff;
+		color: #2D004F;
 		cursor: pointer;
 		display: inline-block;
 		padding: 0.90em 1.2em;
@@ -547,6 +547,7 @@ p, ul, ol, dl, table, blockquote {
 		text-decoration: none;
 		text-transform: uppercase;
 		font-size: 1.4em;
+		font-weight: 400;
 		-moz-transition: all 0.35s ease-in-out;
 		-webkit-transition: all 0.35s ease-in-out;
 		-o-transition: all 0.35s ease-in-out;
