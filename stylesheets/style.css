@@ -113,14 +113,6 @@ p, ul, ol, dl, table, blockquote {
 	footer > :last-child {
 		margin-bottom: 0;
 	}
-	footer.major {
-		padding-top: 3em;
-	}
-	hr.divider {
-		border-top: solid 4px #131516;
-		border: 0;
-		margin-bottom: 1.5em;
-	}
 
 /* Wrapper */
 
@@ -387,7 +379,7 @@ p, ul, ol, dl, table, blockquote {
 			padding: 0em 0em;
 		}
 		#banner span, #banner p{
-			display: inline-block;
+			display: block;
 			color: inherit;
 			text-transform: uppercase;
 			letter-spacing: 1px;
@@ -433,6 +425,10 @@ p, ul, ol, dl, table, blockquote {
 		text-align: center;
 		color: inherit;
 	}
+
+	#footer .container {
+			position: relative;
+		}
 	
 	#footer a:hover {
 		color: #B2E522;
