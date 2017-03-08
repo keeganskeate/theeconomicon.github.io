@@ -261,7 +261,6 @@ p, ul, ol, dl, table, blockquote {
 				margin-left: 0.0em;
 				padding: 0 0 0 2em;
 				height: inherit;
-				line-height:66px;
 				text-decoration: none;
 				text-transform: uppercase;
 				font-size: 1em;
@@ -280,7 +279,8 @@ p, ul, ol, dl, table, blockquote {
 					-webkit-appearance: none;
 					-o-appearance: none;
 					-ms-appearance: none;
-					vertical-align: bottom;
+					position: absolute;
+					bottom: 0px;
 					letter-spacing: 2px;
 					text-decoration: none;
 					text-transform: uppercase;
