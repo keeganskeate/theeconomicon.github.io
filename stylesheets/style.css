@@ -197,7 +197,7 @@ p, ul, ol, dl, table, blockquote {
 /* Header */
 
 	#header {
-		height: 4em;
+		height: 90px;
 	}
 
 		#header .container {
@@ -502,8 +502,7 @@ p, ul, ol, dl, table, blockquote {
 			text-align: center;
 		}
 hr {
-width: 80%;
-height: 8px;
+height: 4px;
 background-color:#131516;
 color:#131516;
 border: 0 none;
@@ -513,7 +512,7 @@ margin: 5px auto;
 /* Copyright */
 	#copyright {
 		text-align:left;
-		font-size:.8em;
+		font-size:0.8em;
 		position: relative;
 		padding: 3em 0em 3em 0em;
 		color: inherit;
