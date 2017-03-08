@@ -263,12 +263,12 @@ p, ul, ol, dl, table, blockquote {
 				display: inline-block;
 				float: right;
 				margin-left: 0.0em;
-				padding: 0 0 0 4em;
+				padding: 0 0 0 2em;
 				text-decoration: none;
 				text-transform: uppercase;
 				font-size: 1em;
 				letter-spacing: 2px;
-				font-weight: 500;
+				font-weight: 400;
 				text-shadow: 0 -1px 0 #000;
 				position: relative;
 				-moz-transition: all 200ms ease-in;
@@ -452,7 +452,7 @@ p, ul, ol, dl, table, blockquote {
 
 #footer .contactbin{
 	margin: 1em;
-	}
+}
 	#footer .contactbin{
 		display: inline-block;
 		margin: auto;
@@ -460,7 +460,7 @@ p, ul, ol, dl, table, blockquote {
 	}
 		#footer .contactbin a:hover{
 			text-decoration: underline;
-			}
+		}
 
 @media only screen and (max-width: 980px){ #footer .contactbin{ display:block; width:auto;}}
 @media only screen and (max-width: 980px){ #footer .contactbin div{ float:none;}}
@@ -470,45 +470,45 @@ p, ul, ol, dl, table, blockquote {
 	float:left;
 	text-align:left;
 	vertical-align:top;
-	}
+}
 		.contactbin div li{
 			line-height: 1.6em;
-			}
+		}
 	#contactsection {
 		display:inline-block;
 		overflow:hidden;
 		padding: 1em 0;
 		margin: auto;
 		width:25%;
-		}
+	}
 @media only screen and (max-width: 980px){ #contactsection{ margin:0 1em;width:auto; }}
 #contactwrap {
 	float: left;
 	position: relative;
 	left: 50%;
-	}
+}
 #contactitem {
 	float: left;
 	position: relative;
 	left: -50%;
-	}
+}
 #footer .contactbin li{
 		line-height: 2em;
 		font-size: 1.2em;
 	}
 
 
-		#footer .copyright {
-			margin-top: 3em;
-			text-align: center;
-		}
-hr {
-height: 4px;
-background-color:#131516;
-color:#131516;
-border: 0 none;
-margin: 5px auto;
-}
+	#footer .copyright {
+		margin-top: 3em;
+		text-align: center;
+	}
+	#footer hr {
+		height: 4px;
+		background-color:#131516;
+		color:#131516;
+		border: 0 none;
+		margin: 5px auto;
+	}
 
 /* Copyright */
 	#copyright {
@@ -518,6 +518,14 @@ margin: 5px auto;
 		padding: 3em 0em 3em 0em;
 		color: inherit;
 	}
+		#copyright hr {
+			height: 1px;
+			background-color:#131516;
+			color:#131516;
+			opacity:0.5;
+			border: 0 none;
+			margin: 5px auto;
+		}
 		#copyright a {
 			text-decoration: none;
 		}
