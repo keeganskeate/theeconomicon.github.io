@@ -191,7 +191,7 @@ p, ul, ol, dl, table, blockquote {
 /* Header */
 
 	#header {
-		height: 90px;
+		height: 66px;
 	}
 
 		#header .container {
@@ -232,7 +232,7 @@ p, ul, ol, dl, table, blockquote {
 	}
 	#nav {
 		position: absolute;
-		height: 90px;
+		height: 66px;
 		top: 0;
 		right: 0;
 		display: block;
@@ -279,7 +279,7 @@ p, ul, ol, dl, table, blockquote {
 					-webkit-appearance: none;
 					-o-appearance: none;
 					-ms-appearance: none;
-					line-height: 4em;
+					line-height: 66px;
 					letter-spacing: 2px;
 					text-decoration: none;
 					text-transform: uppercase;
