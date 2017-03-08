@@ -223,13 +223,13 @@ p, ul, ol, dl, table, blockquote {
 
 	.homepage #nav {
 		position: static;
-		height: 90px;
 		right: none;
 		margin: 0 auto;
 		text-align: center;
 	}
 	#nav {
 		position: absolute;
+		height: 90px;
 		top: 0;
 		right: 0;
 		display: block;
