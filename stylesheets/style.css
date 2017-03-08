@@ -243,6 +243,7 @@ p, ul, ol, dl, table, blockquote {
 	#nav {
 		position: absolute;
 		height: 66px;
+		padding-top: 4px;
 		top: 0;
 		right: 0;
 		display: block;
@@ -292,10 +293,11 @@ p, ul, ol, dl, table, blockquote {
 					display: table-cell;
 					height: inherit;
 					vertical-align: bottom;
-					padding-bottom: 0.5em;
+					padding-bottom: 5px;
 					letter-spacing: 2px;
 					text-decoration: none;
 					text-transform: uppercase;
+					color: #131516;
 					font-weight: 500;
 					font-size: 1em;
 					-moz-transition: all 200ms ease-in;
@@ -329,7 +331,7 @@ p, ul, ol, dl, table, blockquote {
 		background: #fff;
 		-moz-box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.15);
 		-webkit-box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.15);
-		color: inherit;
+		color: #131516;
 		font-weight: 500;
 		min-width: 12em;
 		padding: 0.0em 0.0em;
