@@ -421,6 +421,7 @@ p, ul, ol, dl, table, blockquote {
 /* Footer */
 
 	#footer {
+		margin: 0 auto;
 		padding: 6em 0 2em 0;
 		text-align: center;
 		color: inherit;
