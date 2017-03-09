@@ -46,14 +46,17 @@ html, body, input, select, textarea {
 	line-height: 1.65em;
 }
 	a {
-		color: #2D004F;
 		text-decoration: none;
 	}
-	strong, b {font-weight: 700;}
-	em, i {font-style: italic;}
-
+	strong, b {
+		font-weight: 700;
+	}
+	em, i {
+		font-style: italic;
+	}
+/*
 p, ul, ol, dl, table, blockquote {
-	margin: 0 0 2em 0;
+	margin: 0;
 }
 	p {
 		line-height: 1.8em;
@@ -93,28 +96,12 @@ p, ul, ol, dl, table, blockquote {
 		font-style: italic;
 		padding: 1em 0 1em 2em;
 	}
-	section.special, article.special {
-		text-align: center;
-	}
 	header.major {
 		padding-bottom: 3em;
 		text-align: center;
 		text-transform: uppercase;
 	}
-		header.major h2 {
-			line-height: 1em;
-			font-size: 2.6em;
-			font-weight: 700;
-		}
-		header.major .byline {
-			display: block;
-			padding-top: 1em;
-			letter-spacing: 1px;
-			font-size: 1.4em;
-		}
-	footer > :last-child {
-		margin-bottom: 0;
-	}
+*/
 
 /* Wrapper */
 
@@ -399,6 +386,9 @@ p, ul, ol, dl, table, blockquote {
 				font-size: 1.8em;
 			}
 /* Footer */
+footer > :last-child {
+		margin-bottom: 0;
+	}
 	#footer {
 		margin: 0 auto;
 		padding: 0;
