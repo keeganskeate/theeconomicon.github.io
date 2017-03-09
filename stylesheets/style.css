@@ -418,7 +418,7 @@ p, ul, ol, dl, table, blockquote {
 			padding: 0;
 			margin-bottom: 14px;
 		}
-		#footer li,a{
+		#footer li > a{
 			text-align: left;
 			line-height:1rem;
 			font-size: 0.875rem;
