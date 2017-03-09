@@ -414,6 +414,7 @@ p, ul, ol, dl, table, blockquote {
 			font-size: 0.8125rem;
 			line-height: 0.6875rem;
 			font-weight: 700;
+			text-transform: uppercase;
 			text-align: left;
 			padding: 0;
 			margin-bottom: 14px;
