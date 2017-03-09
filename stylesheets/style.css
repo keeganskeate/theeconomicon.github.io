@@ -5,6 +5,7 @@
 	Main Style Sheet for The Economicon website
 
 	Theme Colors
+			Light Grey: #999
 			Black: #131516
 			Light White: #F2F3F4
 			White:#F7F5E6
@@ -483,10 +484,10 @@ p, ul, ol, dl, table, blockquote {
 /* Copyright */
 	#copyright {
 		text-align:left;
-		font-size:0.8em;
+		font-size:11px;
 		position: relative;
 		padding: 3em 0em 3em 0em;
-		color: inherit;
+		color: #999;
 	}
 		#copyright hr {
 			height: 1px;
