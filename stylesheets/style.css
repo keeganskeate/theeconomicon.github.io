@@ -6,6 +6,7 @@
 
 	Theme Colors
 			Light Grey: #999
+			Grey: #333
 			Black: #131516
 			Light White: #F2F3F4
 			White:#F7F5E6
@@ -409,16 +410,19 @@ p, ul, ol, dl, table, blockquote {
 			margin: 0 auto;
 		}	
 		#footer h3{
-			font-weight: 300;
-			color:  #131516;
-			font-size: 14px;
-			text-shadow: 0 -1px 0 #000;
+			color:  #333;
+			font-size: 0.8125rem;
+			line-height: 0.6875rem;
+			font-weight: 700;
 			text-align: left;
-			padding:0em 0 .5em 0;
+			padding: 0;
+			margin-bottom: 14px;
 		}
 		#footer li{
 			text-align: left;
-			font-size: 14px;
+			line-height:1rem;
+			font-size: 0.875rem;
+			font-weight:500;
 			color: #131516;
 		}
 		#footer ul{
@@ -484,6 +488,7 @@ p, ul, ol, dl, table, blockquote {
 		position: relative;
 		padding: 3em 0em 3em 0em;
 		color: #999;
+		font-weight:400;
 	}
 		#copyright hr {
 			height: 1px;
