@@ -495,7 +495,11 @@ p, ul, ol, dl, table, blockquote {
 		}
 		#copyright a {
 			text-decoration: none;
+			color:inherit;
 		}
+			#copyright a:hover {
+				text-decoration: underline;
+			}
 		#copyright p{
 			text-transform: none;
 		}
