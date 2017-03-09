@@ -258,7 +258,7 @@ p, ul, ol, dl, table, blockquote {
 					display: table-cell;
 					height: inherit;
 					vertical-align: bottom;
-					padding-bottom: 5px;
+					padding-bottom: 0px;
 					letter-spacing: 2px;
 					text-decoration: none;
 					text-transform: uppercase;
@@ -299,7 +299,7 @@ p, ul, ol, dl, table, blockquote {
 		color: #131516;
 		font-weight: 500;
 		min-width: 12em;
-		margin-top: 4px;
+		margin-top: 6px;
 	}
 		.dropotron > li {
 			line-height: 2.25em;
@@ -404,16 +404,17 @@ p, ul, ol, dl, table, blockquote {
 			margin: 0 auto;
 		}	
 		#footer h3{
-			font-size: 1.4em;
 			font-weight: 300;
 			color:  #131516;
+			font-size: 14px;
 			text-shadow: 0 -1px 0 #000;
 			text-align: left;
 			padding:0em 0 .5em 0;
 		}
 		#footer li{
 			text-align: left;
-			color: #2D004F;
+			font-size: 14px;
+			color: #131516;
 		}
 		#footer ul{
 			list-style: none;
@@ -433,7 +434,6 @@ p, ul, ol, dl, table, blockquote {
 		}
 		#footer .contactbin li{
 			line-height: 1.6em;
-			font-size: 14px;
 		}
 		#footer .contactbin a:hover{
 			text-decoration: underline;
