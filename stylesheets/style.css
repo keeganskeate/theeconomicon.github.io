@@ -324,10 +324,10 @@ p, ul, ol, dl, table, blockquote {
 			}
 			.dropotron > li.active,
 			.dropotron > li:hover{
-				background:#E8E8E8;
+				background:#f5f6f7;
 			}
-			.dropotron > li.active > span,
-			.dropotron > li:hover > span{
+			.dropotron > li.active > a > span,
+			.dropotron > li:hover > a > span{
 				color: #B2E522;
 			}
 
