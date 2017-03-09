@@ -298,7 +298,7 @@ p, ul, ol, dl, table, blockquote {
 		color: #131516;
 		font-weight: 500;
 		min-width: 12em;
-		padding: 4px 0 0 0;
+		margin-top: 4px;
 	}
 		.dropotron > li {
 			line-height: 2.25em;
