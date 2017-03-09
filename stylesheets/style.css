@@ -485,11 +485,8 @@ p, ul, ol, dl, table, blockquote {
 /* Copyright */
 	#copyright {
 		text-align:left;
-		font-size:11px;
 		position: relative;
 		padding: 0;
-		color: #999;
-		font-weight:400;
 	}
 		#copyright hr {
 			height: 1px;
@@ -500,8 +497,10 @@ p, ul, ol, dl, table, blockquote {
 			margin: 5px auto;
 		}
 		#copyright a {
+			font-size:11px;
+			color: #999;
+			font-weight:400;
 			text-decoration: none;
-			color:inherit;
 		}
 			#copyright a:hover {
 				text-decoration: underline;
