@@ -322,10 +322,15 @@ p, ul, ol, dl, table, blockquote {
 				-ms-transition: all 200ms ease-in;
 				transition: all 200ms ease-in;
 			}
-			.dropotron > li.active > a,
-			.dropotron > li:hover > a {
+			.dropotron > li.active,
+			.dropotron > li:hover{
+				background:#E8E8E8;
+			}
+			.dropotron > li.active > span,
+			.dropotron > li:hover > span{
 				color: #B2E522;
 			}
+
 	.dropotron.level-0 {
 		font-size: 1em;
 		margin-left:0em;
@@ -494,6 +499,9 @@ p, ul, ol, dl, table, blockquote {
 		#copyright p{
 			text-transform: none;
 		}
+	#copyright.rightside{
+		text-align:right;
+	}
 
 /* Buttons */
 	input[type="submit"],
