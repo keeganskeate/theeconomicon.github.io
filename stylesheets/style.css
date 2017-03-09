@@ -430,44 +430,44 @@ p, ul, ol, dl, table, blockquote {
 			padding: 0em;
 		}
 
-	#footer .contactbin{
+	#footer .index-bin{
 		display: inline-block;
 		margin: auto;
 		overflow:auto;
 	}
-		.contactbin div {
+		.index-bin div {
 			position:relative;
 			float:left;
 			text-align:left;
 			vertical-align:top;
 		}
-		#footer .contactbin li{
+		#footer .index-bin li{
 			line-height: 1.6em;
 		}
-		#footer .contactbin a:hover{
+		#footer .index-bin a:hover{
 			text-decoration: underline;
 		}
-		#contactsection {
+		#index-section {
 			display:inline-block;
 			overflow:hidden;
 			padding: 1em 0;
 			margin: auto;
 			width:25%;
 		}
-			#contactwrap {
+			#index-wrap {
 				float: left;
 				position: relative;
 				left: 50%;
 			}
-			#contactitem {
+			#index-item {
 				float: left;
 				position: relative;
 				left: -50%;
 			}
 
-@media only screen and (max-width: 980px){ #footer .contactbin{ display:block; width:auto;}}
-@media only screen and (max-width: 980px){ #footer .contactbin div{ float:none;}}
-@media only screen and (max-width: 980px){ #contactsection{ margin:0 1em;width:auto; }}
+@media only screen and (max-width: 980px){ #footer .index-bin{ display:block; width:auto;}}
+@media only screen and (max-width: 980px){ #footer .index-bin div{ float:none;}}
+@media only screen and (max-width: 980px){ #index-section{ margin:0 1em;width:auto; }}
 
 	#footer .copyright {
 		margin-top: 3em;
