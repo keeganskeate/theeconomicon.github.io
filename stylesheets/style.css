@@ -402,7 +402,7 @@ p, ul, ol, dl, table, blockquote {
 	#footer {
 		margin: 0 auto;
 		padding: 0;
-		text-align: left;
+		text-align: center;
 		color: inherit;
 	}
 		#footer .container {
