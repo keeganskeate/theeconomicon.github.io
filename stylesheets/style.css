@@ -393,7 +393,6 @@ p, ul, ol, dl, table, blockquote {
 				font-size: 1.8em;
 			}
 /* Footer */
-
 	#footer {
 		margin: 0 auto;
 		padding: 6em 0 2em 0;
@@ -403,7 +402,7 @@ p, ul, ol, dl, table, blockquote {
 		#footer .container {
 			position: relative;
 			margin: 0 auto;
-			}	
+		}	
 		#footer h3{
 			font-size: 1.4em;
 			font-weight: 300;
@@ -421,53 +420,45 @@ p, ul, ol, dl, table, blockquote {
 			padding: 0em;
 		}
 
-#footer .contactbin{
-	margin: 1em;
-}
 	#footer .contactbin{
 		display: inline-block;
 		margin: auto;
 		overflow:auto;
 	}
+		.contactbin div {
+			position:relative;
+			float:left;
+			text-align:left;
+			vertical-align:top;
+		}
+		#footer .contactbin li{
+			line-height: 1.6em;
+			font-size: 14px;
+		}
 		#footer .contactbin a:hover{
 			text-decoration: underline;
 		}
+		#contactsection {
+			display:inline-block;
+			overflow:hidden;
+			padding: 1em 0;
+			margin: auto;
+			width:25%;
+		}
+			#contactwrap {
+				float: left;
+				position: relative;
+				left: 50%;
+			}
+			#contactitem {
+				float: left;
+				position: relative;
+				left: -50%;
+			}
 
 @media only screen and (max-width: 980px){ #footer .contactbin{ display:block; width:auto;}}
 @media only screen and (max-width: 980px){ #footer .contactbin div{ float:none;}}
-
-.contactbin div {
-	position:relative;
-	float:left;
-	text-align:left;
-	vertical-align:top;
-}
-		.contactbin div li{
-			line-height: 1.6em;
-		}
-	#contactsection {
-		display:inline-block;
-		overflow:hidden;
-		padding: 1em 0;
-		margin: auto;
-		width:25%;
-	}
 @media only screen and (max-width: 980px){ #contactsection{ margin:0 1em;width:auto; }}
-#contactwrap {
-	float: left;
-	position: relative;
-	left: 50%;
-}
-#contactitem {
-	float: left;
-	position: relative;
-	left: -50%;
-}
-#footer .contactbin li{
-		line-height: 2em;
-		font-size: 1.2em;
-	}
-
 
 	#footer .copyright {
 		margin-top: 3em;
