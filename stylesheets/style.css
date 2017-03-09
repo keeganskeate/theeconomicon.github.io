@@ -424,6 +424,7 @@ p, ul, ol, dl, table, blockquote {
 			font-size: 0.875rem;
 			font-weight:500;
 			color: #131516;
+			text-decoration: none;
 		}
 		#footer ul{
 			list-style: none;
