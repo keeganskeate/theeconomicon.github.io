@@ -102,6 +102,9 @@ p, ul, ol, dl, table, blockquote {
 		text-transform: uppercase;
 	}
 */
+	.container {
+		max-width:970px;
+}
 
 /* Wrapper */
 
@@ -398,7 +401,14 @@ footer > :last-child {
 		#footer .container {
 			position: relative;
 			margin: 0 auto;
-		}	
+		}
+		#footer hr {
+				height: 4px;
+				background-color:#131516;
+				color:#131516;
+				border: 0 none;
+				margin: 5px auto;
+		}
 		#footer h3{
 			color:  #333;
 			font-size: 0.8125rem;
@@ -442,7 +452,7 @@ footer > :last-child {
 		#index-section {
 			display:inline-block;
 			overflow:hidden;
-			padding-top: 1em;
+			padding: 1em 0;
 			margin: auto;
 			width:25%;
 		}
@@ -461,21 +471,13 @@ footer > :last-child {
 @media only screen and (max-width: 980px){ #footer .index-bin div{ float:none;}}
 @media only screen and (max-width: 980px){ #index-section{ margin:0 1em;width:auto; }}
 
-	#footer .copyright {
+/* Copyright */
+	/* #footer .copyright {
 		margin-top: 3em;
 		text-align: center;
-	}
-	#footer hr {
-		height: 4px;
-		background-color:#131516;
-		color:#131516;
-		border: 0 none;
-		margin: 5px auto;
-	}
-
-/* Copyright */
+	} */
 	#copyright {
-		text-align:left;
+		text-align:center;
 		position: relative;
 		padding: 0;
 	}
