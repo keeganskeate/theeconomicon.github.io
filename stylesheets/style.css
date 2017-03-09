@@ -368,6 +368,9 @@ p, ul, ol, dl, table, blockquote {
 			font-size:1.2em;
 			text-align:left;
 		}
+		#banner h2{
+			
+		}
 /* Main */
 	#main {
 		padding: 4em 0;
@@ -515,9 +518,10 @@ footer > :last-child {
 		-o-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #B2E522;
-		border-radius: 50px;
-		color: #2D004F;
+		width: 297.5px;
+		background: none;
+		border: 2px solid #B2E522;
+		color: #B2E522;
 		cursor: pointer;
 		display: inline-block;
 		padding: 0.90em 1.2em;
@@ -525,8 +529,8 @@ footer > :last-child {
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
-		font-size: 1.2em;
-		font-weight: 500;
+		font-size: 1.0em;
+		font-weight: 700;
 		-moz-transition: all 0.35s ease-in-out;
 		-webkit-transition: all 0.35s ease-in-out;
 		-o-transition: all 0.35s ease-in-out;
@@ -537,8 +541,7 @@ footer > :last-child {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background: #2D004F;
-			color: #B2E522;
+			background: rgba(178, 229, 34, 0.5);
 		}
 	input[type="submit"].alt,
 	input[type="reset"].alt,
