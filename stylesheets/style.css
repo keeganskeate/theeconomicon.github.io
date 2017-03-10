@@ -55,7 +55,9 @@ html,body {
 	}
 /* Content Containers */
 .container {
-	width: 70%;
+	min-width: 980px;
+  	width: 70%;
+	max-width: 1344px;
 }
 /* Wrappers */
 	.wrapper {
