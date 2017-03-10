@@ -259,12 +259,6 @@ html,body {
 					text-align: left;
 					vertical-align: top;
 				}
-				/*#banner .journal-bin li{
-					line-height: 1.6em;
-				}
-				#banner .journal-bin a:hover{
-					text-decoration: underline;
-				} */
 				#journal-section {
 					display:inline-block;
 					overflow:hidden;
@@ -275,13 +269,19 @@ html,body {
 					#ijournal-wrap {
 						float: left;
 						position: relative;
-						left: -50%;
+						left: 50%;
 					}
 					#journal-item {
 						float: left;
 						position: relative;
-						left: 50%;
+						left: -50%;
 					}
+				/*#banner .journal-bin li{
+					line-height: 1.6em;
+				}
+				#banner .journal-bin a:hover{
+					text-decoration: underline;
+				} */
 
 /* Footer */
 footer > :last-child {
