@@ -60,6 +60,47 @@
 					border: 10px solid;
 					border-color: white;
 				}
+/* Images
+	.image {
+		border: 0;
+		position: relative;
+	}
+/* Icons
+	.icon {
+		position: relative;
+	}
+		.icon:before {
+			content: "";
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+		.icon > .label {
+			display: none;
+		}
+/* Main
+	#main {
+		padding: 4em 0;
+	}
+		#main #content .major, #main #sidebar .major {
+			text-align: left;
+		}
+		#main #sidebar section {
+			margin-top: 4em;
+		}
+			#main #sidebar section:first-child {
+				margin-top: 0;
+			}
+		#main #sidebar .major {
+			padding-bottom: 2em;
+		}
+			#main #sidebar .major h2 {
+				line-height: .25em;
+				font-size: 1.8em;
+			}
 
 p, ul, ol, dl, table, blockquote {
 	margin: 0;
