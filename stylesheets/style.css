@@ -218,7 +218,7 @@ html,body {
 		-ms-appearance: none;
 		display: block;
 		padding: 2em 0em;
-		text-align: left;
+		text-align: center;
 		text-transform: uppercase;
 		color: inherit;
 		-moz-transition: all .35s ease-in;
@@ -255,7 +255,7 @@ html,body {
 			}
 				.journal-bin div {
 					position: relative;
-					float: center;
+					float: left;
 					text-align: left;
 					vertical-align: top;
 				}
