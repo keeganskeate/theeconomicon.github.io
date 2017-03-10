@@ -231,22 +231,6 @@ html,body {
 			margin: 0 auto;
 			padding: 0em 0em;
 		}
-		#banner h1{
-			font-size:2em;
-			text-align:left;
-		}
-		#banner p{
-			display: block;
-			color: inherit;
-			text-transform: uppercase;
-			letter-spacing: 1px;
-			font-size: 1.4em;
-			font-weight: 400;
-		}
-		#banner img{
-			-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
-			-webkit-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
-		}
 		#banner .journal-bin{
 				display: inline-block;
 				margin: auto;
@@ -276,12 +260,24 @@ html,body {
 						position: relative;
 						left: 50%;
 					}
-				/*#banner .journal-bin li{
-					line-height: 1.6em;
-				}
-				#banner .journal-bin a:hover{
-					text-decoration: underline;
-				} */
+		#banner .journal-bin a:hover{
+			color: #B2E522;
+			text-decoration: underline;
+		}
+		#banner h1{
+			font-size:1.8em;
+			text-align:left;
+		}
+		#banner p{
+			display: block;
+			color: inherit;
+			font-size: 12pt;
+			font-weight: 300;
+		}
+		#banner img{
+			-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
+			-webkit-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
+		}
 
 /* Footer */
 footer > :last-child {
