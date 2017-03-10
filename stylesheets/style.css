@@ -257,7 +257,7 @@ html,body {
 					#journal-item {
 						float: left;
 						position: relative;
-						left: -50%;
+						left: 0;
 					}
 		#banner .journal-bin a{
 			color: #2D004F;
