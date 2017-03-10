@@ -229,7 +229,17 @@ html,body {
 			margin: 0 auto;
 			padding: 0em 0em;
 		}
-		#banner span, #banner p{
+		#banner .double-row{
+			margin-left: -80px;
+		}
+		#banner .row-1{
+			margin-left: 50%
+		}
+		#banner h1{
+			font-size:2em;
+			text-align:left;
+		}
+		#banner p{
 			display: block;
 			color: inherit;
 			text-transform: uppercase;
@@ -237,20 +247,16 @@ html,body {
 			font-size: 1.4em;
 			font-weight: 400;
 		}
-		#banner span {
-			font-weight:500;
-			padding: .5em 0em 2em 0em;
-		}
-		#banner h1{
-			font-size:2em;
-			text-align:left;
-		}
-		#banner h2{
-			
-		}
 		#banner img{
 			-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 			-webkit-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
+		}
+		/*#banner .row-2{
+			
+		}
+		#banner span {
+			font-weight:500;
+			padding: .5em 0em 2em 0em;
 		}
 /* Footer */
 footer > :last-child {
