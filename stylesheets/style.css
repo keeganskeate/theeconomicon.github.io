@@ -55,7 +55,7 @@ html,body {
 	}
 /* Content Containers */
 .container {
-	width: 75%;
+	width: 70%;
 }
 /* Wrappers */
 	.wrapper {
@@ -297,7 +297,7 @@ footer > :last-child {
 	#footer .index-bin{
 		display: inline-block;
 		margin: auto;
-		width: 80%;
+		width: 90%;
 		overflow:auto;
 	}
 		.index-bin div {
