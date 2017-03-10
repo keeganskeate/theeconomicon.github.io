@@ -264,17 +264,17 @@ html,body {
 					overflow:hidden;
 					padding: 1em 0;
 					margin: auto;
-					width:40%;
+					width:50%;
 				}
 					#ijournal-wrap {
 						float: left;
 						position: relative;
-						left: 50%;
+						left: -50%;
 					}
 					#journal-item {
 						float: left;
 						position: relative;
-						left: -50%;
+						left: 50%;
 					}
 				/*#banner .journal-bin li{
 					line-height: 1.6em;
