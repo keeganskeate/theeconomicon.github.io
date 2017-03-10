@@ -140,12 +140,12 @@ html, body, input, select, textarea {
 		#header .container {
 			position: relative;
 		}
-/*.homepage #nav {
+.homepage #nav {
 		position: static;
 		right: none;
 		margin: 0 auto;
 		text-align: center;
-	}*/
+	}
 	#nav {
 		position: absolute;
 		height: 50px;
