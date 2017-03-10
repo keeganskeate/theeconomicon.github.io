@@ -55,7 +55,7 @@
 				$body.removeClass('loading');
 			});
 						
-		// Forms (IE<10).
+		/* Forms (IE<10).
 			var $form = $('form');
 			if ($form.length > 0) {
 				
@@ -70,7 +70,7 @@
 					$form.n33_formerize();
 				}
 
-			}
+			} */
 
 		// Dropdowns.
 			$('#nav > ul').dropotron({
