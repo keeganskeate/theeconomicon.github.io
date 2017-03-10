@@ -233,7 +233,7 @@ html,body {
 		#banner .journal-bin{
 				display: inline-block;
 				margin: auto;
-				width: 90%;
+				width: 80%;
 				overflow:auto;
 			}
 				.journal-bin div {
@@ -252,7 +252,7 @@ html,body {
 					#ijournal-wrap {
 						float: left;
 						position: relative;
-						left: -50%;
+						left: 50%;
 					}
 					#journal-item {
 						float: left;
