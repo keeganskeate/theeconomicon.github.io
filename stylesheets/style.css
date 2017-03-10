@@ -17,16 +17,8 @@
 			Light Green: #B2E522
 
 */
-/* Basic Format*/
-html,body {
-	background: #fff;
-	margin: 0px;
-	padding: 0px;
-	width:100%;
-	overflow-x: hidden;
-	overflow-y: auto;
-}
-	html.loading,body.loading * {
+/*Lazy Loading*/
+html.loading,body.loading * {
 		-moz-transition: none !important;
 		-webkit-transition: none !important;
 		-o-transition: none !important;
@@ -38,12 +30,19 @@ html,body {
 		-ms-animation: none !important;
 		animation: none !important;
 	}
-html, body, input, select, textarea {
+/* Basic Format*/
+html,body {
+	background: #fff;
 	color: #131516;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 1.65em;
+	margin: 0px;
+	padding: 0px;
+	width:100%;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 	a {
 		text-decoration: none;
@@ -56,7 +55,7 @@ html, body, input, select, textarea {
 	}
 /* Content Containers */
 .container {
-	width: 80%;
+	width: 1024px;
 }
 /* Wrappers */
 	.wrapper {
