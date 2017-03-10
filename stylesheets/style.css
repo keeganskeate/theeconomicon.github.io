@@ -265,18 +265,18 @@ html,body {
 			#banner .journal-bin a:hover{
 				color: #B2E522;
 			}
-		#banner h1{
+		#banner .journal-bin h1{
 			text-transform: uppercase;
 			font-size:1.6em;
 			text-align:left;
 		}
-		#banner p{
+		#banner .journal-bin p{
 			display: block;
 			color: inherit;
 			font-size: 12px;
 			font-weight: 300;
 		}
-		#banner img{
+		#banner .journal-bin img{
 			-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 			-webkit-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 		}
