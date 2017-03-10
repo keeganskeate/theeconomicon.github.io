@@ -262,9 +262,6 @@ html,body {
 		#banner .journal-bin a{
 			color: #2D004F;
 		}
-			#banner .journal-bin a:hover{
-				color: #B2E522;
-			}
 		#banner .journal-bin h1{
 			text-transform: uppercase;
 			font-size:1.6em;
