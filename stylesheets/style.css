@@ -219,7 +219,6 @@ html,body {
 		display: block;
 		padding: 2em 0em;
 		text-align: center;
-		text-transform: uppercase;
 		color: inherit;
 		-moz-transition: all .35s ease-in;
 		-webkit-transition: all .35s ease-in;
@@ -258,20 +257,23 @@ html,body {
 					#journal-item {
 						float: left;
 						position: relative;
-						left: 50%;
+						left: -50%;
 					}
-		#banner .journal-bin a:hover{
-			color: #B2E522;
-			text-decoration: underline;
+		#banner .journal-bin a{
+			color: #2D004F;
 		}
+			#banner .journal-bin a:hover{
+				color: #B2E522;
+			}
 		#banner h1{
-			font-size:1.8em;
+			text-transform: uppercase;
+			font-size:1.6em;
 			text-align:left;
 		}
 		#banner p{
 			display: block;
 			color: inherit;
-			font-size: 12pt;
+			font-size: 12px;
 			font-weight: 300;
 		}
 		#banner img{
