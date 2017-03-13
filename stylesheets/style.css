@@ -159,8 +159,8 @@ html,body {
 					#nav > ul > li:first-child:hover > a {
 						border-bottom: 2px solid #fff;
 					}
-					#nav > ul > li.active > a,
-					#nav > ul > li:hover > a {
+					#nav > ul > li.active,
+					#nav > ul > li:hover {
 						border-bottom: 2px solid #B2E522;
 					}
 					#nav > ul > li.active > a > span,
