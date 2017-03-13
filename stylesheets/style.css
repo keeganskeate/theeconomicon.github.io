@@ -156,6 +156,10 @@ html,body {
 				}				
 					#nav > ul > li.active > a,
 					#nav > ul > li:hover > a {
+						border-bottom: 2px solid #B2E522;
+					}
+					#nav > ul > li.active > a > span,
+					#nav > ul > li.hover > a > span{
 						color: #B2E522;
 					}
 				#nav > ul > li > ul {
