@@ -264,7 +264,7 @@ html,body {
 						left: 0;
 					}
 		#banner .journal-bin a{
-			color: #2D004F;
+			font-weight: bold;
 		}
 		#banner .journal-bin h1{
 			text-transform: uppercase;
