@@ -179,7 +179,7 @@ html,body {
 		color: #131516;
 		font-weight: 500;
 		min-width: 12em;
-		margin-top: 6px;
+		margin-top: 2px;
 	}
 		.dropotron > li {
 			line-height: 2.25em;
@@ -268,7 +268,7 @@ html,body {
 						position: relative;
 						left: 0;
 					}
-		#banner .journal-bin p > a{
+		#email-link {
 			color: #131516;
 			font-weight: bold;
 		}
