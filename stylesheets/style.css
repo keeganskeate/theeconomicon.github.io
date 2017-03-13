@@ -269,11 +269,13 @@ html,body {
 						left: 0;
 					}
 		#banner .journal-bin a{
+			color: #131516;
 			font-weight: bold;
 		}
 		#banner .journal-bin h1{
 			text-transform: uppercase;
 			font-size:1.6em;
+			line-height: 160%;
 			text-align:left;
 			padding-bottom: 15px;
 		}
@@ -417,7 +419,7 @@ footer > :last-child {
 		width: 297.5px;
 		background: none;
 		border: 2px solid #B2E522;
-		color: #B2E522;
+		color: #2D004F;
 		cursor: pointer;
 		display: inline-block;
 		padding: 0.90em 1.2em;
