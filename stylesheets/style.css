@@ -268,7 +268,7 @@ html,body {
 						position: relative;
 						left: 0;
 					}
-		#banner .journal-bin a{
+		#banner .journal-bin p > a{
 			color: #131516;
 			font-weight: bold;
 		}
