@@ -74,7 +74,7 @@ html,body {
 		}
 /* Header */
 	#header {
-		height: 50px;
+		height: 52px;
 		-moz-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
 		-webkit-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
 	}
@@ -83,7 +83,7 @@ html,body {
 		}
 	#nav {
 		position: static;
-		height: 50px;
+		height: 52px;
 		top: 0;
 		right: none;
 		display: block;
@@ -417,7 +417,7 @@ footer > :last-child {
 		-ms-appearance: none;
 		appearance: none;
 		width: 297.5px;
-		background: none;
+		background: #fff;
 		border: 2px solid #B2E522;
 		color: #2D004F;
 		cursor: pointer;
