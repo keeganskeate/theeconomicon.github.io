@@ -286,12 +286,12 @@ html,body {
 			-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 			-webkit-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 		}
-			#banner .journal-section:last-child a{
+			#banner .journal-section.description p{
+				padding-top:95px;
+			}
+			#banner .journal-bin.description p > a{
 				color: #131516;
 				font-weight: bold;
-			}
-			#banner .journal-section:last-child p{
-				padding-top:320%;
 			}
 
 @media only screen and (max-width: 980px){ #banner .journal-bin{ display:block; width:auto;}}
