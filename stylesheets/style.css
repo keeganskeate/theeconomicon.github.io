@@ -268,7 +268,7 @@ html,body {
 						position: relative;
 						left: 0;
 					}
-		#banner .email-link a{
+		#email-link a{
 			color: #131516;
 			font-weight: bold;
 		}
