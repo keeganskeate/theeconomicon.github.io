@@ -270,22 +270,21 @@ html,body {
 						left: 0;
 					}
 		#banner .journal-bin h1{
+			height:85px;
 			width:inherit;
 			font-family: 'Oswald', sans-serif;
 			text-align: center;
 			text-transform: uppercase;
 			font-size:1.6em;
 			line-height: 140%;
-			text-align:left;
 			padding-bottom: 15px;
 		}
 		#banner .journal-bin p{
 			display: block;
-			height:85px;
 			font-family: 'EB Garamond', serif;
 			color: inherit;
 			line-height: 125%;
-			font-size: 18px;
+			font-size: 16px;
 			font-weight: 400;
 		}
 		#banner .journal-bin img{
