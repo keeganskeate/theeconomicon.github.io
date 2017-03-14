@@ -74,7 +74,7 @@
 
 		// Dropdowns.
 			$('#nav > ul').dropotron({
-				offsetY: 50,
+				offsetY: -15,
 				hoverDelay: 0
 			});
 
