@@ -439,7 +439,7 @@ footer > :last-child {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background: rgba(45, 0, 79, 0.5);
+			background: rgba(45, 0, 79, 0.75);
 		}
 	input[type="submit"].alt,
 	input[type="reset"].alt,
