@@ -2,6 +2,7 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond:300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,600,700,800");
 
 /*
 	Main Style Sheet for The Economicon website
@@ -271,7 +272,8 @@ html,body {
 						left: 0;
 					}
 		#banner .journal-bin h1{
-			height:95px;
+			height:80px;
+			font-family: 'Oswald', sans-serif;
 			text-transform: uppercase;
 			font-size:1.6em;
 			line-height: 140%;
