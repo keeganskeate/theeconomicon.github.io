@@ -287,7 +287,7 @@ html,body {
 			-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 			-webkit-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 		}
-		#banner .journal-bin a{
+		.email-link {
 				color: #131516;
 				font-weight: bold;
 			}
