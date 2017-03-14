@@ -421,7 +421,7 @@ footer > :last-child {
 		padding: 0.90em 1.2em;
 		cursor: pointer;
 		background: #2D004F;
-		border: 2px solid #B2E522;
+		border: 4px solid #B2E522;
 		color: #B2E522;
 		letter-spacing: 1px;
 		text-align: center;
@@ -439,7 +439,7 @@ footer > :last-child {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background: rgba(45, 0, 79, 0.75);
+			background: rgba(45, 0, 79, 0.6);
 		}
 	input[type="submit"].alt,
 	input[type="reset"].alt,
