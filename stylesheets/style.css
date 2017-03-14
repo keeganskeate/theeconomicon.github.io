@@ -269,6 +269,7 @@ html,body {
 						left: 0;
 					}
 		#banner .journal-bin h1{
+			height:95px;
 			text-transform: uppercase;
 			font-size:1.6em;
 			line-height: 160%;
@@ -286,10 +287,7 @@ html,body {
 			-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 			-webkit-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 		}
-			#banner .journal-section.description p{
-				padding-top:95px;
-			}
-			#banner .journal-bin.description p > a{
+		#banner .journal-bin.description a{
 				color: #131516;
 				font-weight: bold;
 			}
