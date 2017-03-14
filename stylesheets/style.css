@@ -1,6 +1,8 @@
 @import url("font-awesome-4.6.3/css/font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond:300,400,600,700,800");
+
 /*
 	Main Style Sheet for The Economicon website
 
@@ -272,14 +274,15 @@ html,body {
 			height:95px;
 			text-transform: uppercase;
 			font-size:1.6em;
-			line-height: 160%;
+			line-height: 125%;
 			text-align:left;
 			padding-bottom: 15px;
 		}
 		#banner .journal-bin p{
 			display: block;
+			font-family: 'EB Garamond', serif;
 			color: inherit;
-			line-height: 160%;
+			line-height: 150%;
 			font-size: 15px;
 			font-weight: 400;
 		}
