@@ -282,6 +282,7 @@ html,body {
 		#banner .journal-bin p{
 			display: block;
 			font-family: 'EB Garamond', serif;
+			text-align:left;
 			color: inherit;
 			line-height: 125%;
 			font-size: 16px;
