@@ -286,13 +286,13 @@ html,body {
 			-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 			-webkit-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 		}
-		#journal-bin:second-child a{
-			color: #131516;
-			font-weight: bold;
-		}
-		#journal-bin:second-child p{
-			padding-top:320%;
-		}
+			#banner .journal-section:second-child a{
+				color: #131516;
+				font-weight: bold;
+			}
+			#banner .journal-section:second-child p{
+				padding-top:320%;
+			}
 
 @media only screen and (max-width: 980px){ #banner .journal-bin{ display:block; width:auto;}}
 @media only screen and (max-width: 980px){ #banner .journal-bin div{ float:none;}}
