@@ -250,7 +250,6 @@ html,body {
 				.journal-bin div {
 					position: relative;
 					float: left;
-					text-align: left;
 					vertical-align: top;
 				}
 				#journal-section {
@@ -271,6 +270,7 @@ html,body {
 						left: 0;
 					}
 		#banner .journal-bin h1{
+			width:inherit;
 			font-family: 'Oswald', sans-serif;
 			text-align: center;
 			text-transform: uppercase;
@@ -281,10 +281,11 @@ html,body {
 		}
 		#banner .journal-bin p{
 			display: block;
+			height:85px;
 			font-family: 'EB Garamond', serif;
 			color: inherit;
-			line-height: 150%;
-			font-size: 20px;
+			line-height: 125%;
+			font-size: 18px;
 			font-weight: 400;
 		}
 		#banner .journal-bin img{
