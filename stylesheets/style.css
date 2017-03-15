@@ -7,8 +7,8 @@
 	Main Style Sheet for The Economicon website
 
 	Theme Colors
-			Light Grey: #999
-			Grey: #333
+			Light Grey: #ccc
+			Grey: #999
 			Black: #131516
 			Light White: #F2F3F4
 			White:#F7F5E6
@@ -299,6 +299,13 @@ html,body {
 				color: #131516;
 				font-weight: bold;
 			}
+		#banner hr {
+			height: 1px;
+			background-color: #ccc;
+			color: #ccc;
+			border: 0 none;
+			margin: 5px auto;
+		}
 
 @media only screen and (max-width: 980px){ #banner .journal-bin{ display:block; width:auto;}}
 @media only screen and (max-width: 980px){ #banner .journal-bin div{ float:none;}}
