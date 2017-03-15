@@ -348,6 +348,7 @@ footer > :last-child {
 		margin: auto;
 		width: 90%;
 		overflow:auto;
+		font-family: 'Josefin Sans', sans-serif;
 	}
 		.index-bin div {
 			position:relative;
