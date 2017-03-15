@@ -502,3 +502,7 @@ footer > :last-child {
 			#logo a {
 				color: inherit;
 			}
+/*Sub Pages*/
+.subpage #nav .thispage {
+	border-bottom: 2px solid #B2E522;
+}
