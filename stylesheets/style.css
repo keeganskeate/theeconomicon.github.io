@@ -505,6 +505,6 @@ footer > :last-child {
 				color: inherit;
 			}
 /*Sub Pages*/
-.subpage #nav .thispage {
+.subpage #nav .active-page {
 	border-bottom: 2px solid #B2E522;
 }
