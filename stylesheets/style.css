@@ -272,7 +272,7 @@ html,body {
 		#banner .journal-bin h1{
 			height:85px;
 			width:inherit;
-			font-family: 'Oswald', sans-serif;
+			font-family: 'Josefin Sans', sans-serif;
 			text-align: center;
 			text-transform: uppercase;
 			font-size:1.6em;
@@ -348,7 +348,6 @@ footer > :last-child {
 		margin: auto;
 		width: 90%;
 		overflow:auto;
-		font-family: 'Josefin Sans', sans-serif;
 	}
 		.index-bin div {
 			position:relative;
