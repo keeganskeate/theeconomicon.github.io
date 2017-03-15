@@ -8,13 +8,13 @@
 
 	Theme Colors
 			Light Grey: #ccc
-			Grey: #999
+			Medium Grey: #E0E1E1
+			Dark Grey: #999
 			Black: #131516
 			Light White: #F2F3F4
 			White:#F7F5E6
 			Off White: #E8E8E8
 			Darkest White: #D6D6D6
-			Light Purple: 
 			Dark Purple: #2D004F
 			Light Green: #B2E522
 
@@ -456,42 +456,41 @@ footer > :last-child {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background: rgba(45, 0, 79, 0.6);
+			background: rgba(45, 0, 79, 0.55);
 		}
-/* Alternative Button
-	input[type="submit"].alt,
-	input[type="reset"].alt,
-	input[type="button"].alt,
-	.button.alt {
+/* Service Button */
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button.service {
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		border-radius: 50px;
-		background: #2D004F ;
-		color: #fff;
-		cursor: pointer;
 		display: inline-block;
 		padding: 0.90em 1.2em;
-		letter-spacing: 1px;
+		cursor: pointer;
+		background: #fff;
+		border: 1px solid #E0E1E1;
+		border-radius:2em;
+		color: #2D004F;
+		font-size: 20px;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
-		font-size: 1.4em;
 		-moz-transition: all 0.35s ease-in-out;
 		-webkit-transition: all 0.35s ease-in-out;
 		-o-transition: all 0.35s ease-in-out;
 		-ms-transition: all 0.35s ease-in-out;
 		transition: all 0.35s ease-in-out;
+	}
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		.button:hover {
+			border: 1px solid #2D004F;
+			background: rgba(45, 0, 79, 0.55);
 		}
-			input[type="submit"].alt:hover,
-			input[type="reset"].alt:hover,
-			input[type="button"].alt:hover,
-			.button.alt:hover {
-				background: #B2E522;
-				color: #2D004F;
-			}
 /* Logo */
 	#logo {
 		display: none;
