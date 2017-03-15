@@ -291,7 +291,7 @@ html,body {
 			font-size: 16px;
 			font-weight: 400;
 		}
-		#banner .content-bin img{
+		.homepage #banner .content-bin img{
 			-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 			-webkit-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 		}
