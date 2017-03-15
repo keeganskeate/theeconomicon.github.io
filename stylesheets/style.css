@@ -241,35 +241,35 @@ html,body {
 			margin: 0 auto;
 			padding: 0em 0em;
 		}
-		#banner .journal-bin{
+		#banner .content-bin{
 				display: inline-block;
 				margin: auto;
 				width: 80%;
 				overflow:auto;
 			}
-				.journal-bin div {
+				.content-bin div {
 					position: relative;
 					float: left;
 					vertical-align: top;
 				}
-				#journal-section {
+				#content-section {
 					display:inline-block;
 					overflow:hidden;
 					padding: 1em 0;
 					margin: auto;
 					width:50%;
 				}
-					#ijournal-wrap {
+					#content-wrap {
 						float: left;
 						position: relative;
 						left: 50%;
 					}
-					#journal-item {
+					#content-item {
 						float: left;
 						position: relative;
-						left: 0;
+						left: -50%;
 					}
-		#banner .journal-bin h1{
+		#banner .content-bin h1{
 			height: 85px;
 			width: inherit;
 			font-family: 'Oswald', sans-serif;
@@ -279,10 +279,10 @@ html,body {
 			line-height: 140%;
 			padding-bottom: 15px;
 		}
-			.subpage #banner .journal-bin h1{
+			.subpage #banner .content-bin h1{
 				height: 50px;
 			}
-		#banner .journal-bin p{
+		#banner .content-bin p{
 			display: block;
 			font-family: 'EB Garamond', serif;
 			text-align: left;
@@ -291,7 +291,7 @@ html,body {
 			font-size: 16px;
 			font-weight: 400;
 		}
-		#banner .journal-bin img{
+		#banner .content-bin img{
 			-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 			-webkit-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 		}
