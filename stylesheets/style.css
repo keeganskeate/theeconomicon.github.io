@@ -270,7 +270,6 @@ html,body {
 						left: 0;
 					}
 		#banner .journal-bin h1{
-			height:85px;
 			width:inherit;
 			font-family: 'Oswald', sans-serif;
 			text-align: center;
@@ -279,6 +278,9 @@ html,body {
 			line-height: 140%;
 			padding-bottom: 15px;
 		}
+			.subpage #banner .journal-bin h1{
+				color: #B2E522;
+			}
 		#banner .journal-bin p{
 			display: block;
 			font-family: 'EB Garamond', serif;
