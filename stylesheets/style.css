@@ -231,6 +231,7 @@ html,body {
 		display: block;
 		padding-top: 2em;
 		text-align: center;
+		text-transform: none;
 		color: inherit;
 		-moz-transition: all .35s ease-in;
 		-webkit-transition: all .35s ease-in;
@@ -294,16 +295,16 @@ html,body {
 			font-weight: 400;
 		}
 			#banner .content-bin .left-padded{
-				padding-left: 15px;
+				padding-left: 20px;
+			}
+		.bold-link {
+				color: #131516;
+				font-weight: bold;
 			}
 		.homepage #banner .content-bin img{
 			-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 			-webkit-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 		}
-		.bold-link {
-				color: #131516;
-				font-weight: bold;
-			}
 		#banner hr {
 			height: 1px;
 			background-color: #ccc;
