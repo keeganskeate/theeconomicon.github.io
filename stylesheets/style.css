@@ -313,7 +313,7 @@ html,body {
 				color: #131516;
 				font-weight: bold;
 			}
-		.homepage #banner .content-bin img{
+		.image-shadow{
 			-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 			-webkit-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 		}
