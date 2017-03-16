@@ -293,7 +293,7 @@ html,body {
 			font-size: 16px;
 			font-weight: 400;
 		}
-			#banner .content-bin .narrow p{
+			#banner .content-bin .left-padded{
 				padding-left: 15px;
 			}
 		.homepage #banner .content-bin img{
