@@ -272,11 +272,12 @@ html,body {
 						left: -50%;
 					}
 		#banner .content-bin ul{
+			padding-top: 15px;
 			list-style: none;
 			text-align: left;
 		}
 			#banner .content-bin ul > li {
-				padding-bottom: 15px;	
+				padding-bottom: 5px;	
 			}
 			#banner .content-bin ul > li > a {
 				color: #131516;
@@ -305,9 +306,9 @@ html,body {
 			font-size: 16px;
 			font-weight: 400;
 		}
-			#banner .content-bin .left-padded{
+			/*#banner .content-bin .left-padded{
 				padding-left: 20px;
-			}
+			}*/
 		.bold-link {
 				color: #131516;
 				font-weight: bold;
