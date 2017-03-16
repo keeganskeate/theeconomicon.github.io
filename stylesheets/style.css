@@ -456,7 +456,7 @@ footer > :last-child {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button.subscribe:hover {
-			background: rgba(45, 0, 79, 0.25);
+			background: rgba(45, 0, 79, 0.55);
 		}
 /* Service Button */
 	input[type="submit"],
