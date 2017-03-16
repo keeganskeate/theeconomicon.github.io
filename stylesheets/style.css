@@ -273,6 +273,7 @@ html,body {
 					}
 		#banner .content-bin ul{
 			list-style: none;
+			text-align: left;
 		}
 		#banner .content-bin ul > li > a {
 			color: #2D004F;
