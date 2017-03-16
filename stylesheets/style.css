@@ -455,8 +455,8 @@ footer > :last-child {
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
-		.button:hover {
-			background: rgba(45, 0, 79, 0.55);
+		.button.subscribe:hover {
+			background: rgba(45, 0, 79, 0.25);
 		}
 /* Service Button */
 	input[type="submit"],
@@ -469,13 +469,14 @@ footer > :last-child {
 		-ms-appearance: none;
 		appearance: none;
 		display: inline-block;
-		padding: 0.90em 1.2em;
+		margin-top: 15px;
+		padding: 0.72em 2.75em;
 		cursor: pointer;
 		background: #fff;
 		border: 1px solid #E0E1E1;
 		border-radius:2em;
 		color: #2D004F;
-		font-size: 20px;
+		font-size: 1.15em;
 		text-align: center;
 		text-decoration: none;
 		-moz-transition: all 0.35s ease-in-out;
@@ -487,9 +488,9 @@ footer > :last-child {
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
-		.button:hover {
+		.button.service:hover {
 			border: 1px solid #2D004F;
-			background: rgba(45, 0, 79, 0.55);
+			background: rgba(45, 0, 79, 0.25);
 		}
 /* Logo */
 	#logo {
