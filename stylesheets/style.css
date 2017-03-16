@@ -83,6 +83,7 @@ html,body {
 		#header .container {
 			position: relative;
 		}
+/*Navigation Bar*/
 	#nav {
 		position: static;
 		height: 54px;
@@ -279,6 +280,7 @@ html,body {
 			line-height: 140%;
 			padding-bottom: 15px;
 		}
+			/*Subpage Only*/
 			.subpage #banner .content-bin h1{
 				height: 50px;
 			}
@@ -291,6 +293,9 @@ html,body {
 			font-size: 16px;
 			font-weight: 400;
 		}
+			#banner .content-bin .narrow p{
+				padding-left: 15px;
+			}
 		.homepage #banner .content-bin img{
 			-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 			-webkit-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
