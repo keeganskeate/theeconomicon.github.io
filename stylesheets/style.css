@@ -275,12 +275,15 @@ html,body {
 			list-style: none;
 			text-align: left;
 		}
-		#banner .content-bin ul > li > a {
-			color: #2D004F;
-		}
-			#banner .content-bin ul > li > a:hover {
-			text-decoration: underline;
+			#banner .content-bin ul > li {
+				padding-bottom: 15px;	
 			}
+			#banner .content-bin ul > li > a {
+				color: #2D004F;
+			}
+				#banner .content-bin ul > li > a:hover {
+				text-decoration: underline;
+				}
 		#banner .content-bin h1{
 			height: 85px;
 			width: inherit;
