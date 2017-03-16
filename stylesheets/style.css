@@ -271,6 +271,12 @@ html,body {
 						position: relative;
 						left: -50%;
 					}
+		#banner .content-bin ul{
+			list-style: none;
+		}
+		#banner .content-bin ul > li > a {
+			color: #2D004F;
+		}
 		#banner .content-bin h1{
 			height: 85px;
 			width: inherit;
