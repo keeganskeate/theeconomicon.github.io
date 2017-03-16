@@ -316,6 +316,7 @@ html,body {
 @media only screen and (max-width: 980px){ #banner .content-bin{ display:block; width:auto;}}
 @media only screen and (max-width: 980px){ #banner .content-bin div{ float:none;}}
 @media only screen and (max-width: 980px){ #content-section{ margin:0 1em; width:auto; }}
+@media only screen and (max-width: 980px){ #banner .content-bin .left-padded{ padding-left: 0;}}
 
 /* Footer */
 footer > :last-child {
