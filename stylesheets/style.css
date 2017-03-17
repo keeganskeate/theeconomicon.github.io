@@ -162,12 +162,12 @@ html,body {
 					#nav > ul > li:first-child:hover > a {
 						border-bottom: 2px solid #fff;
 					}
-					#nav > ul > li.active > a,
+					#nav > ul > li:active > a,
 					#nav > ul > li:hover > a{
 						border-bottom: 2px solid #B2E522;
 					}
-					#nav > ul > li.active > a > span,
-					#nav > ul > li.hover > a > span{
+					#nav > ul > li:active > a > span,
+					#nav > ul > li:hover > a > span{
 						color: #B2E522;
 					}
 				#nav > ul > li > ul {
@@ -205,11 +205,11 @@ html,body {
 				-ms-transition: all 200ms ease-in;
 				transition: all 200ms ease-in;
 			}
-			.dropotron > li.active,
+			.dropotron > li:active,
 			.dropotron > li:hover{
 				background:#f5f6f7;
 			}
-			.dropotron > li.active > a > span,
+			.dropotron > li:active > a > span,
 			.dropotron > li:hover > a > span{
 				color: #B2E522;
 			}
@@ -283,8 +283,8 @@ html,body {
 				color: #131516;
 				font-weight: bold;
 			}
-				#banner .content-bin ul > li.active > a > span,
-				#banner .content-bin ul > li.active > a > span{
+				#banner .content-bin ul > li:active > a > span,
+				#banner .content-bin ul > li:hover > a > span{
 					color: #B2E522;
 				}
 		#banner .content-bin h1{
