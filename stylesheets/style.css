@@ -283,8 +283,8 @@ html,body {
 				color: #131516;
 				font-weight: bold;
 			}
-				#banner .content-bin ul > li:active > a > span,
-				#banner .content-bin ul > li:hover > a > span{
+				#banner .content-bin ul > li > a:active > span,
+				#banner .content-bin ul > li > a:hover > span{
 					color: #B2E522;
 				}
 		#banner .content-bin h1{
