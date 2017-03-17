@@ -283,6 +283,10 @@ html,body {
 				color: #131516;
 				font-weight: bold;
 			}
+				#banner .content-bin ul> > li.active > a > span,
+				#banner .content-bin ul> > li.active > a > span{
+					color: #B2E522;
+				}
 		#banner .content-bin h1{
 			height: 85px;
 			width: inherit;
