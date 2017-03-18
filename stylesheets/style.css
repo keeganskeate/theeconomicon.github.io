@@ -272,7 +272,6 @@ html,body {
 						left: -50%;
 					}
 		#banner .content-bin ul{
-			padding-top: 15px;
 			list-style: none;
 			text-align: left;
 		}
@@ -321,7 +320,7 @@ html,body {
 			padding-top: 20px;
 		}
 		.indent{
-			padding-left: 8px;	
+			padding: 0 0 5px 20px;
 		}
 		.image-shadow{
 			-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
