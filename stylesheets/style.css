@@ -320,6 +320,9 @@ html,body {
 		.top-padded {
 			padding-top: 20px;
 		}
+		.indent{
+			padding-left: 2ex;	
+		}
 		.image-shadow{
 			-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 			-webkit-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
