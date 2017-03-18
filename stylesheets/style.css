@@ -321,7 +321,7 @@ html,body {
 			padding-top: 20px;
 		}
 		.indent{
-			padding-left: 2ex;	
+			padding-left: 8px;	
 		}
 		.image-shadow{
 			-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
