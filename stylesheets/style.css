@@ -205,11 +205,11 @@ html,body {
 				-ms-transition: all 200ms ease-in;
 				transition: all 200ms ease-in;
 			}
-			.dropotron > li:active,
+			.dropotron > li.active,
 			.dropotron > li:hover{
 				background:#f5f6f7;
 			}
-			.dropotron > li:active > a > span,
+			.dropotron > li.active > a > span,
 			.dropotron > li:hover > a > span{
 				color: #B2E522;
 			}
@@ -282,7 +282,7 @@ html,body {
 				color: #131516;
 				font-weight: bold;
 			}
-				#banner .content-bin ul > li > a:active > span,
+				#banner .content-bin ul > li > a.active > span,
 				#banner .content-bin ul > li > a:hover > span{
 					color: #B2E522;
 				}
