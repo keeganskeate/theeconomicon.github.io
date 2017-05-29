@@ -1,28 +1,32 @@
 jQuery(document).ready(function($){
-	//set your google maps parameters
-	var	latitude = 51.5255069,
-		longitude = -0.0836207,
-		map_zoom = 14;
+	// Google maps parameters
+	var	
+		map_center_latitude = 39.5501,
+		map_center_longitude = -105.7821,
+		latitude = 39.742043,
+		longitude = -104.991531,
+		map_zoom = 8;
 
-	//google map custom marker icon - .png fallback for IE11
+	// Custom marker icon - .png fallback for IE11
 	var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
 	var marker_url = ( is_internetExplorer11 ) ? '../images/cd-icon-location.png' : '../images/cd-icon-location.svg';
 		
-	//define the basic color of your map, plus a value for saturation and brightness
+	// Basic color for map, and saturation and brightness
 	var	main_color = '#2d313f',
 		saturation_value= -20,
 		brightness_value= 5;
 
-	//we define here the style of the map
+	// Style of the map
 	var style= [ 
 		{
-			//set saturation for the labels on the map
+		// Sets label saturation
 			elementType: "labels",
 			stylers: [
 				{saturation: saturation_value}
 			]
 		},  
-	    {	//poi stands for point of interest - don't show these lables on the map 
+	    	{
+		// Points of interest
 			featureType: "poi",
 			elementType: "labels",
 			stylers: [
@@ -30,15 +34,15 @@ jQuery(document).ready(function($){
 			]
 		},
 		{
-			//don't show highways lables on the map
-	        featureType: 'road.highway',
-	        elementType: 'labels',
-	        stylers: [
-	            {visibility: "off"}
-	        ]
-	    }, 
+		// Highways lables
+	        	featureType: 'road.highway',
+	       		elementType: 'labels',
+	        	stylers: [
+	            		{visibility: "off"}
+	        	]
+	    	}, 
 		{ 	
-			//don't show local road lables on the map
+		// Local roads lables
 			featureType: "road.local", 
 			elementType: "labels.icon", 
 			stylers: [
@@ -46,7 +50,7 @@ jQuery(document).ready(function($){
 			] 
 		},
 		{ 
-			//don't show arterial road lables on the map
+		// Arterial road lables
 			featureType: "road.arterial", 
 			elementType: "labels.icon", 
 			stylers: [
@@ -54,24 +58,14 @@ jQuery(document).ready(function($){
 			] 
 		},
 		{
-			//don't show road lables on the map
+		// Road lables
 			featureType: "road",
 			elementType: "geometry.stroke",
 			stylers: [
 				{visibility: "off"}
 			]
 		}, 
-		//style different elements on the map
-		{ 
-			featureType: "transit", 
-			elementType: "geometry.fill", 
-			stylers: [
-				{ hue: main_color },
-				{ visibility: "on" }, 
-				{ lightness: brightness_value }, 
-				{ saturation: saturation_value }
-			]
-		}, 
+		// Style different elements on the map
 		{
 			featureType: "poi",
 			elementType: "geometry.fill",
@@ -127,7 +121,7 @@ jQuery(document).ready(function($){
 			elementType: "geometry.fill",
 			stylers: [
 				{ hue: main_color },
-				{ visibility: "on" }, 
+				{ visibility: "off" }, 
 				{ lightness: brightness_value }, 
 				{ saturation: saturation_value }
 			]
@@ -137,7 +131,7 @@ jQuery(document).ready(function($){
 			elementType: "geometry.fill",
 			stylers: [
 				{ hue: main_color },
-				{ visibility: "on" }, 
+				{ visibility: "off" }, 
 				{ lightness: brightness_value }, 
 				{ saturation: saturation_value }
 			]
@@ -186,35 +180,33 @@ jQuery(document).ready(function($){
 		
 	//set google map options
 	var map_options = {
-      	center: new google.maps.LatLng(latitude, longitude),
-      	zoom: map_zoom,
-      	panControl: false,
-      	zoomControl: false,
-      	mapTypeControl: false,
-      	streetViewControl: false,
-      	mapTypeId: google.maps.MapTypeId.ROADMAP,
-      	scrollwheel: false,
-      	styles: style,
-    }
-    //inizialize the map
+		center: new google.maps.LatLng(map_center_latitude, map_center_longitude),
+		zoom: map_zoom,
+		panControl: false,
+		zoomControl: false,
+		mapTypeControl: false,
+		streetViewControl: false,
+		mapTypeId: google.maps.MapTypeId.ROADMAP,
+		scrollwheel: false,
+		styles: style,
+    	}
+    // Initialize the map
 	var map = new google.maps.Map(document.getElementById('google-container'), map_options);
-	//add a custom marker to the map				
-	var marker = new google.maps.Marker({
-	  	position: new google.maps.LatLng(latitude, longitude),
-	    map: map,
-	    visible: true,
-	 	icon: marker_url,
+	
+	// Add a custom marker to the map				
+	var denver = new google.maps.Marker({
+	  	position: new google.maps.LatLng(39.742043, -104.991531),
+	 	map: map,
+	 	visible: true,
+		icon: marker_url,
 	});
 
-	//add custom buttons for the zoom-in/zoom-out on the map
+	// Add custom buttons for the zoom-in/zoom-out on the map
 	function CustomZoomControl(controlDiv, map) {
-		//grap the zoom elements from the DOM and insert them in the map 
 	  	var controlUIzoomIn= document.getElementById('cd-zoom-in'),
 	  		controlUIzoomOut= document.getElementById('cd-zoom-out');
 	  	controlDiv.appendChild(controlUIzoomIn);
 	  	controlDiv.appendChild(controlUIzoomOut);
-
-		// Setup the click event listeners and zoom-in or out according to the clicked element
 		google.maps.event.addDomListener(controlUIzoomIn, 'click', function() {
 		    map.setZoom(map.getZoom()+1)
 		});
@@ -222,10 +214,8 @@ jQuery(document).ready(function($){
 		    map.setZoom(map.getZoom()-1)
 		});
 	}
-
 	var zoomControlDiv = document.createElement('div');
  	var zoomControl = new CustomZoomControl(zoomControlDiv, map);
-
-  	//insert the zoom div on the top left of the map
+  	// Place the zoom div on the top left of the map
   	map.controls[google.maps.ControlPosition.LEFT_TOP].push(zoomControlDiv);
 });
