@@ -211,7 +211,7 @@ jQuery(document).ready(function($){
  	var zoomControl = new CustomZoomControl(zoomControlDiv, map);
   	// Place the zoom div on the top left of the map
   	map.controls[google.maps.ControlPosition.LEFT_TOP].push(zoomControlDiv);
-       
+});     
 	// Add a custom marker to the map				
 	var denver = new google.maps.Marker({
 	  	position: new google.maps.LatLng(39.742043, -104.991531),
