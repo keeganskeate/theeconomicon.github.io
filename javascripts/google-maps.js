@@ -194,28 +194,32 @@ jQuery(document).ready(function($){
 	var marker_1 = ( is_internetExplorer11 ) ? '../images/cd-icon-location.png' : '../images/cd-icon-location.svg';
 	
 	var denver = new google.maps.Marker({
-	  	position: new google.maps.LatLng(39.742043, -104.991531),
+		position: new google.maps.LatLng(39.742043, -104.991531),
 	 	map: map,
 	 	visible: true,
 		icon: marker_1,
 		title: 'Denver',
 	});
+	
 	var storeDescription = 
-	    '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading">Denver</h1>'+
-            '<div id="bodyContent">'+
-            '<p><b>Bold</b> description.</p>'+
-            '</div>'+
-            '</div>';
+		'<div id="content">'+
+         	'<div id="siteNotice">'+
+		'</div>'+
+		'<h1 id="firstHeading" class="firstHeading">Denver</h1>'+
+		'<div id="bodyContent">'+
+		'<p><b>Bold</b> description.</p>'+
+		'</div>'+
+		'</div>';
 
         var infowindow = new google.maps.InfoWindow({
-          content: storeDescription
+        	content: storeDescription
         });
 	
         denver.addListener('click', function() {
-          infowindow.open(map, denver);
+        	infowindow.open(map, denver);
         });
+	google.maps.event.addListener(map, 'click', function(event) {
+    		infowindow.close();
+	});
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
 });
