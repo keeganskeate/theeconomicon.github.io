@@ -120,7 +120,7 @@ jQuery(document).ready(function($){
 			featureType: "landscape",
 			stylers: [
 				{ hue: main_color },
-				{ visibility: "on" }, 
+				{ visibility: "off" }, 
 				{ lightness: brightness_value }, 
 				{ saturation: saturation_value }
 			]
@@ -161,7 +161,7 @@ jQuery(document).ready(function($){
 // Map Setup
 	var map_options = {
 		center: new google.maps.LatLng(39.5501, -105.7821),
-		zoom: 5,
+		zoom: 7,
 		panControl: false,
 		zoomControl: false,
 		mapTypeControl: false,
@@ -218,7 +218,7 @@ jQuery(document).ready(function($){
         denver.addListener('click', function() {
         	infowindow.open(map, denver);
         });
-	google.maps.event.addListener(map, 'click', function(event) {
+	map.addListener('click', function(event) {
     		infowindow.close();
 	});
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
