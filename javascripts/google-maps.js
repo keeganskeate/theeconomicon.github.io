@@ -5,11 +5,11 @@ jQuery(document).ready(function($){
 		map_center_longitude = -105.7821,
 		latitude = 39.742043,
 		longitude = -104.991531,
-		map_zoom = 8;
+		map_zoom = 10;
 
 	// Custom marker icon - .png fallback for IE11
 	var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
-	var marker_url = ( is_internetExplorer11 ) ? '../images/cd-icon-location.png' : '../images/cd-icon-location.svg';
+	var marker_1 = ( is_internetExplorer11 ) ? '../images/cd-icon-location.png' : '../images/cd-icon-location.svg';
 		
 	// Basic color for map, and saturation and brightness
 	var	main_color = '#2d313f',
@@ -140,7 +140,7 @@ jQuery(document).ready(function($){
 			featureType: "landscape",
 			stylers: [
 				{ hue: main_color },
-				{ visibility: "on" }, 
+				{ visibility: "off" }, 
 				{ lightness: brightness_value }, 
 				{ saturation: saturation_value }
 			]
@@ -192,19 +192,11 @@ jQuery(document).ready(function($){
     	}
     // Initialize the map
 	var map = new google.maps.Map(document.getElementById('google-container'), map_options);
-	
-	// Add a custom marker to the map				
-	var denver = new google.maps.Marker({
-	  	position: new google.maps.LatLng(39.742043, -104.991531),
-	 	map: map,
-	 	visible: true,
-		icon: marker_url,
-	});
 
 	// Add custom buttons for the zoom-in/zoom-out on the map
 	function CustomZoomControl(controlDiv, map) {
 	  	var controlUIzoomIn= document.getElementById('cd-zoom-in'),
-	  		controlUIzoomOut= document.getElementById('cd-zoom-out');
+	  	    controlUIzoomOut= document.getElementById('cd-zoom-out');
 	  	controlDiv.appendChild(controlUIzoomIn);
 	  	controlDiv.appendChild(controlUIzoomOut);
 		google.maps.event.addDomListener(controlUIzoomIn, 'click', function() {
@@ -218,4 +210,30 @@ jQuery(document).ready(function($){
  	var zoomControl = new CustomZoomControl(zoomControlDiv, map);
   	// Place the zoom div on the top left of the map
   	map.controls[google.maps.ControlPosition.LEFT_TOP].push(zoomControlDiv);
-});
+
+	// Add a custom marker to the map				
+	var denver = new google.maps.Marker({
+	  	position: new google.maps.LatLng(39.742043, -104.991531),
+	 	map: map,
+	 	visible: true,
+		icon: marker_1,
+		title: 'Denver'
+	});
+       
+	var storeDescription = 
+	    '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading">Denver</h1>'+
+            '<div id="bodyContent">'+
+            '<p><b>Bold</b> description.</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindow = new google.maps.InfoWindow({
+          content: storeDescription
+        });
+	
+        denver.addListener('click', function() {
+          infowindow.open(map, denver);
+        });
