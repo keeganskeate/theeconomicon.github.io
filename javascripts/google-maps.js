@@ -178,7 +178,7 @@ jQuery(document).ready(function($){
 		}
 	];
 		
-	//set google map options
+	// Google map options
 	var map_options = {
 		center: new google.maps.LatLng(map_center_latitude, map_center_longitude),
 		zoom: map_zoom,
@@ -190,7 +190,8 @@ jQuery(document).ready(function($){
 		scrollwheel: false,
 		styles: style,
     	}
-    // Initialize the map
+	
+    	// Initialize the map
 	var map = new google.maps.Map(document.getElementById('google-container'), map_options);
 
 	// Add custom buttons for the zoom-in/zoom-out on the map
@@ -210,7 +211,6 @@ jQuery(document).ready(function($){
  	var zoomControl = new CustomZoomControl(zoomControlDiv, map);
   	// Place the zoom div on the top left of the map
   	map.controls[google.maps.ControlPosition.LEFT_TOP].push(zoomControlDiv);
-});
        
 	// Add a custom marker to the map				
 	var denver = new google.maps.Marker({
