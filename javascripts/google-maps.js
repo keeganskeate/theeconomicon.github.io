@@ -140,7 +140,7 @@ jQuery(document).ready(function($){
 			featureType: "landscape",
 			stylers: [
 				{ hue: main_color },
-				{ visibility: "off" }, 
+				{ visibility: "on" }, 
 				{ lightness: brightness_value }, 
 				{ saturation: saturation_value }
 			]
@@ -211,30 +211,4 @@ jQuery(document).ready(function($){
  	var zoomControl = new CustomZoomControl(zoomControlDiv, map);
   	// Place the zoom div on the top left of the map
   	map.controls[google.maps.ControlPosition.LEFT_TOP].push(zoomControlDiv);
-});     
-	// Add a custom marker to the map				
-	var denver = new google.maps.Marker({
-	  	position: new google.maps.LatLng(39.742043, -104.991531),
-	 	map: map,
-	 	visible: true,
-		icon: marker_1,
-		title: 'Denver'
-	});
-       
-	var storeDescription = 
-	    '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading">Denver</h1>'+
-            '<div id="bodyContent">'+
-            '<p><b>Bold</b> description.</p>'+
-            '</div>'+
-            '</div>';
-
-        var infowindow = new google.maps.InfoWindow({
-          content: storeDescription
-        });
-	
-        denver.addListener('click', function() {
-          infowindow.open(map, denver);
-        });
+});
