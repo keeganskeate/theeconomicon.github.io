@@ -188,3 +188,33 @@ jQuery(document).ready(function($){
  	var zoomControl = new CustomZoomControl(zoomControlDiv, map);
   	map.controls[google.maps.ControlPosition.LEFT_TOP].push(zoomControlDiv);
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
+// Markers
+	// Custom marker icon - .png fallback for IE11
+	var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
+	var marker_1 = ( is_internetExplorer11 ) ? '../images/cd-icon-location.png' : '../images/cd-icon-location.svg';
+	
+	var denver = new google.maps.Marker({
+	  	position: new google.maps.LatLng(39.742043, -104.991531),
+	 	map: map,
+	 	visible: true,
+		icon: marker_1,
+		title: 'Denver',
+	});
+	var storeDescription = 
+	    '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading">Denver</h1>'+
+            '<div id="bodyContent">'+
+            '<p><b>Bold</b> description.</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindow = new google.maps.InfoWindow({
+          content: storeDescription
+        });
+	
+        denver.addListener('click', function() {
+          infowindow.open(map, denver);
+        });
+}
