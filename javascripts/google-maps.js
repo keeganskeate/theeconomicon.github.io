@@ -200,21 +200,3 @@ jQuery(document).ready(function($){
 		icon: marker_1,
 		title: 'Denver',
 	});
-       
-	var storeDescription = 
-	    '<div id="content">'+
-            '<div id="siteNotice">'+
-            '</div>'+
-            '<h1 id="firstHeading" class="firstHeading">Denver</h1>'+
-            '<div id="bodyContent">'+
-            '<p><b>Bold</b> description.</p>'+
-            '</div>'+
-            '</div>';
-
-        var infowindow = new google.maps.InfoWindow({
-          content: storeDescription
-        });
-	
-        denver.addListener('click', function() {
-          infowindow.open(map, denver);
-        });
