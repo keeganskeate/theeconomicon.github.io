@@ -1,32 +1,16 @@
 jQuery(document).ready(function($){
-	// Google maps parameters
-	var	
-		map_center_latitude = 39.5501,
-		map_center_longitude = -105.7821,
-		latitude = 39.742043,
-		longitude = -104.991531,
-		map_zoom = 10;
-
-	// Custom marker icon - .png fallback for IE11
-	var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
-	var marker_1 = ( is_internetExplorer11 ) ? '../images/cd-icon-location.png' : '../images/cd-icon-location.svg';
-		
-	// Basic color for map, and saturation and brightness
+	// Style of the map
 	var	main_color = '#2d313f',
 		saturation_value= -20,
 		brightness_value= 5;
-
-	// Style of the map
 	var style= [ 
 		{
-		// Sets label saturation
 			elementType: "labels",
 			stylers: [
 				{saturation: saturation_value}
 			]
 		},  
 	    	{
-		// Points of interest
 			featureType: "poi",
 			elementType: "labels",
 			stylers: [
@@ -34,7 +18,6 @@ jQuery(document).ready(function($){
 			]
 		},
 		{
-		// Highways lables
 	        	featureType: 'road.highway',
 	       		elementType: 'labels',
 	        	stylers: [
@@ -42,7 +25,6 @@ jQuery(document).ready(function($){
 	        	]
 	    	}, 
 		{ 	
-		// Local roads lables
 			featureType: "road.local", 
 			elementType: "labels.icon", 
 			stylers: [
@@ -50,7 +32,6 @@ jQuery(document).ready(function($){
 			] 
 		},
 		{ 
-		// Arterial road lables
 			featureType: "road.arterial", 
 			elementType: "labels.icon", 
 			stylers: [
@@ -58,14 +39,13 @@ jQuery(document).ready(function($){
 			] 
 		},
 		{
-		// Road lables
 			featureType: "road",
 			elementType: "geometry.stroke",
 			stylers: [
 				{visibility: "off"}
 			]
 		}, 
-		// Style different elements on the map
+		// Style Elements
 		{
 			featureType: "poi",
 			elementType: "geometry.fill",
@@ -177,11 +157,11 @@ jQuery(document).ready(function($){
 			]
 		}
 	];
-		
-	// Google map options
+//-----------------------------------------------------------------------------------------------------------------------------------------------------
+// Map Setup
 	var map_options = {
-		center: new google.maps.LatLng(map_center_latitude, map_center_longitude),
-		zoom: map_zoom,
+		center: new google.maps.LatLng(39.5501, -105.7821),
+		zoom: 5,
 		panControl: false,
 		zoomControl: false,
 		mapTypeControl: false,
@@ -190,11 +170,8 @@ jQuery(document).ready(function($){
 		scrollwheel: false,
 		styles: style,
     	}
-	
-    	// Initialize the map
 	var map = new google.maps.Map(document.getElementById('google-container'), map_options);
-
-	// Add custom buttons for the zoom-in/zoom-out on the map
+// Custom Zoom
 	function CustomZoomControl(controlDiv, map) {
 	  	var controlUIzoomIn= document.getElementById('cd-zoom-in'),
 	  	    controlUIzoomOut= document.getElementById('cd-zoom-out');
@@ -209,10 +186,13 @@ jQuery(document).ready(function($){
 	}
 	var zoomControlDiv = document.createElement('div');
  	var zoomControl = new CustomZoomControl(zoomControlDiv, map);
-  	// Place the zoom div on the top left of the map
   	map.controls[google.maps.ControlPosition.LEFT_TOP].push(zoomControlDiv);
-
-	// Add a custom marker to the map				
+//-----------------------------------------------------------------------------------------------------------------------------------------------------
+// Markers
+	// Custom marker icon - .png fallback for IE11
+	var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
+	var marker_1 = ( is_internetExplorer11 ) ? '../images/cd-icon-location.png' : '../images/cd-icon-location.svg';
+	
 	var denver = new google.maps.Marker({
 	  	position: new google.maps.LatLng(39.742043, -104.991531),
 	 	map: map,
