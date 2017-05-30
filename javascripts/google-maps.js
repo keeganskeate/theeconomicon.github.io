@@ -183,7 +183,7 @@ jQuery(document).ready(function($){
 	// Custom marker icon - .png fallback for IE11
 	var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
 	var marker_1 = ( is_internetExplorer11 ) ? '../images/cd-icon-location.png' : '../images/cd-icon-location.svg';
-	
+		
 	var facilities = [
 		['1-11 LLC', 40.741895, -73.989308, 1, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>'],
         	['136 DENVER DEVELOPER LLC', 39.9442113, -104.97830210000001, 2, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>']
@@ -193,7 +193,7 @@ jQuery(document).ready(function($){
 		for (var i = 0; i < facilities.length; i++) {
 			var facility = facilities[i];
 			var marker = new google.maps.Marker({
-				position: {lat: facility[1], lng: facility[2]},
+				position: new google.maps.LatLng(facility[1], facility[2]),
 				map: map,
 				icon: marker_1,
 				title: facility[0],
