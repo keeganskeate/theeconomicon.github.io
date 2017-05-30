@@ -184,51 +184,32 @@ jQuery(document).ready(function($){
 	var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
 	var marker_1 = ( is_internetExplorer11 ) ? '../images/cd-icon-location.png' : '../images/cd-icon-location.svg';
 	
-	var denver = new google.maps.Marker({
-		position: new google.maps.LatLng(39.742043, -104.991531),
-	 	map: map,
-	 	visible: true,
-		icon: marker_1,
-		title: 'Denver',
-	});
-	var storeDescription = 
-		'<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Denver</h1><div id="bodyContent"><p><b>Bold</b> description.</p></div></div>';
-
-        var infowindow = new google.maps.InfoWindow({
-        	content: storeDescription
-        });	
-        denver.addListener('click', function() {
-        	infowindow.open(map, denver);
-        });
-	
-	var infowindows = [
-		infowindow
+	var facilities = [
+		['1-11 LLC', 40.741895, -73.989308, 1, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>'],
+        	['136 DENVER DEVELOPER LLC', 39.9442113, -104.97830210000001, 2, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>']
 	];
-		
-	map.addListener('click', function(event) {
-    		for (var i = 0; i < infowindows.length; i++ ) {
-         		infowindows[i].close();
-    		}
-	});
-	
-	var beaches = [
-        ['Bondi Beach', 40.741895, -73.989308, 2],
-        ['Coogee Beach', 39.9442113, -104.97830210000001, 1]
-      ];
 	
 	function setMarkers(map) {
-        for (var i = 0; i < beaches.length; i++) {
-          var beach = beaches[i];
-          var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(beach[1], beach[2]),
-            map: map,
-	    visible: true,
-            icon: marker_1,
-            title: beach[0],
-            zIndex: beach[3]
-          });
-        }
-      }
+		for (var i = 0; i < facilities.length; i++) {
+			var facility = facilities[i];
+			var marker = new google.maps.Marker({
+				position: {lat: facility[1], lng: facility[2]},
+				map: map,
+				icon: marker_1,
+				title: facility[0],
+				zIndex: facility[3]
+			});
+			var infowindow = new google.maps.InfoWindow({
+        			content: facility[4]
+        		});
+			marker.addListener('click', function() {
+        			infowindow.open(map, marker);
+			});
+			map.addListener('click', function(event) {
+				infowindow.close();
+			});
+        	}
+      	}
 	
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
 });
