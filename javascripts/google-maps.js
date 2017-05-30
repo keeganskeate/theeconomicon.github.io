@@ -160,8 +160,8 @@ jQuery(document).ready(function($){
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
 // Map Setup
 	var map_options = {
-		center: new google.maps.LatLng(39.5501, -105.7821),
-		zoom: 7,
+		center: new google.maps.LatLng(39.00, -105.547222),
+		zoom: 7.5,
 		panControl: false,
 		zoomControl: false,
 		mapTypeControl: false,
@@ -200,7 +200,6 @@ jQuery(document).ready(function($){
 		icon: marker_1,
 		title: 'Denver',
 	});
-	
 	var storeDescription = 
 		'<div id="content">'+
          	'<div id="siteNotice">'+
@@ -213,13 +212,28 @@ jQuery(document).ready(function($){
 
         var infowindow = new google.maps.InfoWindow({
         	content: storeDescription
-        });
-	
+        });	
         denver.addListener('click', function() {
         	infowindow.open(map, denver);
         });
+	
+	var infowindows = [
+		[infowindow]
+	]
+	
+	//map.addListener('click', function(event) {
+    	//	infowindow.close();
+	//});
+	
 	map.addListener('click', function(event) {
-    		infowindow.close();
+    		for (var i = 0; i < infowindows.length; i++ ) {
+         		infowindows[i].close();
+    		}
 	});
+	
+	var retailStores = [
+		['1-11 LLC', 40.741895, -73.989308, 1],
+        	['136 DENVER DEVELOPER LLC', 39.9442113, -104.97830210000001, 2]
+	]
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
 });
