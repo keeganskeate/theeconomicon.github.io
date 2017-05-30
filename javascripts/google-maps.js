@@ -231,9 +231,22 @@ jQuery(document).ready(function($){
     		}
 	});
 	
-	var retailStores = [
+	var facilities = [
 		['1-11 LLC', 40.741895, -73.989308, 1],
         	['136 DENVER DEVELOPER LLC', 39.9442113, -104.97830210000001, 2]
 	]
+	
+	function setMarkers(map) {
+		for (var i = 0; i < facilities.length; i++) {
+			var facility = facilities[i];
+			var marker = new google.maps.Marker({
+				position: {lat: facility[1], lng: facility[2]},
+				map: map,
+				icon: marker_1,
+				title: facility[0],
+				zIndex: facility[3]
+			});
+        	}
+      	}
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
 });
