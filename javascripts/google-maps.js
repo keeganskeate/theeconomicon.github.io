@@ -195,18 +195,10 @@ jQuery(document).ready(function($){
 			var marker = new google.maps.Marker({
 				position: new google.maps.LatLng(facility[1], facility[2]),
 				map: map,
+				visible: true,
 				icon: marker_1,
 				title: facility[0],
 				zIndex: facility[3]
-			});
-			var infowindow = new google.maps.InfoWindow({
-        			content: facility[4]
-        		});
-			marker.addListener('click', function() {
-        			infowindow.open(map, marker);
-			});
-			map.addListener('click', function(event) {
-				infowindow.close();
 			});
         	}
       	}
