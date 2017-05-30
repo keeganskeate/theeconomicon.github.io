@@ -209,21 +209,6 @@ jQuery(document).ready(function($){
         denver.addListener('click', function() {
         	infowindow.open(map, denver);
         });
-	
-	var infowindows = [
-		[infowindow]
-	]
-	
-	//map.addListener('click', function(event) {
-    	//	infowindow.close();
-	//});
-	
-	map.addListener('click', function(event) {
-    		for (var i = 0; i < infowindows.length; i++ ) {
-         		infowindows[i].close();
-    		}
-	});
-	
-	
+
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
 });
