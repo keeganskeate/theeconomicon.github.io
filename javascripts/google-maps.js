@@ -203,7 +203,7 @@ jQuery(document).ready(function($){
 	
 	var infowindows = [
 		[infowindow]
-	]
+	];
 		
 	map.addListener('click', function(event) {
     		for (var i = 0; i < infowindows.length; i++ ) {
