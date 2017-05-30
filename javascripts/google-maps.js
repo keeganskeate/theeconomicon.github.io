@@ -187,7 +187,7 @@ jQuery(document).ready(function($){
 	var facilities = [
 		['1-11 LLC', 40.741895, -73.989308, 1, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>'],
         	['136 DENVER DEVELOPER LLC', 39.9442113, -104.97830210000001, 2, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>'],
-		['1-11 LLC', 40.741895, -73.989308, 1, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>']
+		
 	];
 	
 	function setMarkers(map) {
