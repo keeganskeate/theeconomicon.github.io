@@ -81,7 +81,7 @@ jQuery(document).ready(function($){
 			elementType: "geometry.fill",
 			stylers: [
 				{ hue: main_color },
-				{ visibility: "on" }, 
+				{ visibility: "off" }, 
 				{ lightness: brightness_value }, 
 				{ saturation: saturation_value }
 			]
@@ -100,29 +100,20 @@ jQuery(document).ready(function($){
 			featureType: "transit",
 			elementType: "geometry.fill",
 			stylers: [
-				{ hue: main_color },
 				{ visibility: "off" }, 
-				{ lightness: brightness_value }, 
-				{ saturation: saturation_value }
 			]
 		},
 		{
 			featureType: "transit.station",
 			elementType: "geometry.fill",
 			stylers: [
-				{ hue: main_color },
 				{ visibility: "off" }, 
-				{ lightness: brightness_value }, 
-				{ saturation: saturation_value }
 			]
 		},
 		{
 			featureType: "landscape",
 			stylers: [
-				{ hue: main_color },
 				{ visibility: "off" }, 
-				{ lightness: brightness_value }, 
-				{ saturation: saturation_value }
 			]
 			
 		},
@@ -161,7 +152,7 @@ jQuery(document).ready(function($){
 // Map Setup
 	var map_options = {
 		center: new google.maps.LatLng(39.00, -105.547222),
-		zoom: 7,
+		zoom: 8,
 		panControl: false,
 		zoomControl: false,
 		mapTypeControl: false,
@@ -209,6 +200,42 @@ jQuery(document).ready(function($){
         denver.addListener('click', function() {
         	infowindow.open(map, denver);
         });
+	
+	var infowindows = [
+		[infowindow]
+	]
+		
+	map.addListener('click', function(event) {
+    		for (var i = 0; i < infowindows.length; i++ ) {
+         		infowindows[i].close();
+    		}
+	});
+	
+	var facilities = [
+		['1-11 LLC', 40.741895, -73.989308, 1, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>'],
+        	['136 DENVER DEVELOPER LLC', 39.9442113, -104.97830210000001, 2, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>']
+	]
+	
+	function setMarkers(map) {
+		for (var i = 0; i < facilities.length; i++) {
+			var facility = facilities[i];
+			var marker = new google.maps.Marker({
+				position: {lat: facility[1], lng: facility[2]},
+				map: map,
+				icon: marker_1,
+				title: facility[0],
+				zIndex: facility[3]
+			});
+			var infowindow = new google.maps.InfoWindow({
+        			content: facility[4]
+        		});
+			marker.addListener('click', function() {
+        			infowindow.open(map, marker);
+			map.addListener('click', function(event) {
+				infowindow.close();
+			});
+        	}
+      	}
 	
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
 });
