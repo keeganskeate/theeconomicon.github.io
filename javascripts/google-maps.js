@@ -226,15 +226,6 @@ jQuery(document).ready(function($){
 				title: facility[0],
 				zIndex: facility[3]
 			});
-			var infowindow = new google.maps.InfoWindow({
-        			content: facility[4]
-        		});
-			marker.addListener('click', function() {
-        			infowindow.open(map, marker);
-			});
-			map.addListener('click', function(event) {
-				infowindow.close();
-			});
         	}
       	}
 	
