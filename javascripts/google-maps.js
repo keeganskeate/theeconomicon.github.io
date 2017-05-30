@@ -214,7 +214,7 @@ jQuery(document).ready(function($){
 	var facilities = [
 		['1-11 LLC', 40.741895, -73.989308, 1, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>'],
         	['136 DENVER DEVELOPER LLC', 39.9442113, -104.97830210000001, 2, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>']
-	]
+	];
 	
 	function setMarkers(map) {
 		for (var i = 0; i < facilities.length; i++) {
@@ -225,6 +225,15 @@ jQuery(document).ready(function($){
 				icon: marker_1,
 				title: facility[0],
 				zIndex: facility[3]
+			});
+			var infowindow = new google.maps.InfoWindow({
+        			content: facility[4]
+        		});
+			marker.addListener('click', function() {
+        			infowindow.open(map, marker);
+			});
+			map.addListener('click', function(event) {
+				infowindow.close();
 			});
         	}
       	}
