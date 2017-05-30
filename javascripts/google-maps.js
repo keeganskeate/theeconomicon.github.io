@@ -231,6 +231,7 @@ jQuery(document).ready(function($){
         		});
 			marker.addListener('click', function() {
         			infowindow.open(map, marker);
+			});
 			map.addListener('click', function(event) {
 				infowindow.close();
 			});
