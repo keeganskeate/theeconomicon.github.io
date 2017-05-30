@@ -161,7 +161,7 @@ jQuery(document).ready(function($){
 // Map Setup
 	var map_options = {
 		center: new google.maps.LatLng(39.00, -105.547222),
-		zoom: 7.5,
+		zoom: 7,
 		panControl: false,
 		zoomControl: false,
 		mapTypeControl: false,
@@ -209,6 +209,6 @@ jQuery(document).ready(function($){
         denver.addListener('click', function() {
         	infowindow.open(map, denver);
         });
-
+	
 //-----------------------------------------------------------------------------------------------------------------------------------------------------
 });
