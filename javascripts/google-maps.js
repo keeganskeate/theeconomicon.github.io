@@ -182,10 +182,10 @@ jQuery(document).ready(function($){
 // Markers
 	// Custom marker icon - .png fallback for IE11
 	var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
-	var marker_1 = ( is_internetExplorer11 ) ? '../images/cd-icon-location.png' : '../images/cd-icon-location.svg';
+	var marker_1 = ( is_internetExplorer11 ) ? '../images/marker-medical-center.png' : '../images/marker-medical-center.svg';
 		
 	var facilities = [
-		['1-11 LLC', 40.741895, -73.989308, 1, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>'],
+		['1-11 LLC', 38.0128803, -105.90999569999997, 1, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>'],
         	['136 DENVER DEVELOPER LLC', 39.9442113, -104.97830210000001, 2, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>'],
 		
 	];
@@ -200,6 +200,15 @@ jQuery(document).ready(function($){
 				icon: marker_1,
 				title: facility[0],
 				zIndex: facility[3]
+			});
+			var infowindow = new google.maps.InfoWindow({
+        			content: facility[4]
+        		});
+			marker.addListener('click', function() {
+        			infowindow.open(map, marker);
+			});
+			map.addListener('click', function(event) {
+				infowindow.close();
 			});
         	}
       	}
