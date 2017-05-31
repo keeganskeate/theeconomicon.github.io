@@ -28,7 +28,20 @@ $(document).ready(function () {
         };
 
         // Create map	        	
-        var map = new google.maps.Map($el[0], args);
+        //var map = new google.maps.Map($el[0], args);
+        // Map Setup
+	    var map_options = {
+            center: new google.maps.LatLng(39.00, -105.547222),
+            zoom: 8,
+            panControl: false,
+            zoomControl: false,
+            mapTypeControl: false,
+            streetViewControl: false,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            scrollwheel: false,
+            styles: style,
+    	}
+	    var map = new google.maps.Map(document.getElementById('google-container'), map_options);
         
         // Add a markers reference
         map.markers = [];
@@ -121,8 +134,7 @@ $(document).ready(function () {
         map.fitBounds(bounds);
 
     }
-});
-$(document).ready(function () {
+    $(document).ready(function () {
         var map = null;
         
         $('.map-canvas').each(function () {
