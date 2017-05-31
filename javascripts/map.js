@@ -1,5 +1,5 @@
-var siteURL = 'x';
-if (document.domain == 'localhost') siteURL = "x";
+//var siteURL = 'x';
+//if (document.domain == 'localhost') siteURL = "x";
 
 $(document).ready(function () {
 
@@ -89,7 +89,7 @@ $(document).ready(function () {
                     width: '200px'
                 },
                 closeBoxMargin: '10px 9px 12px 0',
-                closeBoxURL: siteURL + '/close-google-popup.png',
+                //closeBoxURL: siteURL + '/close-google-popup.png',
                 infoBoxClearance: new google.maps.Size(1, 1)
             });
 
