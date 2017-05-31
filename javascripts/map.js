@@ -1,8 +1,8 @@
-//var siteURL = 'x';
+var siteURL = 'http://www.theeconomicon.com';
 //if (document.domain == 'localhost') siteURL = "x";
 
 $(document).ready(function () {
-
+//jQuery(document).ready(function($){
     function render_map($el) {
 
         // Var
@@ -121,8 +121,8 @@ $(document).ready(function () {
         map.fitBounds(bounds);
 
     }
-
-    $(document).ready(function () {
+});
+$(document).ready(function () {
         var map = null;
         
         $('.map-canvas').each(function () {
