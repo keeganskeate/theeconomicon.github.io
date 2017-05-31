@@ -185,8 +185,8 @@ jQuery(document).ready(function($){
 	var marker_1 = ( is_internetExplorer11 ) ? '../images/marker-medical-center.png' : '../images/marker-medical-center.svg';
 		
 	var facilities = [
-		['1-11 LLC', 38.0128803, -105.90999569999997, 1, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>'],
-        	['136 DENVER DEVELOPER LLC', 39.9442113, -104.97830210000001, 2, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>'],
+		['1-11 LLC', 38.0128803, -105.90999569999997, 1, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business1</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>'],
+        	['136 DENVER DEVELOPER LLC', 39.9442113, -104.97830210000001, 2, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business2</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>'],
 		
 	];
 	
