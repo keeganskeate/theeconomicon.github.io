@@ -10,9 +10,9 @@ $(document).ready(function () {
 
         // Vars
         var args = {
-            center: new google.maps.LatLng(0, 0),
+            center: new google.maps.LatLng(39.00, -105.547222),
             backgroundColor: '#ffffff',
-            zoom: 4,
+            zoom: 8,
             disableDefaultUI: true,
             zoomControl: false,
             disableDoubleClickZoom: true,
@@ -45,17 +45,21 @@ $(document).ready(function () {
 
     }
     
+    // Markers
+    var marker_medical = ( is_internetExplorer11 ) ? '../images/marker-medical-center.png' : '../images/marker-medical-center.svg';
+    var marker_retail = ( is_internetExplorer11 ) ? '../images/marker-retail-store.png' : '../images/marker-retail-store.svg';
+    
     function add_marker($marker, map) {
 
         // Var
         var latlng = new google.maps.LatLng($marker.attr('data-lat'), $marker.attr('data-lng'));
         var icon = null;
         
-        // Simple icon change to differentiate marker type
-        if ($marker.data('type') == 'news') {
-            icon = 'http://maps.google.com/mapfiles/ms/icons/green-dot.png';
+        // Simple icon change to differentiate marker type      
+        if ($marker.data('regime') == 'medical') {
+            icon = marker_medical;
         } else {
-            icon = 'http://maps.google.com/mapfiles/ms/icons/red-dot.png';
+            icon = marker_retail;
         }
         var marker = new google.maps.Marker({
             icon: icon,
@@ -63,8 +67,8 @@ $(document).ready(function () {
             map: map,
             // Custom property to hold the filters options, it'a used below to filter the markers
             filter: {
-                type: $marker.data('type').toString().split(' '),
-                date: $marker.data('date').toString().split(' ')
+                type: $marker.data('regime').toString().split(' '),
+                date: $marker.data('type').toString().split(' ')
             }
         });
 
