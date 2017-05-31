@@ -73,15 +73,15 @@
   background-position: 50% -32px;
 }
 
-/* Old format from omab*/
-/*.map-canvas-container {
+/* Coders Clan Example*/
+.map-canvas-container {
     overflow: hidden;
     width: 100%;
     height: 500px;
 }
 .map-canvas-container .map-canvas {
     height: 575px;
-}*/
+}
 
 /* Try to fix InfoWindow settings*/
 .map-canvas-container .map-canvas .infoBox {
