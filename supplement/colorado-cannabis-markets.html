@@ -77,39 +77,75 @@
 	<div class="wrapper banner-style">
 		<div id="banner">
 			<section class="container">
+<!--Colorado Market Map-->
+<div class="map-canvas-container" id="map">
+    <div class="map-canvas">
+        <div class="marker" data-regime="medical" data-type="store" data-lat="38.0128803" data-lng="-105.90999569999997">
+            <div class="marker-info">
+                <h3>Medical Center</h3>
+            </div>
+        </div>
+        <div class="marker" data-regime="medical" data-type="cultivation" data-lat="38.5" data-lng="-105.75">
+            <div class="marker-info">
+                <h3>Medical Cultivation</h3>
+            </div>
+        </div>
+        <div class="marker" data-regime="medical" data-type="manufacturer" data-lat="38.25" data-lng="-105.5">
+            <div class="marker-info">
+                <h3>Medical Manufacturer</h3>
+            </div>
+        </div>
 
+        <div class="marker" data-regime="retail" data-type="store" data-lat="38.99" data-lng="-105.0">
+            <div class="marker-info">
+                <h3>Retail Store</h3>
+            </div>
+        </div>
+        <div class="marker" data-regime="retail" data-type="cultivation" data-lat="38.3" data-lng="-105.25">
+            <div class="marker-info">
+                <h3>Retail Cultivation</h3>
+            </div>
+        </div>
+        <div class="marker" data-regime="retail" data-type="manufacturer" data-lat="38.6" data-lng="-105.5">
+            <div class="marker-info">
+                <h3>Retail Manufacturer</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="filters">
+  <ul>
+      <li>
+          <a href="#" data-filterby="regime" data-filtervalue="medical">Medical</a>
+      </li>
+      <li>
+          <a href="#" data-filterby="regime" data-filtervalue="retail">Retail</a>
+      </li>
+  </ul>
+  <ul>
+      <li>
+          <a href="#" data-filterby="type" data-filtervalue="store">Distributor</a>
+      </li>
+      <li>
+          <a href="#" data-filterby="type" data-filtervalue="cultivation">Cultivator</a>
+      </li>
+      <li>
+          <a href="#" data-filterby="type" data-filtervalue="manufacturer">Manufacturer</a>
+      </li>
+  </ul>
+</div>
+<div class="clear"></div>
+				<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6723vWlfp4A5ZngovBOIIuXzlRlrmlwI" async defer></script>
+				<script src="../javascripts/google-maps.js"></script>
 				<section id="cd-google-map">
 					<div id="google-container"></div>
 						<div id="cd-zoom-in"></div>
 						<div id="cd-zoom-out"></div>
 						<address>Colorado Cannabis Facilities</address> 
-				</section>
+				</section>-->
+<!--Not sure if necessary-->
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
 
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6723vWlfp4A5ZngovBOIIuXzlRlrmlwI" async defer></script>
-	<script src="../javascripts/google-maps.js"></script>
-				
-<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->				
-<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6723vWlfp4A5ZngovBOIIuXzlRlrmlwI&callback=initMap" async defer></script>-->
-
-<!--<style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map {
-        height: 600px;
-      }
-    </style>
-				
-    <div id="map"></div>
-				
-    <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
-        });
-      }
-    </script> -->
 				
 <!--End of Content-->
 			</section>
