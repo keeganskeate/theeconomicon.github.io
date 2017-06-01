@@ -48,7 +48,7 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 <!--Header-->
-<body class="subpage">
+<body class="subpage" onload="makeMap();">
 	<div class="wrapper top-style">
 		<div id="header">
 			<div class="container">
@@ -80,64 +80,6 @@
 <!--Colorado Market Map-->
 <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6723vWlfp4A5ZngovBOIIuXzlRlrmlwI" async defer></script>
 <script src="../javascripts/map.js"></script>
-				
-<div class="map-canvas-container" id="map">
-    <div class="map-canvas">
-        <div class="marker" data-regime="medical" data-type="store" data-lat="38.0128803" data-lng="-105.90999569999997">
-            <div class="marker-info">
-                <h3>Medical Center</h3>
-            </div>
-        </div>
-        <div class="marker" data-regime="medical" data-type="cultivation" data-lat="38.5" data-lng="-105.75">
-            <div class="marker-info">
-                <h3>Medical Cultivation</h3>
-            </div>
-        </div>
-        <div class="marker" data-regime="medical" data-type="manufacturer" data-lat="38.25" data-lng="-105.5">
-            <div class="marker-info">
-                <h3>Medical Manufacturer</h3>
-            </div>
-        </div>
-
-        <div class="marker" data-regime="retail" data-type="store" data-lat="38.99" data-lng="-105.0">
-            <div class="marker-info">
-                <h3>Retail Store</h3>
-            </div>
-        </div>
-        <div class="marker" data-regime="retail" data-type="cultivation" data-lat="38.3" data-lng="-105.25">
-            <div class="marker-info">
-                <h3>Retail Cultivation</h3>
-            </div>
-        </div>
-        <div class="marker" data-regime="retail" data-type="manufacturer" data-lat="38.6" data-lng="-105.5">
-            <div class="marker-info">
-                <h3>Retail Manufacturer</h3>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="filters">
-  <ul>
-      <li>
-          <a href="#" data-filterby="regime" data-filtervalue="medical">Medical</a>
-      </li>
-      <li>
-          <a href="#" data-filterby="regime" data-filtervalue="retail">Retail</a>
-      </li>
-  </ul>
-  <ul>
-      <li>
-          <a href="#" data-filterby="type" data-filtervalue="store">Distributor</a>
-      </li>
-      <li>
-          <a href="#" data-filterby="type" data-filtervalue="cultivation">Cultivator</a>
-      </li>
-      <li>
-          <a href="#" data-filterby="type" data-filtervalue="manufacturer">Manufacturer</a>
-      </li>
-  </ul>
-</div>
-<div class="clear"></div> -->
 
 				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6723vWlfp4A5ZngovBOIIuXzlRlrmlwI" async defer></script>
 				<script src="../javascripts/google-maps.js"></script>
@@ -149,7 +91,37 @@
 				</section>
 <!--Not sure if necessary-->
 <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
-
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6723vWlfp4A5ZngovBOIIuXzlRlrmlwI" async defer></script>
+<script src="../javascripts/google-maps-working.js"></script>
+<!-- Map --> 
+<section id="google-map">
+<div id="google-container"></div>
+  <!--<address>Colorado Cannabis Facilities</address> -->
+</section>
+<!-- Selection Form -->
+<div id="form-wrapper">
+<form name="selection-form" action="">
+<div id="selection-column">
+<b>Medical</b><br />
+<img src="http://labs.google.com/ridefinder/images/mm_20_red.png" width="12" height="20" title="Red Markers" alt="Red Marker" /> 
+<input type="checkbox" name="red" id="red" onclick="Markers('red')" checked="checked" /> Centers<br />
+<img src="http://labs.google.com/ridefinder/images/mm_20_yellow.png" width="12" height="20" title="Yellow Markers" alt="Yellow Marker" /> 
+<input type="checkbox" name="yellow" id="yellow" onclick="Markers('yellow')" checked="checked" /> Cultivations<br />
+<img src="http://labs.google.com/ridefinder/images/mm_20_blue.png" width="12" height="20" title="Blue Markers" alt="Blue Marker" /> 
+<input type="checkbox" name="blue" id="blue" onclick="Markers('blue')" checked="checked" /> Manufacturers<br />
+<img src="http://labs.google.com/ridefinder/images/mm_20_purple.png" width="12" height="20" title="Purple Markers" alt="Purple Marker" /> <input type="checkbox" name="purple" id="purple" onclick="Markers('purple')" checked="checked" /> Testing<br />
+  </div>
+  <div id="selection-column">
+<b>Retail</b><br />
+<img src="http://labs.google.com/ridefinder/images/mm_20_orange.png" width="12" height="20" title="Orange Markers" alt="Orange Marker" /> <input type="checkbox" name="orange" id="orange" onclick="Markers('orange')" checked="checked" /> Stores<br />
+<img src="http://labs.google.com/ridefinder/images/mm_20_green.png" width="12" height="20" title="Green Markers" alt="Green Marker" /> <input type="checkbox" name="green" id="green" onclick="Markers('green')" checked="checked" /> Cultivations<br />
+<img src="http://labs.google.com/ridefinder/images/mm_20_white.png" width="12" height="20" title="White Markers" alt="White Marker" /> <input type="checkbox" name="white" id="white" onclick="Markers('white')" checked="checked" /> Manufacturers<br />
+<img src="http://labs.google.com/ridefinder/images/mm_20_black.png" width="12" height="20" title="White Markers" alt="White Marker" /> <input type="checkbox" name="white" id="white" onclick="Markers('white')" checked="checked" /> Testing<br />
+</div>
+</form> <br />
+</div>
+<!--End of Map-->
+				
 				
 <!--End of Content-->
 			</section>
