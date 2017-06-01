@@ -73,7 +73,7 @@
   background-position: 50% -32px;
 }
 
-/* Coders Clan Example*/
+/* Coders Clan Example
 .map-canvas-container {
     overflow: hidden;
     width: 100%;
@@ -83,7 +83,7 @@
     height: 575px;
 }
 
-/* Try to fix InfoWindow settings*/
+/* Try to fix InfoWindow settings
 .map-canvas-container .map-canvas .infoBox {
     background: #ffffff !important;
     font-size: 16px !important;
@@ -103,4 +103,24 @@
     left: 20px;
     border: 1px solid #999;
     border-radius: 2px;
+}
+/*
+#map {
+  width: 900px;
+  height: 200px;
+  padding:-5px;"
+}
+
+#form-wrapper {
+     float: left;
+     border: 1px solid #ccc;
+}
+
+#selection-column {
+    float: left;
+  padding: 5px 10px;
+}
+
+#infowindow {
+  text-align: left;
 }
