@@ -1,5 +1,3 @@
-jQuery(document).ready(function($){
-	
 function Markers(color){
 //map.closeInfoWindow();
   map.getInfoWindow().hide() 
@@ -140,5 +138,3 @@ var marker = createMarker(
   
 }
 
-//-----------------------------------------------------------------------------------------------------------------------------------------------------
-});
