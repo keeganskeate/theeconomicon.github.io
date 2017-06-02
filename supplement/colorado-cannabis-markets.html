@@ -85,13 +85,15 @@
 				<script src="../javascripts/google-maps-trial-1.js"></script>
 				
 <div id="MarketMap">
-<div id="map" style="width: 80%; height: 100px"></div>
-<div class="toggles">
-<form action="">
-    <input type="checkbox" id="restaurantCheckbox" onclick="toggleGroup('parking')" checked="checked" />parking<br/>
-    <input type="checkbox" id="barCheckbox" onclick="toggleGroup('shelter')" checked="checked" />shelter<br />
-    </form>
-</div>
+    <div id='map-container'>
+      <div id="map"></div>
+    </div>
+    <div id='toggle-box'>
+    <form action = "">
+      <input type="checkbox" id="restaurantCheckbox" onclick="toggleGroup('parking')" checked="checked" />parking<br/>
+      <input type="checkbox" id="barCheckbox" onclick="toggleGroup('shelter')" checked="checked"/>shelter<br/>
+      </form>
+     </div>
 </div>
 				
 				<!--<section id="cd-google-map">
