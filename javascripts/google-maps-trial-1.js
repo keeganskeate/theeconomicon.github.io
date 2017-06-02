@@ -1,16 +1,3 @@
-var markerGroups = {
-    "parking": [],
-    "trail": [],
-    "shelter": []
-};
-var customIcons = {
-    shelter: {
-        icon: 'http://backpackingconnecticut.com/images/shelter_picnic.png'
-    },
-    parking: {
-        icon: 'http://backpackingconnecticut.com/images/parking.png'
-    }
-};
 var map;
 var	main_color = '#2d313f',
 		saturation_value= -20,
@@ -26,6 +13,19 @@ var style= [{
 			]
 		}
 	];
+var markerGroups = {
+    "medical_center": [],
+    "retail_store": [],
+};
+var customIcons = {
+    medical_center: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_red.png'
+    },
+    retail_store: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_blue.png'
+    }
+};
+
 function load() {
     var map = new google.maps.Map(document.getElementById("map"), {
         center: new google.maps.LatLng(41.613889, -72.7725),
@@ -35,10 +35,8 @@ function load() {
         mapTypeControl: false,
         styles: style
     });
-    //var mc = new MarkerClusterer(map);
     var infoWindow = new google.maps.InfoWindow();
-    // downloadUrl("phpsqlajax_genxml.php", function(data) {
-    var xml = parseXml(xmlStr); // data.responseXML;
+    var xml = parseXml(xmlStr);
     var markers = xml.documentElement.getElementsByTagName("marker");
     var bounds = new google.maps.LatLngBounds();
     for (var i = 0; i < markers.length; i++) {
@@ -59,21 +57,31 @@ function load() {
         markerGroups[type].push(marker);
         bindInfoWindow(marker, map, infoWindow, html);
     }
-    // });
     map.fitBounds(bounds);
 }
-
 function bindInfoWindow(marker, map, infoWindow, html) {
+		// Attach info
     google.maps.event.addListener(marker, 'click', function () {
         infoWindow.setContent(html);
         infoWindow.open(map, marker);
+        // Close info on map click
         google.maps.event.addListener(map, 'click', function() {
     			infoWindow.close();
     		});
-    });
-    
+    });   
 }
-
+function toggleGroup(type) {
+    for (var i = 0; i < markerGroups[type].length; i++) {
+        var marker = markerGroups[type][i];
+        if (!marker.getVisible()) {
+            marker.setVisible(true);
+        } else {
+            marker.setVisible(false);
+        }
+    }
+}
+google.maps.event.addDomListener(window, 'load', load);
+function doNothing() {}
 function downloadUrl(url, callback) {
     var request = window.ActiveXObject ? new ActiveXObject('Microsoft.XMLHTTP') : new XMLHttpRequest;
     request.onreadystatechange = function () {
@@ -85,22 +93,6 @@ function downloadUrl(url, callback) {
     request.open('GET', url, true);
     request.send(null);
 }
-
-function doNothing() {}
-
-function toggleGroup(type) {
-    for (var i = 0; i < markerGroups[type].length; i++) {
-        // alert(markerGroups[type][i]);
-        var marker = markerGroups[type][i];
-        if (!marker.getVisible()) {
-            marker.setVisible(true);
-        } else {
-            marker.setVisible(false);
-        }
-    }
-}
-google.maps.event.addDomListener(window, 'load', load);
-
 function parseXml(str) {
     if (window.ActiveXObject) {
         var doc = new ActiveXObject('MicrosoftXMLDOM');
@@ -111,4 +103,15 @@ function parseXml(str) {
     }
 }
 
-var xmlStr = '<markers><marker name="Mattatuck Trail Parking 1" address="" lat="41.784969" lng="-73.319489" type="parking"/><marker name="Mattatuck Trail Parking 2" address="" lat="41.821751" lng="-73.296867" type="parking"/><marker name="Mattatuck Trail Parking 3" address="" lat="41.784969" lng="-73.319489" type="parking"/><marker name="Mohawk Trail Parking 1" address="" lat="41.818535" lng="-73.368477" type="parking"/><marker name="Mohawk Trail Parking 2" address="" lat="41.784969" lng="-73.319489" type="parking"/><marker name="Appalacian Trail Parking 1" address="" lat="41.731030" lng="-73.490692" type="parking"/><marker name="Appalacian Trail Parking 2" address="" lat="41.807705" lng="-73.391785" type="parking"/><marker name="Appalacian Trail PArking 3" address="" lat="41.731030" lng="-73.490692" type="parking"/><marker name="Dawley Pond Shelter" address="" lat="41.621277" lng="-71.815392" type="shelter"/><marker name="Pachaug Dry Resevoir Shelter" address="" lat="41.590752" lng="-71.881386" type="shelter"/></markers>';
+var xmlStr = '<markers>' +
+'<marker name="Business1" address="blank" lat="41.784969" lng="-73.319489" type="medical_center"/>'+
+'<marker name="Business2" address="blank" lat="41.821751" lng="-73.296867" type="medical_center"/>'+
+'<marker name="Business3" address="blank" lat="41.784969" lng="-73.319489" type="medical_center"/>'+
+'<marker name="Business4" address="blank" lat="41.818535" lng="-73.368477" type="retail_store"/>'+
+'<marker name="Business5" address="blank" lat="41.784969" lng="-73.319489" type="retail_store"/>'+
+'<marker name="Business6" address="blank" lat="41.731030" lng="-73.490692" type="retail_store"/>'+
+'<marker name="Business7" address="blank" lat="41.807705" lng="-73.391785" type="retail_store"/>'+
+'<marker name="Business8" address="blank" lat="41.731030" lng="-73.490692" type="retail_store"/>'+
+'<marker name="Business9" address="blank" lat="41.621277" lng="-71.815392" type="retail_store"/>'+
+'<marker name="Business10" address="blank" lat="41.590752" lng="-71.881386" type="medical_center"/>'+
+'</markers>';
