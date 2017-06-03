@@ -25,11 +25,10 @@ var customIcons = {
         icon: 'http://labs.google.com/ridefinder/images/mm_20_blue.png'
     }
 };
-
 function load() {
     var map = new google.maps.Map(document.getElementById("map"), {
-        center: new google.maps.LatLng(41.613889, -72.7725),
-        zoom: 9,
+        center: new google.maps.LatLng(39.00, -105.547222),
+        zoom: 8,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         streetViewControl: false,
         mapTypeControl: false,
@@ -39,15 +38,20 @@ function load() {
     var xml = parseXml(xmlStr);
     var markers = xml.documentElement.getElementsByTagName("marker");
     var bounds = new google.maps.LatLngBounds();
+    var trialmarkers = [];
     for (var i = 0; i < markers.length; i++) {
-        var name = markers[i].getAttribute("name");
-        var address = markers[i].getAttribute("address");
+        var DBA = markers[i].getAttribute("DBA");
+        var licensee = markers[i].getAttribute("licensee");
+        var center_type = markers[i].getAttribute("center_type");
+        var license_number = markers[i].getAttribute("license_number");
+        var street = markers[i].getAttribute("street");
+        var city = markers[i].getAttribute("city");
         var point = new google.maps.LatLng(
-        parseFloat(markers[i].getAttribute("lat")),
-        parseFloat(markers[i].getAttribute("lng")));
-        bounds.extend(point);
+        	parseFloat(markers[i].getAttribute("lat")),
+        	parseFloat(markers[i].getAttribute("lng")));
+        	bounds.extend(point);
         var type = markers[i].getAttribute("type");
-        var html = "<b>" + name + "</b> <br/>" + address;
+        var html = "<b>" + DBA + "<br/>" + licensee + "</b> <br/>" + center_type + "<br/>" + license_number + "<br/>" + street + "<br/>" + city;
         var icon = customIcons[type] || {};
         var marker = new google.maps.Marker({
             map: map,
@@ -55,8 +59,17 @@ function load() {
             icon: icon.icon
         });
         markerGroups[type].push(marker);
-        bindInfoWindow(marker, map, infoWindow, html);
+        trialmarkers.push(marker);
+        bindInfoWindow(marker, map, infoWindow, html);  
     }
+    // Cluster Markers
+    var mcOptions = {
+      styles:[{url: "https://googlemaps.github.io/js-marker-clusterer/images/m1.png", width: 53, height:53, textColor:"#fff"}],
+      imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'};
+      //var markerCluster = new MarkerClusterer(map, trialmarkers, mcOptions);
+    var medical_center_markerCluster = new MarkerClusterer(map, markerGroups["medical_center"], mcOptions);
+    var retail_store_markerCluster = new MarkerClusterer(map, markerGroups["retail_store"], mcOptions);
+    // Set Bounds
     map.fitBounds(bounds);
 }
 function bindInfoWindow(marker, map, infoWindow, html) {
@@ -104,14 +117,12 @@ function parseXml(str) {
 }
 
 var xmlStr = '<markers>' +
-'<marker name="Business1" address="blank" lat="41.784969" lng="-73.319489" type="medical_center"/>'+
-'<marker name="Business2" address="blank" lat="41.821751" lng="-73.296867" type="medical_center"/>'+
-'<marker name="Business3" address="blank" lat="41.784969" lng="-73.319489" type="medical_center"/>'+
-'<marker name="Business4" address="blank" lat="41.818535" lng="-73.368477" type="retail_store"/>'+
-'<marker name="Business5" address="blank" lat="41.784969" lng="-73.319489" type="retail_store"/>'+
-'<marker name="Business6" address="blank" lat="41.731030" lng="-73.490692" type="retail_store"/>'+
-'<marker name="Business7" address="blank" lat="41.807705" lng="-73.391785" type="retail_store"/>'+
-'<marker name="Business8" address="blank" lat="41.731030" lng="-73.490692" type="retail_store"/>'+
-'<marker name="Business9" address="blank" lat="41.621277" lng="-71.815392" type="retail_store"/>'+
-'<marker name="Business10" address="blank" lat="41.590752" lng="-71.881386" type="medical_center"/>'+
+'<marker type="medical_center" lat="39.718525" lng="-105.017281" DBA="Business1" licensee="licensee" center_type="Medical Center" license_number="" street = "Street" city="City, CO ZIP" />'+
+'<marker type="medical_center" lat="39.679337" lng="-104.987891" DBA="Business2" licensee="licensee" center_type="Medical Center" license_number="#" street = "Street #" city="City, CO ZIP" />'+
+'<marker type="medical_center" lat="38.330489" lng="-104.716092" DBA="Business3" licensee="licensee" center_type="Medical Center" license_number="#" street = "Street #" city="City, CO ZIP" />'+
+'<marker type="retail_store" lat="39.711478" lng="-105.002313" DBA="Business4" licensee="licensee" center_type="Medical Center" license_number="#" street = "Street #" city="City, CO ZIP" />'+
+'<marker type="retail_store" lat="39.752584" lng="-104.991667" DBA="Business5" licensee="licensee" center_type="Medical Center" license_number="#" street = "Street #" city="City, CO ZIP" />'+
+'<marker type="retail_store" lat="39.750626" lng="-105.000288" DBA="Business6" licensee="licensee" center_type="Medical Center" license_number="#" street = "Street #" city="City, CO ZIP" />'+
+'<marker type="retail_store" lat="39.5" lng="-104.5" DBA="Business7" licensee="licensee" center_type="Medical Center" license_number="#" street = "Street #" city="City, CO ZIP" />'+
+'<marker type="retail_store" lat="38.5" lng="-104.25" DBA="Business8" licensee="licensee" center_type="Medical Center" license_number="#" street = "Street #" city="City, CO ZIP" />'+
 '</markers>';
