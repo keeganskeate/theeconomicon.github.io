@@ -49,16 +49,16 @@ var clusterOptions = {
           textColor:"#fff",
           textSize: 11
         }]
-};
-// Marker images
-var customIcons = {
-    medical_center: {
+    };
+    // Import marker images
+		var customIcons = {
+    	medical_center: {
         icon: 'http://labs.google.com/ridefinder/images/mm_20_red.png'
-    },
-    retail_store: {
+    	},
+    	retail_store: {
         icon: 'http://labs.google.com/ridefinder/images/mm_20_blue.png'
-    }
-};
+    	}
+		};
 // Create Map
 function mapInit(){
     map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
@@ -70,53 +70,55 @@ function mapInit(){
     addLocation();
     var markerCluster = new MarkerClusterer(map, clusterMarkers, clusterOptions);
     function addLocation(place,category) {
-        for (var x in points){
-            var development = points[x];
-            var location = new google.maps.LatLng(development.lat, development.lng);
-            storeMarker(location, development);
-        }   
+      for (var x in points){
+          var development = points[x];
+          var location = new google.maps.LatLng(development.lat, development.lng);
+          storeMarker(location, development);
+      }   
     }
     function storeMarker(location, development){
-        var latLng = location;
-        var icon = customIcons[development.centerType] || {};
-        // Marker Options
-        var storedmarker = new google.maps.Marker({
+      var latLng = location;
+      var icon = customIcons[development.centerType] || {};
+      // Marker Options
+      var storedmarker = new google.maps.Marker({
             position: latLng,
             icon: icon.icon,
-            title: development.name
-    });
-   	// Categories
-    storedmarker.typeCategory = development.typeId;
-		// Info Windows
-    google.maps.event.addListener(storedmarker, 'click', function() {
+            title: development.name,
+            animation: google.maps.Animation.DROP
+      });
+   		// Categories
+      storedmarker.typeCategory = development.typeId;
+			// Info Windows
+      google.maps.event.addListener(storedmarker, 'click', function() {
         if(typeof infowindow != 'undefined') infowindow.close();
-        //infowindow = new google.maps.InfoWindow({content: });
+        //infowindow = new google.maps.InfoWindow({
+        //  content: "<b>"+ development.name +  "</b>"
         
         // Info Bubbles
         infowindow = new InfoBubble({
-            disableAutoPan: false
+          disableAutoPan: false
         });
         infowindow.addTab('License', "<b>"+ development.name +  "</b>");
         infowindow.addTab('Licensee(s)', development.name);   
         
-        // Close Infowindow on second click
-        if (!storedmarker.open) {
-      	    infowindow.open(map, storedmarker);
-      	    storedmarker.open = true;
-        }
-        else{
-      	    infowindow.close();
-      	    storedmarker.open = false;
-        }
-    });
+      // Close Infowindow on second click
+      if (!storedmarker.open) {
+      	infowindow.open(map, storedmarker);
+      	storedmarker.open = true;
+      }
+      else{
+      	infowindow.close();
+      	storedmarker.open = false;
+      }
+      });
             
-		// Add marker to cluster
-     clusterMarkers.push(storedmarker);    
+			// Add marker to cluster
+      clusterMarkers.push(storedmarker);    
     }
 		// Toggle for Categories
     function toggle(category,show) { 
-        var markers=[];
-            for (var i=0; i<clusterMarkers.length; i++) {
+      var markers=[];
+      for (var i=0; i<clusterMarkers.length; i++) {
         if (clusterMarkers[i].typeCategory == category) {
           markers.push(clusterMarkers[i]);
           clusterMarkers[i].setVisible(show);
