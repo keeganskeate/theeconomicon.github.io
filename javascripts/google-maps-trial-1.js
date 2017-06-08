@@ -1,15 +1,16 @@
 // Data
 var points = [
-{"license":"Business1",
-"DBA":"Business Name",
-"licenseType": "Medical Center",
-"centerType":"medical_center",
-"typeId":"1",
-"typeColor":"#8c000f",
-"street": "Street Address",
-"city": "Denver",
-"zip": "zipcode",
-"lat":"39.718525","lng":"-105.017281"
+{'license':'Business1',
+'DBA':'Business Name',
+'licenseType':'Medical Center',
+'centerType':'medical_center',
+'typeId':'1',
+'typeColor':'#8c000f',
+'licenseNumber':'0000-00000',
+'street': 'Street Address',
+'city': 'Denver',
+'zip': 'zipcode',
+'lat':'39.718525','lng':'-105.017281'
 },
 {"license":"Business2",
 "DBA":"Business Name",
@@ -17,6 +18,7 @@ var points = [
 "centerType":"medical_cultivation",
 "typeId":"2",
 "typeColor":"#8c000f",
+"licenseNumber":"0000-00000",
 "street": "Street Address",
 "city": "Denver",
 "zip": "zipcode",
@@ -28,6 +30,7 @@ var points = [
 "centerType":"medical_manufacturer",
 "typeId":"3",
 "typeColor":"#8c000f",
+"licenseNumber":"0000-00000",
 "street": "Street Address",
 "city": "Denver",
 "zip": "zipcode",
@@ -39,6 +42,7 @@ var points = [
 "centerType":"medical_testing",
 "typeId":"4",
 "typeColor":"#8c000f",
+"licenseNumber":"0000-00000",
 "street": "Street Address",
 "city": "Denver",
 "zip": "zipcode",
@@ -50,6 +54,7 @@ var points = [
 "centerType":"retail_store",
 "typeId":"5",
 "typeColor":"#8c000f",
+"licenseNumber":"0000-00000",
 "street": "Street Address",
 "city": "Denver",
 "zip": "zipcode",
@@ -61,6 +66,7 @@ var points = [
 "centerType":"retail_cultivation",
 "typeId":"6",
 "typeColor":"#8c000f",
+"licenseNumber":"0000-00000",
 "street": "Street Address",
 "city": "Denver",
 "zip": "zipcode",
@@ -72,6 +78,7 @@ var points = [
 "centerType":"retail_manufacturer",
 "typeId":"7",
 "typeColor":"#8c000f",
+"licenseNumber":"0000-00000",
 "street": "Street Address",
 "city": "Denver",
 "zip": "zipcode",
@@ -79,10 +86,11 @@ var points = [
 },
 {"license":"Business8",
 "DBA":"Business Name",
-"licenseType": "Retail Testing",
+"licenseType": "Retail Testing</b></font><br/> <i class='fa fa-check' aria-hidden='true'></i> Potency/Homogeneity<br/> <i class='fa fa-check' aria-hidden='true'></i> Residual Solvents<br/><i class='fa fa-check' aria-hidden='true'></i> Microbial Contaminates",
 "centerType":"retail_testing",
 "typeId":"8",
 "typeColor":"#8c000f",
+"licenseNumber":"0000-00000",
 "street": "Street Address",
 "city": "Denver",
 "zip": "zipcode",
@@ -170,19 +178,16 @@ var clusterOptions = {
 // Create Map
 function mapInit(){
     map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-		// Close info on map click
-    google.maps.event.addListener(map, 'click', function() {
-      infowindow.close();
-    });
     // Create markers and clusters
     addLocation();
     var markerCluster = new MarkerClusterer(map, clusterMarkers, clusterOptions);
     function addLocation(place,category) {
-      for (var x in points){
-          var development = points[x];
-          var location = new google.maps.LatLng(development.lat, development.lng);
-          storeMarker(location, development);
-      }   
+        for (var x in points){
+            var development = points[x];
+            var location = new google.maps.LatLng(
+                development.lat, development.lng);
+            storeMarker(location, development);
+        }   
     }
     function storeMarker(location, development){
       var latLng = location;
@@ -198,32 +203,35 @@ function mapInit(){
       storedmarker.typeCategory = development.typeId;
 			// Info Windows
       google.maps.event.addListener(storedmarker, 'click', function() {
-        if(typeof infowindow != 'undefined') infowindow.close();
-        //infowindow = new google.maps.InfoWindow({
-        //  content: "<b>"+ development.name +  "</b>"
-        
-        // Info Bubbles
+        if(typeof infowindow != 'undefined'){ 
+        		infowindow.close();
+            storedmarker.open = false;
+         }
+        // Info Bubble Options
         infowindow = new InfoBubble({
           disableAutoPan: false,
           hideCloseButton: false,
           closeSrc: 'http://labs.google.com/ridefinder/images/mm_20_red.png',
-          minHeight: 80,
-          maxHeight: 80,
+          minHeight: 95,
+          //maxHeight: 100,
           arrowSize: 10,
           arrowPosition: 30,
           borderWidth: 2,
+          borderRadius: 15,
           borderColor: '#33ADA4'
         });
-        infowindow.addTab('License', "<div id='infoText'>" +
-        									"<b><font size='3rem'>"+ development.DBA + "                           </font><br/>" +
-        									development.license + "<br/>" +
-                          "<font color='development.typeColor'>" +
-                          development.licenseType + "</font></b><br/>" +
-                          development.street + "<br/>" +
-                          development.city + ", CO " + development.zip +
-                          "</div>");
+        infowindow.addTab('License',
+            "<div id='infoText'>" +
+            "<b><font size='3rem'>"+ development.DBA + "</font><br/>" +
+        		development.license + "<br/>" +
+            "<font color='development.typeColor'>" +                                   development.licenseType + "</font></b><br/>" +
+            "License # " + development.licenseNumber + "<br/>" +
+            development.street + "<br/>" +
+            development.city + ", CO " + development.zip +
+            "</div>"
+        );
         infowindow.addTab('Licensee(s)', development.license);   
-        
+        infowindow.setPadding(15);
       // Close Infowindow on second click
       if (!storedmarker.open) {
       	infowindow.open(map, storedmarker);
@@ -233,6 +241,11 @@ function mapInit(){
       	infowindow.close();
       	storedmarker.open = false;
       }
+      });
+      // Close info on map click
+      google.maps.event.addListener(map, 'click', function() {
+         infowindow.close();
+         storedmarker.open = false;
       });
             
 			// Add marker to cluster
@@ -250,7 +263,7 @@ function mapInit(){
       if(markers.length){
         markerCluster[(show)?'addMarkers':'removeMarkers'](markers);
       }
-      if(!show && infowindow)infowindow.close();
+      //if(!show && infowindow)infowindow.close();
     }
     function select(box,category) {
         toggle(category,box.checked);
