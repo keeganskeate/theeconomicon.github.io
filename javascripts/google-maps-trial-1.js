@@ -1,11 +1,94 @@
 // Data
 var points = [
-{"name":"Business1",
-"lat":"39.718525","lng":"-105.017281",
+{"license":"Business1",
+"DBA":"Business Name",
+"licenseType": "Medical Center",
 "centerType":"medical_center",
 "typeId":"1",
+"typeColor":"#8c000f",
+"street": "Street Address",
+"city": "Denver",
+"zip": "zipcode",
+"lat":"39.718525","lng":"-105.017281"
 },
-{"name":"Business2","lat":"39.679337","lng":"-104.987891","typeId":"1", "centerType":"medical_center"},{"name":"Business3","lat":"38.330489","lng":"-104.716092","typeId":"2","centerType":"retail_store"},{"name":"Business4","lat":"39.750626","lng":"-105.002313","typeId":"2","centerType":"retail_store"},{"name":"Business5","lat":"39.752584","lng":"-104.991667","typeId":"2","centerType":"retail_store"},{"name":"Business6","lat":"39.7114780","lng":"-105.000288","typeId":"1","centerType":"medical_center"}];
+{"license":"Business2",
+"DBA":"Business Name",
+"licenseType": "Medical Cultivation",
+"centerType":"medical_cultivation",
+"typeId":"2",
+"typeColor":"#8c000f",
+"street": "Street Address",
+"city": "Denver",
+"zip": "zipcode",
+"lat":"39.731737","lng":"-104.985926"
+},
+{"license":"Business3",
+"DBA":"Business Name",
+"licenseType": "Medical Manufacturer",
+"centerType":"medical_manufacturer",
+"typeId":"3",
+"typeColor":"#8c000f",
+"street": "Street Address",
+"city": "Denver",
+"zip": "zipcode",
+"lat":"39.754290","lng":"-104.979172"
+},
+{"license":"Business4",
+"DBA":"Business Name",
+"licenseType": "Medical Testing",
+"centerType":"medical_testing",
+"typeId":"4",
+"typeColor":"#8c000f",
+"street": "Street Address",
+"city": "Denver",
+"zip": "zipcode",
+"lat":"39.769147","lng":"-105.003299"
+},
+{"license":"Business5",
+"DBA":"Business Name",
+"licenseType": "Retail Store",
+"centerType":"retail_store",
+"typeId":"5",
+"typeColor":"#8c000f",
+"street": "Street Address",
+"city": "Denver",
+"zip": "zipcode",
+"lat":"39.507638","lng":"-106.052259"
+},
+{"license":"Business6",
+"DBA":"Business Name",
+"licenseType": "Retail Cultivation",
+"centerType":"retail_cultivation",
+"typeId":"6",
+"typeColor":"#8c000f",
+"street": "Street Address",
+"city": "Denver",
+"zip": "zipcode",
+"lat":"39.752584","lng":"-104.991667"
+},
+{"license":"Business7",
+"DBA":"Business Name",
+"licenseType": "Retail Manufacturer",
+"centerType":"retail_manufacturer",
+"typeId":"7",
+"typeColor":"#8c000f",
+"street": "Street Address",
+"city": "Denver",
+"zip": "zipcode",
+"lat":"37.937538","lng":"-107.811115"
+},
+{"license":"Business8",
+"DBA":"Business Name",
+"licenseType": "Retail Testing",
+"centerType":"retail_testing",
+"typeId":"8",
+"typeColor":"#8c000f",
+"street": "Street Address",
+"city": "Denver",
+"zip": "zipcode",
+"lat":"39.679337","lng":"-104.987891"
+}
+];
 // Global Variables
 var map;
 var infowindow;
@@ -41,7 +124,6 @@ var clusterOptions = {
     	gridSize: 50,
       maxZoom: 10,
       //minimumClusterSize: 4,
-    	//imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
       styles:[{
           url: "https://googlemaps.github.io/js-marker-clusterer/images/m1.png",
           width: 53,
@@ -53,10 +135,36 @@ var clusterOptions = {
     // Import marker images
 		var customIcons = {
     	medical_center: {
-        icon: 'http://labs.google.com/ridefinder/images/mm_20_red.png'
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_red.png',
+        size: new google.maps.Size(12, 20)
+    	},
+      medical_cultivation: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_yellow.png',
+        size: new google.maps.Size(12, 20)
+    	},
+      medical_manufacturer: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_green.png',
+        size: new google.maps.Size(12, 20)
+    	},
+      medical_testing: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_white.png',
+        size: new google.maps.Size(12, 20)
     	},
     	retail_store: {
-        icon: 'http://labs.google.com/ridefinder/images/mm_20_blue.png'
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_blue.png',
+        size: new google.maps.Size(12, 20)
+    	},
+      retail_cultivation: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_orange.png',
+        size: new google.maps.Size(12, 20)
+    	},
+      retail_manufacturer: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_purple.png',
+        size: new google.maps.Size(12, 20)
+    	},
+      retail_testing: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_black.png',
+        size: new google.maps.Size(12, 20)
     	}
 		};
 // Create Map
@@ -83,7 +191,7 @@ function mapInit(){
       var storedmarker = new google.maps.Marker({
             position: latLng,
             icon: icon.icon,
-            title: development.name,
+            title: development.license,
             animation: google.maps.Animation.DROP
       });
    		// Categories
@@ -96,10 +204,25 @@ function mapInit(){
         
         // Info Bubbles
         infowindow = new InfoBubble({
-          disableAutoPan: false
+          disableAutoPan: false,
+          hideCloseButton: false,
+          closeSrc: 'http://labs.google.com/ridefinder/images/mm_20_red.png',
+          minHeight: 80,
+          maxHeight: 80,
+          arrowSize: 10,
+          arrowPosition: 30,
+          borderWidth: 2,
+          borderColor: '#33ADA4'
         });
-        infowindow.addTab('License', "<b>"+ development.name +  "</b>");
-        infowindow.addTab('Licensee(s)', development.name);   
+        infowindow.addTab('License', "<div id='infoText'>" +
+        									"<b><font size='3rem'>"+ development.DBA + "                           </font><br/>" +
+        									development.license + "<br/>" +
+                          "<font color='development.typeColor'>" +
+                          development.licenseType + "</font></b><br/>" +
+                          development.street + "<br/>" +
+                          development.city + ", CO " + development.zip +
+                          "</div>");
+        infowindow.addTab('Licensee(s)', development.license);   
         
       // Close Infowindow on second click
       if (!storedmarker.open) {
