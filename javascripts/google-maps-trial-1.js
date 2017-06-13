@@ -1,3 +1,44 @@
+// Icons
+var is_internetExplorer11 = navigator.userAgent.toLowerCase().indexOf('trident') > -1;
+// Close Button
+var closeButton =( is_internetExplorer11 ) ? 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/closeButton.png' : 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/closeButton.svg';
+var medical_center_icon = ( is_internetExplorer11 ) ? 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/marker-medical-center.png' : 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/marker-medical-center.svg';
+var retail_store_icon = ( is_internetExplorer11 ) ? 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/marker-retail-store.png' : 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/marker-retail-store.svg';
+// Markers
+var customIcons = {
+    medical_center: {
+        icon: medical_center_icon,
+        size: new google.maps.Size(41, 75)
+    },
+    medical_cultivation: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_yellow.png',
+        size: new google.maps.Size(12, 20)
+    },
+    medical_manufacturer: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_green.png',
+        size: new google.maps.Size(12, 20)
+    },
+    medical_testing: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_white.png',
+        size: new google.maps.Size(12, 20)
+    },
+    retail_store: {
+        icon: retail_store_icon,
+        size: new google.maps.Size(41, 75)
+    },
+    retail_cultivation: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_orange.png',
+        size: new google.maps.Size(12, 20)
+    },
+    retail_manufacturer: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_purple.png',
+        size: new google.maps.Size(12, 20)
+    },
+    retail_testing: {
+        icon: 'http://labs.google.com/ridefinder/images/mm_20_black.png',
+        size: new google.maps.Size(12, 20)
+    }
+};
 // Data
 var points = [
 {'license':'Business1',
@@ -139,47 +180,15 @@ var clusterOptions = {
           textColor:"#fff",
           textSize: 11
         }]
-    };
-    // Import marker images
-		var customIcons = {
-    	medical_center: {
-        icon: 'http://labs.google.com/ridefinder/images/mm_20_red.png',
-        size: new google.maps.Size(12, 20)
-    	},
-      medical_cultivation: {
-        icon: 'http://labs.google.com/ridefinder/images/mm_20_yellow.png',
-        size: new google.maps.Size(12, 20)
-    	},
-      medical_manufacturer: {
-        icon: 'http://labs.google.com/ridefinder/images/mm_20_green.png',
-        size: new google.maps.Size(12, 20)
-    	},
-      medical_testing: {
-        icon: 'http://labs.google.com/ridefinder/images/mm_20_white.png',
-        size: new google.maps.Size(12, 20)
-    	},
-    	retail_store: {
-        icon: 'http://labs.google.com/ridefinder/images/mm_20_blue.png',
-        size: new google.maps.Size(12, 20)
-    	},
-      retail_cultivation: {
-        icon: 'http://labs.google.com/ridefinder/images/mm_20_orange.png',
-        size: new google.maps.Size(12, 20)
-    	},
-      retail_manufacturer: {
-        icon: 'http://labs.google.com/ridefinder/images/mm_20_purple.png',
-        size: new google.maps.Size(12, 20)
-    	},
-      retail_testing: {
-        icon: 'http://labs.google.com/ridefinder/images/mm_20_black.png',
-        size: new google.maps.Size(12, 20)
-    	}
-		};
+};
 // Create Map
 function mapInit(){
     map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+    // Load when ready
+    //google.maps.event.addDomListener(window, 'load', initialize );
     // Create markers and clusters
-    addLocation();
+    		addLocation();
+    
     var markerCluster = new MarkerClusterer(map, clusterMarkers, clusterOptions);
     function addLocation(place,category) {
         for (var x in points){
@@ -187,7 +196,7 @@ function mapInit(){
             var location = new google.maps.LatLng(
                 development.lat, development.lng);
             storeMarker(location, development);
-        }   
+        } 
     }
     function storeMarker(location, development){
       var latLng = location;
@@ -211,13 +220,14 @@ function mapInit(){
         infowindow = new InfoBubble({
           disableAutoPan: false,
           hideCloseButton: false,
-          closeSrc: 'http://labs.google.com/ridefinder/images/mm_20_red.png',
+          padding: 10,
+          closeSrc: closeButton,
           minHeight: 95,
           //maxHeight: 100,
           arrowSize: 10,
           arrowPosition: 30,
           borderWidth: 2,
-          borderRadius: 15,
+          borderRadius: 10,
           borderColor: '#33ADA4'
         });
         infowindow.addTab('License',
@@ -231,7 +241,6 @@ function mapInit(){
             "</div>"
         );
         infowindow.addTab('Licensee(s)', development.license);   
-        infowindow.setPadding(15);
       // Close Infowindow on second click
       if (!storedmarker.open) {
       	infowindow.open(map, storedmarker);
@@ -246,35 +255,33 @@ function mapInit(){
       google.maps.event.addListener(map, 'click', function() {
          infowindow.close();
          storedmarker.open = false;
-      });
-            
+      });          
 			// Add marker to cluster
-      clusterMarkers.push(storedmarker);    
+      clusterMarkers.push(storedmarker);
     }
 		// Toggle for Categories
     function toggle(category,show) { 
-      var markers=[];
-      for (var i=0; i<clusterMarkers.length; i++) {
-        if (clusterMarkers[i].typeCategory == category) {
-          markers.push(clusterMarkers[i]);
-          clusterMarkers[i].setVisible(show);
+        var markers=[];
+        for (var i=0; i<clusterMarkers.length; i++) {
+            if (clusterMarkers[i].typeCategory == category) {
+                markers.push(clusterMarkers[i]);
+                clusterMarkers[i].setVisible(show);
+            }
         }
-      }
-      if(markers.length){
-        markerCluster[(show)?'addMarkers':'removeMarkers'](markers);
-      }
-      //if(!show && infowindow)infowindow.close();
+        if(markers.length){
+            markerCluster[(show)?'addMarkers':'removeMarkers'](markers);
+        }
+        //if(!show && infowindow)infowindow.close();
     }
     function select(box,category) {
         toggle(category,box.checked);
     }
 // Attach value of type
 jQuery(document).ready(function($) {
-  $('.map-filter').click(function () {
-    select(this, this.value);
+    $('.map-filter').click(function () {
+        select(this, this.value);
   });
 });
-
 }
 // Execute
 jQuery(document).ready(function(){
