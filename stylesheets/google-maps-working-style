@@ -1,0 +1,47 @@
+#MarketMap {
+    margin: 0 auto;
+    position: relative;
+    width: 90%;
+    height: 550px;
+    border: 3px solid #33ADA4;
+}
+#map-container{
+    float: left;
+    width: 100%;
+    height: 80%;
+}
+#map-canvas{
+    width: 100%;
+    height: 100%;
+}
+#description-wrapper{
+    float:left;
+    width: 100%;
+    height: 20%;
+}
+#form-wrapper { 
+    float: right;
+    width: 50%;
+    //height: 20%;
+    border-top: 3px solid #33ADA4;
+}
+#map-description { 
+    float: right;
+    width: 50%;
+    //height: 20%;
+    border-top: 3px solid #33ADA4;
+}
+#selection-column {
+    float: right;
+    //height: inherit;
+    padding: 5px;
+}
+#selection-column h2{
+    padding-bottom: 0;
+    font-size: 1rem;
+}
+#infoText {
+  //display:inline-block;
+  font-size:0.8rem;
+  white-space: nowrap;
+}
