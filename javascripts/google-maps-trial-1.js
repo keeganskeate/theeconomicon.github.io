@@ -51,7 +51,8 @@ var points = [
 'street': 'Street Address',
 'city': 'Denver',
 'zip': 'zipcode',
-'lat':'39.718525','lng':'-105.017281'
+'lat':'39.718525','lng':'-105.017281',
+'licensees': "<b> Name </b><br/> License Type <br/> License Number <p> <b> Name </b><br/> License Type <br/> License Number</p><p> <b> Name </b><br/> License Type <br/> License Number</p>"
 },
 {"license":"Business2",
 "DBA":"Business Name",
@@ -220,16 +221,17 @@ function mapInit(){
         infowindow = new InfoBubble({
           disableAutoPan: false,
           hideCloseButton: false,
-          padding: 10,
+          padding: 15,
           closeSrc: closeButton,
           minHeight: 95,
-          //maxHeight: 100,
+          maxHeight: 95,
           arrowSize: 10,
-          arrowPosition: 30,
+          arrowPosition: 45,
           borderWidth: 2,
           borderRadius: 10,
           borderColor: '#33ADA4'
         });
+        // License Tab
         infowindow.addTab('License',
             "<div id='infoText'>" +
             "<b><font size='3rem'>"+ development.DBA + "</font><br/>" +
@@ -240,7 +242,9 @@ function mapInit(){
             development.city + ", CO " + development.zip +
             "</div>"
         );
-        infowindow.addTab('Licensee(s)', development.license);   
+        // Licensees Tab
+        infowindow.addTab('Licensee(s)', 
+            "<div id='infoText'>" + development.licensees + "<\div>");   
       // Close Infowindow on second click
       if (!storedmarker.open) {
       	infowindow.open(map, storedmarker);
