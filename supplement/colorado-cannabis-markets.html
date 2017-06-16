@@ -81,19 +81,39 @@
 <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6723vWlfp4A5ZngovBOIIuXzlRlrmlwI" async defer></script>
 <script src="../javascripts/map.js"></script>-->
 
-				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6723vWlfp4A5ZngovBOIIuXzlRlrmlwI" async defer></script>
-				<script src="../javascripts/google-maps-trial-1.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6723vWlfp4A5ZngovBOIIuXzlRlrmlwI" async defer></script>
+<script src="../javascripts/google-maps-trial-1.js"></script>
+<script src="https://github.com/googlemaps/js-info-bubble/blob/gh-pages/src/infobubble.js"></script>
+<script src="https://github.com/gmaps-marker-clusterer/gmaps-marker-clusterer/blob/master/src/markerclusterer.js"></script>
 				
 <div id="MarketMap">
     <div id='map-container'>
-      <div id="map"></div>
+        <div id="map-canvas"></div>
     </div>
-    <div id='toggle-box'>
-    <form action = "">
-      <input type="checkbox" id="restaurantCheckbox" onclick="toggleGroup('parking')" checked="checked" />parking<br/>
-      <input type="checkbox" id="barCheckbox" onclick="toggleGroup('shelter')" checked="checked"/>shelter<br/>
-      </form>
-     </div>
+    <div id="description-wrapper">
+    <div id='form-wrapper'>
+        <form id="google-map">
+        <div id="selection-column">
+                <b>Retail</b><br/>
+            <label><input class="map-filter" type="checkbox" id="box" checked value="5">Stores</label><br/>
+            <label><input class="map-filter" type="checkbox" id="box" checked value="6">Cultivations</label><br/>
+            <label><input class="map-filter" type="checkbox" id="box" checked value="7">Manufacturers</label><br/>
+            <label><input class="map-filter" type="checkbox" id="box" checked value="8">Testing</label>
+        </div>
+        <div id="selection-column">
+                <b id="form-title">Medical</b><br/>
+            <label><input class="map-filter" type="checkbox" checked  id="box" value="1">Centers</label><br/>
+            <label><input class="map-filter" type="checkbox" id="box" checked value="2">Cultivations</label><br/>
+            <label><input class="map-filter" type="checkbox" id="box" checked value="3">Manufacturers</label><br/>
+            <label><input class="map-filter" type="checkbox" id="box" checked value="4">Testing</label>
+        </div>
+        </form>
+    </div>
+    <div id="map-description">
+            <p> Last updated: 6/7/2017. To report a mistake please email <a href="#" title="Contact The Economicon's staff">staff@theeconomicon.com</a>.
+            </p>
+    </div>
+    </div>
 </div>
 				
 				<!--<section id="cd-google-map">
