@@ -1,15 +1,15 @@
 // Icons
 var is_internetExplorer11 = navigator.userAgent.toLowerCase().indexOf('trident') > -1;
 // Close Button
-var closeButton =( is_internetExplorer11 ) ? 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/markers/closeButton.png' : 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/markers/closeButton.svg';
-var medical_center_icon = ( is_internetExplorer11 ) ? 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/markers/marker-medical-center.png' : 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/markers/marker-medical-center.svg';
-var medical_cultivation_icon = ( is_internetExplorer11 ) ? 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/markers/marker-medical-cultivation.png' : 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/markers/marker-medical-cultivation.svg';
-var medical_manufacturer_icon = ( is_internetExplorer11 ) ? 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/markers/marker-medical-manufacturer.png' : 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/markers/marker-medical-manufacturer.svg';
-var medical_testing_icon = ( is_internetExplorer11 ) ? 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/markers/marker-medical-testing.png' : 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/markers/marker-medical-testing.svg';
-var retail_store_icon = ( is_internetExplorer11 ) ? 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/markers/marker-retail-store.png' : 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/markers/marker-retail-store.svg';
-var retail_cultivation_icon = ( is_internetExplorer11 ) ? 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/markers/marker-retail-cultivation.png' : 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/markers/marker-retail-cultivation.svg';
-var retail_manufacturer_icon = ( is_internetExplorer11 ) ? 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/markers/marker-retail-manufacturer.png' : 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/markers/marker-retail-manufacturer.svg';
-var retail_testing_icon = ( is_internetExplorer11 ) ? 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/markers/marker-retail-testing.png' : 'https://rawgit.com/keeganskeate/theeconomicon.github.io/gh-pages/images/markers/marker-retail-testing.svg';
+var closeButton =( is_internetExplorer11 ) ? '../images/markers/closeButton.png' : '../images/markers/closeButton.svg';
+var medical_center_icon = ( is_internetExplorer11 ) ? '../images/markers/marker-medical-center.png' : '../images/markers/marker-medical-center.svg';
+var medical_cultivation_icon = ( is_internetExplorer11 ) ? '../images/markers/marker-medical-cultivation.png' : '../images/markers/marker-medical-cultivation.svg';
+var medical_manufacturer_icon = ( is_internetExplorer11 ) ? '../images/markers/marker-medical-manufacturer.png' : '../images/markers/marker-medical-manufacturer.svg';
+var medical_testing_icon = ( is_internetExplorer11 ) ? '../images/markers/marker-medical-testing.png' : '../images/markers/marker-medical-testing.svg';
+var retail_store_icon = ( is_internetExplorer11 ) ? '../images/markers/marker-retail-store.png' : '../images/markers/marker-retail-store.svg';
+var retail_cultivation_icon = ( is_internetExplorer11 ) ? '../images/markers/marker-retail-cultivation.png' : '../images/markers/marker-retail-cultivation.svg';
+var retail_manufacturer_icon = ( is_internetExplorer11 ) ? '../images/markers/marker-retail-manufacturer.png' : '../images/markers/marker-retail-manufacturer.svg';
+var retail_testing_icon = ( is_internetExplorer11 ) ? '../images/markers/marker-retail-testing.png' : '../images/markers/marker-retail-testing.svg';
 // Markers
 var customIcons = {
     medical_center: {
@@ -152,14 +152,14 @@ var infowindow;
 var image = [];
 var gmarkers = [];
 var clusterMarkers = [];
-// Google Map Options
+// Map Style
 var	main_color = '#2d313f',
 		saturation_value= -20,
 		brightness_value= 5;
 var mapStyle= [
            { "stylers": [ { "hue": "#3d535b" }, { "saturation": -20 } ] },
             { "elementType": "labels.text.fill", "stylers": [ { "color": "#3d535b" } ] },
-            { "elementType": "labels.text.stroke", "stylers": [ { "color": "##e8eeef" } ] },
+            { "elementType": "labels.text.stroke", "stylers": [ { "color": "#e8eeef" } ] },
             { "featureType": "road", "elementType": "geometry.fill", "stylers": [ { "color": "#e8eeef" } ] },
             { "featureType": "road", "elementType": "geometry.stroke", "stylers": [ { "color": "#b1bcbf" } ] },
             { "featureType": "water", "stylers": [ { "color": "#adb9bc" } ] },
@@ -173,8 +173,9 @@ var mapStyle= [
             { "featureType": "poi.government", "elementType": "geometry", "stylers": [ { "color": "#cdd6d8" }, { "visibility": "on" } ] },
             { "featureType": "landscape.natural", "elementType": "geometry", "stylers": [ { "color": "#dee5e8" } ] }
 ];
+// Map Options
 var mapOptions = {
-				mapTypeId: google.maps.MapTypeId.ROADMAP,
+	mapTypeId: google.maps.MapTypeId.ROADMAP,
         center: new google.maps.LatLng(39.00, -105.547222),
         zoom: 7,
         streetViewControl: false,
@@ -201,8 +202,7 @@ function mapInit(){
     // Load when ready
     //google.maps.event.addDomListener(window, 'load', initialize );
     // Create markers and clusters
-    		addLocation();
-    
+    addLocation();
     var markerCluster = new MarkerClusterer(map, clusterMarkers, clusterOptions);
     function addLocation(place,category) {
         for (var x in points){
