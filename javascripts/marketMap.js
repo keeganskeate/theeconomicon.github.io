@@ -1,3 +1,4 @@
+jQuery(document).ready(function($){
 // Icons
 var is_internetExplorer11 = navigator.userAgent.toLowerCase().indexOf('trident') > -1;
 // Close Button
@@ -300,6 +301,7 @@ jQuery(document).ready(function($) {
   });
 });
 }
+});
 // Execute
 jQuery(document).ready(function(){
     mapInit();
