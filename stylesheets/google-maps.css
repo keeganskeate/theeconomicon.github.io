@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond:300,400,600,700,800");
 /* Google Maps Style Sheet */
 #MarketMap {
     margin: 0 auto 1em auto;
@@ -29,13 +30,6 @@
     float: right;
     width: 100%;
 }
-#map-description { 
-    float: left;
-    width: 100%;
-}
-#map-description p{
-  padding: 5px;
-}
 #selection-column {
     float: left;
     padding: 5px;
@@ -44,6 +38,21 @@
 #selection-column h2{
     padding-bottom: 0;
     font-size: 0.8rem;
+}
+#map-description { 
+    margin: 0 auto;
+    width: 90%;
+}
+#map-description p {
+  padding: 5px;
+  font-family: 'EB Garamond', serif;
+}
+#map-description a {
+    color: #131516;
+	font-weight: bold;
+}
+#map-description a:hover {
+    color: #B2E522;
 }
 
 #infoText {
