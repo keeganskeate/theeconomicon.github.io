@@ -15,35 +15,35 @@ var retail_testing_icon = ( is_internetExplorer11 ) ? '../images/markers/marker-
 var customIcons = {
     medical_center: {
         icon: medical_center_icon,
-        size: new google.maps.Size(33, 60)
+        //size: new google.maps.Size(33, 60)
     },
     medical_cultivation: {
         icon: medical_cultivation_icon,
-        size: new google.maps.Size(33, 60)
+        //size: new google.maps.Size(33, 60)
     },
     medical_manufacturer: {
         icon: medical_manufacturer_icon,
-        size: new google.maps.Size(33, 60)
+        //size: new google.maps.Size(33, 60)
     },
     medical_testing: {
         icon: medical_testing_icon,
-        size: new google.maps.Size(33, 60)
+        //size: new google.maps.Size(33, 60)
     },
     retail_store: {
         icon: retail_store_icon,
-        size: new google.maps.Size(33, 60)
+        //size: new google.maps.Size(33, 60)
     },
     retail_cultivation: {
         icon: retail_cultivation_icon,
-        size: new google.maps.Size(33, 60)
+        //size: new google.maps.Size(33, 60)
     },
     retail_manufacturer: {
         icon: retail_manufacturer_icon,
-        size: new google.maps.Size(33, 60)
+        //size: new google.maps.Size(33, 60)
     },
     retail_testing: {
         icon: retail_testing_icon,
-        size: new google.maps.Size(33, 60)
+        //size: new google.maps.Size(33, 60)
     }
 };
 // Data
@@ -297,5 +297,5 @@ function mapInit(){
 // Attach value of type
 }
 // Execute
-//    mapInit();
+mapInit();
 });
