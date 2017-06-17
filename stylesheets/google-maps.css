@@ -40,6 +40,8 @@
     font-size: 1rem;
 }
 #infoText {
+  text-align: left;
+  height: 95px;
   font-size:0.8rem;
   white-space: nowrap;
 }
