@@ -300,7 +300,7 @@ jQuery(document).ready(function($) {
         select(this, this.value);
   });
 });
-}
+};
 });
 // Execute
 jQuery(document).ready(function(){
