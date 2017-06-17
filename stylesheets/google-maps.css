@@ -22,18 +22,17 @@
 #form-wrapper { 
     float: right;
     width: 50%;
-    //height: 20%;
     border-top: 3px solid #33ADA4;
+    text-align: left;
 }
 #map-description { 
     float: right;
     width: 50%;
-    //height: 20%;
     border-top: 3px solid #33ADA4;
+    text-align: left;
 }
 #selection-column {
     float: right;
-    //height: inherit;
     padding: 5px;
 }
 #selection-column h2{
@@ -41,7 +40,6 @@
     font-size: 1rem;
 }
 #infoText {
-  //display:inline-block;
   font-size:0.8rem;
   white-space: nowrap;
 }
