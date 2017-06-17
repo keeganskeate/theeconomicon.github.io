@@ -47,7 +47,7 @@ var customIcons = {
     }
 };
 // Data
-var points = [
+/*var points = [
 {'license':'Business1',
 'DBA':'Business Name',
 'licenseType':'Medical Center',
@@ -146,7 +146,7 @@ var points = [
 "zip": "zipcode",
 "lat":"39.679337","lng":"-104.987891"
 }
-];
+];*/
 // Global Variables
 var map;
 var infowindow;
