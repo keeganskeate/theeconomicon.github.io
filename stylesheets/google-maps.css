@@ -1,9 +1,9 @@
 /* Google Maps Style Sheet */
 #MarketMap {
-    margin: 0 auto;
+    margin: 0 auto 1em auto;
     position: relative;
     width: 100%;
-    height: 750px;
+    height: 650px;
 }
 #map-container{
     float: left;
