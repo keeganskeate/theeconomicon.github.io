@@ -26,7 +26,6 @@
 		<link rel="stylesheet" href="../stylesheets/drop_button.css"/>
 		<link rel="stylesheet" href="../stylesheets/icomoon.css"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="../stylesheets/google-maps.css"> <!-- Google Maps style -->
 <!--Favicon-->
 		<link rel="apple-touch-icon" sizes="57x57" href="../images/favicon/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="../images/favicon/apple-icon-60x60.png">
@@ -48,7 +47,8 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 <!--Header-->
-<body class="subpage" onload="mapInit();">
+<body class="subpage">
+	<!--onload="mapInit();"-->
 	<div class="wrapper top-style">
 		<div id="header">
 			<div class="container">
@@ -80,45 +80,21 @@
 <!--Colorado Market Map-->
 <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6723vWlfp4A5ZngovBOIIuXzlRlrmlwI" async defer></script>
 <script src="../javascripts/map.js"></script>-->
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;signed_in=true;key=AIzaSyA6723vWlfp4A5ZngovBOIIuXzlRlrmlwI"></script>
+<!--<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;signed_in=true;key=AIzaSyA6723vWlfp4A5ZngovBOIIuXzlRlrmlwI"></script>
 <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6723vWlfp4A5ZngovBOIIuXzlRlrmlwI" async defer></script>-->
 <!--<script src="http://maps.google.com/maps?file=api&amp;key=AIzaSyA6723vWlfp4A5ZngovBOIIuXzlRlrmlwI&amp;sensor=false" type="text/javascript" ></script>-->
+<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!--<script src="../javascripts/marketMap.js"></script>
+<!--<script src="https://rawgit.com/googlemaps/js-info-bubble/gh-pages/src/infobubble.js"></script>
+<!--<script src="https://rawgit.com/gmaps-marker-clusterer/gmaps-marker-clusterer/master/src/markerclusterer.js"></script>-->
+
+
+<link rel="stylesheet" href="../stylesheets/google-maps.css"> <!-- Google Maps style -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6723vWlfp4A5ZngovBOIIuXzlRlrmlwI" async defer></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="../javascripts/marketMap.js"></script>
-<script src="https://rawgit.com/googlemaps/js-info-bubble/gh-pages/src/infobubble.js"></script>
-<script src="https://rawgit.com/gmaps-marker-clusterer/gmaps-marker-clusterer/master/src/markerclusterer.js"></script>
+<script src="../javascripts/google-maps.js"></script>
 				
-<div id="MarketMap">
-    <div id='map-container'>
-        <div id="map-canvas"></div>
-    </div>
-    <div id="description-wrapper">
-    <div id='form-wrapper'>
-        <form id="google-map">
-        <div id="selection-column">
-                <b>Retail</b><br/>
-            <label><input class="map-filter" type="checkbox" id="box" checked value="5">Stores</label><br/>
-            <label><input class="map-filter" type="checkbox" id="box" checked value="6">Cultivations</label><br/>
-            <label><input class="map-filter" type="checkbox" id="box" checked value="7">Manufacturers</label><br/>
-            <label><input class="map-filter" type="checkbox" id="box" checked value="8">Testing</label>
-        </div>
-        <div id="selection-column">
-                <b id="form-title">Medical</b><br/>
-            <label><input class="map-filter" type="checkbox" checked  id="box" value="1">Centers</label><br/>
-            <label><input class="map-filter" type="checkbox" id="box" checked value="2">Cultivations</label><br/>
-            <label><input class="map-filter" type="checkbox" id="box" checked value="3">Manufacturers</label><br/>
-            <label><input class="map-filter" type="checkbox" id="box" checked value="4">Testing</label>
-        </div>
-        </form>
-    </div>
-    <div id="map-description">
-            <p> Last updated: 6/7/2017. To report a mistake please email <a href="#" title="Contact The Economicon's staff">staff@theeconomicon.com</a>.
-            </p>
-    </div>
-    </div>
-</div>
-				
-				<!--<section id="cd-google-map">
+				<section id="cd-google-map">
 					<div id="google-container"></div>
 						<div id="cd-zoom-in"></div>
 						<div id="cd-zoom-out"></div>
