@@ -1,4 +1,4 @@
-jQuery(document).ready(function(){
+jQuery(document).ready(function($){
 // Icons
 var is_internetExplorer11 = navigator.userAgent.toLowerCase().indexOf('trident') > -1;
 // Close Button
