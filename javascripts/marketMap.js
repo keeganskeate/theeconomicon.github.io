@@ -189,9 +189,9 @@ var clusterOptions = {
       maxZoom: 10,
       //minimumClusterSize: 4,
       styles:[{
-          url: "https://googlemaps.github.io/js-marker-clusterer/images/m1.png",
-          width: 53,
-          height:53,
+          url: "https://googlemaps.github.io/js-marker-clusterer/images/m3.png",
+          width: 66,
+          height: 65,
           textColor:"#fff",
           textSize: 11
         }]
