@@ -182,7 +182,7 @@ jQuery(document).ready(function($){
 // Markers
 	// Custom marker icon - .png fallback for IE11
 	var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
-	var marker_1 = ( is_internetExplorer11 ) ? '../images/marker-medical-center.png' : '../images/marker-medical-center.svg';
+	var marker_1 = ( is_internetExplorer11 ) ? '../images/markers/marker-medical-center.png' : '../images/markers/marker-medical-center.svg';
 		
 	var facilities = [
 		['1-11 LLC', 38.0128803, -105.90999569999997, 1, '<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">Business1</h1><div id="bodyContent"><p><b>Bold Label</b></p><p>Description.</p></div></div>'],
