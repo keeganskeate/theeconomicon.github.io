@@ -295,6 +295,11 @@ function mapInit(){
         toggle(category,box.checked);
     }
 // Attach value of type
+jQuery(document).ready(function($) {
+    $('.map-filter').click(function () {
+        select(this, this.value);
+  	});
+});
 }
 // Execute
 mapInit();
