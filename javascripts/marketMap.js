@@ -302,8 +302,4 @@ jQuery(document).ready(function($) {
 });
 };
 });
-// Execute
-jQuery(document).ready(function(){
-    mapInit();
-});
   
