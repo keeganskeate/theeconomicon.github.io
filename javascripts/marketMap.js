@@ -46,7 +46,7 @@ var customIcons = {
         //size: new google.maps.Size(33, 60)
     }
 };
-$.getScript("../javascripts/coloradoData.js");
+$.getScript("../javascripts/coloradoData-working.js");
 // Data
 /*var points = [
 {'license':'Business1',
