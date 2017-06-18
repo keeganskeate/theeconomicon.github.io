@@ -236,6 +236,7 @@ function mapInit(){
           hideCloseButton: false,
           padding: 10,
           closeSrc: closeButton,
+	  maxHeight: 120,
           //minHeight: 120,
 	  //minWidth: 200,
           arrowSize: 10,
