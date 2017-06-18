@@ -237,7 +237,6 @@ function mapInit(){
           padding: 10,
           closeSrc: closeButton,
           minHeight: 120,
-          maxHeight: 120,
           arrowSize: 10,
           arrowPosition: 45,
           borderWidth: 2,
