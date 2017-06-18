@@ -1569,6 +1569,9 @@ InfoBubble.prototype.getElementSize_ = function(element, opt_maxWidth,
   sizer.style['display'] = 'inline';
   sizer.style['position'] = 'absolute';
   sizer.style['visibility'] = 'hidden';
+  sizer.style['top'] = '300px';
+  sizer.style['left'] = '50px';
+  sizer.style['z-index'] = '5000'; 
 
   if (typeof element == 'string') {
     sizer.innerHTML = element;
@@ -1592,8 +1595,8 @@ InfoBubble.prototype.getElementSize_ = function(element, opt_maxWidth,
     size = new google.maps.Size(sizer.offsetWidth, sizer.offsetHeight);
   }
 
-  document.body.removeChild(sizer);
-  delete sizer;
+  //document.body.removeChild(sizer);
+  //delete sizer;
   return size;
 };
 
