@@ -60,7 +60,8 @@
 
 #infoText {
   text-align: left;
-  width: 95%;
+  width: auto;
+  height: 0%;
   font-size: 0.8rem;
   white-space: nowrap;
 }
