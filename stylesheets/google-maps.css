@@ -65,6 +65,9 @@
   font-size: 0.8rem;
   white-space: nowrap;
 }
+#infoText p {
+  padding-top: 5px;
+}
 /* ---------------------------------------
 #google-container {
   position: relative;
