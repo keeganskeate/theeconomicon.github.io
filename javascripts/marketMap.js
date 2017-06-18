@@ -232,12 +232,12 @@ function mapInit(){
         // Info Bubble Options
         infowindow = new InfoBubble({
           disableAutoPan: false,
-          hideCloseButton: false,
+          hideCloseButton: true,
           padding: 10,
           //closeSrc: closeButton,
-	  maxHeight: 120,
+	  maxHeight: 125,
           minHeight: 120,
-	  //minWidth: 200,
+	  minWidth: 200,
           arrowSize: 10,
           arrowPosition: 45,
           borderWidth: 2,
