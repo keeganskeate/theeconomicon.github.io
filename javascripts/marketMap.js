@@ -158,19 +158,21 @@ var	main_color = '#2d313f',
 		saturation_value= -20,
 		brightness_value= 5;
 var mapStyle= [
-            { stylers: [{ "hue": "#3d535b" }, { "saturation": -20 }]},
-            { elementType: "labels.text.fill", stylers: [{ "color": "#3d535b" }]},
-            { elementType: "labels.text.stroke", stylers: [ { "color": "##e8eeef" }]},
-            { featureType: "road", elementType: "geometry.fill", "stylers": [{ "color": "#B6B8C0" }]},
-            { featureType: "road", elementType: "geometry.stroke", "stylers": [{ "color": "#b1bcbf" }]},
+            { stylers: [{"hue": "#3d535b"}, {"saturation": -20 }]},
+            { elementType: "labels.text.fill", stylers: [{"color": "#3d535b" }]},
+            { elementType: "labels.text.stroke", stylers: [ {"color": "##e8eeef" }]},
+            { featureType: "road", elementType: "geometry.fill", "stylers": [{"color": "#B6B8C0" }]},
+            { featureType: "road", elementType: "geometry.stroke", "stylers": [{"color": "#b1bcbf" }]},
             { featureType: "water", stylers: [{ "color": "#adb9bc" }]},
-            { featureType: "water", elementType: "labels.text.fill", stylers: [{ "color": "#3d535b" }]},
-            { featureType: "water", elementType: "labels.text.stroke", stylers: [{ "color": "#d1d9db" }]},
+            { featureType: "water", elementType: "labels.text.fill", stylers: [{"color": "#3d535b" }]},
+            { featureType: "water", elementType: "labels.text.stroke", stylers: [{"color": "#d1d9db" }]},
             { featureType: "poi", elementType: "geometry", stylers: [{ "visibility": "off" }]},
-            { featureType: "landscape.natural", "elementType": "geometry", stylers: [{ "color": "#dee5e8" }]},
+            { featureType: "landscape.natural", "elementType": "geometry", stylers: [{"color": "#dee5e8" }]},
             { featureType: "poi", elementType: "labels", stylers: [{visibility: "off"}]},
-    	    { featureType: "transit", elementType: "geometry.fill", stylers: [{ visibility: "off" }]},
-	    { featureType: "transit.station", elementType: "geometry.fill", stylers: [{ visibility: "off" }]}
+    	    { featureType: "transit", elementType: "geometry.fill", stylers: [{visibility: "off" }]},
+	    { featureType: "transit.station", elementType: "geometry.fill", stylers: [{visibility: "off" }]},
+            { featureType: "landscape.natural", elementType: "labels", stylers: [{visibility: "off"}]},
+    	    { featureType: 'road.highway', elementType: 'labels', stylers: [{visibility: "off"}]}
 ];
 var mapOptions = {
 	mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -248,8 +250,8 @@ function mapInit(){
         infowindow.addTab('License',
             "<div id='infoText'>" +
             "<b><font size='3rem'>"+ development.DBA + "</font><br/>" +
-        		development.license + "<br/>" +
-            "<font color='development.typeColor'>" +                                   development.licenseType + "</font></b><br/>" +
+            development.license + "<br/>" +
+            development.licenseType.fontcolor(development.typeColor) + "</b><br/>" +
             "License # " + development.licenseNumber + "<br/>" +
             development.street + "<br/>" +
             development.city + ", CO " + development.zip +
