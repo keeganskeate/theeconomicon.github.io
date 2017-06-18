@@ -24,7 +24,6 @@
     background: #fff;
     -moz-box-shadow: 0px 1px 6px 1px rgba(102,102,102,0.3);
     -webkit-box-shadow: 0px 1px 6px 1px rgba(102,102,102,0.3);
-    text-align: left;
 }
 #form-wrapper {
     float: right;
@@ -32,6 +31,8 @@
 }
 #selection-column {
     float: left;
+    width: 100%;
+    text-align: left;
     padding: 5px;
     font-size: 0.95rem;
 }
