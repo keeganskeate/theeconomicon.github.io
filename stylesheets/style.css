@@ -21,19 +21,19 @@
 */
 /*Lazy Loading*/
 html.loading,body.loading * {
-		-moz-transition: none !important;
-		-webkit-transition: none !important;
-		-o-transition: none !important;
-		-ms-transition: none !important;
-		transition: none !important;
-		-moz-animation: none !important;
-		-webkit-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
+	-moz-transition: none !important;
+	-webkit-transition: none !important;
+	-o-transition: none !important;
+	-ms-transition: none !important;
+	transition: none !important;
+	-moz-animation: none !important;
+	-webkit-animation: none !important;
+	-o-animation: none !important;
+	-ms-animation: none !important;
+	animation: none !important;
+}
 /* Basic Format*/
-html,body {
+html, body {
 	background: #fff;
 	color: #131516;
 	font-family: 'Open Sans', sans-serif;
@@ -81,6 +81,7 @@ html,body {
 		-webkit-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
 	}
 		#header .container {
+			width: 100%;
 			position: relative;
 		}
 /*Navigation Bar*/
