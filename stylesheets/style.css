@@ -82,6 +82,11 @@ html, body {
 		-moz-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
 		-webkit-box-shadow: 0px 1px 6px 1px rgba(70,70,70,0.3);
 		font-family: 'Montserrat', sans-serif;
+		letter-spacing: 0;
+		text-decoration: none;
+		font-weight: 300;
+		font-size: 0.975em;
+		color: #131516;
 	}
 		#header .container {
 			width: 100%;
@@ -118,10 +123,6 @@ html, body {
 				padding: 0 0 0 2em;
 				height: inherit;
 				text-decoration: none;
-				font-size: 1em;
-				letter-spacing: 2px;
-				font-weight: 400;
-				text-shadow: 0 -1px 0 #000;
 				position: relative;
 				-moz-transition: all 200ms ease-in;
 				-webkit-transition: all 200ms ease-in;
@@ -138,12 +139,7 @@ html, body {
 					height: inherit;
 					vertical-align: bottom;
 					padding-bottom: 0px;
-					letter-spacing: 2px;
-					text-decoration: none;
 					border-bottom: 2px solid #fff;
-					color: #131516;
-					font-weight: 500;
-					font-size: 1em;
 					-moz-transition: all 200ms ease-in;
 					-webkit-transition: all 200ms ease-in;
 					-o-transition: all 200ms ease-in;
@@ -181,8 +177,6 @@ html, body {
 		background: #fff;
 		-moz-box-shadow: 0px 1px 2px 2px rgba(70,70,70,0.3);
 		-webkit-box-shadow: 0px 1px 2px 2px rgba(70,70,70,0.3);
-		color: #131516;
-		font-weight: 500;
 		min-width: 12em;
 		margin-top: 2px;
 	}
@@ -195,11 +189,6 @@ html, body {
 				-webkit-appearance: none;
 				-o-appearance: none;
 				-ms-appearance: none;
-				text-shadow: 0 -1px 0 #000;
-				color: inherit;
-				font-weight: 500;
-				letter-spacing: 2px;
-				text-decoration: none;
 				-moz-transition: all 200ms ease-in;
 				-webkit-transition: all 200ms ease-in;
 				-o-transition: all 200ms ease-in;
