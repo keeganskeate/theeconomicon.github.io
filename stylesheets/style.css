@@ -86,7 +86,6 @@ html, body {
 		text-decoration: none;
 		font-weight: 300;
 		font-size: 0.975em;
-		color: #131516;
 	}
 		#header .container {
 			width: 100%;
@@ -145,6 +144,7 @@ html, body {
 					-o-transition: all 200ms ease-in;
 					-ms-transition: all 200ms ease-in;
 					transition: all 200ms ease-in;
+					color: #414042;
 				}
 				#nav ul li:first-child {
 					float: left;
@@ -194,6 +194,7 @@ html, body {
 				-o-transition: all 200ms ease-in;
 				-ms-transition: all 200ms ease-in;
 				transition: all 200ms ease-in;
+				color: #414042;
 			}
 			.dropotron > li.active,
 			.dropotron > li:hover{
@@ -204,11 +205,9 @@ html, body {
 				color: #B2E522;
 			}
 	.dropotron.level-0 {
-		font-size: 1em;
 		margin-left:0em;
 	}
 		.dropotron.level-1 {
-			font-size: 1em;
 			margin-left:0em;
 			margin-top:1em;
 		}
