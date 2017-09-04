@@ -19,6 +19,8 @@
 			Darkest White: #D6D6D6
 			Dark Purple: #2D004F
 			Light Green: #B2E522
+			Medium Green: #43b02a
+			Dark Green: #219C24
 
 */
 /*Lazy Loading*/
@@ -162,11 +164,11 @@ html, body {
 					}
 					#nav > ul > li.active > a,
 					#nav > ul > li:hover > a{
-						border-bottom: 2px solid #B2E522;
+						border-bottom: 2px solid #219C24;
 					}
 					#nav > ul > li.active > a > span,
 					#nav > ul > li:hover > a > span{
-						color: #B2E522;
+						color: #219C24;
 					}
 				#nav > ul > li > ul {
 					display: none;
@@ -205,7 +207,7 @@ html, body {
 			}
 			.dropotron > li.active > a > span,
 			.dropotron > li:hover > a > span{
-				color: #B2E522;
+				color: #219C24;
 			}
 	.dropotron.level-0 {
 		margin-left:0em;
