@@ -102,9 +102,10 @@ em, i {
 	background: #fff;
 	border-bottom: 1px solid #eee;
 	height: 60px;
+	width: inherit;
 	/*top: 0;*/
 	right: none;
-	display: block;
+	display: inline-block;
 	text-align: center;
 	padding: 0em;
     	margin: 0 auto;
