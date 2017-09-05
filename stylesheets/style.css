@@ -146,7 +146,7 @@ html, body {
 					height: inherit;
 					vertical-align: bottom;
 					padding-bottom: 0px;
-					border-bottom: 2px solid #fff;
+					/*border-bottom: 2px solid #fff;*/
 					-moz-transition: all 200ms ease-in;
 					-webkit-transition: all 200ms ease-in;
 					-o-transition: all 200ms ease-in;
