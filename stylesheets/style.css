@@ -91,6 +91,8 @@ em, i {
 }
 	#header .container {
 		width: 100%;
+		min-width: 840px;
+		max-width: 1344px;
 		position: relative;
 	}
 /*Navigation Bar*/
