@@ -82,7 +82,7 @@ html, body {
 		}
 /* Header */
 	#header {
-		position: fixed;
+		position: relative;
 		z-index: auto;
 		height: 60px;
 		background: #fff;
@@ -95,7 +95,7 @@ html, body {
 	}
 		#header .container {
 			width: 100%;
-			position: relative;
+			position: fixed;
 		}
 /*Navigation Bar*/
 	#nav {
