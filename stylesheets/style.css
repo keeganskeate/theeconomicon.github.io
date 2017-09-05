@@ -137,20 +137,20 @@ html, body {
 				transition: all 200ms ease-in;	
 			}
 				#nav > ul > li a {
-					-moz-appearance: none;
+					/*-moz-appearance: none;
 					-webkit-appearance: none;
 					-o-appearance: none;
 					-ms-appearance: none;
-					display: table-cell;
-					height: inherit;
-					vertical-align: bottom;
-					padding-bottom: 0px;
-					/*border-bottom: 2px solid #fff;*/
 					-moz-transition: all 200ms ease-in;
 					-webkit-transition: all 200ms ease-in;
 					-o-transition: all 200ms ease-in;
 					-ms-transition: all 200ms ease-in;
-					transition: all 200ms ease-in;
+					transition: all 200ms ease-in;*/
+					display: table-cell;
+					height: inherit;
+					vertical-align: bottom;
+					padding-bottom: 0px;
+					border-bottom: 2px solid transparent;
 					color: #414042;
 				}
 				#nav ul li:first-child {
@@ -528,7 +528,7 @@ footer > :last-child {
 	input[type="reset"],
 	input[type="button"],
 	.button.tip {
-		-moz-appearance: none;
+		/*-moz-appearance: none;
 		-webkit-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
@@ -537,7 +537,7 @@ footer > :last-child {
 		-webkit-transition: all 0.35s ease-in-out;
 		-o-transition: all 0.35s ease-in-out;
 		-ms-transition: all 0.35s ease-in-out;
-		transition: all 0.35s ease-in-out;
+		transition: all 0.35s ease-in-out;*/
 		cursor: pointer;
 		text-decoration: none;
 		display: inline-block;
