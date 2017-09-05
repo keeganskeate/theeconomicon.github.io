@@ -281,10 +281,6 @@ html, body {
 				color: #131516;
 				font-weight: bold;
 			}
-				#banner .content-bin ul > li > a:active,
-				#banner .content-bin ul > li > a:hover{
-					color: #2dbe60;
-				}
 		#banner .content-bin h1{
 			height: 85px;
 			width: inherit;
@@ -308,12 +304,17 @@ html, body {
 			font-size: 16px;
 			font-weight: 400;
 		}
-			/*#banner .content-bin .left-padded{
-				padding-left: 20px;
-			}*/
+			#banner .content-bin a:active,
+			#banner .content-bin a:hover{
+				color: #2dbe60;
+			}
 		.bold-link {
-				color: #131516;
-				font-weight: bold;
+			color: #131516;
+			font-weight: bold;
+		}
+			.bold-link:active,
+			.bold-link:hover {
+				color: #2dbe60;
 			}
 		.top-padded {
 			padding-top: 20px;
