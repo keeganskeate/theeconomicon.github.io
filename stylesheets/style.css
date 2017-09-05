@@ -6,26 +6,26 @@
 /*New Fonts*/
 @import url("http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800");
 /*
-	Main Style Sheet for The Economicon website
+Main Style Sheet for The Economicon website
 
-	Theme Colors
-			Light Grey: #ccc
-			Medium Grey: #E0E1E1
-			Dark Grey: #999
-			Black: #131516
-			Light White: #F2F3F4
-			White:#F7F5E6
-			Off White: #E8E8E8
-			Darkest White: #D6D6D6
-			Dark Purple: #2D004F
-			Light Green: #B2E522
-			Medium Green: #43b02a
-			Dark Green: #219C24
-			Medium Teal: #2dbe60
-			Dark Teal: #0d9f40
-
+Theme Colors
+	Lightest Grey: #eee
+	Light Grey: #ccc
+	Medium Grey: #E0E1E1
+	Dark Grey: #999
+	Black: #131516
+	Light White: #F2F3F4
+	White: #F7F5E6
+	Off White: #E8E8E8
+	Darkest White: #D6D6D6
+	Dark Purple: #2D004F
+	Light Green: #B2E522
+	Medium Green: #43b02a
+	Dark Green: #219C24
+	Medium Teal: #2dbe60
+	Dark Teal: #0d9f40
 */
-/*Lazy Loading*/
+/* Lazy Loading */
 html.loading,body.loading * {
 	-moz-transition: none !important;
 	-webkit-transition: none !important;
@@ -38,7 +38,7 @@ html.loading,body.loading * {
 	-ms-animation: none !important;
 	animation: none !important;
 }
-/* Basic Format*/
+/* Basic Format */
 html, body {
 	background: #fff;
 	color: #131516;
@@ -52,15 +52,15 @@ html, body {
 	overflow-x: hidden;
 	overflow-y: auto;
 }
-	a {
-		text-decoration: none;
-	}
-	strong, b {
-		font-weight: 700;
-	}
-	em, i {
-		font-style: italic;
-	}
+a {
+	text-decoration: none;
+}
+strong, b {
+	font-weight: 700;
+}
+em, i {
+	font-style: italic;
+}
 /* Content Containers */
 .container {
 	min-width: 840px;
@@ -68,109 +68,109 @@ html, body {
 	max-width: 1344px;
 }
 /* Wrappers */
-	.wrapper {
-		padding: 0em;
-	}
-		.wrapper.top-style {
-			padding: 0em;
-		}
-		.wrapper.banner-style {
-			padding: 0em;
-		}
-		.wrapper.end-style {
-			padding-bottom: 2em;
-		}
+.wrapper {
+	padding: 0em;
+}
+.wrapper.top-style {
+	padding: 0em;
+}
+.wrapper.banner-style {
+	padding: 0em;
+}
+.wrapper.end-style {
+	padding-bottom: 2em;
+}
 /* Header */
-	#header {
-		height: 60px;
-		font-family: 'Montserrat', sans-serif;
-		text-decoration: none;
-		font-weight: 300;
-		font-size: 0.975em;
-		letter-spacing: 0;
+#header {
+	height: 60px;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	font-weight: 300;
+	font-size: 0.975em;
+	letter-spacing: 0;
+}
+	#header .container {
+		width: 100%;
+		position: relative;
 	}
-		#header .container {
-			width: 100%;
-			position: relative;
-		}
 /*Navigation Bar*/
-	#nav {
-		position: fixed;
-		z-index: auto;
-		background: #fff;
-		border-bottom: 1px solid #eee;
-		height: 60px;
-		/*top: 0;
-		right: none;*/
-		display: block;
-    		text-align: center;
-		padding: 0em;
-    		margin: 0 auto;
-    		vertical-align: baseline;
-		/*-moz-box-shadow: 0px 0px 6px 0px rgba(70,70,70,0.3);
-		-webkit-box-shadow: 0px 0px 6px 0px rgba(70,70,70,0.3);*/
+#nav {
+	position: fixed;
+	z-index: auto;
+	background: #fff;
+	border-bottom: 1px solid #eee;
+	height: 60px;
+	/*top: 0;
+	right: none;*/
+	display: block;
+	text-align: center;
+	padding: 0em;
+    	margin: 0 auto;
+    	vertical-align: baseline;
+	/*-moz-box-shadow: 0px 0px 6px 0px rgba(70,70,70,0.3);
+	-webkit-box-shadow: 0px 0px 6px 0px rgba(70,70,70,0.3);*/
+}
+	#nav > ul {
+		height: inherit;
+		margin: 0;
+		padding:0;
+		list-style-type: none;
+		vertical-align: bottom;
 	}
-		#nav > ul {
+		#nav > ul > li  {
+			/*-moz-appearance: none;
+			-webkit-appearance: none;
+			-o-appearance: none;
+			-ms-appearance: none;
+			-moz-transition: all 200ms ease-in;
+			-webkit-transition: all 200ms ease-in;
+			-o-transition: all 200ms ease-in;
+			-ms-transition: all 200ms ease-in;
+			transition: all 200ms ease-in;*/
+			border-radius: 2px;
+			display: inline-block;
+			float: right;
+			margin-left: 0.0em;
+			padding: 0 0 0 2em;
 			height: inherit;
-			margin: 0;
-			padding:0;
-			list-style-type: none;
-			vertical-align: bottom;
+			text-decoration: none;
+			position: relative;	
 		}
-			#nav > ul > li  {
-				-moz-appearance: none;
+			#nav > ul > li a {
+				/*-moz-appearance: none;
 				-webkit-appearance: none;
 				-o-appearance: none;
 				-ms-appearance: none;
-				border-radius: 2px;
-				display: inline-block;
-				float: right;
-				margin-left: 0.0em;
-				padding: 0 0 0 2em;
-				height: inherit;
-				text-decoration: none;
-				position: relative;
 				-moz-transition: all 200ms ease-in;
 				-webkit-transition: all 200ms ease-in;
 				-o-transition: all 200ms ease-in;
 				-ms-transition: all 200ms ease-in;
-				transition: all 200ms ease-in;	
+				transition: all 200ms ease-in;*/
+				display: table-cell;
+				height: inherit;
+				vertical-align: bottom;
+				padding-bottom: 0px;
+				border-bottom: 2px solid transparent;
+				color: #414042;
 			}
-				#nav > ul > li a {
-					/*-moz-appearance: none;
-					-webkit-appearance: none;
-					-o-appearance: none;
-					-ms-appearance: none;
-					-moz-transition: all 200ms ease-in;
-					-webkit-transition: all 200ms ease-in;
-					-o-transition: all 200ms ease-in;
-					-ms-transition: all 200ms ease-in;
-					transition: all 200ms ease-in;*/
-					display: table-cell;
-					height: inherit;
-					vertical-align: bottom;
-					padding-bottom: 0px;
+			#nav ul li:first-child {
+				float: left;
+				border: none;
+				padding: 2px 0;
+			}
+			#nav > ul > li:first-child {
+				margin-left: 0;
+				position: relative;
+				line-height: 2em;
+			}				
+				#nav > ul > li:first-child.active > a,
+				#nav > ul > li:first-child:hover > a {
 					border-bottom: 2px solid transparent;
-					color: #414042;
 				}
-				#nav ul li:first-child {
-					float: left;
-					border: none;
-					padding: 2px 0;
+				#nav > ul > li.active > a,
+				#nav > ul > li:hover > a{
+					border-bottom: 2px solid #2dbe60;
 				}
-				#nav > ul > li:first-child {
-					margin-left: 0;
-					position: relative;
-					line-height: 2em;
-				}				
-					#nav > ul > li:first-child.active > a,
-					#nav > ul > li:first-child:hover > a {
-						border-bottom: 2px solid #fff;
-					}
-					#nav > ul > li.active > a,
-					#nav > ul > li:hover > a{
-						border-bottom: 2px solid #2dbe60;
-					}
 					#nav > ul > li.active > a > span,
 					#nav > ul > li:hover > a > span{
 						color: #2dbe60;
@@ -343,9 +343,9 @@ html, body {
 @media only screen and (max-width: 980px){ #banner .content-bin .left-padded{ padding-left: 0;}}
 
 /* Footer */
-footer > :last-child {
-		margin-bottom: 0;
-	}
+#footer > :last-child {
+	margin-bottom: 0;
+}
 	#footer {
 		margin: 0 auto;
 		padding: 0;
