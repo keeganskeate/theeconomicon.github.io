@@ -96,10 +96,11 @@ em, i {
 /*Navigation Bar*/
 #nav {
 	position: fixed;
-	z-index: auto;
+	z-index: 666;
 	background: #fff;
 	border-bottom: 1px solid #eee;
 	height: 60px;
+	width: 100%;
 	/*top: 0;
 	right: none;*/
 	display: block;
