@@ -83,8 +83,9 @@ html, body {
 /* Header */
 	#header {
 		position: relative;
-		z-index: 666;
+		z-index: auto;
 		height: 60px;
+		background: #fff;
 		font-family: 'Montserrat', sans-serif;
 		text-decoration: none;
 		font-weight: 300;
@@ -93,7 +94,7 @@ html, body {
 	}
 		#header .container {
 			width: 100%;
-			position: fixed;
+			position: static;
 		}
 /*Navigation Bar*/
 	#nav {
