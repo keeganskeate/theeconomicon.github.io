@@ -211,14 +211,14 @@ html, body {
 	.dropotron.level-0 {
 		margin-left:0em;
 		font-weight: 300;
-		font-size: 0.95em;
+		font-size: 0.925em;
 		letter-spacing: 0;
 	}
 		.dropotron.level-1 {
 			margin-left:0em;
 			margin-top:1em;
 			font-weight: 300;
-			font-size: 0.95em;
+			font-size: 0.925em;
 			letter-spacing: 0;
 		}
 /* Banner */
@@ -281,9 +281,9 @@ html, body {
 				color: #131516;
 				font-weight: bold;
 			}
-				#banner .content-bin ul > li > a.active > span,
-				#banner .content-bin ul > li > a:hover > span{
-					color: #B2E522;
+				#banner .content-bin ul > li > a:active,
+				#banner .content-bin ul > li > a:hover{
+					color: #2dbe60;
 				}
 		#banner .content-bin h1{
 			height: 85px;
