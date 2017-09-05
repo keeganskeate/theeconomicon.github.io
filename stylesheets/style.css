@@ -95,9 +95,8 @@ html, body {
 		}
 /*Navigation Bar*/
 	#nav {
-		position: fixed;
+		position: static;
 		height: 60px;
-		width: 100%;
 		top: 0;
 		right: none;
 		display: block;
