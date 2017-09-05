@@ -91,8 +91,6 @@ em, i {
 }
 	#header .container {
 		width: 100%;
-		min-width: 840px;
-		max-width: 1344px;
 		position: relative;
 	}
 /*Navigation Bar*/
@@ -103,6 +101,8 @@ em, i {
 	border-bottom: 1px solid #eee;
 	height: 60px;
 	width: inherit;
+	min-width: 840px;
+	max-width: 1344px;
 	/*top: 0;*/
 	right: none;
 	display: inline-block;
