@@ -86,6 +86,7 @@ html, body {
 		z-index: auto;
 		height: 60px;
 		background: #fff;
+		border-bottom: 1px solid #eee;
 		font-family: 'Montserrat', sans-serif;
 		text-decoration: none;
 		font-weight: 300;
