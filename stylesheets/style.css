@@ -84,7 +84,7 @@ em, i {
 /* Hero */
 .hero-image {
     /* The image used */
-    background-image: url("images/hero.png");
+    background-image: url("/images/hero.png");
     /* Set a specific height */
     height: 400px;
     /* Position and center the image to scale nicely on all screens */
