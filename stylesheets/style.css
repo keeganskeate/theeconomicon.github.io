@@ -182,19 +182,15 @@ em, i {
 				padding: 2px 0;
 			}
 			#nav > ul > li:first-child {
-				background-image: url("/images/The-Economicon-logo-new.png");
-				height: 50px;
-				width: 350px;
-				background-position: center center;
-				background-repeat: no-repeat;
-				background-size: cover;
+				width: 25px; height: 25px;
+        			background: url('images/tuxie.png') no-repeat left top;
 				margin-left: 0;
 				position: relative;
 				line-height: 2em;
 			}				
-				#nav > ul > li:first-child.active > a,
+				#nav > ul > li:first-child:active > a,
 				#nav > ul > li:first-child:hover > a {
-					background-image: url("/images/The-Economicon-logo-new-alt.png");
+					background-position: -25px 0px;
 					border-bottom: 2px solid transparent;
 				}
 				#nav > ul > li.active > a,
