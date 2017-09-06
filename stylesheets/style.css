@@ -113,6 +113,17 @@ em, i {
 		width: 100%;
 		position: relative;
 	}
+#header.animateIt {
+    position: fixed;
+    top: -50px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    transition: 0.4s top cubic-bezier(.3, .73, .3, .74);
+}
+#body.down #header.animateIt {
+    top: 0;
+}
 /* Logo */
 #logo-sprite {
 	width: 350px; height: 50px;
