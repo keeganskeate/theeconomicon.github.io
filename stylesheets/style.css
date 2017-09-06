@@ -111,7 +111,7 @@ em, i {
 }
 	#header .container {
 		width: 100%;
-		position: relative;
+		position: absolute;
 	}
 /*Navigation Bar*/
 #nav {
