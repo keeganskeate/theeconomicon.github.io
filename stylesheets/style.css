@@ -84,7 +84,7 @@ em, i {
 /* Hero */
 .hero-image {
 	background-image: url("/images/hero.png");
-	height: 400px;
+	height: 70%;
 	background-position: right top;
 	background-repeat: no-repeat;
 	background-size: cover;
