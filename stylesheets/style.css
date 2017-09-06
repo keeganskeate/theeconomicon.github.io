@@ -141,7 +141,7 @@ em, i {
 	/*-moz-box-shadow: 0px 0px 6px 0px rgba(70,70,70,0.3);
 	-webkit-box-shadow: 0px 0px 6px 0px rgba(70,70,70,0.3);*/
 }
-.fixed-nav {
+#nav.fixed-nav {
 	display:none;
 	position: fixed;
 	background: #fff;
