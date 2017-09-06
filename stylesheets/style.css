@@ -124,6 +124,7 @@ em, i {
 }
 .heading-wrapper:not(.relative).fixed {
     	top: 0px;
+	background: #2dbe60;
 }
 /* Header */
 #header {
