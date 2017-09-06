@@ -1,6 +1,6 @@
-/*Main JavaScript file.*/
+/* Main JavaScript file */
 
-/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+/* When the user clicks on the button, toggle between hiding and showing the dropdown content. */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -20,7 +20,7 @@ window.onclick = function(event) {
 
 /* Sticky header slide down effect */
 $(window).scroll(function(){
-    var sticky = $('.nav'),
+    var sticky = $('#nav'),
         scroll = $(window).scrollTop();
         if (scroll >= 200){
             sticky.addClass('fixed-nav');
