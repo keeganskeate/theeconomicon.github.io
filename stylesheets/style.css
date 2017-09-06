@@ -116,11 +116,11 @@ em, i {
 /* Logo */
 #logo-sprite {
 	width: 350px; height: 50px;
-        background: url('/images/The-Economicon-logo-sprite.png') no-repeat left top;
+        background: url('/images/The-Economicon-logo-new.png') no-repeat left center;
 }
-	#logo-sprite:hover {
+	/*#logo-sprite:hover {
 		background-position: -350px 0px;
-	}
+	}*/
 /*Navigation Bar*/
 #nav {
 	position: fixed;
