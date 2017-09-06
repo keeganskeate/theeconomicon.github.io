@@ -121,6 +121,7 @@ em, i {
 .heading-wrapper.relative {
     	position: absolute;
     	top: 0px;
+	background: #ccc;
 }
 .heading-wrapper:not(.relative).fixed {
     	top: 0px;
