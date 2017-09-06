@@ -84,7 +84,7 @@ em, i {
 /* Hero */
 .hero-image {
 	background-image: url("/images/hero.png");
-	height: 600px;
+	height: 400px;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -112,6 +112,14 @@ em, i {
 	#header .container {
 		width: 100%;
 		position: relative;
+	}
+/* Logo */
+#tuxie {
+	width: 25px; height: 25px;
+        background: url('/images/tuxie.png') no-repeat left top;
+}
+	#tuxie:hover {
+		background-position: -25px 0px;
 	}
 /*Navigation Bar*/
 #nav {
@@ -182,15 +190,12 @@ em, i {
 				padding: 2px 0;
 			}
 			#nav > ul > li:first-child {
-				width: 25px; height: 25px;
-        			background: url('/images/tuxie.png') no-repeat left top;
 				margin-left: 0;
 				position: relative;
 				line-height: 2em;
 			}				
 				#nav > ul > li:first-child:active > a,
 				#nav > ul > li:first-child:hover > a {
-					background-position: -25px 0px;
 					border-bottom: 2px solid transparent;
 				}
 				#nav > ul > li.active > a,
