@@ -91,7 +91,7 @@ em, i {
 /* Hero */
 .hero-image {
 	background-image: url("/images/hero.png");
-	height: 70%;
+	height: 600px;
 	background-position: right top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -108,22 +108,22 @@ em, i {
 }
 .heading-wrapper {
 	z-index: 999;
-    position: fixed;
-    top: -80px;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 65px;
-    background: #000;
+	position: fixed;
+	top: -50px;
+    	left: 0;
+    	right: 0;
+    	width: 100%;
+    	height: 60px;
+    	background: #000;
 	color: #2dbe60;
-    transition: top 0.25s linear;
+    	transition: top 0.25s linear;
 }
 .heading-wrapper.relative {
-    position: absolute;
-    top: 0px;
+    	position: absolute;
+    	top: 0px;
 }
 .heading-wrapper:not(.relative).fixed {
-    top: 0px;
+    	top: 0px;
 }
 /* Header */
 #header {
