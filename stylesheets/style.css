@@ -84,7 +84,7 @@ em, i {
 /* Hero */
 .hero-image {
 	background-image: url("/images/hero.png");
-	height: 800px;
+	height: 600px;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -111,7 +111,7 @@ em, i {
 }
 	#header .container {
 		width: 100%;
-		position: absolute;
+		position: relative;
 	}
 /*Navigation Bar*/
 #nav {
