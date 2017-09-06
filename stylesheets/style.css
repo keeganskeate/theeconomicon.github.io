@@ -48,7 +48,7 @@ html, body {
 	line-height: 1.65em;
 	margin: 0px;
 	padding: 0px;
-	width:100%;
+	width: 100%;
 	overflow-x: hidden;
 	overflow-y: auto;
 }
@@ -88,7 +88,7 @@ em, i {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment:fixed;
+	background-attachment: fixed;
 	position: relative;
 }
 .hero-text {
@@ -117,7 +117,6 @@ em, i {
 #nav {
 	position: fixed;
 	z-index: 666;
-	background: #fff;
 	height: 60px;
 	width: inherit;
 	min-width: 840px;
@@ -129,8 +128,10 @@ em, i {
 	padding: 0em;
     	margin: 0 auto;
     	vertical-align: baseline;
-	-moz-box-shadow: 0px 0px 6px 0px rgba(70,70,70,0.3);
-	-webkit-box-shadow: 0px 0px 6px 0px rgba(70,70,70,0.3);
+	background: transparent;
+	border-bottom: 1px solid #ccc;
+	/*-moz-box-shadow: 0px 0px 6px 0px rgba(70,70,70,0.3);
+	-webkit-box-shadow: 0px 0px 6px 0px rgba(70,70,70,0.3);*/
 }
 	#nav > ul {
 		height: inherit;
@@ -203,11 +204,11 @@ em, i {
 /* Dropotron */
 	.dropotron {
 		top: 2em;
+		min-width: 12em;
+		margin-top: 2px;
 		background: #fff;
 		-moz-box-shadow: 0px 1px 2px 2px rgba(70,70,70,0.3);
 		-webkit-box-shadow: 0px 1px 2px 2px rgba(70,70,70,0.3);
-		min-width: 12em;
-		margin-top: 2px;
 	}
 		.dropotron > li {
 			line-height: 2.25em;
@@ -227,21 +228,21 @@ em, i {
 			}
 			.dropotron > li.active,
 			.dropotron > li:hover{
-				background:#f5f6f7;
+				background: #f5f6f7;
 			}
 			.dropotron > li.active > a > span,
 			.dropotron > li:hover > a > span{
 				color: #2dbe60;
 			}
 	.dropotron.level-0 {
-		margin-left:0em;
+		margin-left: 0em;
 		font-weight: 300;
 		font-size: 0.925em;
 		letter-spacing: 0;
 	}
 		.dropotron.level-1 {
-			margin-left:0em;
-			margin-top:1em;
+			margin-left: 0em;
+			margin-top: 1em;
 			font-weight: 300;
 			font-size: 0.925em;
 			letter-spacing: 0;
@@ -252,16 +253,16 @@ em, i {
 		-webkit-appearance: none;
 		-o-appearance: none;
 		-ms-appearance: none;
-		display: block;
-		padding-top: 2em;
-		text-align: center;
-		text-transform: none;
-		color: inherit;
 		-moz-transition: all .35s ease-in;
 		-webkit-transition: all .35s ease-in;
 		-o-transition: all .35s ease-in;
 		-ms-transition: all .35s ease-in;
 		transition: all .35s ease-in;
+		display: block;
+		padding-top: 2em;
+		text-align: center;
+		text-transform: none;
+		color: inherit;
 	}
 		#banner .container {
 			margin: 0 auto;
@@ -271,7 +272,7 @@ em, i {
 				display: inline-block;
 				margin: auto;
 				width: 80%;
-				overflow:auto;
+				overflow: auto;
 			}
 				.content-bin div {
 					position: relative;
@@ -279,11 +280,11 @@ em, i {
 					vertical-align: top;
 				}
 				#content-section {
-					display:inline-block;
-					overflow:hidden;
+					display: inline-block;
+					overflow: hidden;
 					padding: 1em 0;
 					margin: auto;
-					width:50%;
+					width: 50%;
 				}
 					#content-wrap {
 						float: left;
@@ -295,7 +296,7 @@ em, i {
 						position: relative;
 						left: -50%;
 					}
-		#banner .content-bin ul{
+		#banner .content-bin ul {
 			list-style: none;
 			text-align: left;
 		}
@@ -306,7 +307,7 @@ em, i {
 				color: #131516;
 				font-weight: bold;
 			}
-		#banner .content-bin h1{
+		#banner .content-bin h1 {
 			height: 85px;
 			width: inherit;
 			font-family: 'Oswald', sans-serif;
@@ -317,10 +318,10 @@ em, i {
 			padding-bottom: 15px;
 		}
 			/*Subpage Only*/
-			.subpage #banner .content-bin h1{
+			.subpage #banner .content-bin h1 {
 				height: 50px;
 			}
-		#banner .content-bin p{
+		#banner .content-bin p {
 			display: block;
 			font-family: 'EB Garamond', serif;
 			text-align: left;
@@ -380,8 +381,8 @@ em, i {
 		}
 		#footer hr {
 			height: 4px;
-			background-color:#131516;
-			color:#131516;
+			background-color: #131516;
+			color: #131516;
 			border: 0 none;
 			margin: 5px auto;
 		}
@@ -397,9 +398,9 @@ em, i {
 		}
 		#footer li > a{
 			text-align: left;
-			line-height:1rem;
+			line-height: 1rem;
 			font-size: 0.875rem;
-			font-weight:500;
+			font-weight: 500;
 			color: #131516;
 		}
 		#footer ul{
@@ -410,13 +411,13 @@ em, i {
 		display: inline-block;
 		margin: auto;
 		width: 90%;
-		overflow:auto;
+		overflow: auto;
 	}
 		.index-bin div {
 			position:relative;
-			float:left;
-			text-align:left;
-			vertical-align:top;
+			float: left;
+			text-align: left;
+			vertical-align: top;
 		}
 		#footer .index-bin li{
 			line-height: 1.6em;
@@ -425,11 +426,11 @@ em, i {
 			text-decoration: underline;
 		}
 		#index-section {
-			display:inline-block;
-			overflow:hidden;
+			display: inline-block;
+			overflow: hidden;
 			padding: 1em 0;
 			margin: auto;
-			width:25%;
+			width: 25%;
 		}
 			#index-wrap {
 				float: left;
@@ -448,22 +449,21 @@ em, i {
 
 /* Copyright */
 	#copyright {
-		text-align:center;
+		text-align: center;
 		position: relative;
 		padding: 0;
 	}
 		#copyright hr {
 			height: 1px;
-			background-color: #131516;
-			color: #131516;
-			opacity:0.5;
+			background-color: #ccc;
+			color: #ccc;
 			border: 0 none;
 			margin: 5px auto;
 		}
 		#copyright a {
-			font-size:11px;
+			font-size: 11px;
 			color: #999;
-			font-weight:400;
+			font-weight: 400;
 			text-decoration: none;
 		}
 			#copyright a:hover {
