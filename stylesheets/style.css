@@ -91,7 +91,7 @@ em, i {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position: fixed;
 }
 /* Place text in the middle of the image */
 .hero-text {
