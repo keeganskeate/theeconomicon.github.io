@@ -113,7 +113,24 @@ em, i {
 		width: 100%;
 		position: relative;
 	}
-sticky {
+.heading-wrapper {
+    position: fixed;
+    top: -80px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 65px;
+    background: #000;
+    transition: top 0.25s linear;
+}
+.heading-wrapper.relative {
+    position: absolute;
+    top: 0px;
+}
+.heading-wrapper:not(.relative).fixed {
+    top: 0px;
+}
+/*sticky {
     position: relative;
     width: 100%;
     height: 60px;
@@ -131,7 +148,7 @@ sticky.animateIt {
 }
 body.down sticky.animateIt {
     top: 0;
-}
+}*/
 /* Logo */
 #logo-sprite {
 	width: 350px; height: 50px;
