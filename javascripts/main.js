@@ -18,7 +18,14 @@ window.onclick = function(event) {
   }
 }
 
-/* Sticky header slide down effect */
+$(document).ready(function () {
+    $("header").before($("header").clone().addClass("animateIt"));
+    $(window).on("scroll", function () {
+        $("body").toggleClass("down", ($(window).scrollTop() > 100));
+    });
+});
+
+/* Sticky header slide down effect 
 $(window).scroll(function(){
     var sticky = $('#nav'),
         scroll = $(window).scrollTop();
