@@ -183,7 +183,7 @@ em, i {
 			}
 			#nav > ul > li:first-child {
 				width: 25px; height: 25px;
-        			background: url('images/tuxie.png') no-repeat left top;
+        			background: url('/images/tuxie.png') no-repeat left top;
 				margin-left: 0;
 				position: relative;
 				line-height: 2em;
