@@ -182,12 +182,19 @@ em, i {
 				padding: 2px 0;
 			}
 			#nav > ul > li:first-child {
+				background-image: url("/images/The-Economicon-logo-new.png");
+				height: 50px;
+				width: 350px;
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-size: cover;
 				margin-left: 0;
 				position: relative;
 				line-height: 2em;
 			}				
 				#nav > ul > li:first-child.active > a,
 				#nav > ul > li:first-child:hover > a {
+					background-image: url("/images/The-Economicon-logo-new-alt.png");
 					border-bottom: 2px solid transparent;
 				}
 				#nav > ul > li.active > a,
