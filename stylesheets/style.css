@@ -40,17 +40,17 @@ html.loading,body.loading * {
 }
 /* Basic Format */
 html, body {
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin: 0;
+	padding: 0;
+	width: 100%;
 	background: #fff;
 	color: #131516;
+	line-height: 1.65em;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
 	font-weight: 400;
-	line-height: 1.65em;
-	margin: 0px;
-	padding: 0px;
-	width: 100%;
-	overflow-x: hidden;
-	overflow-y: auto;
 }
 a {
 	text-decoration: none;
