@@ -1,5 +1,13 @@
 /* Main JavaScript file */
-
+$(function(){
+	$("header").before($(".StickyHeader").clone().addClass("fixed"));
+	$(window).scroll(function(){
+		if($(window).scrollTop() >= 150){
+			$('.StickyHeader.fixed').addClass('slideDown');
+		}
+	else{
+		$('.StickyHeader.fixed').removeClass('slideDown');
+	}
 /* When the user clicks on the button, toggle between hiding and showing the dropdown content. */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
