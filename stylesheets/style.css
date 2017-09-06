@@ -87,7 +87,7 @@ em, i {
 	height: 400px;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	/*background-size: cover;*/
 	background-attachment: fixed;
 	position: relative;
 }
@@ -114,12 +114,12 @@ em, i {
 		position: relative;
 	}
 /* Logo */
-#tuxie {
-	width: 25px; height: 25px;
+#logo-sprite {
+	width: 350px; height: 50px;
         background: url('/images/tuxie.png') no-repeat left top;
 }
-	#tuxie:hover {
-		background-position: -25px 0px;
+	#logo-sprite:hover {
+		background-position: -350px 0px;
 	}
 /*Navigation Bar*/
 #nav {
