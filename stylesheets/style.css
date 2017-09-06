@@ -83,24 +83,21 @@ em, i {
 
 /* Hero */
 .hero-image {
-    /* The image used */
-    background-image: url("/images/hero.png");
-    /* Set a specific height */
-    height: 400px;
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;
+	background-image: url("/images/hero.png");
+	height: 400px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	position: relative;
 }
-/* Place text in the middle of the image */
 .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
 }
 
 /* Header */
