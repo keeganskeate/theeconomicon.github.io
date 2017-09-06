@@ -117,8 +117,7 @@ em, i {
 #nav {
 	position: fixed;
 	z-index: 666;
-	background: transparent;
-	/*border-bottom: 1px solid #131516;*/
+	background: #fff;
 	height: 60px;
 	width: inherit;
 	min-width: 840px;
@@ -130,8 +129,8 @@ em, i {
 	padding: 0em;
     	margin: 0 auto;
     	vertical-align: baseline;
-	/*-moz-box-shadow: 0px 0px 6px 0px rgba(70,70,70,0.3);
-	-webkit-box-shadow: 0px 0px 6px 0px rgba(70,70,70,0.3);*/
+	-moz-box-shadow: 0px 0px 6px 0px rgba(70,70,70,0.3);
+	-webkit-box-shadow: 0px 0px 6px 0px rgba(70,70,70,0.3);
 }
 	#nav > ul {
 		height: inherit;
