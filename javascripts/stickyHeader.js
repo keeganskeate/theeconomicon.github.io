@@ -1,4 +1,5 @@
 /* Fixed header slide down on scroll */
+jQuery(document).ready(function($) {
 $(function(){
 	$("header").before($(".StickyHeader").clone().addClass("fixed"));
 	$(window).scroll(function(){
@@ -8,4 +9,6 @@ $(function(){
 	else{
 		$('.StickyHeader.fixed').removeClass('slideDown');
 	}
+});
+
 });
