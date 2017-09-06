@@ -114,6 +114,7 @@ em, i {
 		position: relative;
 	}
 .heading-wrapper {
+	z-index: 999;
     position: fixed;
     top: -80px;
     left: 0;
