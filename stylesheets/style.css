@@ -113,7 +113,15 @@ em, i {
 		width: 100%;
 		position: relative;
 	}
-#header.animateIt {
+header {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background: #000;
+    color: #fff;
+}
+header.animateIt {
     position: fixed;
     top: -50px;
     left: 0;
@@ -121,7 +129,7 @@ em, i {
     z-index: 999;
     transition: 0.4s top cubic-bezier(.3, .73, .3, .74);
 }
-#body.down #header.animateIt {
+body.down header.animateIt {
     top: 0;
 }
 /* Logo */
