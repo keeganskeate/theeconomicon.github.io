@@ -106,26 +106,25 @@ em, i {
 	transform: translate(-50%, -50%);
 	color: #fff;
 }
-.heading-wrapper {
-	z-index: 999;
-	position: fixed;
-	top: -50px;
-    	left: 0;
-    	right: 0;
-    	width: 100%;
-    	height: 60px;
-    	background: #B2E522;
-	color: #2dbe60;
-    	transition: top 0.25s linear;
+/* Sticky Header */
+sticky {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background: #000;
+    color: #fff;
 }
-.heading-wrapper.relative {
-    	position: absolute;
-    	top: 0px;
-	background: #ccc;
+sticky.animateIt {
+    position:fixed;
+    top:-60px;
+    left: 0;
+    right: 0;
+    z-index:999;
+    transition:0.4s top cubic-bezier(.3, .73, .3, .74);
 }
-.heading-wrapper:not(.relative).fixed {
-    	top: 0px;
-	background: #2dbe60;
+body.down sticky.animateIt {
+    top:0;
 }
 /* Header */
 #header {
