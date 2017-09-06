@@ -1,7 +1,16 @@
 /* Fixed header slide down on scroll */
-$(document).ready(function () {
-    $("sticky").before($("sticky").clone().addClass("animateIt"));
-    $(window).on("scroll", function () {
-        $("body").toggleClass("down", ($(window).scrollTop() > 100));
-    });
+jQuery(document).ready(function($){
+    var $wrapper = $(".heading-wrapper");
+var $win = $(window);
+var doc = document.documentElement, body = document.body;
+var top = 0;
+$wrapper.clone().appendTo("body").addClass("relative");
+
+$win.scroll(function () {
+   top = (doc && doc.scrollTop  || body && body.scrollTop  || 0);
+   if( top > 300)
+       setTimeout(function(){$wrapper.addClass("fixed");},0);
+   else if( $wrapper.hasClass("fixed") )
+      setTimeout(function(){$wrapper.removeClass("fixed");},0);
+});
 });
