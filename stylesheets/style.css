@@ -106,7 +106,7 @@ em, i {
 	transform: translate(-50%, -50%);
 	color: #fff;
 }
-/* Sticky Header */
+/* Sticky Header
 header{background:#F45245;padding:0px 0px;}
 
 	header hgroup{
@@ -133,7 +133,7 @@ header{background:#F45245;padding:0px 0px;}
 		height: 80px;
 		padding: 0px 10px;
 		text-decoration: none;
-	}
+	}*/
 	.fixed {
     		position: fixed;
     		top: -90px;
@@ -146,7 +146,7 @@ header{background:#F45245;padding:0px 0px;}
     		top: 0;
 	}
 /* Header */
-#header {
+header {
 	height: 60px;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
@@ -154,7 +154,7 @@ header{background:#F45245;padding:0px 0px;}
 	font-size: 0.975em;
 	letter-spacing: 0;
 }
-	#header .container {
+	header .container {
 		width: 100%;
 		position: relative;
 	}
