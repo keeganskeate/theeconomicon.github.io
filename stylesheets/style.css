@@ -205,15 +205,15 @@ header {
 				position: relative;
 				line-height: 2em;
 			}				
-				#nav > ul > li:first-child:active > a,
+				#nav > ul > li:first-child.active > a,
 				#nav > ul > li:first-child:hover > a {
 					border-bottom: 2px solid transparent;
 				}
-				#nav > ul > li:active > a,
+				#nav > ul > li.active > a,
 				#nav > ul > li:hover > a{
 					border-bottom: 2px solid #2dbe60;
 				}
-					#nav > ul > li:active > a > span,
+					#nav > ul > li.active > a > span,
 					#nav > ul > li:hover > a > span{
 						color: #2dbe60;
 					}
