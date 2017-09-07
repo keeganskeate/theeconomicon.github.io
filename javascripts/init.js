@@ -46,7 +46,7 @@
 	$(function() {
 		$("header").before($(".StickyHeader").clone().addClass("fixed"));
 		$(window).scroll(function(){
-			if($(window).scrollTop() >= 150) {
+			if($(window).scrollTop() >= 300) {
 				$('.StickyHeader.fixed').addClass('slideDown');
 			}
 			else{
