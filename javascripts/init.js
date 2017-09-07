@@ -46,7 +46,7 @@ Javascript Core Functions
 	$(function() {
 		$("header").before($(".StickyHeader").clone().addClass("fixed"));
 		$(window).scroll(function(){
-			if($(window).scrollTop() >= 300) {
+			if($(window).scrollTop() >= 200) {
 				$('.StickyHeader.fixed').addClass('slideDown');
 			}
 			else{
