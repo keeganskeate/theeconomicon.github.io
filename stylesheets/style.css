@@ -631,6 +631,7 @@ header {
 }
 	.back-to-top i {
 		color: #414042;
+		font-size: 60px;
 	}
 	.back-to-top:hover {
 		margin-top: -12px;
