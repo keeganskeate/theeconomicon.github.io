@@ -17,17 +17,3 @@ window.onclick = function(event) {
     }
   }
 }
-
-/* Sticky header slide down effect 
-$(window).scroll(function(){
-    var sticky = $('#nav'),
-        scroll = $(window).scrollTop();
-        if (scroll >= 200){
-            sticky.addClass('fixed-nav');
-            sticky.slideDown(1000);
-        }
-        else {
-            sticky.removeClass('fixed-nav');
-            sticky.removeAttr("style"); //slideDown adds the style="block" which needs to be removed so that next time slideDown will work
-        }
-});
