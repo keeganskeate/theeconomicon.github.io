@@ -46,10 +46,9 @@ Javascript Core Functions
 	$(function() {
 		$("header").before($(".StickyHeader").clone().addClass("fixed"));
 		$(window).scroll(function(){
-			if($(window).scrollTop() >= 200) {
+			if ($(window).scrollTop() >= 200) {
 				$('.StickyHeader.fixed').addClass('slideDown');
-			}
-			else{
+			} else{
 				$('.StickyHeader.fixed').removeClass('slideDown');
 			}
 		});
@@ -71,6 +70,24 @@ Javascript Core Functions
 			offsetY: -15,
 			hoverDelay: 0
 		});
+	});
+	
+	// Back to top Button
+	jQuery(document).ready(function() {
+		var offset = 250;
+		var duration = 300;
+		jQuery(window).scroll(function() {
+			if (jQuery(this).scrollTop() > offset) {
+				jQuery(‘.back-to-top’).fadeIn(duration);
+			} else {
+				jQuery(‘.back-to-top’).fadeOut(duration);
+			}
+		});
+		jQuery(‘.back-to-top’).click(function(event) {
+			event.preventDefault();
+		jQuery(‘html, body’).animate({scrollTop: 0}, duration);
+			return false;
+		})
 	});
 
 })(jQuery);
