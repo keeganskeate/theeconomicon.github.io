@@ -598,6 +598,28 @@ header {
 			border-color: #2dbe60;
 			color: #2dbe60;
 		}
+/* Back to top Button */
+.back-to-top {
+	background: none;
+	margin: 0;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 70px;
+	height: 70px;
+	z-index: 100;
+	display: none;
+	text-decoration: none;
+	color: #ccc;
+	background-color: #fff;
+	border-radius: 50%;
+	-moz-box-shadow: 5px 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 5px 5px rgba(0,0,0,0.5);
+	box-shadow: 5px 5px rgba(0,0,0,0.5);
+}
+	.back-to-top i {
+		font-size: 60px;
+	}
 /* Logo */
 	#logo {
 		display: none;
