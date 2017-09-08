@@ -72,7 +72,9 @@ Javascript Core Functions
 		});
 	});
 	
-	// Back to top Button
+})(jQuery);
+
+// Back to top Button
 	jQuery(document).ready(function() {
 		var offset = 250; // The offset is when the button will appears.
 		var duration = 300; // The duration is the time until the button will appear in milliseconds.
@@ -89,5 +91,3 @@ Javascript Core Functions
 			return false;
 		})
 	});
-
-})(jQuery);
