@@ -125,7 +125,7 @@ header {
     		left: 0;
     		right: 0;
     		z-index: 999;
-		-moz-transition: 0.2s top ease-in;
+		/*-moz-transition: 0.2s top ease-in;
 		-webkit-transition: 0.2s top ease-in;
 		-o-transition: 0.2s top ease-in;
 		-ms-transition: 0.2s top ease-in;
@@ -614,8 +614,7 @@ header {
 	width: 2.6em;
 	height: 2.6em;
 	margin: 0;
-	margin-top: 15px;
-	padding-top: 12px;
+	margin-top: 20px;
 	text-decoration: none;
 	text-align: center;
 	background-color: #fff;
@@ -632,10 +631,10 @@ header {
 }
 	.back-to-top i {
 		color: #414042;
-		font-size: 16px;
+		font-size: 1.3em;
 	}
 	.back-to-top:hover {
-		margin-top: 0;
+		margin-top: 5px;
 	}
 /* Logo */
 	#logo {
