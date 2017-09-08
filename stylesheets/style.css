@@ -599,7 +599,7 @@ header {
 			color: #2dbe60;
 		}
 /* Back to top Button */
-.back-to-top {
+.toTop {
 	background: none;
 	margin: 0;
 	position: fixed;
@@ -611,13 +611,13 @@ header {
 	display: none;
 	text-decoration: none;
 	color: #ccc;
-	background-color: #fff;
+	background-color: #000;
 	border-radius: 50%;
 	-moz-box-shadow: 5px 5px rgba(0,0,0,0.5);
 	-webkit-box-shadow: 5px 5px rgba(0,0,0,0.5);
 	box-shadow: 5px 5px rgba(0,0,0,0.5);
 }
-	.back-to-top i {
+	.toTop i {
 		font-size: 60px;
 	}
 /* Logo */
