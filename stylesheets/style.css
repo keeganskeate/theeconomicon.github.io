@@ -614,6 +614,7 @@ header {
 	width: 2.6em;
 	height: 2.6em;
 	margin: 0;
+	margin-top: 15px;
 	padding-top: 12px;
 	text-decoration: none;
 	text-align: center;
@@ -631,10 +632,10 @@ header {
 }
 	.back-to-top i {
 		color: #414042;
-		font-size: 60px;
+		font-size: 16px;
 	}
 	.back-to-top:hover {
-		margin-top: -12px;
+		margin-top: 0;
 	}
 /* Logo */
 	#logo {
