@@ -605,7 +605,7 @@ header {
 			color: #2dbe60;
 		}
 /* Back to top Button */
-.back-to-top a {
+.back-to-top {
 	margin-top: 20px;
 	position: fixed;
 	z-index: 999;
@@ -634,7 +634,8 @@ header {
 		color: #414042;
 		font-size: 1.3em;
 	}
-	.back-to-top a:hover {
+	.back-to-top.active,
+	.back-to-top:hover {
 		margin-top: 5px;
 	}
 /* Logo */
