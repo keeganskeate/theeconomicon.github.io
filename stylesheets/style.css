@@ -1,13 +1,5 @@
-@import url("font-awesome-4.6.3/css/font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
-@import url("https://fonts.googleapis.com/css?family=EB+Garamond:300,400,600,700,800");
-@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,600,700,800");
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700");
-/*New Fonts*/
-@import url("http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800");
 /*
 Main Style Sheet for The Economicon website
-
 Theme Colors
 	Lightest Grey: #eee
 	Light Grey: #ccc
@@ -25,7 +17,12 @@ Theme Colors
 	Medium Teal: #2dbe60
 	Dark Teal: #0d9f40
 	Choice Teal: #14a76c
-*/
+/* Fonts */
+@import url("font-awesome-4.6.3/css/font-awesome.min.css");
+@import url("http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond:300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,600,700,800");
+
 /* Lazy Loading */
 html.loading,body.loading * {
 	-moz-transition: none !important;
@@ -39,6 +36,7 @@ html.loading,body.loading * {
 	-ms-animation: none !important;
 	animation: none !important;
 }
+
 /* Basic Format */
 html, body {
 	overflow-x: hidden;
@@ -49,7 +47,7 @@ html, body {
 	background: #fff;
 	color: #131516;
 	line-height: 1.65em;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 12pt;
 	font-weight: 400;
 }
@@ -62,12 +60,14 @@ strong, b {
 em, i {
 	font-style: italic;
 }
+
 /* Content Containers */
 .container {
 	min-width: 840px;
   	width: 70%;
 	max-width: 1344px;
 }
+
 /* Wrappers */
 .wrapper {
 	padding: 0em;
@@ -81,6 +81,7 @@ em, i {
 .wrapper.end-style {
 	padding-bottom: 2em;
 }
+
 /* Logo */
 #logo-sprite {
 	width: 350px; height: 50px;
@@ -89,6 +90,7 @@ em, i {
 	/*#logo-sprite:hover {
 		background-position: -350px 0px;
 	}*/
+
 /* Hero */
 .hero-image {
 	background-image: url("/images/hero.png");
@@ -107,6 +109,7 @@ em, i {
 	transform: translate(-50%, -50%);
 	color: #fff;
 }
+
 /* Sticky Header */
 header {
 	height: 60px;
@@ -126,16 +129,6 @@ header {
     		left: 0;
     		right: 0;
     		z-index: 999;
-		/*-moz-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
-		-webkit-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
-		-o-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
-		-ms-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
-		transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
-		-moz-transition: all 0.4s ease-in;
-		-webkit-transition: all 0.4s ease-in;
-		-o-transition: all 0.4s ease-in;
-		-ms-transition: all 0.4s ease-in;
-		transition: all 0.4s ease-in;*/
 	}
 	.fixed.slideDown {
     		top: 0;
@@ -147,6 +140,7 @@ header {
 		-ms-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
 		transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
 	}
+
 /*Navigation Bar*/
 #nav {
 	position: static;
@@ -235,6 +229,7 @@ header {
 				#nav > ul > li > ul {
 					display: none;
 				}
+
 /* Dropotron */
 	.dropotron {
 		top: 2em;
@@ -282,6 +277,7 @@ header {
 			font-size: 0.925em;
 			letter-spacing: 0;
 		}
+
 /* Banner */
 	#banner {
 		-moz-appearance: none;
@@ -510,76 +506,7 @@ header {
 	#copyright.rightside{
 		text-align:right;
 	}
-/* Buttons */
-/* Subscribe Button */
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	.button.subscribe {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-o-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		width: 297.5px;
-		display: inline-block;
-		padding: 0.90em 1.2em;
-		cursor: pointer;
-		background: #2D004F;
-		border: 3px solid #B2E522;
-		color: #B2E522;
-		letter-spacing: 1px;
-		text-align: center;
-		text-decoration: none;
-		text-transform: uppercase;
-		font-size: 1.0em;
-		font-weight: 900;
-		-moz-transition: all 0.35s ease-in-out;
-		-webkit-transition: all 0.35s ease-in-out;
-		-o-transition: all 0.35s ease-in-out;
-		-ms-transition: all 0.35s ease-in-out;
-		transition: all 0.35s ease-in-out;
-	}
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		input[type="button"]:hover,
-		.button.subscribe:hover {
-			background: rgba(45, 0, 79, 0.55);
-		}
-/* Service Button */
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	.button.service {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-o-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		display: inline-block;
-		margin-top: 20px;
-		padding: 0.72em 2.75em;
-		cursor: pointer;
-		background: #fff;
-		border: 1px solid #E0E1E1;
-		border-radius:2em;
-		color: #2D004F;
-		font-size: 1.15em;
-		text-align: center;
-		text-decoration: none;
-		-moz-transition: all 0.35s ease-in-out;
-		-webkit-transition: all 0.35s ease-in-out;
-		-o-transition: all 0.35s ease-in-out;
-		-ms-transition: all 0.35s ease-in-out;
-		transition: all 0.35s ease-in-out;
-	}
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		input[type="button"]:hover,
-		.button.service:hover {
-			border: 1px solid #2D004F;
-			background: rgba(45, 0, 79, 0.25);
-		}
+
 /* Tip Button */
 	input[type="submit"],
 	input[type="reset"],
@@ -614,6 +541,7 @@ header {
 			border-color: #14a76c;
 			color: #14a76c;
 		}
+
 /* Back to top Button */
 .back-to-top {
 	position: fixed;
@@ -647,7 +575,8 @@ header {
 	.back-to-top:hover {
 		bottom: 3.0em;
 	}
-/* Logo */
+
+/* Mobile Logo */
 	#logo {
 		display: none;
 	}
@@ -666,6 +595,7 @@ header {
 			#logo a {
 				color: inherit;
 			}
+
 /* Sub Pages */
 .subpage #nav .active-page {
 	border-bottom: 2px solid #14a76c;
