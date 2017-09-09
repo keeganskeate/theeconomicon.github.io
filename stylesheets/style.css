@@ -24,6 +24,7 @@ Theme Colors
 	Dark Green: #219C24
 	Medium Teal: #2dbe60
 	Dark Teal: #0d9f40
+	Choice Teal: #14a76c
 */
 /* Lazy Loading */
 html.loading,body.loading * {
@@ -221,11 +222,11 @@ header {
 				}
 				#nav > ul > li.active > a,
 				#nav > ul > li:hover > a{
-					border-bottom: 2px solid #2dbe60;
+					border-bottom: 2px solid #14a76c;
 				}
 					#nav > ul > li.active > a > span,
 					#nav > ul > li:hover > a > span{
-						color: #2dbe60;
+						color: #14a76c;
 					}
 				#nav > ul > li > ul {
 					display: none;
@@ -262,7 +263,7 @@ header {
 			}
 			.dropotron > li.active > a > span,
 			.dropotron > li:hover > a > span{
-				color: #2dbe60;
+				color: #14a76c;
 			}
 	.dropotron.level-0 {
 		margin-left: 0em;
@@ -362,7 +363,7 @@ header {
 		}
 			#banner .content-bin a:active,
 			#banner .content-bin a:hover{
-				color: #2dbe60;
+				color: #14a76c;
 			}
 		.bold-link {
 			color: #131516;
@@ -453,7 +454,7 @@ header {
 			line-height: 1.6em;
 		}
 		#footer .index-bin a:hover{
-			text-decoration: underline;
+			color: #14a76c;
 		}
 		#index-section {
 			display: inline-block;
@@ -606,8 +607,8 @@ header {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button.tip:hover {
-			border-color: #2dbe60;
-			color: #2dbe60;
+			border-color: #14a76c;
+			color: #14a76c;
 		}
 /* Back to top Button */
 .back-to-top {
@@ -663,5 +664,5 @@ header {
 			}
 /* Sub Pages */
 .subpage #nav .active-page {
-	border-bottom: 2px solid #2dbe60;
+	border-bottom: 2px solid #14a76c;
 }
