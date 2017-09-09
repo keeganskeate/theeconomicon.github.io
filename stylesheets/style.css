@@ -606,7 +606,6 @@ header {
 		}
 /* Back to top Button */
 .back-to-top {
-	margin-top: 20px;
 	position: fixed;
 	z-index: 999;
 	display: none;
@@ -636,7 +635,7 @@ header {
 	}
 	.back-to-top.active,
 	.back-to-top:hover {
-		margin-top: 5px;
+		bottom: 3.0em;
 	}
 /* Logo */
 	#logo {
