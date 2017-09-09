@@ -91,8 +91,8 @@ em, i {
 /* Hero */
 .hero-image {
 	background-image: url("/images/hero.png");
-	height: 600px;
-	background-position: right top;
+	height: 500px;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -125,11 +125,11 @@ header {
     		left: 0;
     		right: 0;
     		z-index: 999;
-		-moz-transition: 0.2s top cubic-bezier(.3, .73, .3, .74);
-		-webkit-transition: 0.2s top cubic-bezier(.3, .73, .3, .74);
-		-o-transition: 0.2s top cubic-bezier(.3, .73, .3, .74);
-		-ms-transition: 0.2s top cubic-bezier(.3, .73, .3, .74);
-		transition: 0.2s top cubic-bezier(.3, .73, .3, .74);
+		-moz-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
+		-webkit-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
+		-o-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
+		-ms-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
+		transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
   		/*transition: 0.4s top cubic-bezier(.3, .73, .3, .74);*/
 	}
 	.fixed.slideDown {
@@ -629,8 +629,7 @@ header {
 	transition: all .2s ease-out;
 }
 	.back-to-top i {
-		padding-top: 10px;
-		color: #414042;
+		color: #ccc;
 		font-size: 1.3em;
 	}
 	.back-to-top.active,
@@ -656,7 +655,7 @@ header {
 			#logo a {
 				color: inherit;
 			}
-/*Sub Pages*/
+/* Sub Pages */
 .subpage #nav .active-page {
 	border-bottom: 2px solid #2dbe60;
 }
