@@ -1,0 +1,70 @@
+/* Subscribe Button */
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button.subscribe {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-o-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		width: 297.5px;
+		display: inline-block;
+		padding: 0.90em 1.2em;
+		cursor: pointer;
+		background: #2D004F;
+		border: 3px solid #B2E522;
+		color: #B2E522;
+		letter-spacing: 1px;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 1.0em;
+		font-weight: 900;
+		-moz-transition: all 0.35s ease-in-out;
+		-webkit-transition: all 0.35s ease-in-out;
+		-o-transition: all 0.35s ease-in-out;
+		-ms-transition: all 0.35s ease-in-out;
+		transition: all 0.35s ease-in-out;
+	}
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		.button.subscribe:hover {
+			background: rgba(45, 0, 79, 0.55);
+		}
+
+/* Service Button */
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button.service {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-o-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		display: inline-block;
+		margin-top: 20px;
+		padding: 0.72em 2.75em;
+		cursor: pointer;
+		background: #fff;
+		border: 1px solid #E0E1E1;
+		border-radius:2em;
+		color: #2D004F;
+		font-size: 1.15em;
+		text-align: center;
+		text-decoration: none;
+		-moz-transition: all 0.35s ease-in-out;
+		-webkit-transition: all 0.35s ease-in-out;
+		-o-transition: all 0.35s ease-in-out;
+		-ms-transition: all 0.35s ease-in-out;
+		transition: all 0.35s ease-in-out;
+	}
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		.button.service:hover {
+			border: 1px solid #2D004F;
+			background: rgba(45, 0, 79, 0.25);
+		}
