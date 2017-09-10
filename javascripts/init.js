@@ -15,8 +15,7 @@ Javascript Core Functions
 			narrower:	{ range: '-840', href: 'stylesheets/style-narrower.css', grid: { collapse: true } },
 			mobile:		{ range: '-640', href: 'stylesheets/style-mobile.css', containers: '90%', grid: { gutters: 15 } }
 		}
-	});
-	/*, {
+	}, {
 		layers: {
 			layers: {
 				navPanel: {
