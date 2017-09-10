@@ -17,6 +17,7 @@ Theme Colors
 	Medium Teal: #2dbe60
 	Dark Teal: #0d9f40
 	Choice Teal: #14a76c
+*/
 /* Fonts */
 @import url("font-awesome-4.6.3/css/font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800");
@@ -192,7 +193,7 @@ header {
 				padding: 0;
 				width: 350px;
 				height: 50px;
-       				background: url('/images/The-Economicon-logo-new.png') no-repeat left center;
+       				/*background: url('/images/The-Economicon-logo-new.png') no-repeat left center;*/
 			}
 			#nav > ul > li.logo {
 				margin-left: 0;
@@ -214,7 +215,7 @@ header {
 				#nav > ul > li > ul {
 					display: none;
 				}
-			#nav ul > li:nth-child(5n+2) {
+			#nav ul > li:nth-child(4) {
 				clear: right;
 				float: right;
 			}
