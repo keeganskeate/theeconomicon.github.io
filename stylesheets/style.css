@@ -187,12 +187,25 @@ header {
 				border-bottom: 2px solid transparent;
 				color: #414042;
 			}
+				#nav > ul > li.active > a,
+				#nav > ul > li:hover > a{
+					border-bottom: 2px solid #14a76c;
+				}
+					#nav > ul > li.active > a > span,
+					#nav > ul > li:hover > a > span{
+						color: #14a76c;
+					}
+			#nav > ul > li a.top-row {
+				font-size: 80%;
+			}
+				#nav > ul > li a.top-row:hover {
+					color: #14a76c;
+				}
 			#nav ul li.logo {
 				float: left;
-				border: none;
-				padding: 0;
-				width: 350px;
-				height: 50px;
+				padding-left: 15px;
+				height: 60px;
+				vertical-align: bottom;
        				/*background: url('/images/The-Economicon-logo-new.png') no-repeat left center;*/
 			}
 			#nav > ul > li.logo {
@@ -204,20 +217,16 @@ header {
 				#nav > ul > li.logo:hover > a {
 					border-bottom: 2px solid transparent;
 				}
-				#nav > ul > li.active > a,
-				#nav > ul > li:hover > a{
-					border-bottom: 2px solid #14a76c;
-				}
-					#nav > ul > li.active > a > span,
-					#nav > ul > li:hover > a > span{
-						color: #14a76c;
-					}
-				#nav > ul > li > ul {
-					display: none;
-				}
-			#nav ul > li:nth-child(4) {
+			#nav > ul > li > ul {
+				display: none;
+			}
+			#nav ul > li:nth-child(6) {
 				clear: right;
 				float: right;
+			}
+			#nav ul > li:nth-child(5),
+			#nav ul > li:last-child{
+				padding-right: 15px;
 			}
 
 /* Dropotron */
