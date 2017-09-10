@@ -108,7 +108,7 @@ strong, b {
 }
 
 /* Sticky Header */
-header {
+#header {
 	height: 60px;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
@@ -116,7 +116,7 @@ header {
 	font-size: 0.975em;
 	letter-spacing: 0;
 }
-	header .container {
+	#header .container {
 		width: 100%;
 		position: relative;
 	}
