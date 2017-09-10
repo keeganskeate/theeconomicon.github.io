@@ -164,19 +164,19 @@ header {
 	#nav > ul {
 		height: inherit;
 		margin: 0;
-		padding:0;
+		padding: 0;
 		list-style-type: none;
 		vertical-align: bottom;
 	}
 		#nav > ul > li  {
-			border-radius: 2px;
+			position: relative;
 			display: inline-block;
 			float: right;
-			margin-left: 0.0em;
+			margin-left: 0;
 			padding: 0 0 0 2em;
-			height: inherit;
+			/*height: inherit;*/
+			height: 30px;
 			text-decoration: none;
-			position: relative;	
 		}
 			#nav > ul > li a {
 				display: table-cell;
@@ -211,7 +211,7 @@ header {
 				#nav > ul > li > ul {
 					display: none;
 				}
-			#nav ul > li:nth-child(4n+2) {
+			#nav ul > li:nth-child(5n+2) {
 				clear: right;
 				float: right;
 			}
