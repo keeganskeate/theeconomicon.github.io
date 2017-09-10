@@ -456,24 +456,29 @@ header {
 
 /* Copyright */
 	#copyright {
-		text-align: center;
 		position: relative;
 		padding-top: 1.3em;
 		border-top: 1px solid #ccc
 	}
+		#copyright ul {
+			display: inline-block;
+		}
+			#copyright ul.left {
+				float: left;
+			}
+			#copyright ul.right {
+				float: right;
+			}
 		#copyright ul > li {
 			display: inline-block;
 		}
-		#copyright p{
-			text-transform: none;
-		}
-		#copyright a {
+		#copyright ul > li > a {
 			font-size: 70%;
 			color: #999;
 			font-weight: 400;
 			text-decoration: none;
 		}
-			#copyright a:hover {
+			#copyright ul > li > a:hover {
 				text-decoration: underline;
 			}
 
