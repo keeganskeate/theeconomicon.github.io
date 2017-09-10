@@ -44,7 +44,7 @@ Javascript Core Functions
 	
 	// Sticky header with slide down effect
 	$(function() {
-		$("#header").before($(".StickyHeader").clone().addClass("fixed"));
+		$("header").before($(".StickyHeader").clone().addClass("fixed"));
 		$(window).scroll(function(){
 			if ($(window).scrollTop() >= 200) {
 				$('.StickyHeader.fixed').addClass('slideDown');
