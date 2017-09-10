@@ -58,9 +58,6 @@ a {
 strong, b {
 	font-weight: 700;
 }
-/*em, i {
-	font-style: italic;
-}*/
 
 /* Content Containers */
 .container {
@@ -461,17 +458,24 @@ strong, b {
 	#copyright {
 		text-align: center;
 		position: relative;
-		padding: 0;
+		padding-top: 1.3em;
+		border-top: 1px solid #ccc
 	}
-		#copyright hr {
+		/*#copyright hr {
 			height: 1px;
 			background-color: #ccc;
 			color: #ccc;
 			border: 0 none;
 			margin: 5px auto;
+		}*/
+		#copyright p{
+			text-transform: none;
+		}
+		#copyright.rightside{
+			text-align: right;
 		}
 		#copyright a {
-			font-size: 11px;
+			font-size: 70%;
 			color: #999;
 			font-weight: 400;
 			text-decoration: none;
@@ -479,12 +483,6 @@ strong, b {
 			#copyright a:hover {
 				text-decoration: underline;
 			}
-		#copyright p{
-			text-transform: none;
-		}
-	#copyright.rightside{
-		text-align:right;
-	}
 
 /* Tip Button */
 	input[type="submit"],
