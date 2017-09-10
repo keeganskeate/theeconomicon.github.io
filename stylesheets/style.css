@@ -207,16 +207,17 @@ header {
 				}
 			#nav ul li.logo {
 				float: left;
-				padding-left: 5px;
+				position: relative;
 				height: 60px;
+				line-height: 2em;
+				margin-left: 1.3em;
 				vertical-align: bottom;
        				/*background: url('/images/The-Economicon-logo-new.png') no-repeat left center;*/
 			}
-			#nav > ul > li.logo {
-				margin-left: 0;
+			/*#nav > ul > li.logo {
 				position: relative;
 				line-height: 2em;
-			}				
+			}*/				
 				#nav > ul > li.logo.active > a,
 				#nav > ul > li.logo:hover > a {
 					border-bottom: 2px solid transparent;
@@ -225,9 +226,6 @@ header {
 				clear: right;
 				float: right;
 			}
-			/*#nav ul > li.end-row{
-				padding-right: 5px;
-			}*/
 
 /* Dropotron */
 	.dropotron {
