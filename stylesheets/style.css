@@ -193,8 +193,8 @@ header {
 				#nav > ul > li:hover > a {
 					border-bottom: 2px solid #14a76c;
 				}
-					#nav > ul > li.active > a > span,
-					#nav > ul > li:hover > a > span {
+					#nav > ul > li.active > a > i,
+					#nav > ul > li:hover > a > i {
 						color: #14a76c;
 					}
 			#nav > ul > li a.top-row {
@@ -250,8 +250,8 @@ header {
 			.dropotron > li:hover{
 				background: #f5f6f7;
 			}
-			.dropotron > li.active > a > span,
-			.dropotron > li:hover > a > span{
+			.dropotron > li.active > a > i,
+			.dropotron > li:hover > a > i{
 				color: #14a76c;
 			}
 	.dropotron.level-0 {
