@@ -169,6 +169,9 @@ header {
 		list-style-type: none;
 		vertical-align: bottom;
 	}
+		#nav > ul > li > ul {
+			display: none;
+		}
 		#nav > ul > li  {
 			position: relative;
 			display: inline-block;
@@ -200,10 +203,11 @@ header {
 			}
 				#nav > ul > li a.top-row:hover {
 					color: #14a76c;
+					border-bottom: 2px solid transparent;
 				}
 			#nav ul li.logo {
 				float: left;
-				padding-left: 15px;
+				padding-left: 5px;
 				height: 60px;
 				vertical-align: bottom;
        				/*background: url('/images/The-Economicon-logo-new.png') no-repeat left center;*/
@@ -217,16 +221,13 @@ header {
 				#nav > ul > li.logo:hover > a {
 					border-bottom: 2px solid transparent;
 				}
-			#nav > ul > li > ul {
-				display: none;
-			}
-			#nav ul > li:nth-child(6) {
+			#nav ul > li.split {
 				clear: right;
 				float: right;
+				padding-right: 5px;
 			}
-			#nav ul > li:nth-child(5),
-			#nav ul > li:last-child{
-				padding-right: 15px;
+			#nav ul > li.end-row{
+				padding-right: 5px;
 			}
 
 /* Dropotron */
