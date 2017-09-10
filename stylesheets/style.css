@@ -109,7 +109,7 @@ strong, b {
 }
 
 /* Sticky Header */
-#header {
+header {
 	height: 60px;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
@@ -117,7 +117,7 @@ strong, b {
 	font-size: 0.975em;
 	letter-spacing: 0;
 }
-	#header .container {
+	header .container {
 		width: 100%;
 		position: relative;
 	}
@@ -202,7 +202,7 @@ strong, b {
 					color: #14a76c;
 					border-bottom: 2px solid transparent;
 				}
-			#nav ul li.logo {
+			#nav ul li.company-logo {
 				float: left;
 				position: relative;
 				height: 60px;
@@ -215,8 +215,8 @@ strong, b {
 				position: relative;
 				line-height: 2em;
 			}*/				
-				#nav > ul > li.logo.active > a,
-				#nav > ul > li.logo:hover > a {
+				#nav > ul > li.company-logo.active > a,
+				#nav > ul > li.company-logo:hover > a {
 					border-bottom: 2px solid transparent;
 				}
 			#nav ul > li.split {
@@ -553,23 +553,23 @@ strong, b {
 		transform: translateY(-50%);
 	}
 /* Mobile Logo */
-	#mobile-logo {
+	#logo {
 		display: none;
 	}
-		#mobile-logo {
+		#logo {
 			line-height: 2em;
 			letter-spacing: 2px;
 			text-transform: uppercase;
 			font-size: 2em;
 			font-weight: 500;
 		}
-			#mobile-logo h1 {
+			#logo h1 {
 				display: inline-block;
 				margin: 0;
 				padding: 0;
 				background: #2D004F;
 			}
-			#mobile-logo a {
+			#logo a {
 				color: #fff;
 			}
 
