@@ -58,9 +58,9 @@ a {
 strong, b {
 	font-weight: 700;
 }
-em, i {
+/*em, i {
 	font-style: italic;
-}
+}*/
 
 /* Content Containers */
 .container {
