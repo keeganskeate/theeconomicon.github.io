@@ -456,11 +456,11 @@ strong, b {
 /* Copyright */
 	#copyright {
 		position: relative;
-		padding: 1.3em 0;
 		border-top: 1px solid #ccc
 	}
 		#copyright ul {
 			display: inline-block;
+			padding: 1.3em 0;
 		}
 			#copyright ul.left {
 				float: left;
