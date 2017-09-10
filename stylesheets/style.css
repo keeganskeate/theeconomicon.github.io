@@ -552,8 +552,9 @@ header {
 		bottom: 3.0em;
 	}
 	.back-to-top img {
-		display: block;
-    		margin: auto;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
 	}
 /* Mobile Logo */
 	#mobile-logo {
