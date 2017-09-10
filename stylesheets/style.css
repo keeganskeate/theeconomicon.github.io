@@ -176,7 +176,7 @@ header {
 			position: relative;
 			display: inline-block;
 			float: right;
-			margin-right: 0.98em;
+			margin-right: 1.3em;
 			/*height: inherit;*/
 			height: 30px;
 			text-decoration: none;
@@ -190,11 +190,11 @@ header {
 				color: #414042;
 			}
 				#nav > ul > li.active > a,
-				#nav > ul > li:hover > a{
+				#nav > ul > li:hover > a {
 					border-bottom: 2px solid #14a76c;
 				}
 					#nav > ul > li.active > a > span,
-					#nav > ul > li:hover > a > span{
+					#nav > ul > li:hover > a > span {
 						color: #14a76c;
 					}
 			#nav > ul > li a.top-row {
@@ -224,11 +224,10 @@ header {
 			#nav ul > li.split {
 				clear: right;
 				float: right;
-				padding-right: 5px;
 			}
-			#nav ul > li.end-row{
+			/*#nav ul > li.end-row{
 				padding-right: 5px;
-			}
+			}*/
 
 /* Dropotron */
 	.dropotron {
