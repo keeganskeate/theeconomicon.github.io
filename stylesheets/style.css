@@ -229,6 +229,10 @@ header {
 				#nav > ul > li > ul {
 					display: none;
 				}
+			#nav ul > li:nth-child(4n+2) {
+				clear: right;
+				float: right;
+			}
 
 /* Dropotron */
 	.dropotron {
