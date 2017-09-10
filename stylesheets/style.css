@@ -461,13 +461,9 @@ header {
 		padding-top: 1.3em;
 		border-top: 1px solid #ccc
 	}
-		/*#copyright hr {
-			height: 1px;
-			background-color: #ccc;
-			color: #ccc;
-			border: 0 none;
-			margin: 5px auto;
-		}*/
+		#copyright ul > li {
+			display: inline-block;
+		}
 		#copyright p{
 			text-transform: none;
 		}
