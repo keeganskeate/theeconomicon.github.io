@@ -40,7 +40,7 @@ Javascript Core Functions
 				}
 			}
 		}
-	});*/
+	});
 	
 	// Sticky header with slide down effect
 	$(function() {
