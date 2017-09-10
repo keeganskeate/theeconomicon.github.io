@@ -176,8 +176,7 @@ header {
 			position: relative;
 			display: inline-block;
 			float: right;
-			margin-left: 0;
-			padding: 0 0 0 2em;
+			margin-right: 0.98em;
 			/*height: inherit;*/
 			height: 30px;
 			text-decoration: none;
@@ -201,7 +200,8 @@ header {
 			#nav > ul > li a.top-row {
 				font-size: 80%;
 			}
-				#nav > ul > li a.top-row:hover {
+				#nav > ul > li.active > a.top-row,
+				#nav > ul > li:hover > a.top-row {
 					color: #14a76c;
 					border-bottom: 2px solid transparent;
 				}
