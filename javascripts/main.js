@@ -17,7 +17,7 @@ window.onclick = function(event) {
     }
   }
 }
-
+*/
 // Back to top Button
 	jQuery(document).ready(function() {
 		var offset = 250; // The offset is when the button will appears.
