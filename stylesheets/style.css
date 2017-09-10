@@ -467,9 +467,6 @@ header {
 		#copyright p{
 			text-transform: none;
 		}
-		#copyright.rightside{
-			text-align: right;
-		}
 		#copyright a {
 			font-size: 70%;
 			color: #999;
