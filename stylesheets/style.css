@@ -466,9 +466,15 @@ header {
 			#copyright ul.left {
 				float: left;
 			}
+				#copyright ul.left > li {
+					margin-right: 1.3em
+				}
 			#copyright ul.right {
 				float: right;
 			}
+				#copyright ul.right > li {
+					margin-left: 1.3em
+				}
 		#copyright ul > li {
 			display: inline-block;
 		}
