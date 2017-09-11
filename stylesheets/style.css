@@ -157,10 +157,8 @@ strong, b {
 	-webkit-box-shadow: 0px 0px 6px 0px rgba(70,70,70,0.3);*/
 }
 	#nav > ul {
-		height: inherit;
 		margin: 0;
-		bottom: 0;
-		/*padding-top: 0.65em;*/
+		height: inherit;
 		list-style-type: none;
 		vertical-align: bottom;
 	}
@@ -172,8 +170,7 @@ strong, b {
 			display: inline-block;
 			float: right;
 			margin-right: 1.3em;
-			/*height: inherit;*/
-			height: 30px;
+			height: 35px;
 			text-decoration: none;
 		}
 			#nav > ul > li a {
