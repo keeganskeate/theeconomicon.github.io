@@ -67,7 +67,7 @@ Javascript Core Functions
 	// Initiate Dropdowns.
 	$(function() {
 		$('#nav > ul').dropotron({
-			offsetY: -10,
+			offsetY: -15,
 			hoverDelay: 0
 		});
 	});
