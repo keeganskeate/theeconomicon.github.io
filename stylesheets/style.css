@@ -115,7 +115,6 @@ strong, b {
 	font-weight: 300;
 	font-size: 0.975em;
 	letter-spacing: 0;
-	padding-top: 0.65em;
 }
 	#header .container {
 		width: 100%;
@@ -147,12 +146,11 @@ strong, b {
 	width: inherit;
 	min-width: 840px;
 	max-width: 1344px;
-	/*top: 0;*/
 	right: none;
 	display: inline-block;
 	text-align: center;
-	padding: 0em;
     	margin: 0 auto;
+	padding-top: 0.65em;
     	vertical-align: baseline;
 	background: transparent;
 	border-bottom: 1px solid transparent;
