@@ -485,7 +485,7 @@ strong, b {
 			#copyright ul > li > a:hover {
 				text-decoration: underline;
 			}
-		.icon {
+		#copyright a.icon {
 			text-align: center;
 			background-image: url("/images/The-Economicon-icon.png") no-repeat top left;
 			width: 50px;
