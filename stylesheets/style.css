@@ -91,11 +91,10 @@ strong, b {
 /* Hero */
 .hero-image {
 	background-image: url("/images/white-background-calyx.jpg");
-	width: 734px;
 	height: 456px;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	background-size: cover;
+	/*background-size: cover;*/
 	background-attachment: fixed;
 	position: relative;
 }
