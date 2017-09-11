@@ -159,7 +159,7 @@ strong, b {
 	#nav > ul {
 		height: inherit;
 		margin: 0;
-		padding-top: 0.65em;
+		/*padding-top: 0.65em;*/
 		list-style-type: none;
 		vertical-align: bottom;
 	}
@@ -484,7 +484,7 @@ strong, b {
 			#copyright ul > li > a:hover {
 				text-decoration: underline;
 			}
-		#copyright.icon {
+		.icon {
 			text-align: center;
 			background-image: url("/images/The-Economicon-icon.png") no-repeat top left;
 			width: 50px;
