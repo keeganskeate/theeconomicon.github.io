@@ -67,16 +67,16 @@ strong, b {
 
 /* Wrappers */
 .wrapper {
-	padding: 0em;
+	padding: 0;
 }
 .wrapper.top-style {
-	padding: 0em;
+	padding: 0;
 }
 .wrapper.banner-style {
-	padding: 0em;
+	padding: 0;
 }
 .wrapper.end-style {
-	padding-bottom: 2em;
+	padding: 0;
 }
 
 /* Logo */
