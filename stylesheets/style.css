@@ -159,6 +159,7 @@ strong, b {
 	#nav > ul {
 		height: inherit;
 		margin: 0;
+		bottom: 0;
 		/*padding-top: 0.65em;*/
 		list-style-type: none;
 		vertical-align: bottom;
