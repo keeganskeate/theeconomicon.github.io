@@ -90,8 +90,9 @@ strong, b {
 
 /* Hero */
 .hero-image {
-	background-image: url("/images/hero.png");
-	height: 500px;
+	background-image: url("/images/white-background-calyx.jpg");
+	width: 734px;
+	height: 456px;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -99,12 +100,12 @@ strong, b {
 	position: relative;
 }
 .hero-text {
-	text-align: center;
+	text-align: left;
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 25%;
 	transform: translate(-50%, -50%);
-	color: #fff;
+	color: #414042;
 }
 
 /* Sticky Header */
