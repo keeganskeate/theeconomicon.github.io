@@ -115,6 +115,7 @@ strong, b {
 	font-weight: 300;
 	font-size: 0.975em;
 	letter-spacing: 0;
+	padding-top: 0.65em;
 }
 	#header .container {
 		width: 100%;
