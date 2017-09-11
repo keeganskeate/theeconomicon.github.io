@@ -557,7 +557,7 @@ strong, b {
 	.back-to-top img {
 		position: relative;
 		top: 50%;
-		transform: translateY(-50%);
+		/*transform: translateY(-50%);*/
 	}
 /* Mobile Logo */
 	#logo {
