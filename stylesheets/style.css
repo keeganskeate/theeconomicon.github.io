@@ -109,7 +109,7 @@ strong, b {
 
 /* Sticky Header */
 #header {
-	height: 60px;
+	height: 70px;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 	font-weight: 300;
@@ -122,7 +122,7 @@ strong, b {
 	}
 	.fixed {
     		position: fixed;
-    		top: -60px;
+    		top: -70px;
     		left: 0;
     		right: 0;
     		z-index: 999;
@@ -142,7 +142,7 @@ strong, b {
 #nav {
 	position: static;
 	z-index: 666;
-	height: 60px;
+	height: 70px;
 	width: inherit;
 	min-width: 840px;
 	max-width: 1344px;
@@ -150,7 +150,6 @@ strong, b {
 	display: inline-block;
 	text-align: center;
     	margin: 0 auto;
-	padding-top: 0.65em;
     	vertical-align: baseline;
 	background: transparent;
 	border-bottom: 1px solid transparent;
@@ -160,7 +159,7 @@ strong, b {
 	#nav > ul {
 		height: inherit;
 		margin: 0;
-		padding: 0;
+		padding-top: 0.65em;
 		list-style-type: none;
 		vertical-align: bottom;
 	}
