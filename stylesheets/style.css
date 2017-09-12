@@ -94,7 +94,7 @@ strong, b {
 	height: 456px;
 	background-image: url("/images/white-background-calyx.jpg") no-repeat;
 	background-attachment: fixed;
-	background-position: 25% 25%;
+	background-position: 50% 50%;
 	/*background-size: cover;*/
 }
 .hero-text {
