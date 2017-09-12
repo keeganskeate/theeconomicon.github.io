@@ -201,10 +201,10 @@ strong, b {
 			#nav ul li.company-logo {
 				float: left;
 				position: relative;
+				bottom: 0;
 				height: 60px;
 				line-height: 2em;
 				margin-left: 1.3em;
-				vertical-align: bottom;
        				/*background: url('/images/The-Economicon-logo-new.png') no-repeat left center;*/
 			}
 			/*#nav > ul > li.logo {
