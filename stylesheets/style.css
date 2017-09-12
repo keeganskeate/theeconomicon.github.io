@@ -90,13 +90,12 @@ strong, b {
 
 /* Hero */
 .hero-image {
-	background-image: url("/images/white-background-calyx.jpg");
-	height: 456px;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	/*background-size: cover;*/
-	background-attachment: fixed;
 	position: relative;
+	height: 456px;
+	background-image: url("/images/white-background-calyx.jpg") no-repeat;
+	background-attachment: fixed;
+	/*background-position: 50% 50%;*/
+	/*background-size: cover;*/
 }
 .hero-text {
 	text-align: left;
