@@ -490,7 +490,7 @@ strong, b {
 			#copyright ul > li > a:hover {
 				text-decoration: underline;
 			}
-		#copyright a.icon {
+		#copyright.icon a {
 			height: 50px;
 			width: 50px;
 			top: 0.65em;
