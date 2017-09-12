@@ -94,8 +94,7 @@ strong, b {
 	height: 456px;
 	background-image: url("/images/white-background-calyx.jpg") no-repeat;
 	background-attachment: fixed;
-	background-position: center center;
-	/*background-position: 50% 50%;*/
+	background-position: 25% 25%;
 	/*background-size: cover;*/
 }
 .hero-text {
@@ -498,6 +497,11 @@ strong, b {
 		/*#copyright.icon img{
 			top: 0.65em;
 		}*/
+
+@media only screen and (max-width: 980px){ #copyright ul { display:block; width:auto;}}
+@media only screen and (max-width: 980px){ #copyright ul > li { display:block; width:auto;}}
+@media only screen and (max-width: 980px){ #copyright ul.left, #copyright ul.right { float:none;}}
+@media only screen and (max-width: 980px){ #copyright ul.left > li, #copyright ul.right > li { margin:0 1em;}}
 
 /* Tip Button */
 	input[type="submit"],
