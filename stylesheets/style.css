@@ -489,16 +489,15 @@ strong, b {
 			#copyright ul > li > a:hover {
 				text-decoration: underline;
 			}
-		#copyright.icon a {
+		/*#copyright.icon a {
 			height: 50px;
 			width: 50px;
 			top: 0.65em;
-		}
+		}*/
 		/*#copyright.icon img{
 			top: 0.65em;
 		}*/
 
-@media only screen and (max-width: 980px){ #copyright ul { display:block; width:auto;}}
 @media only screen and (max-width: 980px){ #copyright ul > li { display:block; width:auto;}}
 @media only screen and (max-width: 980px){ #copyright ul.left, #copyright ul.right { float:none;}}
 @media only screen and (max-width: 980px){ #copyright ul.left > li, #copyright ul.right > li { margin:0 1em;}}
