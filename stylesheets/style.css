@@ -489,9 +489,14 @@ strong, b {
 			#copyright ul > li > a:hover {
 				text-decoration: underline;
 			}
-		#copyright.icon img{
+		#copyright.icon {
+			height: 50px;
+			width: 50px;
 			top: 0.65em;
 		}
+		/*#copyright.icon img{
+			top: 0.65em;
+		}*/
 
 /* Tip Button */
 	input[type="submit"],
