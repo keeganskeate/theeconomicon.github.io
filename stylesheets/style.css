@@ -101,7 +101,7 @@ strong, b {
 	text-align: left;
 	position: absolute;
 	top: 50%;
-	left: 25%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	color: #414042;
