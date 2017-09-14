@@ -92,7 +92,7 @@ strong, b {
 .hero-image {
 	position: relative;
 	height: 456px;
-	background: url("/images/white-background-calyx.jpg") no-repeat top left;
+	background: url("/images/white-background-calyx.jpg") no-repeat top center;
 	background-attachment: fixed;
 	/*background-position: 50% 50%;*/
 	/*background-size: cover;*/
