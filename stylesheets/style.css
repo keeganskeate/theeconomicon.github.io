@@ -100,8 +100,8 @@ strong, b {
 .hero-text {
 	text-align: left;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 33%;
+	/*left: 50%;*/
 	transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	color: #414042;
