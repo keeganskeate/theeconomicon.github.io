@@ -459,6 +459,7 @@ strong, b {
 	}
 		#copyright ul {
 			display: inline-block;
+			vertical-align: middle;
 		}
 			#copyright ul.left {
 				float: left;
