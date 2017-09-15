@@ -207,12 +207,7 @@ strong, b {
 				height: 60px;
 				line-height: 2em;
 				margin-left: 1.3em;
-       				/*background: url('/images/The-Economicon-logo-new.png') no-repeat left center;*/
-			}
-			/*#nav > ul > li.logo {
-				position: relative;
-				line-height: 2em;
-			}*/				
+			}			
 				#nav > ul > li.company-logo.active > a,
 				#nav > ul > li.company-logo:hover > a {
 					border-bottom: 2px solid transparent;
@@ -489,6 +484,10 @@ strong, b {
 			#copyright ul > li > a:hover {
 				text-decoration: underline;
 			}
+		#copyright ul.left > li.split {
+			clear: right;
+			float: right;
+		}
 		/*#copyright.icon a {
 			height: 50px;
 			width: 50px;
@@ -500,6 +499,8 @@ strong, b {
 
 @media only screen and (max-width: 980px){ #copyright ul > li { display:block; width:auto;}}
 @media only screen and (max-width: 980px){ #copyright ul.left, #copyright ul.right { float:none;}}
+@media only screen and (max-width: 980px){ #copyright ul.left {text-align:left;} }
+@media only screen and (max-width: 980px){ #copyright ul.right {text-align:right;} }
 @media only screen and (max-width: 980px){ #copyright ul.left > li, #copyright ul.right > li { margin:0 1em;}}
 
 /* Tip Button */
