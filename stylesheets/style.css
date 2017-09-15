@@ -227,9 +227,9 @@ strong, b {
 		top: 2em;
 		min-width: 12em;
 		background: #fff;
-		-moz-box-shadow: 5px 5px 10px 2px rgba(70,70,70,0.3);
-		-webkit-box-shadow: 5px 5px 10px 2px rgba(70,70,70,0.3);
-		box-shadow: 5px 5px 10px 2px rgba(70,70,70,0.3);
+		-moz-box-shadow: 3px 3px 7px 1px rgba(204,204,204,0.3);
+		-webkit-box-shadow: 3px 3px 7px 1px rgba(204,204,204,0.3);
+		box-shadow: 3px 3px 7px 1px rgba(204,204,204,0.3);
 		-moz-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
 		-webkit-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
 		-o-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
