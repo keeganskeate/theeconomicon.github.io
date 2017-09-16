@@ -461,7 +461,7 @@ strong, b {
 			display: inline-block;
 		}
 			#copyright ul.left {
-				float: left;
+				left: 0;
 				vertical-align: middle;
 			}
 				#copyright ul.left > li {
@@ -469,7 +469,7 @@ strong, b {
 					vertical-align: middle;
 				}
 			#copyright ul.right {
-				float: right;
+				right: 0;
 				vertical-align: middle;
 			}
 				#copyright ul.right > li {
@@ -492,14 +492,6 @@ strong, b {
 			clear: right;
 			float: right;
 		}
-		/*#copyright.icon a {
-			height: 50px;
-			width: 50px;
-			top: 0.65em;
-		}*/
-		/*#copyright.icon img{
-			top: 0.65em;
-		}*/
 
 @media only screen and (max-width: 980px){ #copyright ul > li { display:block; width:auto;}}
 @media only screen and (max-width: 980px){ #copyright ul.left, #copyright ul.right { float:none;}}
