@@ -459,26 +459,22 @@ strong, b {
 		border-top: 1px solid #ccc
 	}
 		#copyright ul {
-			display: inline-block;
+			display: inline-table;
 		}
 			#copyright ul.left {
 				left: 0;
-				vertical-align: middle;
 			}
 				#copyright ul.left > li {
 					margin-right: 1.3em;
-					vertical-align: middle;
 				}
 			#copyright ul.right {
 				right: 0;
-				vertical-align: middle;
 			}
 				#copyright ul.right > li {
 					margin-left: 1.3em;
-					vertical-align: middle;
 				}
 		#copyright ul > li {
-			display: inline-block;
+			display: inline;
 		}
 		#copyright ul > li > a {
 			font-size: 70%;
