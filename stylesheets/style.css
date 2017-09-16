@@ -392,7 +392,7 @@ strong, b {
 		}
 		#footer h3{
 			color:  #333;
-			font-size: 0.8125rem;
+			font-size: 1.25rem;
 			line-height: 0.6875rem;
 			font-weight: 700;
 			text-transform: uppercase;
@@ -403,7 +403,7 @@ strong, b {
 		#footer li > a{
 			text-align: left;
 			line-height: 1rem;
-			font-size: 0.875rem;
+			font-size: 0.75rem;
 			font-weight: 500;
 			color: #131516;
 		}
