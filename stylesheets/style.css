@@ -459,19 +459,22 @@ strong, b {
 	}
 		#copyright ul {
 			display: inline-block;
-			vertical-align: middle;
 		}
 			#copyright ul.left {
 				float: left;
+				vertical-align: middle;
 			}
 				#copyright ul.left > li {
-					margin-right: 1.3em
+					margin-right: 1.3em;
+					vertical-align: middle;
 				}
 			#copyright ul.right {
 				float: right;
+				vertical-align: middle;
 			}
 				#copyright ul.right > li {
-					margin-left: 1.3em
+					margin-left: 1.3em;
+					vertical-align: middle;
 				}
 		#copyright ul > li {
 			display: inline-block;
