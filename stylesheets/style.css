@@ -454,19 +454,19 @@ strong, b {
 /* Copyright */
 	#copyright {
 		position: relative;
+		display: inline-block;
+  		vertical-align: middle;
 		padding: 0.65em 0;
 		border-top: 1px solid #ccc
 	}
-		#copyright ul {
+		/*#copyright ul {
 			display: inline-table;
-		}
+		}*/
 			#copyright ul.left {
 				float: left;
-				vertical-align: middle;
 			}
 			#copyright ul.right {
 				float: right;
-				vertical-align: middle;
 			}
 				#copyright ul.left > li {
 					margin-right: 1.3em;
@@ -474,9 +474,9 @@ strong, b {
 				#copyright ul.right > li {
 					margin-left: 1.3em;
 				}
-		#copyright ul > li {
+		/*#copyright ul > li {
 			display: inline;
-		}
+		}*/
 		#copyright ul > li > a {
 			font-size: 70%;
 			color: #999;
