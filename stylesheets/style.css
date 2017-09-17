@@ -462,8 +462,7 @@ strong, b {
 	}
 		#copyright ul {
 			height: 50px;
-			display: table-cell;
-			vertical-align: middle;
+			display: inline-block;
 		}
 			#copyright ul.left {
 				float: left;
@@ -472,14 +471,13 @@ strong, b {
 				float: right;
 			}
 				#copyright ul.left > li {
-					margin: auto ;
-					margin-right: 1.3em;
+					margin: auto 1.3em auto 0;
 				}
 				#copyright ul.right > li {
-					margin-left: 1.3em;
+					margin: auto 0 auto 1.3em;
 				}
 		#copyright ul > li {
-			display: inline-block;
+			display: inline;
 		}
 		#copyright ul > li > a {
 			font-size: 70%;
