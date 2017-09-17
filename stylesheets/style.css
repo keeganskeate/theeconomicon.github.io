@@ -95,7 +95,7 @@ strong, b {
 	background: url("/images/faded_math_background_thin.jpg") no-repeat top center;
 	background-attachment: fixed;
 	/*background-position: 50% 50%;*/
-	/*background-size: cover;*/
+	background-size: cover;
 }
 .hero-text {
 	text-align: left;
