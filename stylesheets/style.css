@@ -461,6 +461,7 @@ strong, b {
 		border-top: 1px solid #ccc
 	}
 		#copyright ul {
+			height: 50px;
 			display: inline-block;
 		}
 			#copyright ul.left {
@@ -476,11 +477,12 @@ strong, b {
 					margin-left: 1.3em;
 				}
 		#copyright ul > li {
-			display: inline;
 			height: 50px;
+			display: inline;
 			text-align: center;
 		}
 		#copyright ul > li > a {
+			height: 50px;
 			font-size: 70%;
 			color: #999;
 			font-weight: 400;
