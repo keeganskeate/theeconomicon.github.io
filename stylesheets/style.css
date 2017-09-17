@@ -454,7 +454,6 @@ strong, b {
 /* Copyright */
 	#copyright {
 		position: relative;
-		vertical-align: middle;
 		padding: 0.65em 0;
 		border-top: 1px solid #ccc
 	}
@@ -462,14 +461,16 @@ strong, b {
 			display: inline-table;
 		}
 			#copyright ul.left {
-				text-align: left;
+				float: left;
+				vertical-align: middle;
+			}
+			#copyright ul.right {
+				float: right;
+				vertical-align: middle;
 			}
 				#copyright ul.left > li {
 					margin-right: 1.3em;
 				}
-			#copyright ul.right {
-				text-align: right;
-			}
 				#copyright ul.right > li {
 					margin-left: 1.3em;
 				}
