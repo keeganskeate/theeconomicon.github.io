@@ -462,13 +462,13 @@ strong, b {
 			display: inline-table;
 		}
 			#copyright ul.left {
-				left: 0;
+				text-align: left;
 			}
 				#copyright ul.left > li {
 					margin-right: 1.3em;
 				}
 			#copyright ul.right {
-				right: 0;
+				text-align: right;
 			}
 				#copyright ul.right > li {
 					margin-left: 1.3em;
