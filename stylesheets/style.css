@@ -475,9 +475,11 @@ strong, b {
 				#copyright ul.right > li {
 					margin-left: 1.3em;
 				}
-		/*#copyright ul > li {
+		#copyright ul > li {
 			display: inline;
-		}*/
+			height: 50px;
+			text-align: center;
+		}
 		#copyright ul > li > a {
 			font-size: 70%;
 			color: #999;
