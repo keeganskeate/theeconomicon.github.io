@@ -471,9 +471,11 @@ strong, b {
 				float: right;
 			}
 				#copyright ul.left > li {
+					height: 50px;
 					margin: auto 1.3em auto 0;
 				}
 				#copyright ul.right > li {
+					height: 50px;
 					margin: auto 0 auto 1.3em;
 				}
 		#copyright ul > li {
