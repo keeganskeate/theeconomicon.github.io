@@ -91,8 +91,8 @@ strong, b {
 /* Hero */
 .hero-image {
 	position: relative;
-	height: 747px;
-	background: url("/images/faded_math_background_thin.jpg") no-repeat top center;
+	height: 562px;
+	background: url("/images/faded_math_background_thin-2.jpg") no-repeat top center;
 	background-attachment: fixed;
 	/*background-position: 50% 50%;*/
 	background-size: cover;
