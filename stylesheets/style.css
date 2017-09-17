@@ -92,7 +92,7 @@ strong, b {
 .hero-image {
 	position: relative;
 	height: 747px;
-	background: url("/images/faded_math_background_thing.jpg") no-repeat top center;
+	background: url("/images/faded_math_background_thin.jpg") no-repeat top center;
 	background-attachment: fixed;
 	/*background-position: 50% 50%;*/
 	/*background-size: cover;*/
@@ -456,12 +456,13 @@ strong, b {
 		position: relative;
 		display: inline-block;
   		vertical-align: middle;
+		width: 100%;
 		padding: 0.65em 0;
 		border-top: 1px solid #ccc
 	}
-		/*#copyright ul {
-			display: inline-table;
-		}*/
+		#copyright ul {
+			display: inline-block;
+		}
 			#copyright ul.left {
 				float: left;
 			}
