@@ -89,8 +89,8 @@ strong, b {
 /* Hero */
 .hero-image {
 	position: relative;
-	height: 667px;
-	background: url("/images/math_background.jpg") no-repeat top left;
+	height: 574px;
+	background: url("/images/math_background_2.jpg") no-repeat top left;
 	background-size: cover;
 	background-attachment: fixed;
 }
