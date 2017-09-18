@@ -91,7 +91,7 @@ strong, b {
 .hero-image {
 	position: relative;
 	height: 574px;
-	background: url("/images/math_background_2.jpg") no-repeat top right;
+	background: url("/images/math_background_2.jpg") no-repeat center top;
 	background-size: cover;
 	background-attachment: fixed;
 }
