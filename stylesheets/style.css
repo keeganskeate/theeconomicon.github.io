@@ -88,10 +88,10 @@ strong, b {
 	}*/
 
 /* Hero */
-.hero-image {
+#hero-image {
 	position: relative;
 	height: 574px;
-	background: url("/images/math_background_2.jpg") no-repeat center top;
+	background: url("/images/math_background_2.jpg") no-repeat top left;
 	background-size: cover;
 	background-attachment: fixed;
 }
