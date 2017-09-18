@@ -107,10 +107,12 @@ strong, b {
 	}
 		#hero-text h1 {
 			font-size: 45px;
+			font-weight: 700;
+			text-transform: uppercase;
 		}
 		#hero-text p {
+			padding-top: 1.3em;
 			font-size: 1.45em;
-			line-height: 1.3em;
 		}
 
 /* Sticky Header */
