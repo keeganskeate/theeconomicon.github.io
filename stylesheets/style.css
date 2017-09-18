@@ -1,22 +1,22 @@
 /*
+-------------------------------------------
 Main Style Sheet for The Economicon website
-Theme Colors
+-------------------------------------------
+Blacks and Whites
+	Off-Black: #131516
 	Lightest Grey: #eee
 	Light Grey: #ccc
 	Medium Grey: #E0E1E1
 	Dark Grey: #999
-	Black: #131516
 	Light White: #F2F3F4
 	White: #F7F5E6
 	Off White: #E8E8E8
 	Darkest White: #D6D6D6
+Theme Colors
 	Dark Purple: #2D004F
-	Light Green: #B2E522
-	Medium Green: #43b02a
-	Dark Green: #219C24
-	Medium Teal: #2dbe60
-	Dark Teal: #0d9f40
-	Choice Teal: #14a76c
+	Lime Green: #B2E522
+	Choice Teal / Cyan: #14a76c
+	Background Blue: #176599
 */
 /* Fonts */
 @import url("http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800");
@@ -376,7 +376,8 @@ strong, b {
 		margin: 0 auto;
 		padding: 0;
 		text-align: center;
-		color: inherit;
+		color: #fff;
+		background: #176599;
 	}
 		#footer .container {
 			position: relative;
