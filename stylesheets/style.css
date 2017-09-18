@@ -364,8 +364,7 @@ strong, b {
 	margin: 0 auto;
 	padding-top: 2em;
 	text-align: center;
-	background: #01516e;
-	/*background: #176599;*/
+	background: #176599;
 }
 	#footer .container {
 		position: relative;
@@ -407,8 +406,7 @@ strong, b {
 				color: #fff;
 			}
 				#footer .index-bin li > a:hover {
-					color: #14a76c;
-					/*color: #B2E522;*/
+					color: #B2E522;
 				}
 		#index-section {
 			display: inline-block;
@@ -467,8 +465,7 @@ strong, b {
 			text-decoration: none;
 		}
 			#copyright ul > li > a:hover {
-				color: #14a76c;
-				/*color: #B2E522;*/
+				color: #B2E522;
 			}
 
 @media only screen and (max-width: 980px){ #copyright ul > li { display:block; width:auto;}}
