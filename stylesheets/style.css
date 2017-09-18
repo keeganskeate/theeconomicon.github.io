@@ -1,7 +1,5 @@
-/*
--------------------------------------------
-Main Style Sheet for The Economicon website
--------------------------------------------
+/* Main Style Sheet for The Economicon website
+----------------------------------------------
 Blacks and Whites
 	Off-Black: #131516
 	Lightest Grey: #eee
@@ -17,7 +15,7 @@ Theme Colors
 	Lime Green: #B2E522
 	Choice Teal / Cyan: #14a76c
 	Background Blue: #176599
-*/
+----------------------------------------------
 /* Fonts */
 @import url("http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond:300,400,600,700,800");
@@ -395,8 +393,7 @@ strong, b {
 			text-align: left;
 			font-size: 1.0rem;
 			line-height: 0.6875rem;
-			font-weight: 700;
-			text-transform: uppercase;
+			font-weight: 500;
 			color:  #fff;
 		}
 		#footer li > a{
