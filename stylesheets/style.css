@@ -90,19 +90,20 @@ strong, b {
 .hero-image {
 	position: relative;
 	height: 574px;
-	background: url("/images/math_background_2.jpg") no-repeat top center;
+	background: url("/images/math_background_2.jpg") no-repeat top right;
 	background-size: cover;
 	background-attachment: fixed;
 }
-.hero-text {
-	text-align: left;
-	position: absolute;
-	top: 33%;
-	left: 0;
-	transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
+#hero-text {
+	display: block;
+	padding-top: 2em;
+	text-align: center;
 	color: #414042;
 }
+	#hero-text .container {
+		margin: 0 auto;
+		padding: 0;
+	}
 
 /* Sticky Header */
 #header {
@@ -258,45 +259,44 @@ strong, b {
 		}
 
 /* Banner */
-	#banner {
-		display: block;
-		padding-top: 2em;
-		text-align: center;
-		text-transform: none;
-		color: inherit;
+#banner {
+	display: block;
+	padding-top: 2em;
+	text-align: center;
+	color: inherit;
+}
+	#banner .container {
+		margin: 0 auto;
+		padding: 0em 0em;
 	}
-		#banner .container {
-			margin: 0 auto;
-			padding: 0em 0em;
+	#banner .content-bin {
+		display: inline-block;
+		margin: auto;
+		width: 80%;
+		overflow: auto;
+	}
+		#banner .content-bin div {
+			position: relative;
+			float: left;
+			vertical-align: top;
 		}
-		#banner .content-bin{
-				display: inline-block;
-				margin: auto;
-				width: 80%;
-				overflow: auto;
-			}
-				.content-bin div {
-					position: relative;
-					float: left;
-					vertical-align: top;
-				}
-				#content-section {
-					display: inline-block;
-					overflow: hidden;
-					padding: 1em 0;
-					margin: auto;
-					width: 50%;
-				}
-					#content-wrap {
-						float: left;
-						position: relative;
-						left: 50%;
-					}
-					#content-item {
-						float: left;
-						position: relative;
-						left: -50%;
-					}
+	#content-section {
+		display: inline-block;
+		overflow: hidden;
+		padding: 1em 0;
+		margin: auto;
+		width: 50%;
+	}
+		#content-wrap {
+			float: left;
+			position: relative;
+			left: 50%;
+		}
+		#content-item {
+			float: left;
+			position: relative;
+			left: -50%;
+		}
 		#banner .content-bin ul {
 			list-style: none;
 			text-align: left;
