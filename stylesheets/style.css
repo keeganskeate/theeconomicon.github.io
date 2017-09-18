@@ -454,8 +454,8 @@ strong, b {
 /* Copyright */
 	#copyright {
 		position: relative;
-		display: inline-block;
-  		vertical-align: middle;
+		display: flex;
+  		align-items: center;
 		width: 100%;
 		padding: 0.65em 0;
 		border-top: 1px solid #ccc
