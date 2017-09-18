@@ -372,7 +372,7 @@ strong, b {
 }*/
 #footer {
 	margin: 0 auto;
-	padding: 0;
+	padding-top: 2em;
 	text-align: center;
 	background: #176599;
 }
@@ -470,8 +470,8 @@ strong, b {
 		}
 		#copyright ul > li > a {
 			color: #fff;
-			font-size: 70%;
-			font-weight: 400;
+			font-size: 60%;
+			font-weight: 300;
 			text-decoration: none;
 		}
 			#copyright ul > li > a:hover {
