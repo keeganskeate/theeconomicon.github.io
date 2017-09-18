@@ -376,7 +376,6 @@ strong, b {
 		margin: 0 auto;
 		padding: 0;
 		text-align: center;
-		color: #fff;
 		background: #176599;
 	}
 		#footer .container {
@@ -391,21 +390,21 @@ strong, b {
 			margin: 5px auto;
 		}
 		#footer h3{
-			color:  #333;
+			padding: 0;
+			margin-bottom: 14px;
+			text-align: left;
 			font-size: 1.0rem;
 			line-height: 0.6875rem;
 			font-weight: 700;
 			text-transform: uppercase;
-			text-align: left;
-			padding: 0;
-			margin-bottom: 14px;
+			color:  #fff;
 		}
 		#footer li > a{
 			text-align: left;
 			line-height: 1rem;
 			font-size: 0.75rem;
 			font-weight: 500;
-			color: #131516;
+			color: #fff;
 		}
 		#footer ul{
 			list-style: none;
@@ -414,7 +413,7 @@ strong, b {
 	#footer .index-bin{
 		display: inline-block;
 		margin: auto;
-		width: 90%;
+		width: 100%;
 		overflow: auto;
 	}
 		.index-bin div {
