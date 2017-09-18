@@ -367,53 +367,49 @@ strong, b {
 @media only screen and (max-width: 980px){ #banner .content-bin .left-padded{ padding-left: 0;}}
 
 /* Footer */
-#footer > :last-child {
+/*#footer > :last-child {
 	margin-bottom: 0;
+}*/
+#footer {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	background: #176599;
 }
-	#footer {
+	#footer .container {
+		position: relative;
 		margin: 0 auto;
-		padding: 0;
-		text-align: center;
-		background: #176599;
 	}
-		#footer .container {
-			position: relative;
-			margin: 0 auto;
-		}
-		#footer hr {
-			height: 4px;
-			background-color: #131516;
-			color: #131516;
-			border: 0 none;
-			margin: 5px auto;
-		}
-		#footer h3{
-			padding: 0;
-			margin-bottom: 14px;
-			text-align: left;
-			font-size: 1.0rem;
-			line-height: 0.6875rem;
-			font-weight: 500;
-			color:  #fff;
-		}
-		#footer li > a{
-			text-align: left;
-			line-height: 1rem;
-			font-size: 0.75rem;
-			font-weight: 500;
+	#footer ul{
+		list-style: none;
+		padding: 0em;
+	}
+	#footer h3{
+		padding: 0;
+		margin-bottom: 14px;
+		text-align: left;
+		font-size: 1.0rem;
+		line-height: 0.6875rem;
+		font-weight: 500;
+		color:  #fff;
+	}
+	#footer li > a {
+		text-align: left;
+		line-height: 1rem;
+		font-size: 0.75rem;
+		font-weight: 500;
+		color: #ccc;
+	}
+		#footer li > a a:hover {
 			color: #fff;
 		}
-		#footer ul{
-			list-style: none;
-			padding: 0em;
-		}
-	#footer .index-bin{
+	#footer .index-bin {
 		display: inline-block;
 		margin: auto;
 		width: 100%;
 		overflow: auto;
 	}
-		.index-bin div {
+		#footer	.index-bin div {
 			position:relative;
 			float: left;
 			text-align: left;
@@ -421,9 +417,6 @@ strong, b {
 		}
 		#footer .index-bin li{
 			line-height: 1.6em;
-		}
-		#footer .index-bin a:hover{
-			color: #14a76c;
 		}
 		#index-section {
 			display: inline-block;
@@ -476,24 +469,25 @@ strong, b {
 			display: inline;
 		}
 		#copyright ul > li > a {
+			color: #ccc;
 			font-size: 70%;
-			color: #999;
 			font-weight: 400;
 			text-decoration: none;
 		}
 			#copyright ul > li > a:hover {
-				text-decoration: underline;
+				color: #fff;
 			}
-		#copyright ul.left > li.split {
-			clear: right;
-			float: right;
-		}
 
 @media only screen and (max-width: 980px){ #copyright ul > li { display:block; width:auto;}}
 /*@media only screen and (max-width: 980px){ #copyright ul.left, #copyright ul.right { float:none;}}*/
 @media only screen and (max-width: 980px){ #copyright ul.left {text-align:left;} }
 @media only screen and (max-width: 980px){ #copyright ul.right {text-align:right;} }
 @media only screen and (max-width: 980px){ #copyright ul.left > li, #copyright ul.right > li { margin:0 1em;}}
+
+		#copyright ul.left > li.split {
+			clear: right;
+			float: right;
+		}
 
 /* Tip Button */
 	input[type="submit"],
