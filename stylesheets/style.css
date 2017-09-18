@@ -390,7 +390,7 @@ strong, b {
 		text-align: left;
 		font-size: 1.0rem;
 		line-height: 0.6875rem;
-		font-weight: 500;
+		font-weight: 600;
 		color:  #fff;
 	}
 	#footer .index-bin {
@@ -412,7 +412,7 @@ strong, b {
 				text-align: left;
 				line-height: 1rem;
 				font-size: 0.75rem;
-				font-weight: 500;
+				font-weight: 400;
 				color: #fff;
 			}
 				#footer .index-bin li > a:hover {
@@ -469,13 +469,13 @@ strong, b {
 			display: inline;
 		}
 		#copyright ul > li > a {
-			color: #ccc;
+			color: #fff;
 			font-size: 70%;
 			font-weight: 400;
 			text-decoration: none;
 		}
 			#copyright ul > li > a:hover {
-				color: #fff;
+				color: #B2E522;
 			}
 
 @media only screen and (max-width: 980px){ #copyright ul > li { display:block; width:auto;}}
