@@ -1,25 +1,81 @@
-/* Main JavaScript file */
+// Main JavaScript file
 
-/* When the user clicks on the button, toggle between hiding and showing the dropdown content. 
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-/* Close the dropdown menu if the user clicks outside of it. 
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
+// Javascript Core Functions
 
-// Back to top Button
-	jQuery(document).ready(function() {
+(function($) {
+
+	// Responsive Formatting
+	skel.init({
+		reset: 'full',
+		breakpoints: {
+			global:		{ range: '*', href: 'stylesheets/style.css', containers: 1400, grid: { gutters: 50 } },
+			wide:		{ range: '-1680', href: 'stylesheets/style-wide.css', containers: 1200, grid: { gutters: 40 } },
+			normal:		{ range: '-1280', href: 'stylesheets/style-normal.css', containers: 960, lockViewport: true },
+			narrow:		{ range: '-980', href: 'stylesheets/style-narrow.css', containers: '95%', grid: { gutters: 25 } },
+			narrower:	{ range: '-840', href: 'stylesheets/style-narrower.css', grid: { collapse: true } },
+			mobile:		{ range: '-640', href: 'stylesheets/style-mobile.css', containers: '90%', grid: { gutters: 15 } }
+		}
+	}, {
+		layers: {
+			layers: {
+				navPanel: {
+					animation: 'pushX',
+					breakpoints: 'narrower',
+					clickToClose: true,
+					height: '100%',
+					hidden: true,
+					html: '<div data-action="navList" data-args="nav"></div>',
+					orientation: 'vertical',
+					position: 'top-left',
+					side: 'left',
+					width: 275
+				},
+				titleBar: {
+					breakpoints: 'narrower',
+					height: 44,
+					html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span><span class="title" data-action="copyHTML" data-args="logo"></span>',
+					position: 'top-left',
+					side: 'top',
+					width: '100%'
+				}
+			}
+		}
+	});
+	
+	// Sticky header with slide down effect
+	$(function() {
+		$("#header").before($(".StickyHeader").clone().addClass("fixed"));
+		$(window).scroll(function(){
+			if ($(window).scrollTop() >= 200) {
+				$('.StickyHeader.fixed').addClass('slideDown');
+			} else{
+				$('.StickyHeader.fixed').removeClass('slideDown');
+			}
+		});
+	});
+
+	// Disable animations/transitions until page has loaded.
+	$(function() {
+		var	$window = $(window),
+			$body = $('body');
+			$body.addClass('loading');
+			$window.on('load', function() {
+				$body.removeClass('loading');
+			});
+	});
+	
+	// Initiate Dropdowns.
+	$(function() {
+		$('#nav > ul').dropotron({
+			offsetY: -15,
+			hoverDelay: 0
+		});
+	});
+	
+})(jQuery);
+
+// Back-to-top Button
+jQuery(document).ready(function() {
 		var offset = 250; // The offset is when the button will appears.
 		var duration = 300; // The duration is the time until the button will appear in milliseconds.
 		jQuery(window).scroll(function() {
@@ -34,4 +90,4 @@ window.onclick = function(event) {
 			jQuery('html, body').animate({scrollTop: 0}, duration);
 			return false;
 		});
-	});
+});
