@@ -91,11 +91,10 @@ strong, b {
 /* Hero */
 .hero-image {
 	position: relative;
-	height: 445px;
-	background: url("/images/math_background.jpg") no-repeat top center;
-	background-attachment: fixed;
-	/*background-position: 50% 50%;*/
+	height: 667px;
+	background: url("/images/math_background.jpg") no-repeat top left;
 	background-size: cover;
+	background-attachment: fixed;
 }
 .hero-text {
 	text-align: left;
