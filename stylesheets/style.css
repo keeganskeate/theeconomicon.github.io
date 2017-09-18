@@ -104,6 +104,13 @@ strong, b {
 		margin: 0 auto;
 		padding: 0;
 	}
+		#hero-text h1 {
+			font-size: 45px;
+		}
+		#hero-text p {
+			font-size: 1.45em;
+			line-height: 1.3em;
+		}
 
 /* Sticky Header */
 #header {
