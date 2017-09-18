@@ -342,24 +342,6 @@ strong, b {
 			#banner .content-bin a:hover{
 				color: #14a76c;
 			}
-		.bold-link {
-			color: #131516;
-			font-weight: bold;
-		}
-			.bold-link:active,
-			.bold-link:hover {
-				color: #2dbe60;
-			}
-		.top-padded {
-			padding-top: 20px;
-		}
-		.indent{
-			padding: 0 0 5px 20px;
-		}
-		.image-shadow{
-			-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
-			-webkit-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
-		}
 		#banner hr {
 			height: 1px;
 			background-color: #ccc;
@@ -501,16 +483,6 @@ strong, b {
 	input[type="reset"],
 	input[type="button"],
 	.button.tip {
-		/*-moz-appearance: none;
-		-webkit-appearance: none;
-		-o-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		-moz-transition: all 0.35s ease-in-out;
-		-webkit-transition: all 0.35s ease-in-out;
-		-o-transition: all 0.35s ease-in-out;
-		-ms-transition: all 0.35s ease-in-out;
-		transition: all 0.35s ease-in-out;*/
 		cursor: pointer;
 		text-decoration: none;
 		display: inline-block;
@@ -565,26 +537,43 @@ strong, b {
 		transform: translateY(-33%);
 		-webkit-transform: translateY(-33%);
 	}
-/* Mobile Logo */
-	#logo {
-		display: none;
+/* Miscellaneous */
+.bold-link {
+	color: #131516;
+	font-weight: bold;
+}
+	.bold-link:active,
+	.bold-link:hover {
+		color: #2dbe60;
 	}
-		#logo {
-			line-height: 2em;
-			letter-spacing: 2px;
-			text-transform: uppercase;
-			font-size: 2em;
-			font-weight: 500;
-		}
-			#logo h1 {
-				display: inline-block;
-				margin: 0;
-				padding: 0;
-				background: #2D004F;
-			}
-			#logo a {
-				color: #fff;
-			}
+.top-padded {
+	padding-top: 20px;
+}
+.indent{
+	padding: 0 0 5px 20px;
+}
+.image-shadow{
+	-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
+	-webkit-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
+}
+/* Mobile Logo */
+#logo {
+	display: none;
+	line-height: 2em;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: 500;
+}
+	#logo h1 {
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+		background: #2D004F;
+	}
+	#logo a {
+		color: #fff;
+	}
 
 /* Sub Pages */
 .subpage #nav .active-page {
