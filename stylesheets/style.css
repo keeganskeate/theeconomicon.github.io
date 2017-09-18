@@ -106,8 +106,8 @@ strong, b {
 		padding: 0;
 	}
 		#hero-text h1 {
-			font-size: 45px;
-			font-weight: 700;
+			font-size: 3em;
+			font-weight: 600;
 			text-transform: uppercase;
 		}
 		#hero-text p {
