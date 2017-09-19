@@ -225,7 +225,13 @@ strong, b {
 			#nav ul > li.split {
 				clear: right;
 				float: right;
+				color: #fff;
+				font-weight: 500;
 			}
+				#nav ul > li.split.active,
+				#nav ul > li.split:hover {
+					border-bottom: 2px solid transparent;
+				}
 
 /* Dropotron */
 	.dropotron {
@@ -491,9 +497,7 @@ strong, b {
 		text-decoration: none;
 		display: inline-block;
 		text-align: center;
-		padding: 0.15em 1.25em;
-		color: #fff;
-		font-weight: 400;
+		padding: 0.05em 1.75em;
 		background: #14a76c;
 		border-radius: 4px;
 	}
@@ -502,7 +506,6 @@ strong, b {
 		input[type="button"]:hover,
 		.button.download:hover {
 			background: #006A3F;
-			border-bottom: 2px solid transparent;
 		}
 /* Tip Button */
 	input[type="submit"],
