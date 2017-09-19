@@ -93,7 +93,6 @@ strong, b {
 	position: relative;
 	height: 456px;
 	background: url("/images/white-background-calyx.jpg") no-repeat bottom right;
-	background-size: cover;
 	background-attachment: fixed;
 }
 #hero-text {
@@ -117,7 +116,7 @@ strong, b {
 			text-transform: uppercase;
 		}
 		#hero-text p {
-			padding-bottom: 1.3em;
+			padding: 1.3em 0;
 			font-size: 25px;
 		}
 
