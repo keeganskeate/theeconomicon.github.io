@@ -14,6 +14,7 @@ Theme Colors
 	Dark Purple: #2D004F
 	Lime Green: #B2E522
 	Choice Teal / Cyan: #14a76c
+	Dark Teal: 006A3F
 	Background Blue: #176599
 	Navy: #01516e
 ----------------------------------------------
@@ -481,7 +482,26 @@ strong, b {
 			clear: right;
 			float: right;
 		}
-
+/* Download Button */
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button.download {
+		cursor: pointer;
+		text-decoration: none;
+		display: inline-block;
+		text-align: center;
+		padding: 0.25em 1em;
+		color: #fff;
+		background: #14a76c;
+		border-radius: 4px;
+	}
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		.button.download:hover {
+			background: #006A3F;
+		}
 /* Tip Button */
 	input[type="submit"],
 	input[type="reset"],
