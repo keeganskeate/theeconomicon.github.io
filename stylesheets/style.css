@@ -118,7 +118,7 @@ strong, b {
 		}
 		#hero-text p {
 			padding-top: 0.65em;
-			font-size: 1.45em;
+			font-size: 25px;
 		}
 
 /* Sticky Header */
@@ -493,6 +493,26 @@ strong, b {
 		#copyright ul.left > li.split {
 			clear: right;
 			float: right;
+		}
+/* Beta Button */
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button.beta {
+		cursor: pointer;
+		text-decoration: none;
+		display: inline-block;
+		text-align: center;
+		padding: 0.05em 1.75em;
+		color: #fff;
+		background: #14a76c;
+		border-radius: 4px;
+	}
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		.button.beta:hover {
+			background: #006A3F;
 		}
 /* Download Button */
 	input[type="submit"],
