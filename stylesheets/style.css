@@ -97,8 +97,8 @@ strong, b {
 }
 #hero-text {
 	display: block;
-	padding-top: 2em;
-	text-align: center;
+	padding-top: 6em;
+	text-align: left;
 	color: #414042;
 }
 	#hero-text .container {
