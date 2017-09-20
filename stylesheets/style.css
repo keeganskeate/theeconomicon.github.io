@@ -108,7 +108,7 @@ strong, b {
 	#hero-text .box {
 		position: absolute;
   		top: 50%;
-  		transform: translateY(-50%);
+  		/*transform: translateY(-50%);*/
 		width: 50%;
 	}
 		#hero-text h1 {
