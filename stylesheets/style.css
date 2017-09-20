@@ -104,15 +104,12 @@ strong, b {
 		margin: 0 auto;
 		padding: 0;
 		height: 456px;
-		background: url("/images/white-background-calyx.jpg") no-repeat center;
+		background: url("/images/white-background-calyx.jpg") no-repeat top center;
 		background-attachment: fixed;
 	}
 	#hero-text .box {
-		position: absolute;
 		display: block;
-		top: 50%;
 		width: 50%;
-		height: inherit;
 	}
 		#hero-text h1 {
 			font-size: 2.5em;
@@ -177,7 +174,7 @@ strong, b {
 	#nav > ul {
 		margin: 0;
 		height: inherit;
-		padding-top: 10px;
+		padding: 10px 0;
 		list-style-type: none;
 		vertical-align: bottom;
 	}
@@ -529,7 +526,7 @@ strong, b {
 		text-align: center;
 		background: #14a76c;
 		border-radius: 4px;
-		padding: 1px 5px;
+		padding: 0 1.25em;
 	}
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
