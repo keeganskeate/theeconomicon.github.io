@@ -639,3 +639,17 @@ strong, b {
 	display: flex;
 	align-items: stretch;
 }
+#row .attribute-1 {
+	background: #999;
+	color: #414042;
+}
+#row .attribute-2 {
+	background: #01516e;
+	color: #414042;
+}
+#row .attribute-3 {
+	background: #2D004F;
+	color: #fff;
+}
+
+
