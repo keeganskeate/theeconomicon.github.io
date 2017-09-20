@@ -163,6 +163,7 @@ strong, b {
 	display: inline-block;
 	text-align: center;
     	margin: 0 auto;
+	padding: 10px 0;
     	vertical-align: baseline;
 	background: transparent;
 	border-bottom: 1px solid transparent;
@@ -172,7 +173,6 @@ strong, b {
 	#nav > ul {
 		margin: 0;
 		height: inherit;
-		padding: 10px 0;
 		list-style-type: none;
 		vertical-align: bottom;
 	}
