@@ -232,6 +232,7 @@ strong, b {
 			#nav ul > li.split > a {
 				color: #fff;
 				font-weight: 500;
+				padding: 0.325em 1.25em;
 			}
 				#nav ul > li.split.active >a,
 				#nav ul > li.split:hover > a{
