@@ -237,7 +237,6 @@ strong, b {
 			#nav ul > li.split > a {
 				color: #fff;
 				font-weight: 500;
-				padding: 5px 15px;
 			}
 				#nav ul > li.split.active >a,
 				#nav ul > li.split:hover > a{
@@ -530,6 +529,7 @@ strong, b {
 		text-align: center;
 		background: #14a76c;
 		border-radius: 4px;
+		padding: 1px 5px;
 	}
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
