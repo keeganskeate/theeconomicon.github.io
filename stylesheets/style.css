@@ -636,18 +636,24 @@ strong, b {
 
 /* Rows */
 #row .container {
+	position: relative;
+	width: 100%;
+	height: 500px;
 	display: flex;
 	align-items: stretch;
 }
 #row .attribute-1 {
+	height: 500px;
 	background: #999;
 	color: #414042;
 }
 #row .attribute-2 {
+	height: 500px;
 	background: #01516e;
 	color: #414042;
 }
 #row .attribute-3 {
+	height: 500px;
 	background: #2D004F;
 	color: #fff;
 }
