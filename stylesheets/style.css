@@ -124,7 +124,6 @@ strong, b {
 /* Sticky Header */
 #header {
 	height: 70px;
-	background: transparent;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 	font-weight: 300;
@@ -193,7 +192,7 @@ strong, b {
 				display: table-cell;
 				height: inherit;
 				vertical-align: bottom;
-				padding-bottom: 0px;
+				/*padding-bottom: 0px;*/
 				border-bottom: 2px solid transparent;
 				color: #414042;
 			}
