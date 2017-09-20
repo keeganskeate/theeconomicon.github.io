@@ -103,9 +103,6 @@ strong, b {
 	#hero-text .container {
 		margin: 0 auto;
 		padding: 0;
-		height: 456px;
-		background: url("/images/white-background-calyx.jpg") no-repeat top center;
-		background-attachment: fixed;
 	}
 	#hero-text .box {
 		display: block;
