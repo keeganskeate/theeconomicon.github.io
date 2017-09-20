@@ -128,6 +128,7 @@ strong, b {
 	font-weight: 300;
 	font-size: 0.975em;
 	letter-spacing: 0;
+	padding: 10px 0;
 }
 	#header .container {
 		width: 100%;
@@ -163,7 +164,6 @@ strong, b {
 	display: inline-block;
 	text-align: center;
     	margin: 0 auto;
-	padding: 10px 0;
     	vertical-align: baseline;
 	background: transparent;
 	border-bottom: 1px solid transparent;
