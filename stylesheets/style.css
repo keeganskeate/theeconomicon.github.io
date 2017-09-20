@@ -101,11 +101,14 @@ strong, b {
 	color: #414042;
 }
 	#hero-text .container {
+		position: relative;
 		margin: 0 auto;
 		padding: 0;
 	}
 	#hero-text .box {
-		display: block;
+		position: absolute;
+  		top: 50%;
+  		transform: translateY(-50%);
 		width: 50%;
 	}
 		#hero-text h1 {
