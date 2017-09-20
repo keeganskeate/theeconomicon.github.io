@@ -635,4 +635,7 @@ strong, b {
 }
 
 /* Rows */
-
+#row .container {
+	display: flex;
+	align-items: stretch;
+}
