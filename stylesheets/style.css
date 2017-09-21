@@ -175,7 +175,7 @@ strong, b {
 		padding: 10px 0;
 		height: inherit;
 		list-style-type: none;
-		/*vertical-align: bottom;*/
+		vertical-align: bottom;
 	}
 		#nav > ul > li > ul {
 			display: none;
@@ -242,6 +242,7 @@ strong, b {
 /* Dropotron */
 	.dropotron {
 		top: 2em;
+		margin-top: 10px;
 		min-width: 12em;
 		background: #fff;
 		-moz-box-shadow: 3px 4px 7px 3px rgba(204,204,204,0.3);
@@ -652,28 +653,28 @@ strong, b {
 	border: 2px solid #e7e7e7;
 	border-radius: 4px;
 }
-	#row .attribute.active,
+	/*#row .attribute.active,
 	#row .attribute:hover {
 		top: -3em;
-	}
+	}*/
 #row .title-1 {
 	padding: 3em 1.5em 1.0em 1.5em;
-	height: 20%;
+	height: 25%;
 	background: #F3D250;
 }
 #row .title-2 {
 	padding: 3em 1.5em 1.0em 1.5em;
-	height: 20%;
+	height: 25%;
 	background: #90CCF4;
 }
 #row .title-3 {
 	padding: 3em 1.5em 1.0em 1.5em;
-	height: 20%;
+	height: 25%;
 	background: #F78888;
 }
 #row h1 {
 	font-family: 'Sanchez', serif;
-	font-size: 1.25em;
+	font-size: 1.0em;
 	color: #131516;
 }
 #row h2 {
@@ -682,10 +683,20 @@ strong, b {
 	font-weight: 400;
 	color: #131516;
 }
-
+#row h3 {
+	width: 60%;
+	color: #131516;
+	font-size: 1em;
+}
+#row p {
+	width: 60%;
+	font-size: 0.8em;
+	line-height: 125%;
+	color: #414042;
+}
 #row .features {
 	position: relative;
-	height: 80%;
+	height: 75%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
