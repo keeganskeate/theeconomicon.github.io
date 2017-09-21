@@ -20,6 +20,7 @@ Theme Colors
 ----------------------------------------------
 /* Fonts */
 @import url("http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Sanchez:200,300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,600,700,800");
 
@@ -108,7 +109,7 @@ strong, b {
 	#hero-text .box {
 		position: absolute;
 		width: 50%;
-		margin: 25% auto;
+		margin: 12.5% auto auto 25%;
 	}
 		#hero-text h1 {
 			font-size: 2.5em;
@@ -118,7 +119,7 @@ strong, b {
 		#hero-text p {
 			padding: 0.75em 0 1.0em 0;
 			font-size: 2em;
-			line-height: 2.1em;
+			line-height: 1.05em;
 		}
 
 /* Sticky Header */
@@ -642,6 +643,14 @@ strong, b {
 	height: 500px;
 	display: flex;
 	justify-content: space-between;
+}
+#row h1 {
+	font-family: 'Sanchez', serif;
+	font-size: 1.25em;
+}
+#row h2 {
+	font-family: 'Sanchez', serif;
+	font-size: 2.0em;
 }
 #row .attribute-1 {
 	height: 500px;
