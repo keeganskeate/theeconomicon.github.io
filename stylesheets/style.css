@@ -640,22 +640,26 @@ strong, b {
 	width: 100%;
 	height: 500px;
 	display: flex;
-	justify-content: space-between;
 }
 #row .attribute-1 {
 	height: 500px;
-	background: #999;
+	width: 33%;
+	background: #FFC574;
 	color: #414042;
 }
 #row .attribute-2 {
 	height: 500px;
-	background: #01516e;
+	width: 33%;
+	background: #5F94C0;
 	color: #414042;
 }
 #row .attribute-3 {
 	height: 500px;
-	background: #2D004F;
+	width: 33%;
+	background: #ED6C91;
 	color: #fff;
 }
 
+@media only screen and (max-width: 980px){ #row .container{ display:block; width:auto;}}
+@media only screen and (max-width: 980px){ #row .attribute-1, #row .attribute-2, #row .attribute-3{ margin:0 1em; width:auto; }}
 
