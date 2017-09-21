@@ -643,33 +643,32 @@ strong, b {
 	display: flex;
 	justify-content: space-between;
 }
-#row h1 {
-	font-family: 'Sanchez', serif;
-	font-size: 1.25em;
-}
-#row h2 {
-	font-family: 'Sanchez', serif;
-	font-size: 2.0em;
-}
-#row div {
+#row .attribute {
 	height: 500px;
 	width: 33%;
 	border 2px solid #e7e7e7;
 	border-radius: 4px;
 }
-#row .attribute-1 {
-	background: #24305E;
-	color: #fff;
+#row .title-1 {
+	background: #F3D250;
 }
-#row .attribute-2 {
-	background: #A8D0E6;
-	color: #fff;
+#row .title-2 {
+	background: #90CCF4;
 }
-#row .attribute-3 {
-	background: #F76C6C;
-	color: #fff;
+#row .title-3 {
+	background: #F78888;
+}
+#row h1 {
+	font-family: 'Sanchez', serif;
+	font-size: 1.25em;
+	color: #131516;
+}
+#row h2 {
+	font-family: 'Sanchez', serif;
+	font-size: 2.0em;
+	color: #131516;
 }
 
 @media only screen and (max-width: 980px){ #row .container{ display:block; height: auto;}}
-@media only screen and (max-width: 980px){ #row .attribute-1, #row .attribute-2, #row .attribute-3{ width:auto; }}
+@media only screen and (max-width: 980px){ #row .attribute{ width:auto; }}
 
