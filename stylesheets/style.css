@@ -692,6 +692,7 @@ strong, b {
 }
 #row .feature {
 	position: relative;
+	background: #ccc;
 }
 #row .feature-icon {
 	position: relative;
