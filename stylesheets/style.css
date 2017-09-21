@@ -108,16 +108,17 @@ strong, b {
 	#hero-text .box {
 		position: absolute;
 		width: 50%;
-		margin: 2em auto auto 33%;
+		margin: 25% auto;
 	}
 		#hero-text h1 {
 			font-size: 2.5em;
-			font-weight: 500;
+			font-weight: 300;
 			text-transform: uppercase;
 		}
 		#hero-text p {
-			padding: 1.0em 0;
+			padding: 0.75em 0 1.0em 0;
 			font-size: 2em;
+			line-height: 2.1em;
 		}
 
 /* Sticky Header */
@@ -174,7 +175,7 @@ strong, b {
 		padding: 10px 0;
 		height: inherit;
 		list-style-type: none;
-		vertical-align: bottom;
+		/*vertical-align: bottom;*/
 	}
 		#nav > ul > li > ul {
 			display: none;
@@ -661,6 +662,6 @@ strong, b {
 	color: #8D0028;
 }
 
-@media only screen and (max-width: 980px){ #row .container{ display:block; height: auto; width:auto;}}
+@media only screen and (max-width: 980px){ #row .container{ display:block; height: auto;}}
 @media only screen and (max-width: 980px){ #row .attribute-1, #row .attribute-2, #row .attribute-3{ width:auto; }}
 
