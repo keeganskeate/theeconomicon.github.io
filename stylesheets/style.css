@@ -644,6 +644,7 @@ strong, b {
 	justify-content: space-between;
 }
 #row .attribute {
+	position: relative;
 	height: 500px;
 	width: 33%;
 	top: 0;
@@ -654,7 +655,6 @@ strong, b {
 	#row .attribute.active,
 	#row .attribute:hover {
 		top: -25px;
-		width: 40%;
 	}
 #row .title-1 {
 	padding: 3em 1.5em 0.5em 1.5em;
