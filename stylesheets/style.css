@@ -172,6 +172,7 @@ strong, b {
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.12);*/
 }
 	#nav > ul {
+		padding: 10px 0;
 		height: inherit;
 		list-style-type: none;
 		/*vertical-align: bottom;*/
@@ -184,7 +185,6 @@ strong, b {
 			display: inline-block;
 			float: right;
 			margin-right: 1.3em;
-			margin-bottom: 1.3em;
 			height: 30px;
 			text-decoration: none;
 		}
