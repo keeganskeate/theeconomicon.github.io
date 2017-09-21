@@ -651,21 +651,21 @@ strong, b {
 	font-family: 'Sanchez', serif;
 	font-size: 2.0em;
 }
-#row .attribute-1 {
+#row div {
 	height: 500px;
 	width: 33%;
+	border 2px solid #e7e7e7;
+	border-radius: 4px;
+}
+#row .attribute-1 {
 	background: #24305E;
 	color: #fff;
 }
 #row .attribute-2 {
-	height: 500px;
-	width: 33%;
 	background: #A8D0E6;
 	color: #fff;
 }
 #row .attribute-3 {
-	height: 500px;
-	width: 33%;
 	background: #F76C6C;
 	color: #fff;
 }
