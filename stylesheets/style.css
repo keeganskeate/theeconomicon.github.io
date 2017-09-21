@@ -94,7 +94,7 @@ strong, b {
 	position: relative;
 	height: 543px;
 	background: url("/images/calyx_on_white.jpg") no-repeat top center;
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
 }
 #hero-text {
 	display: block;
@@ -674,7 +674,7 @@ strong, b {
 }
 #row h1 {
 	font-family: 'Sanchez', serif;
-	font-size: 1.0em;
+	font-size: 1.1em;
 	color: #131516;
 }
 #row h2 {
@@ -700,7 +700,6 @@ strong, b {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	text-align: center;
 	background: #000;
 }
 #row .feature {
