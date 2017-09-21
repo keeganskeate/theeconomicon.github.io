@@ -124,7 +124,7 @@ strong, b {
 
 /* Sticky Header */
 #header {
-	height: 70px;
+	height: 80px;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 	font-weight: 300;
@@ -137,7 +137,7 @@ strong, b {
 	}
 	.fixed {
     		position: fixed;
-    		top: -70px;
+    		top: -80px;
     		left: 0;
     		right: 0;
     		z-index: 999;
@@ -157,7 +157,7 @@ strong, b {
 #nav {
 	position: static;
 	z-index: 666;
-	height: 70px;
+	height: 80px;
 	width: inherit;
 	min-width: 840px;
 	max-width: 1344px;
@@ -206,7 +206,6 @@ strong, b {
 					}
 			#nav > ul > li a.top-row {
 				font-size: 80%;
-				margin-bottom: 0;
 			}
 				#nav > ul > li.active > a.top-row,
 				#nav > ul > li:hover > a.top-row {
@@ -655,8 +654,7 @@ strong, b {
 }
 	#row .attribute.active,
 	#row .attribute:hover {
-		top: -5em;
-		width: 33.33%;
+		top: -3em;
 	}
 #row .title-1 {
 	padding: 3em 1.5em 1.0em 1.5em;
