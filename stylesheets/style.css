@@ -699,10 +699,10 @@ strong, b {
 	text-align: left;
 }
 #row .feature-icon {
-	position: relative;
+	background: #bbb;
 }
 #row .feature-text {
-	position: relative;
+	background: #yyy;
 }
 
 @media only screen and (max-width: 980px){ #row .container{ display:block; height: auto;}}
