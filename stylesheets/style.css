@@ -680,6 +680,21 @@ strong, b {
 	color: #131516;
 }
 
+#row .features {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+#row .feature {
+	position: relative;
+}
+#row .feature-icon {
+	position: relative;
+}
+#row .feature-text {
+	position: relative;
+}
+
 @media only screen and (max-width: 980px){ #row .container{ display:block; height: auto;}}
 @media only screen and (max-width: 980px){ #row .attribute{ width:auto; }}
 
