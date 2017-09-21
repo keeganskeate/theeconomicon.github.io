@@ -108,7 +108,7 @@ strong, b {
 	#hero-text .box {
 		position: absolute;
 		width: 50%;
-		margin: 2em auto auto 2em;
+		margin: 2em auto auto 33%;
 	}
 		#hero-text h1 {
 			font-size: 2.5em;
@@ -128,7 +128,6 @@ strong, b {
 	font-weight: 300;
 	font-size: 0.975em;
 	letter-spacing: 0;
-	padding: 10px 0;
 }
 	#header .container {
 		width: 100%;
@@ -164,7 +163,7 @@ strong, b {
 	display: inline-block;
 	text-align: center;
     	margin: 0 auto;
-    	vertical-align: baseline;
+    	/*vertical-align: baseline;*/
 	background: transparent;
 	border-bottom: 1px solid transparent;
 	/*-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.12);
@@ -172,6 +171,7 @@ strong, b {
 }
 	#nav > ul {
 		margin: 0;
+		padding: 10px 0;
 		height: inherit;
 		list-style-type: none;
 		vertical-align: bottom;
@@ -640,6 +640,7 @@ strong, b {
 	width: 100%;
 	height: 500px;
 	display: flex;
+	justify-content: space-between;
 }
 #row .attribute-1 {
 	height: 500px;
@@ -660,6 +661,6 @@ strong, b {
 	color: #8D0028;
 }
 
-@media only screen and (max-width: 980px){ #row .container{ display:block; width:auto;}}
-@media only screen and (max-width: 980px){ #row .attribute-1, #row .attribute-2, #row .attribute-3{ margin:0 1em; width:auto; }}
+@media only screen and (max-width: 980px){ #row .container{ display:block; height: auto; width:auto;}}
+@media only screen and (max-width: 980px){ #row .attribute-1, #row .attribute-2, #row .attribute-3{ width:auto; }}
 
