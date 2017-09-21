@@ -645,19 +645,19 @@ strong, b {
 	height: 500px;
 	width: 33%;
 	background: #FFC574;
-	color: #414042;
+	color: #FFB34A;
 }
 #row .attribute-2 {
 	height: 500px;
 	width: 33%;
 	background: #5F94C0;
-	color: #414042;
+	color: #063A65;
 }
 #row .attribute-3 {
 	height: 500px;
 	width: 33%;
 	background: #ED6C91;
-	color: #fff;
+	color: #8D0028;
 }
 
 @media only screen and (max-width: 980px){ #row .container{ display:block; width:auto;}}
