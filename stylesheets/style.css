@@ -646,19 +646,26 @@ strong, b {
 #row .attribute {
 	height: 500px;
 	width: 33%;
+	top: 0;
+	transition: top ease 0.5s;
 	border: 2px solid #e7e7e7;
 	border-radius: 4px;
 }
+	#row .attribute.active,
+	#row .attribute:hover {
+		top: -25px;
+		width: 40%;
+	}
 #row .title-1 {
-	padding: 1em;
+	padding: 3em 1.5em 0.5em 1.5em;
 	background: #F3D250;
 }
 #row .title-2 {
-	padding: 1em;
+	padding: 3em 1.5em 0.5em 1.5em;
 	background: #90CCF4;
 }
 #row .title-3 {
-	padding: 1em;
+	padding: 3em 1.5em 0.5em 1.5em;
 	background: #F78888;
 }
 #row h1 {
