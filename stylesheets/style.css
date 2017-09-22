@@ -684,12 +684,10 @@ strong, b {
 	color: #131516;
 }
 #row h3 {
-	width: 60%;
 	color: #131516;
 	font-size: 1em;
 }
 #row p {
-	width: 60%;
 	font-size: 0.8em;
 	line-height: 125%;
 	color: #414042;
@@ -710,10 +708,11 @@ strong, b {
 	text-align: left;
 }
 #row .feature-icon {
-	background: #bbb;
+	background: #C70039;
 }
 #row .feature-text {
-	background: #yyy;
+	background: #DAF7A6;
+	width: 60%;
 }
 
 @media only screen and (max-width: 980px){ #row .container{ display:block; height: auto;}}
