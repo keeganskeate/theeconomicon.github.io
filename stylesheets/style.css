@@ -698,23 +698,19 @@ strong, b {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	background: #000;
 }
 #row .feature {
 	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: #ccc;
 	text-align: left;
 }
 #row .feature-icon {
-	background: #C70039;
 	margin-right: 1.0em;
 	vertical-align: middle;
 }
 #row .feature-text {
-	background: #DAF7A6;
 	width: 60%;
 }
 
