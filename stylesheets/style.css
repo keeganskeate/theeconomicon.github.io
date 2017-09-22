@@ -685,7 +685,7 @@ strong, b {
 }
 #row h3 {
 	color: #131516;
-	font-size: 1.05em;
+	font-size: 1.15em;
 }
 #row p {
 	font-size: 0.95em;
@@ -711,8 +711,8 @@ strong, b {
 	background: #C70039;
 	margin-right: 1.0em;
 }
-	#row .feature-icon img{
-		vertical-align: middle;
+	#row .feature-icon img {
+		margin: auto;
 	}
 #row .feature-text {
 	background: #DAF7A6;
