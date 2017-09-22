@@ -703,7 +703,7 @@ strong, b {
 #row .feature {
 	position: relative;
 	display: flex;
-	align-items: baseline;
+	align-items: center;
 	background: #ccc;
 	text-align: left;
 }
