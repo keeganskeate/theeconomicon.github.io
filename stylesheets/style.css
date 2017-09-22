@@ -710,10 +710,8 @@ strong, b {
 #row .feature-icon {
 	background: #C70039;
 	margin-right: 1.0em;
+	vertical-align: middle;
 }
-	#row .feature-icon img {
-		margin: auto;
-	}
 #row .feature-text {
 	background: #DAF7A6;
 	width: 60%;
