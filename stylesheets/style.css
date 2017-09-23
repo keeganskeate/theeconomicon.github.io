@@ -722,7 +722,7 @@ strong, b {
 	font-size: 1.05em;
 	color: #131516;
 	opacity: 1.0;
-	z-index: 1;
+	z-index: 99;
 }
 #row .title h2 {
 	font-family: 'Sanchez', serif;
@@ -730,7 +730,7 @@ strong, b {
 	font-weight: 400;
 	color: #131516;
 	opacity: 1.0;
-	z-index: 1;
+	z-index: 99;
 }
 #row h3 {
 	color: #000;
