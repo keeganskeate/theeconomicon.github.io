@@ -752,10 +752,10 @@ strong, b {
 	justify-content: center;
 	text-align: left;
 }
-	#row .feature.active,
+	/*#row .feature.active,
 	#row .feature:hover {
 		background: #f5f6f7;
-	}
+	}*/
 #row .feature-text {
 	width: 60%;
 }
