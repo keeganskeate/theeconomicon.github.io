@@ -710,7 +710,7 @@ strong, b {
 #row .feature-icon {
 	margin-right: 1.25em;
 	vertical-align: middle;
-	opacity: 0.65;
+	opacity: 0.75;
 }
 	#row .feature.active .feature-icon,
 	#row .feature:hover .feature-icon {
