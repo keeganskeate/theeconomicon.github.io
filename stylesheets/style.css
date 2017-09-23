@@ -728,8 +728,7 @@ strong, b {
 	height: 75%;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
-	flex-grow: 1;
+	/*justify-content: space-evenly;*/
 }
 #row .feature {
 	position: relative;
