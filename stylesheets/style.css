@@ -719,17 +719,13 @@ strong, b {
 #row .title h1 {
 	font-family: 'Sanchez', serif;
 	font-size: 1.05em;
-	color: #131516;
-	opacity: 1.0;
-	z-index: 99;
+	color: rgba(19, 21, 22, 1.0);
 }
 #row .title h2 {
 	font-family: 'Sanchez', serif;
 	font-size: 1.5em;
 	font-weight: 400;
-	color: #131516;
-	opacity: 1.0;
-	z-index: 99;
+	color: rgba(19, 21, 22, 1.0);
 }
 #row h3 {
 	color: #000;
@@ -747,10 +743,11 @@ strong, b {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
+	flex-grow: 1;
 }
 #row .feature {
 	position: relative;
-	height: 33.33%;
+	flex-grow: 1;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -761,12 +758,10 @@ strong, b {
 		background: #f5f6f7;
 	}
 #row .feature-text {
-	height: 100%;
 	width: 60%;
 }
 #row .feature-icon {
 	margin-right: 1.6em;
-	height: 100%;
 	opacity: 0.75;
 }
 #row .feature-icon span {
