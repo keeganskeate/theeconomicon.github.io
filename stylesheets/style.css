@@ -658,12 +658,16 @@ strong, b {
 	#row .attribute:hover {
 		top: -3em;
 	}*/
-#row .title-1 {
+#row .title {
 	padding: 3em 1.5em 1.0em 1.5em;
 	height: 25%;
-	background: #F3D250;
+	opacity: 0.65;
 }
-#row .title-2 {
+	#row .attribute.active .title,
+	#row .attribute:hover .title {
+		opacity: 1.0;
+	}
+/*#row .title-2 {
 	padding: 3em 1.5em 1.0em 1.5em;
 	height: 25%;
 	background: #90CCF4;
@@ -672,7 +676,7 @@ strong, b {
 	padding: 3em 1.5em 1.0em 1.5em;
 	height: 25%;
 	background: #F78888;
-}
+}*/
 #row h1 {
 	font-family: 'Sanchez', serif;
 	font-size: 1.05em;
