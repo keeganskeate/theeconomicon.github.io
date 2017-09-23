@@ -25,11 +25,11 @@ Theme Colors
 @import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,600,700,800");
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?9oakzz');
-  src:  url('../fonts/icomoon.eot?9oakzz#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?9oakzz') format('truetype'),
-    url('../fonts/icomoon.woff?9oakzz') format('woff'),
-    url('../fonts/icomoon.svg?9oakzz#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?9oakzz');
+  src:  url('fonts/icomoon.eot?9oakzz#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9oakzz') format('truetype'),
+    url('fonts/icomoon.woff?9oakzz') format('woff'),
+    url('fonts/icomoon.svg?9oakzz#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
