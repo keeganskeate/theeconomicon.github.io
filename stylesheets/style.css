@@ -639,6 +639,7 @@ strong, b {
 /* Rows */
 #row .container {
 	position: relative;
+	margin-top: 1em;
 	width: 100%;
 	height: 500px;
 	display: flex;
