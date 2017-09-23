@@ -768,7 +768,7 @@ strong, b {
 	opacity: 0.75;
 }
 #row .feature-icon span {
-	font-size: 3em;
+	font-size: 4em;
 }
 	#row .feature.active .feature-icon,
 	#row .feature:hover .feature-icon {
