@@ -708,6 +708,7 @@ strong, b {
 		top: -3em;
 	}*/
 #row .title {
+	position: relative;
 	padding: 3em 1.5em 1.0em 1.5em;
 	height: 25%;
 	opacity: 0.75;
