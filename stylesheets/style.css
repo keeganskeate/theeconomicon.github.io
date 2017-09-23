@@ -712,13 +712,18 @@ strong, b {
 	justify-content: center;
 	text-align: left;
 }
-#row .feature-icon {
-	margin-right: 1.25em;
-	vertical-align: middle;
-}
 #row .feature-text {
 	width: 60%;
 }
+#row .feature-icon {
+	margin-right: 1.25em;
+	vertical-align: middle;
+	opacity: 0.65;
+}
+	#row .feature.active .feature-icon,
+	#row .feature:hover .feature-icon {
+		opacity: 1.0;
+	}
 
 @media only screen and (max-width: 980px){ #row .container{ display:block; height: auto;}}
 @media only screen and (max-width: 980px){ #row .attribute{ width:auto; }}
