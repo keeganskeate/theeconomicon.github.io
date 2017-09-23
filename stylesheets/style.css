@@ -708,13 +708,24 @@ strong, b {
 		top: -3em;
 	}*/
 #row .title {
-	padding: 3em 1.5em 1.0em 1.5em;
-	height: 25%;
+	position: relative;
 }
-	#row .attribute.active .title,
-	#row .attribute:hover .title {
-		opacity: 1.0;
+	#row .title:before {
+		content:" ";
+		position:absolute;
+		z-index:-1;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		height: 25%;
+		padding: 3em 1.5em 1.0em 1.5em;
+		opacity: 0.75;
 	}
+		#row .attribute.active .title:before,
+		#row .attribute:hover .title:before {
+			opacity: 1.0;
+		}
 #row h1 {
 	font-family: 'Sanchez', serif;
 	font-size: 1.05em;
