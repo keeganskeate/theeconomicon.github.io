@@ -13,10 +13,13 @@ Blacks and Whites
 Theme Colors
 	Dark Purple: #2D004F
 	Lime Green: #B2E522
-	Choice Teal / Cyan: #14a76c
+	Choice Teal: #14a76c
 	Dark Teal: 006A3F
-	Background Blue: #176599
+	Regular Background Blue: #176599
 	Navy: #01516e
+	Pastel yellow: #F3D250;
+	Pastel blue: #90CCF4
+	Pastel pink: #F78888
 ----------------------------------------------
 /* Fonts */
 @import url("http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800");
@@ -425,7 +428,7 @@ strong, b {
 	margin: 0 auto;
 	padding-top: 2em;
 	text-align: center;
-	background: #176599;
+	background: #90CCF4;
 }
 	#footer .container {
 		position: relative;
@@ -467,7 +470,7 @@ strong, b {
 				color: #fff;
 			}
 				#footer .index-bin li > a:hover {
-					color: #B2E522;
+					color: #14a76c;
 				}
 		#index-section {
 			display: inline-block;
@@ -526,7 +529,7 @@ strong, b {
 			text-decoration: none;
 		}
 			#copyright ul > li > a:hover {
-				color: #B2E522;
+				color: #14a76c;
 			}
 
 @media only screen and (max-width: 980px){ #copyright ul > li { display:block; width:auto;}}
