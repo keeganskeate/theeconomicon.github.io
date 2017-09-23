@@ -661,32 +661,24 @@ strong, b {
 #row .title {
 	padding: 3em 1.5em 1.0em 1.5em;
 	height: 25%;
-	opacity: 0.65;
+	opacity: 0.75;
 }
 	#row .attribute.active .title,
 	#row .attribute:hover .title {
 		opacity: 1.0;
 	}
-/*#row .title-2 {
-	padding: 3em 1.5em 1.0em 1.5em;
-	height: 25%;
-	background: #90CCF4;
-}
-#row .title-3 {
-	padding: 3em 1.5em 1.0em 1.5em;
-	height: 25%;
-	background: #F78888;
-}*/
 #row h1 {
 	font-family: 'Sanchez', serif;
 	font-size: 1.05em;
 	color: #131516;
+	opacity: 1.0;
 }
 #row h2 {
 	font-family: 'Sanchez', serif;
 	font-size: 1.5em;
 	font-weight: 400;
 	color: #131516;
+	opacity: 1.0;
 }
 #row h3 {
 	color: #000;
