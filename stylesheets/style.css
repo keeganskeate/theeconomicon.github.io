@@ -667,20 +667,18 @@ strong, b {
 	#row .attribute:hover .title {
 		opacity: 1.0;
 	}
-#row h1 {
+#row .title h1 {
 	font-family: 'Sanchez', serif;
 	font-size: 1.05em;
 	color: #131516;
 	opacity: 1.0;
-	z-index: 9;
 }
-#row h2 {
+#row .title h2 {
 	font-family: 'Sanchez', serif;
 	font-size: 1.5em;
 	font-weight: 400;
 	color: #131516;
 	opacity: 1.0;
-	z-index: 9;
 }
 #row h3 {
 	color: #000;
@@ -711,7 +709,7 @@ strong, b {
 }
 #row .feature-icon {
 	margin-right: 1.25em;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
 	opacity: 0.75;
 }
 	#row .feature.active .feature-icon,
