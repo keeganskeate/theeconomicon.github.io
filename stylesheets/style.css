@@ -729,7 +729,6 @@ strong, b {
 }
 #row .feature {
 	position: relative;
-	z-index: -1;
 	height: 125px;
 	display: flex;
 	align-items: center;
