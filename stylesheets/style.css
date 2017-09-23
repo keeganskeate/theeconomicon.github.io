@@ -732,6 +732,7 @@ strong, b {
 }
 #row .feature {
 	position: relative;
+	height: 33.33%;
 	flex-grow: 1;
 	display: flex;
 	align-items: center;
@@ -757,13 +758,13 @@ strong, b {
 	}
 #row .feature-icon {
 	margin-right: 1.6em;
-	box-shadow: inset 0 0 0 99999px rgba(255,255,255,0.2);
 }
 	#row .feature-icon span {
 		font-size: 4em;
+		box-shadow: inset 0 0 0 99999px rgba(255,255,255,0.2);
 	}
-	#row .attribute.active .feature-icon,
-	#row .attribute:hover .feature-icon {
+	#row .attribute.active .feature-icon span,
+	#row .attribute:hover .feature-icon span{
 		box-shadow: none;
 	}
 
