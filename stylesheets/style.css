@@ -710,18 +710,17 @@ strong, b {
 #row .title {
 	padding: 3em 1.5em 1.0em 1.5em;
 	height: 25%;
-	opacity: 0.75;
 }
 	#row .attribute.active .title,
 	#row .attribute:hover .title {
 		opacity: 1.0;
 	}
-#row .title h1 {
+#row h1 {
 	font-family: 'Sanchez', serif;
 	font-size: 1.05em;
 	color: rgba(19, 21, 22, 1.0);
 }
-#row .title h2 {
+#row h2 {
 	font-family: 'Sanchez', serif;
 	font-size: 1.5em;
 	font-weight: 400;
