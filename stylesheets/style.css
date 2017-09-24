@@ -133,7 +133,7 @@ strong, b {
 	display: inline-block;
 	z-index: 1;
 	top: 0px;
-	transform: translateY(-50%);
+	transform: translateX(-50%);
 	height: 543px;
 	/*background-attachment: fixed;*/
 }
