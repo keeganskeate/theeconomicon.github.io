@@ -134,7 +134,6 @@ strong, b {
 	top: 0px;
 	margin: 0 auto;
 	height: 543px;
-	z-index: -1;
 	/*background-attachment: fixed;*/
 }
 #hero-text {
@@ -160,6 +159,7 @@ strong, b {
 
 /* Sticky Header */
 #header {
+	z-index: 1;
 	height: 80px;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
