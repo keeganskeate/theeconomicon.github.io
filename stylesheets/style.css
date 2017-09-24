@@ -26,6 +26,7 @@ Theme Colors
 @import url("https://fonts.googleapis.com/css?family=Sanchez:200,300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,600,700,800");
+
 /* Icomoon Icons */
 @font-face {
 	font-family: 'icomoon';
@@ -129,10 +130,10 @@ strong, b {
 /* Hero */
 #hero-image {
 	position: absolute;
+	display: inline-block;
 	top: 0px;
 	margin: 0 auto;
 	height: 543px;
-	background: url("/images/calyx_on_white.jpg") no-repeat top center;
 	/*background-attachment: fixed;*/
 }
 #hero-text {
