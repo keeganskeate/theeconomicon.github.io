@@ -131,7 +131,6 @@ strong, b {
 #hero-image {
 	position: absolute;
 	display: inline-block;
-	z-index: 1;
 	top: 0px;
 	transform: translateX(-50%);
 	height: 543px;
@@ -149,8 +148,7 @@ strong, b {
 	}
 	#hero-text .box {
 		position: absolute;
-		width: 50%;
-		transform: translateX(25%) translateY(50%);
+		transform: translateX(33%) translateY(40%);
 		margin: auto;
 	}
 		#hero-text .box p {
