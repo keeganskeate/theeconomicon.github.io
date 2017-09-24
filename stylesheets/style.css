@@ -160,6 +160,7 @@ strong, b {
 
 /* Sticky Header */
 #header {
+	z-index: 99;
 	height: 80px;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
