@@ -150,6 +150,7 @@ strong, b {
 	#hero-text .box {
 		position: absolute;
 		width: 50%;
+		transform: translateX(25%) translateY(50%);
 		margin: auto;
 	}
 		#hero-text .box p {
@@ -160,7 +161,6 @@ strong, b {
 
 /* Sticky Header */
 #header {
-	z-index: 99;
 	height: 80px;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
@@ -171,6 +171,7 @@ strong, b {
 	#header .container {
 		width: 100%;
 		position: relative;
+		z-index: 99;
 	}
 	.fixed {
     		position: fixed;
