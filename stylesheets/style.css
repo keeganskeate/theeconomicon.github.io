@@ -156,7 +156,8 @@ strong, b {
 			font-size: 2em;
 			line-height: 1.05em;
 		}
-
+@media only screen and (max-width: 980px){ .wrapper.top-style { text-align:left;}}
+/*@media only screen and (max-width: 980px){ #hero-text .box { transform: translateX(0);}}*/
 /* Sticky Header */
 #header {
 	height: 80px;
