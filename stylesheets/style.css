@@ -131,6 +131,7 @@ strong, b {
 #hero-image {
 	position: absolute;
 	display: inline-block;
+	z-index: 1;
 	top: 0px;
 	margin: 0 auto;
 	height: 543px;
@@ -159,7 +160,6 @@ strong, b {
 
 /* Sticky Header */
 #header {
-	z-index: 1;
 	height: 80px;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
