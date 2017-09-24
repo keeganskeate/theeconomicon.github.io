@@ -502,7 +502,7 @@ strong, b {
 		justify-content: space-between;
 		width: 100%;
 		padding: 0.65em 0;
-		border-top: 1px solid #ccc
+		border-top: 1px solid #ccc;
 	}
 		#copyright ul {
 			display: inline-block;
