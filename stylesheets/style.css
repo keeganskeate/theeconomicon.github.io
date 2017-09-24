@@ -145,6 +145,8 @@ strong, b {
 /* Hero */
 #hero-image {
 	position: absolute;
+	top: -80px;
+	margin: 0 auto;
 	height: 543px;
 	background: url("/images/calyx_on_white.jpg") no-repeat top center;
 	/*background-attachment: fixed;*/
