@@ -772,13 +772,11 @@ strong, b {
 
 /* Slick Carousel */
 .carousel-container {
-	position: relative;
-	top: 0;
+	transform: translateY(-80px);
 }
 .slick-slide {
 	position: relative;
 	height: 543px;
-	transform: translateY(-80px);
 }
 .slick-prev {
 	left: 10px;
