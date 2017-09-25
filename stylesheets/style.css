@@ -136,22 +136,22 @@ strong, b {
 	height: 543px;
 	/*background-attachment: fixed;*/
 }
-.slick-slide #hero-text {
+.slick-slide .hero-text {
 	display: block;
 	text-align: left;
 	color: #414042;
 }
-	.slick-slide #hero-text .container {
+	.slick-slide .hero-text .container {
 		position: relative;
 		margin: 0 auto;
 		padding: 0;
 	}
-	.slick-slide #hero-text .box {
+	.slick-slide .hero-text .box {
 		position: absolute;
 		transform: translateX(33%) translateY(40%);
 		margin: auto;
 	}
-		.slick-slide #hero-text .box p {
+		.slick-slide .hero-text .box p {
 			padding: 0.75em 0 1.0em 0;
 			font-size: 2em;
 			line-height: 1.05em;
@@ -765,6 +765,8 @@ strong, b {
 
 /* Slick Carousel */
 .slick-slide {
+	position: absolute;
+	display: inline-block;
 	top: -80px;
 	height: 543px;
 }
