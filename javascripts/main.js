@@ -20,7 +20,7 @@
 			layers: {
 				navPanel: {
 					animation: 'pushX',
-					breakpoints: 'narrower',
+					breakpoints: 'narrow',
 					clickToClose: true,
 					height: '100%',
 					hidden: true,
