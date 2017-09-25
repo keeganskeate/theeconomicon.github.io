@@ -765,15 +765,17 @@ strong, b {
 
 /* Slick Carousel */
 .slick-slide {
-	top: 0;
+	top: -80px;
 	height: 543px;
 }
 .slick-prev {
 	left: 10px;
+	color: #ccc;
 	z-index: 99;
 }
 .slick-next {
 	right: 10px;
+	color: #ccc;
 	z-index: 99;
 }
 .slick-prev:before,
