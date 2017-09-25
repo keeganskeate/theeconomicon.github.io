@@ -695,6 +695,11 @@ strong, b {
 	transition: top ease 0.3s;
 	border: 2px solid #e7e7e7;
 	border-radius: 4px;
+	-moz-transition: 0.33s ease;
+	-webkit-transition: 0.33s ease;
+	-o-transition: 0.33s ease;
+	-ms-transition: 0.33s ease;
+	transition: 0.33s ease;
 }
 #row .title {
 	height: 25%;
