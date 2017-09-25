@@ -766,14 +766,11 @@ strong, b {
 
 /* Slick Carousel */
 .carousel-container {
-	position: absolute;
+	position: relative;
+	top: 0;
 }
 .slick-slide {
-	display: inline-block;
 	height: 543px;
-}
-.slick-slider {
-	top: 0;
 }
 .slick-prev {
 	left: 10px;
