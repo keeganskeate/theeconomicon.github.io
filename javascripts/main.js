@@ -72,13 +72,7 @@
 			hoverDelay: 0
 		});
 	});
-	
-	// Properties for Slick Carousel
-	$(".single-item").slick({
-		dots: true
-	});
-
-	
+		
 })(jQuery);
 
 // Back-to-top Button
