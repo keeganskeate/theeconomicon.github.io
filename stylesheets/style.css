@@ -765,7 +765,6 @@ strong, b {
 
 /* Slick Carousel */
 .slick-slide {
-	position: absolute;
 	display: inline-block;
 	top: -80px;
 	height: 543px;
