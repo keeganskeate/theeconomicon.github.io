@@ -92,3 +92,6 @@ jQuery(document).ready(function() {
 			return false;
 		});
 });
+$(".single-item").slick({
+	dots: true
+});
