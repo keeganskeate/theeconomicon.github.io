@@ -157,7 +157,7 @@ strong, b {
 			line-height: 1.05em;
 		}
 @media only screen and (max-width: 980px){ .wrapper.top-style { text-align:left;}}
-/*@media only screen and (max-width: 980px){ #hero-text .box { transform: translateX(0);}}*/
+
 /* Sticky Header */
 #header {
 	height: 80px;
@@ -766,8 +766,10 @@ strong, b {
 /* Slick Carousel */
 .slick-slide {
 	display: inline-block;
-	top: -80px;
 	height: 543px;
+}
+.slick-slider {
+	top: 0;
 }
 .slick-prev {
 	left: 10px;
