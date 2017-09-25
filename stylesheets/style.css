@@ -762,3 +762,29 @@ strong, b {
 
 @media only screen and (max-width: 980px){ #row .container{ display:block; height: auto;}}
 @media only screen and (max-width: 980px){ #row .attribute{ width:auto; }}
+
+/* Slick Carousel */
+.slick-slide {
+	text-align: center;
+	color: #419be0;
+	background: white;
+}
+.slick-prev {
+	left: 10px;
+	z-index: 1;
+}
+.slick-next {
+	right: 10px;
+}
+.slick-prev:before,
+.slick-next:before {
+	font-size: 2em;
+	background: #ccc;
+	border-radius: 50%;
+}
+	.slick-prev:before:active,
+	.slick-prev:before:hover,
+	.slick-next:before:active,
+	.slick-next:before:hover {
+		background: #000;
+	}
