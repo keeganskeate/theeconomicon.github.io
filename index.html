@@ -361,7 +361,11 @@
 	<script>
 		// Properties for Slick Carousel
 		$(".single-item").slick({
-			dots: true
+			dots: true,
+			responsive: [{
+                    		breakpoint: 980,
+                    		settings: "unslick"
+                	}]
 		});
 	</script>
 </body>
