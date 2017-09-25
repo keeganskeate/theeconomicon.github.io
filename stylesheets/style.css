@@ -541,6 +541,7 @@ strong, b {
 		text-decoration: none;
 		display: inline-block;
 		text-align: center;
+		height: 30px;
 		padding: 0.25em 1.5em;
 		color: #fff;
 		background: #14a76c;
