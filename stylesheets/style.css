@@ -773,6 +773,7 @@ strong, b {
 .slick-slide {
 	position: relative;
 	height: 543px;
+	transform: translateY(-80px);
 }
 .slick-prev {
 	left: 10px;
