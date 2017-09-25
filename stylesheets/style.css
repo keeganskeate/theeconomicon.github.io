@@ -767,7 +767,7 @@ strong, b {
 .slick-slide {
 	text-align: center;
 	color: #419be0;
-	background: white;
+	background: #fff;
 }
 .slick-prev {
 	left: 10px;
