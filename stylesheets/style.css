@@ -765,16 +765,16 @@ strong, b {
 
 /* Slick Carousel */
 .slick-slide {
-	text-align: center;
-	color: #419be0;
-	background: #fff;
+	top: 0;
+	height: 543px;
 }
 .slick-prev {
 	left: 10px;
-	z-index: 1;
+	z-index: 99;
 }
 .slick-next {
 	right: 10px;
+	z-index: 99;
 }
 .slick-prev:before,
 .slick-next:before {
