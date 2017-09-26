@@ -158,10 +158,15 @@ strong, b {
 		}
 		.slick-slide .hero-text .box .button-box {
 			display: flex;
+			justify-content: space-between;
 		}
-			.slick-slide .hero-text .box .button-box a:hover {
-				color: #ccc;	
+			.slick-slide .hero-text .box .button-box a {
+				color: #414042;
 			}
+				.slick-slide .hero-text .box .button-box a:active,
+				.slick-slide .hero-text .box .button-box a:hover {
+					color: #ccc;	
+				}
 	.slick-slide .hero-text .journal-box {
 		float: right;
 		transform: translateY(33%);
@@ -243,18 +248,18 @@ strong, b {
 				border-bottom: 2px solid transparent;
 				color: #414042;
 			}
-				#nav > ul > li.active > a,
+				#nav > ul > li:active > a,
 				#nav > ul > li:hover > a {
 					border-bottom: 2px solid #14a76c;
 				}
-					#nav > ul > li.active > a > i,
+					#nav > ul > li:active > a > i,
 					#nav > ul > li:hover > a > i {
 						color: #14a76c;
 					}
 			#nav > ul > li a.top-row {
 				font-size: 80%;
 			}
-				#nav > ul > li.active > a.top-row,
+				#nav > ul > li:active > a.top-row,
 				#nav > ul > li:hover > a.top-row {
 					color: #14a76c;
 					border-bottom: 2px solid transparent;
@@ -269,7 +274,7 @@ strong, b {
 				line-height: 2em;
 				margin-left: 1.3em;
 			}			
-				#nav > ul > li.company-logo.active > a,
+				#nav > ul > li.company-logo:active > a,
 				#nav > ul > li.company-logo:hover > a {
 					border-bottom: 2px solid transparent;
 				}
@@ -281,7 +286,7 @@ strong, b {
 				color: #fff;
 				font-weight: 500;
 			}
-				#nav ul > li.split.active >a,
+				#nav ul > li.split:active >a,
 				#nav ul > li.split:hover > a{
 					border-bottom: 2px solid transparent;
 				}
@@ -308,25 +313,25 @@ strong, b {
 			.dropotron > li > a {
 				color: #414042;
 			}
-			.dropotron > li.active,
+			.dropotron > li:active,
 			.dropotron > li:hover{
 				background: #f5f6f7;
 			}
-			.dropotron > li.active > a > i,
+			.dropotron > li:active > a > i,
 			.dropotron > li:hover > a > i{
 				color: #14a76c;
 			}
 	.dropotron.level-0 {
 		margin-left: 0em;
 		font-weight: 300;
-		font-size: 0.925em;
+		font-size: 0.875em;
 		letter-spacing: 0;
 	}
 		.dropotron.level-1 {
 			margin-left: 0em;
 			margin-top: 1em;
 			font-weight: 300;
-			font-size: 0.925em;
+			font-size: 0.875em;
 			letter-spacing: 0;
 		}
 
@@ -563,6 +568,7 @@ strong, b {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button.beta:hover {
+			color: #fff;
 			background: #006A3F;
 		}
 /* Download Button */
@@ -634,7 +640,7 @@ strong, b {
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.12);
 	box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.12);
 }
-	.back-to-top.active,
+	.back-to-top:active,
 	.back-to-top:hover {
 		bottom: 3.0em;
 		-moz-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -719,7 +725,7 @@ strong, b {
 	-ms-transition: 0.33s ease;
 	transition: 0.33s ease;
 }
-	#row .attribute.active .title,
+	#row .attribute:active .title,
 	#row .attribute:hover .title {
 		box-shadow: none;
 	}
@@ -749,7 +755,7 @@ strong, b {
 	justify-content: center;
 	text-align: left;
 }
-	#row .feature.active,
+	#row .feature:active,
 	#row .feature:hover {
 		background: #f5f6f7;
 	}
@@ -773,7 +779,7 @@ strong, b {
 	#row .feature-icon span {
 		font-size: 4em;
 	}
-	#row .attribute.active .feature-icon,
+	#row .attribute:active .feature-icon,
 	#row .attribute:hover .feature-icon {
 		box-shadow: none;
 	}
