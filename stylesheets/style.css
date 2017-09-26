@@ -156,6 +156,9 @@ strong, b {
 			font-size: 2em;
 			line-height: 1.05em;
 		}
+	.slick-slide .hero-text .journal-box {
+		right: 0;
+	}
 @media only screen and (max-width: 980px){ .wrapper.top-style { text-align:left;}}
 
 /* Sticky Header */
