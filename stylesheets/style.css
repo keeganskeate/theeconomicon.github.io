@@ -158,13 +158,14 @@ strong, b {
 		}
 		.slick-slide .hero-text .box .button-box {
 			display: flex;
-			justify-content: space-between;
+			align-items: baseline;
 		}
-			.slick-slide .hero-text .box .button-box a {
+			.slick-slide .hero-text .box .button-box .tour {
+				margin-left: 10px;
 				color: #414042;
 			}
-				.slick-slide .hero-text .box .button-box a:active,
-				.slick-slide .hero-text .box .button-box a:hover {
+				.slick-slide .hero-text .box .button-box .tour:active,
+				.slick-slide .hero-text .box .button-box .tour:hover {
 					color: #ccc;	
 				}
 	.slick-slide .hero-text .journal-box {
@@ -557,6 +558,7 @@ strong, b {
 		display: flex;
 		align-items: center;
 		text-align: center;
+		vertical-align: middle;
 		height: 30px;
 		font-size: 12pt;
 		padding: 0.25em 1.5em;
@@ -568,7 +570,6 @@ strong, b {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button.beta:hover {
-			color: #fff;
 			background: #006A3F;
 		}
 /* Download Button */
