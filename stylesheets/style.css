@@ -544,6 +544,7 @@ strong, b {
 		cursor: pointer;
 		text-decoration: none;
 		display: flex;
+		align-items: center;
 		text-align: center;
 		height: 30px;
 		font-size: 12pt;
