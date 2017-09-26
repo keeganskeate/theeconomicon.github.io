@@ -157,7 +157,8 @@ strong, b {
 			line-height: 1.05em;
 		}
 	.slick-slide .hero-text .journal-box {
-		right: 0;
+		float: right;
+		transform: translateY(33%);
 	}
 @media only screen and (max-width: 980px){ .wrapper.top-style { text-align:left;}}
 
@@ -542,7 +543,7 @@ strong, b {
 	.button.beta {
 		cursor: pointer;
 		text-decoration: none;
-		display: inline-block;
+		display: flex;
 		text-align: center;
 		height: 30px;
 		padding: 0.25em 1.5em;
