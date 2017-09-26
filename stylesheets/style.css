@@ -546,6 +546,7 @@ strong, b {
 		display: flex;
 		text-align: center;
 		height: 30px;
+		font-size: 12pt;
 		padding: 0.25em 1.5em;
 		color: #fff;
 		background: #14a76c;
