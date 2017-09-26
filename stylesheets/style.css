@@ -156,6 +156,12 @@ strong, b {
 			font-size: 2em;
 			line-height: 1.05em;
 		}
+		.slick-slide .hero-text .box .button-box {
+			display: flex;
+		}
+			.slick-slide .hero-text .box .button-box a:hover {
+				color: #ccc;	
+			}
 	.slick-slide .hero-text .journal-box {
 		float: right;
 		transform: translateY(33%);
