@@ -132,7 +132,7 @@ strong, b {
 	position: absolute;
 	display: inline-block;
 	top: 0px;
-	transform: translateX(-50%);
+	/*transform: translateX(-50%);*/
 	height: 543px;
 	/*background-attachment: fixed;*/
 }
