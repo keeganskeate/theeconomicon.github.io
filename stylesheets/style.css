@@ -325,14 +325,14 @@ strong, b {
 	.dropotron.level-0 {
 		margin-left: 0em;
 		font-weight: 300;
-		font-size: 0.875em;
+		font-size: 80%;
 		letter-spacing: 0;
 	}
 		.dropotron.level-1 {
 			margin-left: 0em;
 			margin-top: 1em;
 			font-weight: 300;
-			font-size: 0.875em;
+			font-size: 80%;
 			letter-spacing: 0;
 		}
 
