@@ -38,8 +38,7 @@ Theme Colors
 	font-weight: normal;
 	font-style: normal;
 }
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"] {
 	font-family: 'icomoon' !important;
 	speak: none;
 	font-style: normal;
@@ -61,7 +60,7 @@ Theme Colors
 .icon-cloud-download:before {content: "\e9c2";}
 
 /* Lazy Loading */
-html.loading,body.loading * {
+html.loading, body.loading * {
 	-moz-transition: none !important;
 	-webkit-transition: none !important;
 	-o-transition: none !important;
@@ -118,22 +117,48 @@ strong, b {
 	padding: 0;
 }
 
-/* Logo */
-#logo-sprite {
-	width: 350px; height: 50px;
-        background: url('/images/The-Economicon-logo-new.png') no-repeat left center;
+/* Slick Carousel */
+.carousel-container {
+	transform: translateY(-80px);
 }
-	/*#logo-sprite:hover {
-		background-position: -350px 0px;
-	}*/
+.slick-slide {
+	position: relative;
+	height: 543px;
+}
+.slick-dots{
+	bottom: 10px;
+	margin: 0;
+}
+.slick-prev {
+	left: 10px;
+	color: #ccc;
+	z-index: 999;
+}
+.slick-next {
+	right: 10px;
+	color: #ccc;
+	z-index: 999;
+}
+.slick-prev:before,
+.slick-next:before {
+	font-size: 2em;
+	background: #ccc;
+	border-radius: 50%;
+}
+	.slick-prev:before:active,
+	.slick-prev:before:hover,
+	.slick-next:before:active,
+	.slick-next:before:hover {
+		background: #000;
+	}
 
 /* Hero */
-#hero-image {
+.slick-slide #hero-image {
 	position: absolute;
 	display: inline-block;
 	top: 0px;
-	/*transform: translateX(-50%);*/
 	height: 543px;
+	/*transform: translateX(-50%);*/
 	/*background-attachment: fixed;*/
 }
 .slick-slide .hero-text {
@@ -301,11 +326,11 @@ strong, b {
 		-moz-box-shadow: 3px 4px 7px 3px rgba(204,204,204,0.3);
 		-webkit-box-shadow: 3px 4px 7px 3px rgba(204,204,204,0.3);
 		box-shadow: 3px 4px 7px 3px rgba(204,204,204,0.3);
-		-moz-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
-		-webkit-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
-		-o-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
-		-ms-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
-		transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
+		-moz-transition: 0.33s ease;
+		-webkit-transition: 0.33s ease;
+		-o-transition: 0.33s ease;
+		-ms-transition: 0.33s ease;
+		transition: 0.33s ease;
 	}
 		.dropotron > li {
 			line-height: 2.25em;
@@ -314,25 +339,28 @@ strong, b {
 			.dropotron > li > a {
 				color: #414042;
 			}
-			.dropotron > li:active,
-			.dropotron > li:hover{
-				background: #f5f6f7;
+			.dropotron > li > a > i {
+				margin-right: 3px;
 			}
-			.dropotron > li:active > a > i,
-			.dropotron > li:hover > a > i{
-				color: #14a76c;
-			}
+				.dropotron > li:active,
+				.dropotron > li:hover{
+					background: #f5f6f7;
+				}
+				.dropotron > li:active > a > i,
+				.dropotron > li:hover > a > i{
+					color: #14a76c;
+				}
 	.dropotron.level-0 {
 		margin-left: 0em;
 		font-weight: 300;
-		font-size: 80%;
+		font-size: 90%;
 		letter-spacing: 0;
 	}
 		.dropotron.level-1 {
 			margin-left: 0em;
 			margin-top: 1em;
 			font-weight: 300;
-			font-size: 80%;
+			font-size: 90%;
 			letter-spacing: 0;
 		}
 
@@ -654,6 +682,7 @@ strong, b {
 		transform: translateY(-33%);
 		-webkit-transform: translateY(-33%);
 	}
+
 /* Miscellaneous */
 .bold-link {
 	color: #131516;
@@ -673,6 +702,16 @@ strong, b {
 	-moz-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 	-webkit-box-shadow: 3px 3px 6px 0px rgba(70,70,70,0.3);
 }
+
+/* Company Logo */
+#logo-sprite {
+	width: 350px; height: 50px;
+        background: url('/images/The-Economicon-logo-new.png') no-repeat left center;
+}
+	/*#logo-sprite:hover {
+		background-position: -350px 0px;
+	}*/
+
 /* Mobile Logo */
 #logo {
 	display: none;
@@ -787,38 +826,3 @@ strong, b {
 
 @media only screen and (max-width: 980px){ #row .container{ display:block; height: auto;}}
 @media only screen and (max-width: 980px){ #row .attribute{ width:auto; }}
-
-/* Slick Carousel */
-.carousel-container {
-	transform: translateY(-80px);
-}
-.slick-slide {
-	position: relative;
-	height: 543px;
-}
-.slick-dots{
-	bottom: 10px;
-	margin: 0;
-}
-.slick-prev {
-	left: 10px;
-	color: #ccc;
-	z-index: 999;
-}
-.slick-next {
-	right: 10px;
-	color: #ccc;
-	z-index: 999;
-}
-.slick-prev:before,
-.slick-next:before {
-	font-size: 2em;
-	background: #ccc;
-	border-radius: 50%;
-}
-	.slick-prev:before:active,
-	.slick-prev:before:hover,
-	.slick-next:before:active,
-	.slick-next:before:hover {
-		background: #000;
-	}
