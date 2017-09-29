@@ -759,17 +759,17 @@ strong, b {
 	padding: 3em 1.5em 1.0em 1.5em;
 	border-bottom: 2px solid #e7e7e7;
 	border-radius: 4px;
-	box-shadow: inset 0 0 0 99999px rgba(255,255,255,0.2);
+	/*box-shadow: inset 0 0 0 99999px rgba(255,255,255,0.2);
 	-moz-transition: 0.33s ease;
 	-webkit-transition: 0.33s ease;
 	-o-transition: 0.33s ease;
 	-ms-transition: 0.33s ease;
-	transition: 0.33s ease;
+	transition: 0.33s ease;*/
 }
-	#row .attribute:active .title,
+	/*#row .attribute:active .title,
 	#row .attribute:hover .title {
 		box-shadow: none;
-	}
+	}*/
 	#row .title h1 {
 		font-family: 'Sanchez', serif;
 		font-size: 1.05em;
@@ -796,9 +796,9 @@ strong, b {
 	justify-content: center;
 	text-align: left;
 }
-	#row .feature:active,
-	#row .feature:hover {
-		background: #f5f6f7;
+	#row .feature:active span,
+	#row .feature:hover span {
+		text-shadow: 0px 0px 5px #B2E522;
 	}
 #row .feature-text {
 	width: 60%;
