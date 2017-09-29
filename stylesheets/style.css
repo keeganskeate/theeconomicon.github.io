@@ -773,13 +773,13 @@ strong, b {
 	#row .title h1 {
 		font-family: 'Sanchez', serif;
 		font-size: 1.05em;
-		color: rgba(19, 21, 22, 1.0);
+		color: #fff;
 	}
 	#row .title h2 {
 		font-family: 'Sanchez', serif;
 		font-size: 1.3em;
 		font-weight: 400;
-		color: rgba(19, 21, 22, 1.0);
+		color: #fff;
 	}
 #row .features {
 	position: relative;
