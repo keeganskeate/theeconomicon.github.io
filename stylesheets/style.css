@@ -194,6 +194,8 @@ strong, b {
 					color: #A5A5A5;	
 				}
 	.slick-slide .hero-text .journal-box {
+		position: absolute;
+		margin: auto;
 		float: right;
 		transform: translateY(33%);
 	}
