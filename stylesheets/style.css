@@ -796,10 +796,10 @@ strong, b {
 	justify-content: center;
 	text-align: left;
 }
-	#row .feature:active span,
+	/*#row .feature:active span,
 	#row .feature:hover span {
 		text-shadow: 0px 0px 5px #B2E522;
-	}
+	}*/
 #row .feature-text {
 	width: 60%;
 }
