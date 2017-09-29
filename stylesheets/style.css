@@ -195,9 +195,7 @@ strong, b {
 				}
 	.slick-slide .hero-text .journal-box {
 		position: absolute;
-		margin: auto;
-		float: right;
-		transform: translateY(33%);
+		transform: translateX(70%) translateY(40%);
 	}
 @media only screen and (max-width: 980px){ .wrapper.top-style { text-align:left;}}
 
