@@ -118,7 +118,8 @@ strong, b {
 }
 
 /* Slick Carousel */
-.carousel-container {
+#carousel-container {
+	display: none;
 	transform: translateY(-80px);
 }
 .slick-slide {
