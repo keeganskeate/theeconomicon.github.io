@@ -196,7 +196,7 @@ strong, b {
 	.slick-slide .hero-text .journal-box {
 		position: absolute;
 		color: #fff;
-		transform: translateX(70%) translateY(40%);
+		transform: translateX(90%) translateY(40%);
 	}
 @media only screen and (max-width: 980px){ .wrapper.top-style { text-align:left;}}
 
@@ -773,13 +773,13 @@ strong, b {
 	#row .title h1 {
 		font-family: 'Sanchez', serif;
 		font-size: 1.05em;
-		color: #fff;
+		color: #000;
 	}
 	#row .title h2 {
 		font-family: 'Sanchez', serif;
 		font-size: 1.3em;
 		font-weight: 400;
-		color: #fff;
+		color: #000;
 	}
 #row .features {
 	position: relative;
