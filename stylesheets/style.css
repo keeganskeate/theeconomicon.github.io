@@ -121,7 +121,17 @@ strong, b {
 }
 
 /* Marquee */
-
+.marquee {
+	position: absolute;
+	display: inline-block;
+	top: 0px;
+	height: 450px;
+}
+.marquee-text {
+	display: block;
+	text-align: left;
+	color: #414042;
+}
 
 /* Slick Carousel */
 #carousel-container {
