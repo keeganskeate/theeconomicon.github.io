@@ -124,14 +124,23 @@ strong, b {
 .marquee {
 	position: absolute;
 	display: inline-block;
+	width: 100%;
 	top: 0px;
 	height: 450px;
 }
 .marquee-text {
-	display: block;
-	text-align: left;
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
 	color: #414042;
 }
+	.marquee-text h1 {
+		color: #414042;
+		font-size: 3em;
+		font-weight: 800;
+	}
 
 /* Slick Carousel */
 #carousel-container {
