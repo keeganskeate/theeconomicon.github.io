@@ -105,8 +105,9 @@ strong, b {
 .wrapper {
 	padding: 0;
 }
-.wrapper.top-style {
+.wrapper.carousel-style {
 	padding: 0;
+	height: 543px;
 }
 .wrapper.banner-style {
 	padding: 0;
