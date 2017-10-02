@@ -873,30 +873,34 @@ strong, b {
 			.blog-archive .articles .article h3 a {
 				font-size: 1.5em;
 				font-weight: 400;
-				color: #737272;
-				margin-bottom: 0.65em;
+				color: #414042;
+				margin-bottom: 1.3em;
 			}
+				.blog-archive .articles .article h3 a:active,
+				.blog-archive .articles .article h3 a:hover {
+					text-decoration: underline;
+				}
 			.blog-archive .articles .article p {
 				font-size: 90%;
 				color: #444343;
 			}
 	.blog-archive .pagination {
 		text-align: center;
-		padding: 1.3em auto;
+		margin: 1.3em auto;
 	}
 		.blog-archive .page-numbers {
 			color: #444343;
-			margin: auto 5px;
+			margin: auto 10px;
 		}
-			.blog-archive .page-numbers a:active,
-			.blog-archive .page-numbers a:hover {
+			.blog-archive .page-numbers:active a,
+			.blog-archive .page-numbers:hover a {
 				text-decoration: underline;
 			}
 		.blog-archive .pagination .active{
 			color: #000;
 		}
 		.blog-archive .pagination .dots {
-			margin: auto 5px;
+			margin: auto 10px;
 		}
 		.blog-archive .pagination .next {
 		
