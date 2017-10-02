@@ -863,27 +863,33 @@ strong, b {
 		align-content: flex-start;
 	}
 		.blog-archive .articles .article {
-			width: 33%;
+			width: 35%;
+			height: 15%;
 			border: 1px solid #ececec;
 			border-radius: 6px;
-			padding: 1.3em;
+			padding: 1.6em;
 			margin: 1.3em;
 		}
-			.blog-archive .articles .article h3 {
+			.blog-archive .articles .article h3 a {
+				font-size: 1.5em;
+				font-weight: 400;
 				color: #737272;
+				margin-bottom: 0.65em;
 			}
 			.blog-archive .articles .article p {
+				font-size: 90%;
 				color: #444343;
 			}
 	.blog-archive .pagination {
 		text-align: center;
+		padding: 1.3em auto;
 	}
-		.blog-archive .pagination .page-numbers {
+		.blog-archive .page-numbers {
 			color: #444343;
 			margin: auto 5px;
 		}
-			.blog-archive .pagination .page-numbers a:active,
-			.blog-archive .pagination .page-numbers a:hover {
+			.blog-archive .page-numbers a:active,
+			.blog-archive .page-numbers a:hover {
 				text-decoration: underline;
 			}
 		.blog-archive .pagination .active{
