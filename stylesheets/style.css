@@ -849,3 +849,30 @@ strong, b {
 
 @media only screen and (max-width: 980px){ #row .container{ display:block; height: auto;}}
 @media only screen and (max-width: 980px){ #row .attribute{ width:auto; }}
+
+/* Blog */
+.blog-archive {
+	position: relative;
+	margin: 0 auto;
+}
+	.blog-archive .articles {
+		display: flex;
+	}
+		.blog-archive .articles .article {
+
+		}
+	.blog-archive .pagination {
+
+	}
+		.blog-archive .pagination .page-numbers {
+			
+		}
+			.blog-archive .pagination .page-numbers .active{
+			
+			}
+			.blog-archive .pagination .page-numbers .dots{
+			
+			}
+			.blog-archive .pagination .page-numbers .next{
+			
+			}
