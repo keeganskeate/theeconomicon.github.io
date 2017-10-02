@@ -139,7 +139,7 @@ strong, b {
 	.marquee-text h1 {
 		color: #414042;
 		font-size: 3em;
-		font-weight: 800;
+		font-weight: 600;
 	}
 
 /* Slick Carousel */
@@ -389,56 +389,63 @@ strong, b {
 		}
 
 /* Banner */
-#banner {
+.banner {
 	display: block;
 	padding-top: 2em;
 	text-align: center;
 	color: inherit;
 }
-	#banner .container {
+	.banner .container {
 		margin: 0 auto;
 		padding: 0em 0em;
 	}
-	#banner .content-bin {
-		display: inline-block;
-		margin: auto;
-		width: 80%;
-		overflow: auto;
+	.banner hr {
+		height: 1px;
+		background-color: #ccc;
+		color: #ccc;
+		border: 0 none;
+		margin: 5px auto;
 	}
-		#banner .content-bin div {
-			position: relative;
-			float: left;
-			vertical-align: top;
-		}
-	#content-section {
+	.banner .content-section {
 		display: inline-block;
 		overflow: hidden;
 		padding: 1em 0;
 		margin: auto;
 		width: 50%;
 	}
-		#content-wrap {
-			float: left;
+	.banner .content-wrap {
+		float: left;
+		position: relative;
+		left: 50%;
+	}
+	.banner .content-item {
+		float: left;
+		position: relative;
+		left: -50%;
+	}
+	.banner .content-bin {
+		display: inline-block;
+		margin: auto;
+		width: 80%;
+		overflow: auto;
+	}
+		.banner .content-bin div {
 			position: relative;
-			left: 50%;
-		}
-		#content-item {
 			float: left;
-			position: relative;
-			left: -50%;
+			vertical-align: top;
 		}
-		#banner .content-bin ul {
+		.banner .content-bin ul {
 			list-style: none;
 			text-align: left;
 		}
-			#banner .content-bin ul > li {
+			.banner .content-bin ul > li {
 				padding-bottom: 5px;	
 			}
-			#banner .content-bin ul > li > a {
-				color: #131516;
-				font-weight: bold;
-			}
-		#banner .content-bin h1 {
+				.banner .content-bin ul > li > a {
+					color: #131516;
+					font-weight: bold;
+				}
+		.banner .content-bin h1 {
 			height: 85px;
 			width: inherit;
 			font-family: 'Oswald', sans-serif;
@@ -448,11 +455,10 @@ strong, b {
 			line-height: 140%;
 			padding-bottom: 15px;
 		}
-			/*Subpage Only*/
-			.subpage #banner .content-bin h1 {
+			.subpage .banner .content-bin h1 {
 				height: 50px;
 			}
-		#banner .content-bin p {
+		.banner .content-bin p {
 			display: block;
 			font-family: 'EB Garamond', serif;
 			text-align: left;
@@ -461,22 +467,15 @@ strong, b {
 			font-size: 16px;
 			font-weight: 400;
 		}
-			#banner .content-bin a:active,
-			#banner .content-bin a:hover{
+			.banner .content-bin a:active,
+			.banner .content-bin a:hover{
 				color: #14a76c;
 			}
-		#banner hr {
-			height: 1px;
-			background-color: #ccc;
-			color: #ccc;
-			border: 0 none;
-			margin: 5px auto;
-		}
 
-@media only screen and (max-width: 980px){ #banner .content-bin{ display:block; width:auto;}}
-@media only screen and (max-width: 980px){ #banner .content-bin div{ float:none;}}
-@media only screen and (max-width: 980px){ #content-section{ margin:0 1em; width:auto; }}
-@media only screen and (max-width: 980px){ #banner .content-bin .left-padded{ padding-left: 0;}}
+@media only screen and (max-width: 980px){ .banner .content-bin{ display:block; width:auto;}}
+@media only screen and (max-width: 980px){ .banner .content-bin div{ float:none;}}
+@media only screen and (max-width: 980px){ .content-section{ margin:0 1em; width:auto; }}
+@media only screen and (max-width: 980px){ .banner .content-bin .left-padded{ padding-left: 0;}}
 
 /* Footer */
 /*#footer > :last-child {
@@ -505,6 +504,23 @@ strong, b {
 		font-weight: 600;
 		color:  #fff;
 	}
+	#footer .index-section {
+		display: inline-block;
+		overflow: hidden;
+		padding: 1.3em 0;
+		margin: auto;
+		width: 25%;
+	}
+	#footer .index-wrap {
+		float: left;
+		position: relative;
+		left: 50%;
+	}
+	#footer .index-item {
+		float: left;
+		position: relative;
+		left: -50%;
+	}
 	#footer .index-bin {
 		display: inline-block;
 		margin: auto;
@@ -530,27 +546,10 @@ strong, b {
 				#footer .index-bin li > a:hover {
 					color: #B2E522;
 				}
-		#index-section {
-			display: inline-block;
-			overflow: hidden;
-			padding: 1.3em 0;
-			margin: auto;
-			width: 25%;
-		}
-			#index-wrap {
-				float: left;
-				position: relative;
-				left: 50%;
-			}
-			#index-item {
-				float: left;
-				position: relative;
-				left: -50%;
-			}
 
 @media only screen and (max-width: 980px){ #footer .index-bin{ display:block; width:auto;}}
 @media only screen and (max-width: 980px){ #footer .index-bin div{ float:none;}}
-@media only screen and (max-width: 980px){ #index-section{ margin:0 1em;width:auto; }}
+@media only screen and (max-width: 980px){ #footer .index-section{ margin:0 1em;width:auto; }}
 
 /* Copyright */
 	#copyright {
