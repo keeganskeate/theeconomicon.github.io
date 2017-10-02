@@ -857,21 +857,34 @@ strong, b {
 }
 	.blog-archive .articles {
 		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-content: flex-start;
 	}
 		.blog-archive .articles .article {
-
+			width: 40%;
+			border: 1px solid #ececec;
+			border-radius: 6px;
+			padding: 1.3em;
 		}
+			.blog-archive .articles .article h3 {
+				color: #737272;
+			}
+			.blog-archive .articles .article p {
+				color: #444343;
+			}
 	.blog-archive .pagination {
-
+		text-align: center;
 	}
 		.blog-archive .pagination .page-numbers {
-			
+			color: #444343;
 		}
 			.blog-archive .pagination .page-numbers .active{
-			
+				color: #000;
 			}
 			.blog-archive .pagination .page-numbers .dots{
-			
+				margin: auto 0.25em;
 			}
 			.blog-archive .pagination .page-numbers .next{
 			
