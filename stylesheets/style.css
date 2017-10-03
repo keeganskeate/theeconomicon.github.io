@@ -882,8 +882,7 @@ strong, b {
 			}
 				#blog-archive .articles .article h3 a:active,
 				#blog-archive .articles .article h3 a:hover {
-					color: #003500;
-					text-decoration: underline;
+					color: #14a76c;
 				}
 			#blog-archive .articles .article p {
 				font-size: 90%;
@@ -910,6 +909,6 @@ strong, b {
 		}
 			#blog-archive .pagination a:active,
 			#blog-archive .pagination a:hover {
-				color: #003500;
+				color: #14a76c;
 				text-decoration: underline;
 			}
