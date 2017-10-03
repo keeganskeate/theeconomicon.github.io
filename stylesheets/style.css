@@ -866,8 +866,7 @@ strong, b {
 		align-content: flex-start;
 	}
 		#blog-archive .articles .article {
-			width: 40%;
-			height: 25%;
+			width: 50%;
 			border: 1px solid #ececec;
 			border-radius: 6px;
 			padding: 1.6em;
