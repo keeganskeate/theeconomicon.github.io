@@ -878,6 +878,7 @@ strong, b {
 			}
 				.blog-archive .articles .article h3 a:active,
 				.blog-archive .articles .article h3 a:hover {
+					color: #003500;
 					text-decoration: underline;
 				}
 			.blog-archive .articles .article p {
