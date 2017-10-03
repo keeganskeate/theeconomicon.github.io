@@ -852,7 +852,7 @@ strong, b {
 
 /* Blog */
 #blog-archive {
-	margin: 1em auto;
+	margin: 2em auto;
 }
 	#blog-archive .container {
 		position: relative;
@@ -872,11 +872,13 @@ strong, b {
 			padding: 1.6em;
 			margin: 1.3em 1.25%;
 		}
+			#blog-archive .articles .article h3 {
+				margin-bottom: 1.6em;
+			}
 			#blog-archive .articles .article h3 a {
 				font-size: 1.5em;
-				font-weight: 600;
+				font-weight: 500;
 				color: #414042;
-				margin-bottom: 1.6em;
 			}
 				#blog-archive .articles .article h3 a:active,
 				#blog-archive .articles .article h3 a:hover {
@@ -886,6 +888,7 @@ strong, b {
 			#blog-archive .articles .article p {
 				font-size: 90%;
 				color: #444343;
+				margin-bottom: 1.6em;
 			}
 	#blog-archive .pagination {
 		text-align: center;
