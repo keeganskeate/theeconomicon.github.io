@@ -890,6 +890,9 @@ strong, b {
 				color: #444343;
 				margin-bottom: 1.6em;
 			}
+			#blog-archive .articles .article .author-image {
+				text-align: right;
+			}
 	#blog-archive .pagination {
 		text-align: center;
 		margin: 1.3em auto;
