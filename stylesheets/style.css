@@ -866,7 +866,7 @@ strong, b {
 		align-content: flex-start;
 	}
 		#blog-archive .articles .article {
-			width: 35%;
+			width: 40%;
 			height: 25%;
 			border: 1px solid #ececec;
 			border-radius: 6px;
@@ -877,7 +877,7 @@ strong, b {
 				font-size: 1.5em;
 				font-weight: 400;
 				color: #414042;
-				margin-bottom: 1.3em;
+				margin-bottom: 1.6em;
 			}
 				#blog-archive .articles .article h3 a:active,
 				#blog-archive .articles .article h3 a:hover {
