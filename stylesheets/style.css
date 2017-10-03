@@ -892,18 +892,15 @@ strong, b {
 		text-align: center;
 		margin: 1.3em auto;
 	}
-		#blog-archive .page-numbers {
+		#blog-archive .pagination .page-numbers {
 			color: #444343;
-			margin: auto 10px;
+			margin: auto 15px;
 		}
-			#blog-archive .page-numbers a:active,
-			#blog-archive .page-numbers a:hover {
+			#blog-archive .pagination .page-numbers a:active,
+			#blog-archive .pagination .page-numbers a:hover {
 				color: #003500;
 				text-decoration: underline;
 			}
 		#blog-archive .pagination .active{
 			font-weight: 400;
-		}
-		#blog-archive .pagination .dots {
-			margin: auto 10px;
 		}
