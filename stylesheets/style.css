@@ -892,7 +892,16 @@ strong, b {
 		text-align: center;
 		margin: 1.3em auto;
 	}
-		#blog-archive .pagination .page-numbers {
+		#blog-archive .pagination .active {
+			color: #444343;
+			font-weight: 400;
+			margin: auto 15px;
+		}
+		#blog-archive .pagination .dots {
+			color: #444343;
+			margin: auto 15px;
+		}
+		#blog-archive .pagination .page-numbers a {
 			color: #444343;
 			margin: auto 15px;
 		}
@@ -901,6 +910,3 @@ strong, b {
 				color: #003500;
 				text-decoration: underline;
 			}
-		#blog-archive .pagination .active{
-			font-weight: 400;
-		}
