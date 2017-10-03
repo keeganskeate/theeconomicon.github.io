@@ -851,58 +851,59 @@ strong, b {
 @media only screen and (max-width: 980px){ #row .attribute{ width:auto; }}
 
 /* Blog */
-.blog-archive {
-	position: relative;
+#blog-archive {
 	margin: 0 auto;
 }
-	.blog-archive .articles {
+	#blog-archive .container {
+		position: relative;
+		margin: 0 auto;
+	}
+	#blog-archive .articles {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-flow: row wrap;
 		align-content: flex-start;
 	}
-		.blog-archive .articles .article {
+		#blog-archive .articles .article {
 			width: 35%;
-			height: 15%;
+			height: 25%;
 			border: 1px solid #ececec;
 			border-radius: 6px;
 			padding: 1.6em;
 			margin: 1.3em;
 		}
-			.blog-archive .articles .article h3 a {
+			#blog-archive .articles .article h3 a {
 				font-size: 1.5em;
 				font-weight: 400;
 				color: #414042;
 				margin-bottom: 1.3em;
 			}
-				.blog-archive .articles .article h3 a:active,
-				.blog-archive .articles .article h3 a:hover {
+				#blog-archive .articles .article h3 a:active,
+				#blog-archive .articles .article h3 a:hover {
 					color: #003500;
 					text-decoration: underline;
 				}
-			.blog-archive .articles .article p {
+			#blog-archive .articles .article p {
 				font-size: 90%;
 				color: #444343;
 			}
-	.blog-archive .pagination {
+	#blog-archive .pagination {
 		text-align: center;
 		margin: 1.3em auto;
 	}
-		.blog-archive .page-numbers {
+		#blog-archive .page-numbers {
 			color: #444343;
 			margin: auto 10px;
 		}
-			.blog-archive .page-numbers:active a,
-			.blog-archive .page-numbers:hover a {
+			#blog-archive .page-numbers a:active,
+			#blog-archive .page-numbers a:hover {
+				color: #003500;
 				text-decoration: underline;
 			}
-		.blog-archive .pagination .active{
-			color: #000;
+		#blog-archive .pagination .active{
+			font-weight: 400;
 		}
-		.blog-archive .pagination .dots {
+		#blog-archive .pagination .dots {
 			margin: auto 10px;
-		}
-		.blog-archive .pagination .next {
-		
 		}
