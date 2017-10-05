@@ -851,10 +851,10 @@ strong, b {
 		font-weight: 600;
 	}
 	.marquee-text h2 {
-		padding: 1em auto;
 		font-size: 90%;
 	}
-	.marquee-text a {	
+	.marquee-text a {
+		padding-top: 1em;
 	}
 	
 
@@ -930,6 +930,9 @@ strong, b {
 	#blog-post .container {
 		position: relative;
 		margin: 0 auto;
+	}
+	#blog-post .content {
+		width: 80%;
 	}
 	#blog-post .main-photo {
 		
