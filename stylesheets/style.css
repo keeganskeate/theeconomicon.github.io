@@ -933,7 +933,10 @@ strong, b {
 	}
 	#blog-post .blog-text {
 		width: 80%;
+		margin: 0 auto;
 	}
 	#blog-post .main-photo {
 		
 	}
+
+@media only screen and (max-width: 980px){#blog-post{margin-top:0;}}
