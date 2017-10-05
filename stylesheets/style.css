@@ -850,8 +850,8 @@ strong, b {
 		font-weight: 600;
 	}
 	.marquee-text h2 {
+		margin: 2em auto;
 		font-size: 90%;
-		padding: 2em auto;
 	}
 	
 
