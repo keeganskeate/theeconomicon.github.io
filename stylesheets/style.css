@@ -931,7 +931,7 @@ strong, b {
 		position: relative;
 		margin: 0 auto;
 	}
-	#blog-post .content {
+	#blog-post .blog-text {
 		width: 80%;
 	}
 	#blog-post .main-photo {
