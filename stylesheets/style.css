@@ -844,17 +844,17 @@ strong, b {
 	color: #414042;
 }
 	.marquee-text h1 {
-		padding-bottom: 1em;
+		padding-top: 1em;
 		color: #414042;
 		font-size: 3em;
 		line-height: 150%;
 		font-weight: 600;
 	}
 	.marquee-text h2 {
+		padding: 1em auto;
 		font-size: 90%;
 	}
-	.marquee-text a {
-		padding-top: 1em;	
+	.marquee-text a {	
 	}
 	
 
@@ -930,4 +930,7 @@ strong, b {
 	#blog-post .container {
 		position: relative;
 		margin: 0 auto;
+	}
+	#blog-post .main-photo {
+		
 	}
