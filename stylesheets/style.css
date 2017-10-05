@@ -846,8 +846,14 @@ strong, b {
 	.marquee-text h1 {
 		color: #414042;
 		font-size: 3em;
+		line-height: 125%;
 		font-weight: 600;
 	}
+	.marquee-text h2 {
+		font-size: 90%;
+		padding: 1.3em auto;
+	}
+	
 
 /* Blog */
 #blog-archive {
@@ -913,3 +919,12 @@ strong, b {
 				color: #14a76c;
 				text-decoration: underline;
 			}
+/* Blog Post */
+#blog-post {
+	position: relative;
+	margin: 2em auto;
+}
+	#blog-post .container {
+		position: relative;
+		margin: 0 auto;
+	}
