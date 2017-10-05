@@ -709,7 +709,7 @@ strong, b {
 	}*/
 
 /* Mobile Logo */
-#logo {
+#mobile-logo {
 	display: none;
 	line-height: 2em;
 	letter-spacing: 2px;
@@ -717,13 +717,13 @@ strong, b {
 	font-size: 2em;
 	font-weight: 500;
 }
-	#logo h1 {
+	#mobile-logo h1 {
 		display: inline-block;
 		margin: 0;
 		padding: 0;
 		background: #2D004F;
 	}
-	#logo a {
+	#mobile-logo a {
 		color: #fff;
 	}
 
@@ -851,7 +851,7 @@ strong, b {
 	}
 	.marquee-text h2 {
 		font-size: 90%;
-		padding: 1.3em auto;
+		padding: 2em auto;
 	}
 	
 
