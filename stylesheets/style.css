@@ -851,6 +851,7 @@ strong, b {
 
 /* Blog */
 #blog-archive {
+	position: relative;
 	margin: 2em auto;
 }
 	#blog-archive .container {
