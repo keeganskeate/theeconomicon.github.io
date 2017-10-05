@@ -846,7 +846,7 @@ strong, b {
 	.marquee-text h1 {
 		color: #414042;
 		font-size: 3em;
-		line-height: 125%;
+		line-height: 150%;
 		font-weight: 600;
 	}
 	.marquee-text h2 {
