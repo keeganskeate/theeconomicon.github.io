@@ -932,11 +932,23 @@ strong, b {
 		margin: 0 auto;
 	}
 	#blog-post .blog-text {
-		width: 60%;
+		width: 66%;
 		margin: 0 auto;
 	}
-	#blog-post .main-photo {
-		
+	#blog-post .blog-text h1 {
+		font-size: 2em;
+		font-weight: 600;
 	}
+	#blog-post .blog-text p {
+		font-size: 110%;
+		line-height: 150%;
+	}
+	#blog-post .blog-text a {
+		color: #14a76c;
+	}
+		#blog-post .blog-text a:active,
+		#blog-post .blog-text a:hover {
+			text-decoration: underline;
+		}
 
 @media only screen and (max-width: 980px){#blog-post{margin-top:0;}}
