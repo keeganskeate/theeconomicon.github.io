@@ -936,12 +936,15 @@ strong, b {
 		margin: 0 auto;
 	}
 	#blog-post .blog-text h1 {
-		font-size: 2em;
+		color: #414042;
+		font-size: 3em;
+		line-height: 150%;
 		font-weight: 600;
 	}
 	#blog-post .blog-text p {
-		font-size: 110%;
+		font-size: 125%;
 		line-height: 150%;
+		padding-bottom: 2em;
 	}
 	#blog-post .blog-text a {
 		color: #14a76c;
