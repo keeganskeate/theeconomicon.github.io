@@ -858,7 +858,7 @@ strong, b {
 	}
 	
 
-/* Blog */
+/* Blog Archive */
 #blog-archive {
 	position: relative;
 	margin: 2em auto;
@@ -937,12 +937,13 @@ strong, b {
 	}
 	#blog-post .blog-text h1 {
 		color: #414042;
-		font-size: 3em;
+		font-size: 1.5em;
+		font-weight: 400;
 		line-height: 150%;
-		font-weight: 600;
 	}
 	#blog-post .blog-text p {
-		font-size: 125%;
+		font-size: 1.25em;
+		font-weight: 200;
 		line-height: 150%;
 		padding-bottom: 2em;
 	}
