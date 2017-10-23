@@ -900,13 +900,17 @@ strong, b {
 			#blog-archive .articles .article h3 {
 				margin-bottom: 1.3em;
 			}
-				#blog-archive .articles .article h3 a {
+				#blog-archive .article-title {
 					font-size: 1.5em;
 					font-weight: 600;
 					color: #414042;
 				}
-					#blog-archive .articles .article h3 a:active,
-					#blog-archive .articles .article h3 a:hover {
+					#blog-archive .article-title:active,
+					#blog-archive .article-title:hover {
+						color: #14a76c;
+					}
+					#blog-archive .articles .article-image:active .article-title,
+					#blog-archive .articles .article-image:hover .article-title {
 						color: #14a76c;
 					}
 	#blog-archive .pagination {
