@@ -881,14 +881,21 @@ strong, b {
 			padding: 1.6em;
 			margin: 1.3em 1.25%;
 		}
-			#blog-archive .articles .article p {
-				margin-bottom: 1.3em;
-				font-size: 90%;
-				color: #444343;
+			#blog-archive .articles .article .article-image {
+				width: 100%;
+				height: 150px;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: 50% 50%;
 			}
 			#blog-archive .articles .article .author-image {
 				float: right;
 				border-radius: 50%;
+			}
+			#blog-archive .articles .article p {
+				margin-bottom: 1.3em;
+				font-size: 90%;
+				color: #444343;
 			}
 			#blog-archive .articles .article h3 {
 				margin-bottom: 1.3em;
