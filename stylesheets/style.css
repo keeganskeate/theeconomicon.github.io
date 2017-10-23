@@ -938,12 +938,17 @@ strong, b {
 	#blog-post .blog-text h1 {
 		color: #414042;
 		font-size: 1.5em;
-		font-weight: 400;
+		font-weight: 600;
+		line-height: 150%;
+	}
+	#blog-post .blog-text h2 {
+		color: #414042;
+		font-size: 1.0em;
+		font-weight: 600;
 		line-height: 150%;
 	}
 	#blog-post .blog-text p {
-		font-size: 1.25em;
-		font-weight: 200;
+		font-size: 1.0em;
 		line-height: 150%;
 		padding-bottom: 2em;
 	}
