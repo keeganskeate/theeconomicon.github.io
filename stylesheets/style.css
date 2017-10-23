@@ -867,53 +867,6 @@ strong, b {
 		position: relative;
 		margin: 0 auto;
 	}
-	#blog-archive .articles {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-flow: row wrap;
-		align-content: flex-start;
-	}
-		#blog-archive .articles .article {
-			width: 47.5%;
-			border: 1px solid #e6e6e6;
-			border-radius: 6px;
-			margin: 1.3em 1.25%;
-		}
-			#blog-archive .articles .article-image {
-				width: 100%;
-				height: 150px;
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-position: 50% 50%;
-			}
-			#blog-archive .articles .article .author-image {
-				float: right;
-				padding: 1.6em;
-				border-radius: 50%;
-			}
-			#blog-archive .articles .article p {
-				/*margin-bottom: 1.3em;*/
-				font-size: 90%;
-				color: #444343;
-			}
-			#blog-archive .articles .article h3 {
-				padding: 1.6em;
-				/*margin-bottom: 1.3em;*/
-			}
-				#blog-archive .article-title {
-					font-size: 1.5em;
-					font-weight: 600;
-					color: #414042;
-				}
-					#blog-archive .article-title:active,
-					#blog-archive .article-title:hover {
-						color: #14a76c;
-					}
-					#blog-archive .articles .article-image:active .article-title,
-					#blog-archive .articles .article-image:hover .article-title {
-						color: #14a76c;
-					}
 	#blog-archive .pagination {
 		text-align: center;
 		margin: 1.3em auto;
@@ -934,6 +887,53 @@ strong, b {
 				color: #14a76c;
 				text-decoration: underline;
 			}
+	#blog-archive .articles {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-content: flex-start;
+	}
+		#blog-archive .articles .article {
+			width: 47.5%;
+			border: 1px solid #e6e6e6;
+			border-radius: 6px;
+			margin: 1.3em 1.25%;
+		}
+			#blog-archive .articles .article-image {
+				width: 100%;
+				height: 200px;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: 50% 50%;
+			}
+			#blog-archive .articles .article .author-image {
+				float: right;
+				padding: 1.6em;
+				border-radius: 50%;
+			}
+			#blog-archive .articles .article p {
+				padding: 1.6em;
+				font-size: 90%;
+				color: #444343;
+			}
+			#blog-archive .articles .article h3 {
+				padding: 1.6em;
+			}
+				#blog-archive .article-title {
+					padding: 1.6em;
+					font-size: 1.5em;
+					font-weight: 600;
+					color: #414042;
+				}
+					#blog-archive .article-title:active,
+					#blog-archive .article-title:hover {
+						color: #14a76c;
+					}
+					#blog-archive .articles .article-image:active #blog-archive .article-title,
+					#blog-archive .articles .article-image:hover #blog-archive .article-title {
+						color: #14a76c;
+					}
 /* Blog Post */
 #blog-post {
 	position: relative;
