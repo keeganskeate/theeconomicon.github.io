@@ -944,35 +944,35 @@ strong, b {
 		margin: 0 auto;
 	}
 	#blog-post .blog-text {
-		width: 66%;
+		width: 70%;
 		margin: 0 auto;
+		font-family: 'Droid Serif', serif;
 	}
 	#blog-post .blog-text h1 {
-		color: #444343;
+		color: #131516;
 		font-size: 1.25em;
 		font-weight: 500;
 		line-height: 150%;
 	}
 	#blog-post .blog-text h2 {
-		color: #444343;
+		color: #131516;
 		font-size: 1.0em;
 		font-weight: 600;
 		line-height: 150%;
 	}
 	#blog-post .blog-text p {
-		font-family: 'Droid Serif', serif;
 		font-size: 1.2em;
-		line-height: 200%;
+		line-height: 150%;
 		padding: 1em 0;
 	}
 		#blog-post .blog-text p:first-child:first-letter {
 			color: #2D004F;
 			float: left;
-			font-size: 75px;
-			line-height: 60px;
-			padding-top: 4px;
-			padding-right: 8px;
-			padding-left: 3px;
+			font-size: 200%;
+			line-height: 200%;
+			padding-top: 0;
+			padding-right: 0;
+			padding-left: 0;
 		}
 	#blog-post .blog-text a {
 		color: #14a76c;
@@ -983,4 +983,4 @@ strong, b {
 		}
 
 @media only screen and (max-width: 980px){#blog-post{margin-top:0;}}
-@media only screen and (max-width: 980px){#blog-post .blog-text{width: 90%;}}
+@media only screen and (max-width: 980px){#blog-post .blog-text{width: 95%;}}
