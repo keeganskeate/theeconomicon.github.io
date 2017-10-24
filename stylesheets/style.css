@@ -24,6 +24,7 @@ Theme Colors
 /* Fonts */
 @import url("http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Sanchez:200,300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif:200,300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro:200,300,400,600,700,800");
 /*@import url("https://fonts.googleapis.com/css?family=EB+Garamond:300,400,600,700,800");*/
 /*@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,600,700,800");*/
@@ -949,8 +950,8 @@ strong, b {
 	}
 	#blog-post .blog-text h1 {
 		color: #414042;
-		font-size: 1.5em;
-		font-weight: 600;
+		font-size: 1.25em;
+		font-weight: 500;
 		line-height: 150%;
 	}
 	#blog-post .blog-text h2 {
@@ -960,8 +961,8 @@ strong, b {
 		line-height: 150%;
 	}
 	#blog-post .blog-text p {
-		font-family: 'Source Serif Pro', serif;
-		font-size: 1.0em;
+		font-family: 'Droid Serif', serif;
+		font-size: 1.2em;
 		line-height: 150%;
 		padding-bottom: 2em;
 	}
