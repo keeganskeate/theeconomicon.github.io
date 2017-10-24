@@ -949,13 +949,13 @@ strong, b {
 		margin: 0 auto;
 	}
 	#blog-post .blog-text h1 {
-		color: #414042;
+		color: #444343;
 		font-size: 1.25em;
 		font-weight: 500;
 		line-height: 150%;
 	}
 	#blog-post .blog-text h2 {
-		color: #414042;
+		color: #444343;
 		font-size: 1.0em;
 		font-weight: 600;
 		line-height: 150%;
@@ -963,8 +963,8 @@ strong, b {
 	#blog-post .blog-text p {
 		font-family: 'Droid Serif', serif;
 		font-size: 1.2em;
-		line-height: 150%;
-		padding-bottom: 2em;
+		line-height: 175%;
+		padding: 1em 0;
 	}
 	#blog-post .blog-text a {
 		color: #14a76c;
