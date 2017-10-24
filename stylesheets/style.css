@@ -907,9 +907,6 @@ strong, b {
 				font-size: 90%;
 				color: #444343;
 			}
-			/*#blog-archive .articles .article h3 {
-				padding: 1.6em 1.6em 0 1.6em;
-			}*/
 			#blog-archive .author-image {
 				float: right;
 				padding: 1.6em;
@@ -922,8 +919,10 @@ strong, b {
 				background-repeat: no-repeat;
 				background-position: 50% 50%;
 			}
-			#blog-archive .article-title {
+			#blog-archive .articles .article h3 {
 				padding: 1.6em 1.6em 0 1.6em;
+			}
+			#blog-archive .article-title {
 				font-size: 1.5em;
 				font-weight: 600;
 				color: #414042;
@@ -964,12 +963,12 @@ strong, b {
 	#blog-post .blog-text p {
 		font-family: 'Droid Serif', serif;
 		font-size: 1.2em;
-		line-height: 175%;
+		line-height: 200%;
 		padding: 1em 0;
 	}
 		#blog-post .blog-text p:first-child:first-letter {
-			color: #903;
-			initial-letter: 2;
+			color: #2D004F;
+			initial-letter: 4;
 		}
 	#blog-post .blog-text a {
 		color: #14a76c;
