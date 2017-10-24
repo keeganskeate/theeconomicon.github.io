@@ -931,8 +931,8 @@ strong, b {
 				#blog-archive .article-title:hover {
 					color: #14a76c;
 				}
-					#blog-archive .article-image:active + #blog-archive .article-title,
-					#blog-archive .article-image:hover + #blog-archive .article-title {
+					#blog-archive .article-image:active ~ #blog-archive .article-title,
+					#blog-archive .article-image:hover ~ #blog-archive .article-title {
 						color: #14a76c;
 					}
 /* Blog Post */
