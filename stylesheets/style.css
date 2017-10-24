@@ -968,7 +968,12 @@ strong, b {
 	}
 		#blog-post .blog-text p:first-child:first-letter {
 			color: #2D004F;
-			initial-letter: 4;
+			float: left;
+			font-size: 75px;
+			line-height: 60px;
+			padding-top: 4px;
+			padding-right: 8px;
+			padding-left: 3px;
 		}
 	#blog-post .blog-text a {
 		color: #14a76c;
