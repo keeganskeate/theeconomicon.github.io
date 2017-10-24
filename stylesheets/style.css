@@ -966,6 +966,10 @@ strong, b {
 		line-height: 175%;
 		padding: 1em 0;
 	}
+		#blog-post .blog-text p:first-child:first-letter {
+			color: #903;
+			initial-letter: 2;
+		}
 	#blog-post .blog-text a {
 		color: #14a76c;
 	}
