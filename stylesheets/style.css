@@ -865,7 +865,7 @@ strong, b {
 /* Blog Archive */
 #blog-archive {
 	position: relative;
-	margin: 2em auto;
+	margin: 1em auto 2em auto;
 }
 	#blog-archive .container {
 		position: relative;
@@ -919,8 +919,9 @@ strong, b {
 			#blog-archive .category {
 				display: block;
 				color: #14a76c;
+				font-weight: 400;
 				font-family: 'Cinzel', serif;
-				padding: 1em 1.6em 0.2em 1.6em;
+				padding: 1em 1.6em 0.3em 1.6em;
 			}
 				#blog-archive .category:active,
 				#blog-archive .category:hover {
