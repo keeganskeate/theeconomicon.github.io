@@ -928,9 +928,12 @@ strong, b {
 				}
 			#blog-archive .summary {
 				font-family: 'Lusitana', serif;
-				font-size: 1.0em;
-				line-height: 1.25em;
+				font-size: 1.25em;
+				line-height: 1.5em;
 				padding-bottom: 0;
+			}
+			#blog-archive .published{
+				font-size: 90%;
 			}
 			#blog-archive .summary > span,
 			#blog-archive .read-more {
@@ -991,7 +994,7 @@ strong, b {
 			color: #2D004F;
 			float: left;
 			font-size: 375%;
-			line-height: 80%;
+			line-height: 100%;
 			padding-top: 4px;
 			padding-right: 8px;
 			padding-left: 3px;
