@@ -989,8 +989,8 @@ strong, b {
 		#blog-post .blog-text p:first-child:first-letter {
 			color: #2D004F;
 			float: left;
-			line-height: 100%;
 			font-size: 350%;
+			line-height: 50%;
 			/*padding-top: 0;*/
 			padding-right: 5px;
 			/*padding-left: 0;*/
