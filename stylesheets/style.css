@@ -964,10 +964,10 @@ strong, b {
 	position: relative;
 	margin: 2em auto;
 }
-	#blog-post .container {
+	/*#blog-post .container {
 		position: relative;
 		margin: 0 auto;
-	}
+	}*/
 	#blog-post .blog-text {
 		width: 70%;
 		margin: 0 auto;
