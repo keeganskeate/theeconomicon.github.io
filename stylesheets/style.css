@@ -919,7 +919,7 @@ strong, b {
 			#blog-archive .category {
 				display: block;
 				color: #14a76c;
-				font-weight: 400;
+				font-weight: 600;
 				font-family: 'Cinzel', serif;
 				padding: 1em 1.6em 0.3em 1.6em;
 			}
@@ -929,8 +929,8 @@ strong, b {
 				}
 			#blog-archive .summary {
 				font-family: 'Lusitana', serif;
-				font-size: 150%;
-				line-height: 175%;
+				font-size: 1.25em;
+				line-height: 1.5em;
 				padding-bottom: 0;
 			}
 			#blog-archive .read-more {
@@ -987,7 +987,7 @@ strong, b {
 			color: #2D004F;
 			float: left;
 			font-size: 350%;
-			/*line-height: 100%;*/
+			line-height: 350%;
 			/*padding-top: 0;*/
 			padding-right: 5px;
 			/*padding-left: 0;*/
@@ -1001,4 +1001,4 @@ strong, b {
 		}
 
 @media only screen and (max-width: 980px){#blog-post{margin-top:0;}}
-@media only screen and (max-width: 980px){#blog-post .blog-text{width: 95%;}}
+@media only screen and (max-width: 980px){#blog-post .blog-text{width: 90%;}}
