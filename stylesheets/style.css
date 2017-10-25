@@ -920,49 +920,49 @@ strong, b {
 			#blog-archive .article-info {
 				padding: 0.6em 1.6em
 			}
-			#blog-archive .category {
-				color: #b2afaf;
-				font-weight: 500;
-				font-family: 'Cinzel', serif;
-				padding-bottom: 0.6em;
-			}
-				#blog-archive .category:active,
-				#blog-archive .category:hover {
-					text-decoration: underline;
+				#blog-archive .category {
+					color: #b2afaf;
+					font-weight: 500;
+					font-family: 'Cinzel', serif;
+					padding-bottom: 0.6em;
 				}
-			#blog-archive .summary {
-				font-family: 'Lusitana', serif;
-				font-size: 110%;
-				line-height: 150%;
-				padding: 0.6em 0;
-			}
-			#blog-archive .published{
-				font-size: 90%;
-			}
-			#blog-archive .summary > span,
-			#blog-archive .read-more {
-				color: #EE464F;
-			}
-				#blog-archive .read-more:active,
-				#blog-archive .read-more:hover {
-					text-decoration: underline;
+					#blog-archive .category:active,
+					#blog-archive .category:hover {
+						text-decoration: underline;
+					}
+				#blog-archive .summary {
+					font-family: 'Lusitana', serif;
+					font-size: 110%;
+					line-height: 150%;
+					padding: 0.6em 0;
 				}
-			#blog-archive .author-image {
-				float: right;
-				border-radius: 50%;
-			}
-			/*#blog-archive .articles .article h3 {
-				padding: 0 1.6em;
-			}*/
-			#blog-archive .article-title {
-				font-size: 1.6em;
-				font-weight: 600;
-				color: #414042;
-			}
-				#blog-archive .article-title:active,
-				#blog-archive .article-title:hover {
-					text-decoration: underline;
+				#blog-archive .published{
+					font-size: 90%;
 				}
+				#blog-archive .summary > span,
+				#blog-archive .read-more {
+					color: #EE464F;
+				}
+					#blog-archive .read-more:active,
+					#blog-archive .read-more:hover {
+						text-decoration: underline;
+					}
+				#blog-archive .author-image {
+					float: right;
+					border-radius: 50%;
+				}
+				/*#blog-archive .articles .article h3 {
+					padding: 0 1.6em;
+				}*/
+				#blog-archive .article-title {
+					font-size: 175%;
+					font-weight: 600;
+					color: #414042;
+				}
+					#blog-archive .article-title:active,
+					#blog-archive .article-title:hover {
+						text-decoration: underline;
+					}
 /* Blog Post */
 #blog-post {
 	position: relative;
