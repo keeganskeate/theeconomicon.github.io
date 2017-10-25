@@ -24,6 +24,8 @@ Theme Colors
 /* Fonts */
 @import url("http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Sanchez:200,300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Cinzel:200,300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Lusitana:200,300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Droid+Serif:200,300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro:200,300,400,600,700,800");
 /*@import url("https://fonts.googleapis.com/css?family=EB+Garamond:300,400,600,700,800");*/
@@ -907,12 +909,14 @@ strong, b {
 				font-size: 90%;
 				color: #444343;
 			}
-			#blog-archive .articles .article .summary {
-				font-family: 'Droid Serif', serif;
+			#blog-archive .articles .article p.summary {
+				font-family: 'Lusitana', serif;
 			}
 			#blog-archive .category {
 				display: block;
 				color: #14a76c;
+				font-size: 90%;
+				font-family: 'Cinzel', serif;
 				padding: 1.6em 1.6em 0 1.6em;
 			}
 				#blog-archive .category {
@@ -956,7 +960,6 @@ strong, b {
 	#blog-post .blog-text {
 		width: 70%;
 		margin: 0 auto;
-		font-family: 'Droid Serif', serif;
 	}
 	#blog-post .blog-text h1 {
 		color: #131516;
@@ -971,18 +974,19 @@ strong, b {
 		line-height: 150%;
 	}
 	#blog-post .blog-text p {
+		font-family: 'Lusitana', serif;
 		font-size: 1.2em;
-		line-height: 150%;
+		line-height: 175%;
 		padding: 1em 0;
 	}
 		#blog-post .blog-text p:first-child:first-letter {
 			color: #2D004F;
 			float: left;
-			font-size: 200%;
-			line-height: 200%;
-			padding-top: 0;
-			padding-right: 0;
-			padding-left: 0;
+			font-size: 400%;
+			line-height: 100%;
+			/*padding-top: 0;*/
+			padding-right: 3px;
+			/*padding-left: 0;*/
 		}
 	#blog-post .blog-text a {
 		color: #14a76c;
