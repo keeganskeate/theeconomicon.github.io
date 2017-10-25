@@ -13,7 +13,7 @@
 			normal:		{ range: '-1280', href: '/stylesheets/style-normal.css', containers: 960, lockViewport: true },
 			narrow:		{ range: '-980', href: '/stylesheets/style-narrow.css', containers: '70%', grid: { gutters: 25 } },
 			narrower:	{ range: '-840', href: '/stylesheets/style-narrower.css', grid: { collapse: true } },
-			mobile:		{ range: '-640', href: '/stylesheets/style-mobile.css', containers: '90%', grid: { gutters: 15 } }
+			mobile:		{ range: '-640', href: '/stylesheets/style-mobile.css', containers: '70%', grid: { gutters: 15 } }
 		}
 	}, {
 		layers: {
