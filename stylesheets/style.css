@@ -912,6 +912,7 @@ strong, b {
 			#blog-archive .article-image {
 				width: 100%;
 				height: 250px;
+				border-radius: 6px 6px 0 0;
 				background-size: cover;
 				background-repeat: no-repeat;
 				background-position: 50% 50%;
@@ -920,7 +921,7 @@ strong, b {
 				color: #b2afaf;
 				font-weight: 500;
 				font-family: 'Cinzel', serif;
-				padding: 1em 1.6em 0.5em 1.6em;
+				padding: 1.6em 1.6em 0.6em 1.6em;
 			}
 				#blog-archive .category:active,
 				#blog-archive .category:hover {
@@ -929,7 +930,7 @@ strong, b {
 			#blog-archive .summary {
 				font-family: 'Lusitana', serif;
 				/*font-size: 1.1em;*/
-				line-height: 1.5em;
+				line-height: 1.6em;
 				padding-bottom: 0;
 			}
 			#blog-archive .published{
