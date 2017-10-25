@@ -989,7 +989,7 @@ strong, b {
 		#blog-post .blog-text p:first-child:first-letter {
 			color: #2D004F;
 			float: left;
-			font-size: 350%;
+			font-size: 375%;
 			line-height: 50%;
 			/*padding-top: 0;*/
 			padding-right: 5px;
