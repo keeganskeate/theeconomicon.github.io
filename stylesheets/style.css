@@ -17,9 +17,10 @@ Theme Colors
 	Dark Teal: #006A3F
 	Regular Background Blue: #176599
 	Navy: #01516e
-	Pastel yellow: #F3D250;
+	Pastel yellow: #F3D250
 	Pastel blue: #90CCF4
 	Pastel pink: #F78888
+	Soft Red: #EE464F
 ----------------------------------------------
 /* Fonts */
 @import url("http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800");
@@ -928,8 +929,8 @@ strong, b {
 				}
 			#blog-archive .summary {
 				font-family: 'Lusitana', serif;
-				font-size: 1.0em;
-				line-height: 1.2em;
+				font-size: 1.2em;
+				line-height: 1.4em;
 				padding-bottom: 0;
 			}
 			#blog-archive .published{
@@ -973,13 +974,13 @@ strong, b {
 		margin: 0 auto;
 	}
 	#blog-post .blog-text h1 {
-		color: #131516;
+		color: #2D004F;
 		font-size: 1.5em;
 		font-weight: 700;
 		line-height: 150%;
 	}
 	#blog-post .blog-text h2 {
-		color: #131516;
+		color: #2D004F;
 		font-size: 1.2em;
 		font-weight: 700;
 		line-height: 150%;
@@ -994,7 +995,7 @@ strong, b {
 			color: #2D004F;
 			float: left;
 			font-size: 375%;
-			line-height: 90%;
+			line-height: 80%;
 			padding-top: 4px;
 			padding-right: 8px;
 			padding-left: 3px;
