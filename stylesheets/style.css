@@ -13,14 +13,14 @@ Blacks and Whites
 Theme Colors
 	Dark Purple: #2D004F
 	Lime Green: #B2E522
-	Choice Teal: #14a76c
-	Dark Teal: #006A3F
+	Dark Green: #006A3F
 	Regular Background Blue: #176599
 	Navy: #01516e
 	Pastel yellow: #F3D250
 	Pastel blue: #90CCF4
 	Pastel pink: #F78888
 	Soft Red: #EE464F
+	Soft Green: #14a76c
 ----------------------------------------------
 /* Fonts */
 @import url("http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800");
@@ -920,7 +920,7 @@ html, body {
 					color: #b2afaf;
 					font-weight: 500;
 					font-family: 'Cinzel', serif;
-					padding-bottom: 1em;
+					margin-bottom: 0.66em;
 				}
 					#blog-archive .category:active,
 					#blog-archive .category:hover {
@@ -930,7 +930,7 @@ html, body {
 					font-family: 'Lusitana', serif;
 					font-size: 110%;
 					line-height: 150%;
-					padding: 0.6em 0;
+					margin: 0.6em auto;
 				}
 				#blog-archive .published{
 					font-size: 80%;
@@ -947,9 +947,6 @@ html, body {
 					float: right;
 					border-radius: 50%;
 				}
-				/*#blog-archive .articles .article h3 {
-					padding: 0 1.6em;
-				}*/
 				#blog-archive .article-title {
 					font-size: 160%;
 					font-weight: 600;
@@ -957,7 +954,7 @@ html, body {
 				}
 					#blog-archive .article-title:active,
 					#blog-archive .article-title:hover {
-						text-decoration: underline;
+						color: #14a76c;
 					}
 /* Blog Post */
 #blog-post {
