@@ -105,7 +105,9 @@ strong, b {
   	width: 70%;
 	max-width: 1344px;
 }
-
+.column {
+  	width: 70%;
+}
 /* Wrappers */
 .wrapper {
 	padding: 0;
@@ -937,7 +939,7 @@ strong, b {
 					padding: 0.6em 0;
 				}
 				#blog-archive .published{
-					font-size: 90%;
+					font-size: 80%;
 				}
 				#blog-archive .summary > span,
 				#blog-archive .read-more {
@@ -955,7 +957,7 @@ strong, b {
 					padding: 0 1.6em;
 				}*/
 				#blog-archive .article-title {
-					font-size: 175%;
+					font-size: 160%;
 					font-weight: 600;
 					color: #414042;
 				}
