@@ -799,7 +799,7 @@ html, body {
 #row .feature-text {
 	width: 60%;
 }
-	#row .feature-text h3 {
+	#row .feature-text h3 a{
 		color: #000;
 		font-size: 1.15em;
 	}
