@@ -111,6 +111,8 @@ html, body {
   	width: 70%;
 	max-width: 1344px;
 }
+@media only screen and (max-width: 980px){.column{width: 90%;}}
+
 /* Wrappers */
 .wrapper {
 	padding: 0;
