@@ -917,20 +917,22 @@ html, body {
 				padding: 0.6em 1.6em
 			}
 				#blog-archive .category {
-					color: #b2afaf;
-					font-weight: 500;
-					font-family: 'Cinzel', serif;
-					margin-bottom: 0.66em;
+					margin-bottom: 0.6em;
 				}
-					#blog-archive .category:active,
-					#blog-archive .category:hover {
-						text-decoration: underline;
+					#blog-archive .category a {
+						color: #b2afaf;
+						font-weight: 500;
+						font-family: 'Cinzel', serif;
 					}
+						#blog-archive .category a:active,
+						#blog-archive .category a:hover {
+							text-decoration: underline;
+						}
 				#blog-archive .summary {
 					font-family: 'Lusitana', serif;
 					font-size: 110%;
 					line-height: 150%;
-					margin: 0.6em auto;
+					margin: 0.55em auto;
 				}
 				#blog-archive .published{
 					font-size: 80%;
