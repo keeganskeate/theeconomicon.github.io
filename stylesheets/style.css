@@ -109,6 +109,7 @@ strong, b {
 	position: relative;
 	margin: 0 auto;
   	width: 70%;
+	max-width: 1344px;
 }
 /* Wrappers */
 .wrapper {
@@ -214,11 +215,11 @@ strong, b {
 	font-size: 0.975em;
 	letter-spacing: 0;
 }
-	#header .container {
+	/*#header .container {
 		width: 100%;
 		position: relative;
 		z-index: 99;
-	}
+	}*/
 	.fixed {
     		position: fixed;
     		top: -80px;
@@ -242,7 +243,7 @@ strong, b {
 	position: static;
 	z-index: 666;
 	height: 80px;
-	width: inherit;
+	width: 100%;
 	min-width: 840px;
 	max-width: 1344px;
 	right: none;
