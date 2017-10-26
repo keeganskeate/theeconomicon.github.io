@@ -211,18 +211,16 @@ html, body {
 /* Sticky Header */
 #header {
 	height: 80px;
-	z-index: 666;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 	font-weight: 300;
 	font-size: 0.975em;
 	letter-spacing: 0;
 }
-	/*#header .container {
+	#header .column {
 		width: 100%;
-		position: relative;
 		z-index: 99;
-	}*/
+	}
 	.fixed {
     		position: fixed;
     		top: -80px;
@@ -244,7 +242,6 @@ html, body {
 /*Navigation Bar*/
 #nav {
 	position: static;
-	z-index: 99;
 	height: 80px;
 	width: 100%;
 	min-width: 840px;
