@@ -21,6 +21,9 @@ Theme Colors
 	Pastel pink: #F78888
 	Soft Red: #EE464F
 	Soft Green: #14a76c
+	Soft Blue: #90CCF4
+	Soft Orange: #FF8F69
+	Soft Light Green: #61EBA9
 ----------------------------------------------
 /* Fonts */
 @import url("http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800");
@@ -822,7 +825,7 @@ html, body {
 	}
 
 @media only screen and (max-width: 980px){ #row .container{ display:block; height: auto;}}
-@media only screen and (max-width: 980px){ #row .attribute{ width:auto; }}
+@media only screen and (max-width: 980px){ #row .attribute{ width:auto; margin-bottom:1em;}}
 
 /* Marquee */
 .wrapper.marquee-style {
