@@ -106,6 +106,8 @@ strong, b {
 	max-width: 1344px;
 }
 .column {
+	position: relative;
+	margin: 0 auto;
   	width: 70%;
 }
 /* Wrappers */
