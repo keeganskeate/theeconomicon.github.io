@@ -92,12 +92,12 @@ html, body {
 	font-size: 12pt;
 	font-weight: 400;
 }
-a {
-	text-decoration: none;
-}
-strong, b {
-	font-weight: 600;
-}
+	a {
+		text-decoration: none;
+	}
+	b {
+		font-weight: 600;
+	}
 
 /* Content Containers */
 .container {
@@ -115,95 +115,95 @@ strong, b {
 .wrapper {
 	padding: 0;
 }
-.wrapper.carousel-style {
-	padding: 0;
-	height: 543px;
-}
-.wrapper.banner-style {
-	padding: 0;
-}
-.wrapper.end-style {
-	padding: 0;
-}
+	.wrapper.carousel-style {
+		padding: 0;
+		height: 543px;
+	}
+	.wrapper.banner-style {
+		padding: 0;
+	}
+	.wrapper.end-style {
+		padding: 0;
+	}
 /* Slick Carousel */
 #carousel-container {
 	display: none;
 	transform: translateY(-80px);
 }
-.slick-dots{
-	bottom: 10px;
-	margin: 0;
-}
-.slick-prev {
-	margin-left: 40px;
-	z-index: 1;
-}
-.slick-next {
-	margin-right: 40px;
-}
-	.slick-prev:before,
-	.slick-next:before {
-		font-size: 2em;
-		background: #ccc;
-		border-radius: 50%;
+	.slick-dots{
+		bottom: 10px;
+		margin: 0;
 	}
-		.slick-prev:before:active,
-		.slick-prev:before:hover,
-		.slick-next:before:active,
-		.slick-next:before:hover {
-			background: #000;
+	.slick-prev {
+		margin-left: 40px;
+		z-index: 1;
+	}
+	.slick-next {
+		margin-right: 40px;
+	}
+		.slick-prev:before,
+		.slick-next:before {
+			font-size: 2em;
+			background: #ccc;
+			border-radius: 50%;
 		}
-.slick-slide {
-	position: relative;
-	height: 543px;
-}
-	.slick-slide .hero-image {
-		position: absolute;
-		display: inline-block;
-		top: 0px;
-		height: 543px;
-		/*transform: translateX(-50%);*/
-		/*background-attachment: fixed;*/
-	}
-	.slick-slide .hero-text {
-		display: block;
-		text-align: left;
-		color: #414042;
-	}
-	.slick-slide .hero-text .container {
+			.slick-prev:before:active,
+			.slick-prev:before:hover,
+			.slick-next:before:active,
+			.slick-next:before:hover {
+				background: #000;
+			}
+	.slick-slide {
 		position: relative;
-		margin: 0 auto;
-		padding: 0;
+		height: 543px;
 	}
-		.slick-slide .hero-text .box {
+		.slick-slide .hero-image {
 			position: absolute;
-			transform: translateX(45%) translateY(33%);
-			margin: auto;
+			display: inline-block;
+			top: 0px;
+			height: 543px;
+			/*transform: translateX(-50%);*/
+			/*background-attachment: fixed;*/
 		}
-			.slick-slide .hero-text .box p {
-				padding: 0.75em 0 1.0em 0;
-				font-size: 2em;
-				line-height: 1.05em;
+		.slick-slide .hero-text {
+			display: block;
+			text-align: left;
+			color: #414042;
+		}
+		/*.slick-slide .hero-text .container {
+			position: relative;
+			margin: 0 auto;
+			padding: 0;
+		}*/
+			.slick-slide .hero-text .box {
+				position: absolute;
+				transform: translateX(45%) translateY(33%);
+				margin: auto;
 			}
-			.slick-slide .hero-text .box .button-box {
-				display: flex;
-				align-items: baseline;
-			}
-				.slick-slide .hero-text .box .button-box .tour {
-					margin-left: 15px;
-					color: #414042;
+				.slick-slide .hero-text .box p {
+					padding: 0.75em 0 1.0em 0;
+					font-size: 2em;
+					line-height: 1.05em;
 				}
-					.slick-slide .hero-text .box .button-box .tour:active,
-					.slick-slide .hero-text .box .button-box .tour:hover {
-						color: #A5A5A5;	
+				.slick-slide .hero-text .box .button-box {
+					display: flex;
+					align-items: baseline;
+				}
+					.slick-slide .hero-text .box .button-box .tour {
+						margin-left: 15px;
+						color: #414042;
 					}
-		.slick-slide .hero-text .journal-box {
-			position: absolute;
-			color: #fff;
-			right: 0;
-			width: 330px;
-			transform: translateY(40%);
-		}
+						.slick-slide .hero-text .box .button-box .tour:active,
+						.slick-slide .hero-text .box .button-box .tour:hover {
+							color: #A5A5A5;	
+						}
+			.slick-slide .hero-text .journal-box {
+				position: absolute;
+				color: #fff;
+				right: 0;
+				width: 330px;
+				transform: translateY(40%);
+			}
 @media only screen and (max-width: 980px){ .wrapper.top-style { text-align:left;}}
 
 /* Sticky Header */
@@ -242,7 +242,7 @@ strong, b {
 /*Navigation Bar*/
 #nav {
 	position: static;
-	/*z-index: 666;*/
+	z-index: 99;
 	height: 80px;
 	width: 100%;
 	min-width: 840px;
