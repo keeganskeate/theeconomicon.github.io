@@ -1,6 +1,7 @@
+/* --------------------------------------------
 /* Main Style Sheet for The Economicon website
-----------------------------------------------
-Blacks and Whites
+/* --------------------------------------------
+/* Colors:
 	Off-Black: #131516
 	Lightest Grey: #eee
 	Light Grey: #ccc
@@ -11,7 +12,6 @@ Blacks and Whites
 	White: #F7F5E6
 	Off White: #E8E8E8
 	Darkest White: #D6D6D6
-Theme Colors
 	Dark Purple: #2D004F
 	Lime Green: #B2E522
 	Dark Green: #006A3F
@@ -1020,3 +1020,13 @@ html, body {
 
 @media only screen and (max-width: 980px){#blog-post{margin-top:0;}}
 @media only screen and (max-width: 980px){#blog-post .blog-text{width: 90%;}}
+
+/* News Page */
+
+/* Latest News */
+
+/* Top Story */
+
+/* More Top Stories */
+
+/* Categories */
