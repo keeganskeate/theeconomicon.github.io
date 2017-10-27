@@ -103,7 +103,7 @@ html, body {
 		font-weight: 600;
 	}
 
-/* Content Containers */
+/* Containers */
 .container {
 	min-width: 840px;
   	width: 70%;
@@ -131,6 +131,7 @@ html, body {
 	.wrapper.end-style {
 		padding: 0;
 	}
+
 /* Slick Carousel */
 #carousel-container {
 	display: none;
@@ -168,8 +169,6 @@ html, body {
 			display: inline-block;
 			top: 0px;
 			height: 543px;
-			/*transform: translateX(-50%);*/
-			/*background-attachment: fixed;*/
 		}
 		.slick-slide .hero-text {
 			display: block;
@@ -183,7 +182,7 @@ html, body {
 		}*/
 			.slick-slide .hero-text .box {
 				position: absolute;
-				transform: translateX(45%) translateY(33%);
+				transform: translateY(50%);
 				margin: auto;
 			}
 				.slick-slide .hero-text .box p {
@@ -210,6 +209,7 @@ html, body {
 				width: 330px;
 				transform: translateY(40%);
 			}
+
 @media only screen and (max-width: 980px){ .wrapper.top-style { text-align:left;}}
 
 /* Sticky Header */
