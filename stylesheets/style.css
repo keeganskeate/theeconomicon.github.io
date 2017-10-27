@@ -182,7 +182,7 @@ html, body {
 		}*/
 			.slick-slide .hero-text .box {
 				position: absolute;
-				transform: translateY(50%);
+				transform: translateX(10%) translateY(40%);
 				margin: auto;
 			}
 				.slick-slide .hero-text .box p {
@@ -921,7 +921,7 @@ html, body {
 				padding: 0.6em 1.6em
 			}
 				#blog-archive .category {
-					margin-bottom: 0.3em;
+					margin-bottom: 0.2em;
 				}
 					#blog-archive .category a {
 						color: #b2afaf;
