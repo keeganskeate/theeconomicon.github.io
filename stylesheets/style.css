@@ -901,9 +901,10 @@ html, body {
 	}
 		#blog-archive .articles .article {
 			width: 47.5%;
-			border: 1px solid #e6e6e6;
-			border-radius: 6px;
 			margin: 1.3em 1.25%;
+			-moz-box-shadow:  0 1px 3px 0 rgba(0,0,0,0.1);
+			-webkit-box-shadow:  0 1px 3px 0 rgba(0,0,0,0.1);
+			box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
 		}
 			#blog-archive .articles .article p {
 				/*padding: 0.6em 1.6em;*/
@@ -912,7 +913,6 @@ html, body {
 			#blog-archive .article-image {
 				width: 100%;
 				height: 250px;
-				border-radius: 6px 6px 0 0;
 				background-size: cover;
 				background-repeat: no-repeat;
 				background-position: 50% 50%;
