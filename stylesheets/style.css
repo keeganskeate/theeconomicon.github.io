@@ -940,6 +940,7 @@ html, body {
 				}
 				#blog-archive .published{
 					font-size: 80%;
+					color: #b2afaf;
 				}
 				#blog-archive .summary > span,
 				#blog-archive .read-more {
