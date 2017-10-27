@@ -6,6 +6,7 @@ Blacks and Whites
 	Light Grey: #ccc
 	Medium Grey: #E0E1E1
 	Dark Grey: #999
+	Decorative Grey: #e6e6e6
 	Light White: #F2F3F4
 	White: #F7F5E6
 	Off White: #E8E8E8
@@ -30,8 +31,8 @@ Theme Colors
 @import url("https://fonts.googleapis.com/css?family=Sanchez:200,300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Cinzel:200,300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Lusitana:200,300,400,600,700,800");
-@import url("https://fonts.googleapis.com/css?family=Droid+Serif:200,300,400,600,700,800");
-@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro:200,300,400,600,700,800");
+/*@import url("https://fonts.googleapis.com/css?family=Droid+Serif:200,300,400,600,700,800");*/
+/*@import url("https://fonts.googleapis.com/css?family=Source+Serif+Pro:200,300,400,600,700,800");*/
 /*@import url("https://fonts.googleapis.com/css?family=EB+Garamond:300,400,600,700,800");*/
 /*@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,600,700,800");*/
 
@@ -920,7 +921,7 @@ html, body {
 				padding: 0.6em 1.6em
 			}
 				#blog-archive .category {
-					margin-bottom: 0.6em;
+					margin-bottom: 0.3em;
 				}
 					#blog-archive .category a {
 						color: #b2afaf;
@@ -935,7 +936,7 @@ html, body {
 					font-family: 'Lusitana', serif;
 					font-size: 110%;
 					line-height: 150%;
-					margin: 0.55em auto;
+					margin: 0.3em auto;
 				}
 				#blog-archive .published{
 					font-size: 80%;
@@ -965,6 +966,7 @@ html, body {
 #blog-post {
 	position: relative;
 	margin: 2em auto;
+	border-top: 1px solid #e6e6e6;
 }
 	/*#blog-post .container {
 		position: relative;
@@ -1008,6 +1010,12 @@ html, body {
 		#blog-post .blog-text a:hover {
 			text-decoration: underline;
 		}
+
+/* Share Buttons */
+#share-buttons {
+	position: relative;
+	margin: 2em auto;
+}
 
 @media only screen and (max-width: 980px){#blog-post{margin-top:0;}}
 @media only screen and (max-width: 980px){#blog-post .blog-text{width: 90%;}}
