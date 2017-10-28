@@ -433,8 +433,6 @@ html, body {
 					font-weight: bold;
 				}
 		.banner .content-bin h1 {
-			height: 85px;
-			width: inherit;
 			text-align: center;
 			text-transform: uppercase;
 			font-size: 1.6em;
@@ -447,10 +445,8 @@ html, body {
 		.banner .content-bin p {
 			display: block;
 			text-align: left;
-			color: inherit;
 			line-height: 125%;
-			font-size: 16px;
-			font-weight: 400;
+			font-family: 'Lusitana', serif;
 		}
 			.banner .content-bin a:active,
 			.banner .content-bin a:hover{
@@ -738,7 +734,7 @@ html, body {
 }
 
 /* Attribute Row */
-#row .container {
+#row .column {
 	position: relative;
 	width: 100%;
 	height: 500px;
@@ -759,17 +755,7 @@ html, body {
 	padding: 3em 1.5em 1.0em 1.5em;
 	border-bottom: 2px solid #e7e7e7;
 	border-radius: 4px;
-	/*box-shadow: inset 0 0 0 99999px rgba(255,255,255,0.2);
-	-moz-transition: 0.33s ease;
-	-webkit-transition: 0.33s ease;
-	-o-transition: 0.33s ease;
-	-ms-transition: 0.33s ease;
-	transition: 0.33s ease;*/
 }
-	/*#row .attribute:active .title,
-	#row .attribute:hover .title {
-		box-shadow: none;
-	}*/
 	#row .title h1 {
 		font-family: 'Sanchez', serif;
 		font-size: 1.05em;
@@ -803,16 +789,39 @@ html, body {
 #row .feature-text {
 	width: 60%;
 }
-	#row .feature-text h3 a{
-		color: #000;
-		font-size: 1.15em;
-	}
 	#row .feature-text p {
 		margin-top: .25em;
 		font-size: 0.95em;
 		line-height: 1.6;
 		color: #5d5e5e;
 	}
+	#row .feature-text h3 a {
+		color: #000;
+		font-size: 1.15em;
+		display: inline-block;
+	}
+		#row .feature-text h3 a:after {
+			content: '';
+			display: block;
+			height: 3px;
+			width: 0;
+			background: transparent;
+			transition: width .5s ease, background .5s ease;
+			-webkit-transition: width .5s ease, background .5s ease;
+			-moz-transition: width .5s ease, background.5s ease;
+		}
+			#row .feature-text h3 .underline-1:hover:after {
+				width: 100%;
+				background: #8176b5;
+			}
+			#row .feature-text h3 .underline-2:hover:after {
+				width: 100%;
+				background: #76c4e2;
+			}
+			#row .feature-text h3 .underline-3:hover:after {
+				width: 100%;
+				background: #f69259;
+			}
 #row .feature-icon {
 	margin-right: 1.6em;
 	box-shadow: inset 0 0 0 99999px rgba(255,255,255,0.2);
