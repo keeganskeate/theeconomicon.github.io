@@ -1017,6 +1017,7 @@ html, body {
 #news {
 	position: relative;
 	margin: 1em auto;
+	text-align: center;
 }
 	#news .section-title {
 		text-align: bottom;
@@ -1038,6 +1039,7 @@ html, body {
 }
 /* Top Story */
 #top-story {
+	float: right;
 	height: 200px;
 	width: 40%;
 	background: #eee;
@@ -1056,4 +1058,4 @@ html, body {
 	background: #ddd;
 }
 @media only screen and (max-width: 980px){#latest-news{float:none;margin 0.5em auto;}}
-@media only screen and (max-width: 980px){#top-story{margin 0.5em auto;}}
+@media only screen and (max-width: 980px){#top-story{float:none;margin 0.5em auto;}}
