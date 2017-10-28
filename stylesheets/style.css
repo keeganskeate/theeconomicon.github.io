@@ -806,9 +806,9 @@ html, body {
 			height: 3px;
 			width: 0;
 			background: transparent;
-			transition: width .5s ease, background .5s ease;
-			-webkit-transition: width .5s ease, background .5s ease;
-			-moz-transition: width .5s ease, background.5s ease;
+			transition: width .4s ease, background .4s ease;
+			-webkit-transition: width .4s ease, background .4s ease;
+			-moz-transition: width .4s ease, background .4s ease;
 		}
 			#row .feature-text h3 .underline-1:hover:after {
 				width: 100%;
