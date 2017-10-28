@@ -1047,7 +1047,6 @@ html, body {
 
 /* More Top Stories */
 #more-top-stories {
-	position: relative;
 	margin: 1em auto;
 	width: 100%;
 	height: 200px;
@@ -1056,7 +1055,6 @@ html, body {
 
 /* Categories */
 #categories {
-	position: relative;
 	margin: 1em auto;
 	height: 200px;
 	background: #ddd;
