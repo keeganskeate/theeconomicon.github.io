@@ -1019,20 +1019,23 @@ html, body {
 	margin: 1em auto;
 }
 	#news .section-title {
+		text-align: bottom;
+		margin-bottom: 0.6em;
 		border-bottom: 2px solid #2D004F;
 	}
 		#news .section-title span {
+			padding: 6px 12px;
 			color: #fff;
 			background-color: #2D004F;
 		}
 /* Latest News */
 #latest-news {
+	float: left;
 	height: 200px;
 	width: 55%;
 	margin-right: 5%;
 	background: #e6e6e6;
 }
-
 /* Top Story */
 #top-story {
 	height: 200px;
@@ -1052,3 +1055,5 @@ html, body {
 	height: 200px;
 	background: #ddd;
 }
+@media only screen and (max-width: 980px){#latest-news{float:none;margin 0.5em auto;}}
+@media only screen and (max-width: 980px){#top-story{margin 0.5em auto;}}
