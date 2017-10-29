@@ -1052,17 +1052,17 @@ html, body {
 /* Latest News */
 	#news .latest-news {
 		float: left;
-		height: 200px;
+		height: 300px;
 		width: 55%;
-		margin-right: 5%;
+		margin-right: 1.5%;
 		background: #e6e6e6;
 	}
 
 /* Top Story */
 	#news .top-story {
 		float: right;
-		height: 200px;
-		width: 40%;
+		height: 300px;
+		width: 43.5%;
 		background: #eee;
 	}
 
