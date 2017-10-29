@@ -1029,7 +1029,6 @@ html, body {
 #news {
 	position: relative;
 	margin: 1em auto;
-	text-align: center;
 }
 	#news .column {
 		display: flex;
@@ -1048,6 +1047,7 @@ html, body {
 		}
 	#news .top-news {
 		width: 100%;
+		text-align: center;
 	}
 /* Latest News */
 	#news .latest-news {
