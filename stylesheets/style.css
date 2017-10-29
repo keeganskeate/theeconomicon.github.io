@@ -236,6 +236,9 @@ html, body {
     		top: 0;
 		background: #fff;
 		border-bottom: 1px solid #ccc;
+		box-shadow: 1px 1px 8px rgba(102,102,102,0.3);
+		-moz-box-shadow: 1px 1px 8px rgba(102,102,102,0.3);
+		-webkit-box-shadow: 1px 1px 8px rgba(102,102,102,0.3);
 		-moz-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
 		-webkit-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
 		-o-transition: 0.33s top cubic-bezier(.3, .73, .3, .74);
