@@ -1028,6 +1028,11 @@ html, body {
 	margin: 1em auto;
 	text-align: center;
 }
+	#news .column {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
 	#news .section-title {
 		text-align: left;
 		margin-bottom: 0.6em;
