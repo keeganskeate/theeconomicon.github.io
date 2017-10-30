@@ -31,7 +31,6 @@
 /* Top Story */
 	#news .top-story {
 		float: right;
-		height: 300px;
 		width: 43.5%;
 		background: #eee;
 	}
