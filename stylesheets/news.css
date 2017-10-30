@@ -32,7 +32,6 @@
 	#news .top-story {
 		float: right;
 		width: 43.5%;
-		background: #eee;
 	}
 
 /* More Top Stories */
@@ -62,8 +61,8 @@
 		height: 200px;
 		background: #ddd;
 	}
-@media only screen and (max-width: 980px){#news .latest-news{float:none;margin 0.5em auto;}}
-@media only screen and (max-width: 980px){#news .top-story{float:none;margin 0.5em auto;}}
+@media only screen and (max-width: 980px){#news .latest-news{float:none;display:block;margin 0.5em auto;}}
+@media only screen and (max-width: 980px){#news .top-story{float:none;display:block;margin 0.5em auto;}}
 
 /* Latest News Carousel */
 #news-carousel {
