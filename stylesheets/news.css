@@ -62,9 +62,9 @@
 		#news .news-story-info p {
 			font-family: 'Lusitana', serif;
 			color: #414042;
-			font-size: 1.2em;
-			line-height: 175%;
-			padding: 1.0em 0;
+			font-size: 110%;
+			line-height: 150%;
+			margin: 0.3em auto;
 		}
 		#news .news-story-info h3 {
 			margin: 0;
