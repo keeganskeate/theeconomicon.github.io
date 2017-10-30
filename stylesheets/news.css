@@ -24,7 +24,6 @@
 /* Latest News */
 	#news .latest-news {
 		float: left;
-		height: 300px;
 		width: 55%;
 		margin-right: 1.5%;
 	}
