@@ -72,10 +72,12 @@
 	display: none;
 }
 	#news-carousel .single-item {
-	    height: 300px;
+		width: 100%;
+		height: 300px;
 	}
 	#news-carousel .slick-slide {
 		position: relative;
+		width: 100%;
 		height: 300px;
 	}
 	#news-carousel .slide-background-link {
