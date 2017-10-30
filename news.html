@@ -12,10 +12,13 @@
 <!-- Keywords -->
 	<meta name="keywords" content="" />
 <!-- Style Sheets -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
 	<link rel="stylesheet" href="stylesheets/style.css">
+	<link rel="stylesheet" href="stylesheets/news.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Javascript -->
-	<script src="javascripts/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
 	<script src="javascripts/jquery.dropotron.min.js"></script>
 	<script src="javascripts/skel.min.js"></script>
 	<script src="javascripts/skel-layers.min.js"></script>
@@ -82,15 +85,44 @@
 		<section class="column">
 			<div class="top-news">
 <!-- Latest News -->
-			<div class="latest-news">
-				<h1 class="section-title"><span>Latest News</span></h1>
+				<div class="latest-news">
+					<h1 class="section-title"><span>Latest News</span></h1>
+					<div id="news-carousel">
+		<div class='single-item'>
+<!-- Slide 1 -->
+			<div style="background: url('http://www.theeconomicon.com/images/wet_leaf.jpg') no-repeat top center; background-size:cover;">
+				<div class="slide-content">
+          <span class="slide-link"><a href="#">Latest News</a></span>
+					<h3><a href="#" title="Bold Title">Bold Title</a></h3>
+          <div class="slide-info">
+            <span><a href="#" title="October 30, 2017 6:07pm"><i class="fa fa-calendar-o" aria-hidden="true"></i>&nbsp; October 30, 2017</a></span>
+            <span><a href="#" title="Robert Sagar"><i class="fa fa-user" aria-hidden="true"></i>&nbsp; Editor</a></span>
+            <span><a href="#"><i class="fa fa-comment" aria-hidden="true"></i>&nbsp; 0 Comments</a></span>
+          </div>
+				</div>
 			</div>
+<!-- Slide 2 -->
+			<div class="data-lazy" style="background: url('http://www.theeconomicon.com/images/math_background.jpg') no-repeat top center; background-size:cover;">
+				<div class="slide-content">
+					Text 2
+				</div>
+			</div>
+<!-- Slide 3 -->
+			<div class="data-lazy" style="background: url('http://www.theeconomicon.com/images/finance_hero.jpg') no-repeat top center; background-size:cover;">
+				<div class="slide-content">
+					Text 3
+				</div>
+			</div>
+<!-- End -->
+		</div>
+		</div>
+				</div>
 	
 
 <!-- Top Story -->
-			<div class="top-story">
-				<h1 class="section-title"><span>Top Story</span></h1>
-			</div>
+				<div class="top-story">
+					<h1 class="section-title"><span>Top Story</span></h1>
+				</div>
 
 			</div>
 <!-- More Top Stories -->
@@ -193,5 +225,20 @@
 	</div>
 <!-- Back to top Button -->
 	<a href="#" class="back-to-top"><img src="images/up-caret.png" style="width:15px; height:15px;"></a>
+<!-- JavaScript -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+	<script>
+		// Properties for Slick Carousel
+		$(".single-item").slick({
+			autoplay: true,
+  			autoplaySpeed: 6000,
+      			lazyLoad: 'ondemand',
+      			arrows: true,
+      			prevArrow: '<div class="previous-arrow"><i class="fa fa-angle-left"></i></div>',
+			nextArrow: '<div class="next-arrow"><i class="fa fa-angle-right"></i></div>'
+		});
+		// Display Carousel
+		$("div#news-carousel").show();
+	</script>
 </body>
 </html>
