@@ -4,7 +4,6 @@
 	margin: 1em auto;
 }
 	#news .column {
-		width: 100%;
 		display: flex;
 		align-items: center;
 		flex-direction: column;
