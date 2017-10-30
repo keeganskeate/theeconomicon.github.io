@@ -69,7 +69,7 @@
 
 /* Latest News Carousel */
 #news-carousel {
-  display: none;
+	display: none;
 }
 	#news-carousel .single-item {
 	    height: 300px;
@@ -77,6 +77,12 @@
 	#news-carousel .slick-slide {
 		position: relative;
 		height: 300px;
+	}
+	#news-carousel .slide-background-link {
+		display: block;
+		width: 100%;
+		height: 100%;
+		background: transparent;
 	}
 	#news-carousel .slide-content {
 		position: absolute;
