@@ -104,8 +104,17 @@
 		width: 100%;
 		background: #ddd;
 	}
-@media only screen and (max-width: 980px){#news .latest-news{float:none;display:block;margin: 0.5em auto;}}
-@media only screen and (max-width: 980px){#news .top-story{float:none;display:block;margin: 0.5em auto;}}
+	#news .categories-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	#news .category {
+		
+	}
+
+@media only screen and (max-width: 980px){#news .latest-news{float:none;display:block;margin: 0 auto 0.5em auto;}}
+@media only screen and (max-width: 980px){#news .top-story{float:none;display:block;margin: 0.5em auto;width: 55%;}}
 
 /* News Carousel */
 #news-carousel {
