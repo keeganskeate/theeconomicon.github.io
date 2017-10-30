@@ -120,11 +120,13 @@
 		border-bottom-color: #d5d5d5;
 	}
 		#news .category h2 {
-			margin: auto 0.5em;
 			height: 40px;
+			margin: auto 0.5em;
+			vertical-align: middle;
 		}
 			#news .category h2 a {
 				color: #414042;
+				font-weight: 600;
 			}
 				#news .category h2 a:active,
 				#news .category h2 a:hover {
@@ -134,6 +136,7 @@
 			height: 65px;
 			margin: auto 0.5em;
 			padding-bottom: 1em;
+			vertical-align: middle;
 			border-bottom: 1px solid #e6e6e6;
 		}
 			#news .category h3:nth-child(4n) {
@@ -141,6 +144,7 @@
 			}
 			#news .category h3 a {
 				color: #414042;
+				font-weight: 600;
 			}
 				#news .category h3 a:active,
 				#news .category h3 a:hover {
