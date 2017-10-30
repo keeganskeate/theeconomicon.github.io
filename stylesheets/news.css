@@ -40,6 +40,9 @@
 		width: 100%;
 		margin: 0.5em auto;
 	}
+		#news .more-top-stories .column {
+			width: 100%;
+		}
 	#news .news-story {
 		width: 80%;
 		margin-top: 1em;
