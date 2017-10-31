@@ -163,7 +163,7 @@
 					color: #414042;
 					font-size: 80%;
 					font-weight: 600;
-					line-height: 1.1;
+					line-height: 1.0;
 				}
 					#news .category-stories h3 a:active,
 					#news .category-stories h3 a:hover {
@@ -322,3 +322,5 @@
 		#news-story .news-text a:hover {
 			text-decoration: underline;
 		}
+@media only screen and (max-width: 980px){#news-story{margin-top:0;}}
+@media only screen and (max-width: 980px){#news-story.news-text{width:90%;}}
