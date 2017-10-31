@@ -127,6 +127,7 @@
 				margin: auto;
 				color: #414042;
 				font-weight: 600;
+				vertical-align: middle;
 			}
 				#news .category h2 a:active,
 				#news .category h2 a:hover {
@@ -144,6 +145,7 @@
 				margin: auto;
 				color: #414042;
 				font-weight: 600;
+				vertical-align: middle;
 			}
 				#news .category h3 a:active,
 				#news .category h3 a:hover {
