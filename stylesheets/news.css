@@ -132,12 +132,12 @@
 			display: inline-block;
 			vertical-align: middle;
 		}
-			#news .category h2 {
+			/*#news .category h2 {
 				height: 40px;
 				margin: auto 0.5em;
 				display: inline-block;
 				vertical-align: middle;
-			}
+			}*/
 				#news .category-title h2 a {
 					color: #414042;
 					font-weight: 600;
