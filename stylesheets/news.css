@@ -112,7 +112,7 @@
 	}
 	#news .category {
 		width: 23.5%;
-		height: 450px;
+		height: 550px;
 		display: flex;
 		flex-direction: column;
 		border-radius: 4px;
@@ -132,7 +132,7 @@
 			display: inline-block;
 			vertical-align: middle;
 		}
-			#news .category h2 {
+			#news .category-title h2 {
 				line-height: 20px;
 			}
 				#news .category-title h2 a {
@@ -146,7 +146,7 @@
 					}
 		#news .category-stories {
 			margin: auto 0.5em;
-			height: 260px;
+			height: 360px;
 			display: flex;
 			flex-direction: column;
 		}
