@@ -124,7 +124,7 @@
 			margin: auto 0.5em;
 		}
 			#news .category h2 a {
-				height: 40px;
+				margin: auto;
 				color: #414042;
 				font-weight: 600;
 			}
@@ -141,7 +141,7 @@
 				border-bottom: none;
 			}
 			#news .category h3 a {
-				height: 65px;
+				margin: auto;
 				color: #414042;
 				font-weight: 600;
 			}
