@@ -161,14 +161,9 @@
 				}
 				#news .category-stories h3 a {
 					color: #414042;
-					font-size: 90%;
+					font-size: 80%;
 					font-weight: 600;
-					line-height: 80%;
-					position: relative;
-					top: 50%;
-					transform: translateY(-50%);
-					-webkit-transform: translateY(-50%);
-					-ms-transform: translateY(-50%);
+					line-height: 40%;
 				}
 					#news .category-stories h3 a:active,
 					#news .category-stories h3 a:hover {
