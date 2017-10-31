@@ -129,10 +129,11 @@
 		#news .category-title {
 			height: 40px;
 			margin: auto 0.5em;
+			vertical-align: middle;
 		}
-			#news .category-title h2 {
+			/*#news .category-title h2 {
 				margin: auto;
-			}
+			}*/
 				#news .category-title h2 a {
 					color: #414042;
 					font-weight: 600;
