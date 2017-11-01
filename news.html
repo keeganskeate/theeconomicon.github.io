@@ -362,9 +362,11 @@
 		});
 		// Display Carousel
 		$("div#news-carousel").show();
+	</script>
+	<script>
 		// Lazy load images
 		[].forEach.call(document.querySelectorAll('.category-image[lazy-style]'), function(.category-image) {
-			.category-image.setAttribute('style', .category-image.getAttribute('lazy-style'));
+			.category-image.setAttribute('style', category-image.getAttribute('lazy-style'));
 			.category-image.onload = function() {.category-image.removeAttribute('lazy-style');};
 		});
 	</script>
