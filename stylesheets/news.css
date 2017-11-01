@@ -142,7 +142,8 @@
 				}
 		#news .category h3 {
 			height: 90px;
-			/*padding: 10px 0;*/
+			padding: 10px 0;
+			line-height: 12px;
 			margin: auto 0.5em;
 			border-bottom: 1px solid #e6e6e6;
 		}
@@ -151,9 +152,8 @@
 			}
 			#news .category h3 a {
 				color: #414042;
-				font-size: 70%;
+				font-size: 8px;
 				font-weight: 600;
-				line-height: 10%;
 			}
 				#news .category h3 a:active,
 				#news .category h3 a:hover {
