@@ -147,7 +147,7 @@
 			margin: auto 0.5em;
 			border-bottom: 1px solid #e6e6e6;
 		}
-			#news .category h3:nth-child(4n) {
+			#news .category h3:nth-child(6n) {
 				border-bottom: none;
 			}
 			#news .category h3 a {
