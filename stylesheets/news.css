@@ -160,9 +160,10 @@
 				#news .category h3 a:hover {
 					color: #14a76c;
 				}
-@media only screen and (max-width: 980px){#news .latest-news{float:none;display:block;margin: 0 auto 0.5em auto;width:70%;}}
-@media only screen and (max-width: 980px){#news .top-story{float:none;display:block;margin: 0.5em auto;width:70%;}}
-@media only screen and (max-width: 980px){#news .category{width: 49.25%;}}
+@media only screen and (max-width: 980px){#news.latest-news{float:none;display:block;margin: 0 auto 0.5em auto;width:70%;}}
+@media only screen and (max-width: 980px){#news.top-story{float:none;display:block;margin: 1.5em auto;width:70%;}}
+@media only screen and (max-width: 980px){#news.category{width: 49.25%;}}
+@media only screen and (max-width: 980px){#news{margin-top:0;}}
 
 /* News Carousel */
 #news-carousel {
