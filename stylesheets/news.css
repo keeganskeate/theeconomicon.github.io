@@ -276,7 +276,8 @@
 	border-top: 1px solid #e6e6e6;
 }
 	#news-story .news-image {
-		position: relative; 
+		display: inline-block;
+		position: relative;
 		width: 100%;
 	}
 		#news-story .news-image h4 {
