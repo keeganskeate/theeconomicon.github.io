@@ -281,19 +281,28 @@
 	}
 		#news-story .news-image img {
 			width: 100%;
+			margin-bottom: 7px;
+		}
+		#news-story .news-image span {
+			max-width: 60%;
+			color: #666;
+			font-size: 0.8em;
 		}
 		#news-story .news-image h4 {
 			position: absolute;
 			right:0 ;
 			bottom: 0;
+			padding: 5px;
+			background: rgb(0, 0, 0); /* IE */
+			background: rgba(0, 0, 0, 0.7);
 		}
 			#news-story .news-image h4 a {
 				color: #fff;
-				line-spacing: -1px;
-				padding: 5px;
-				background: rgb(0, 0, 0); /* IE */
-				background: rgba(0, 0, 0, 0.7);
 			}
+				#news-story .news-image h4 a:active,
+				#news-story .news-image h4 a:hover {
+					text-decoration: underline;
+				}
 
 	#news-story .news-text {
 		width: 70%;
