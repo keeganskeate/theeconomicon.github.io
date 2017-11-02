@@ -276,8 +276,8 @@
 	border-top: 1px solid #e6e6e6;
 }
 	#news-story .news-image {
-		display: inline-block;
 		position: relative;
+		float: left;
 		width: 100%;
 	}
 		#news-story .news-image h4 {
@@ -289,7 +289,7 @@
 		}
 			#news-story .news-image h4 a {
 				color: #fff;
-				padding: 5px;
+				padding: 0 5px;
 				font-size: 0.6em;
 			}
 				#news-story .news-image h4 a:active,
@@ -298,9 +298,11 @@
 				}
 	#news-story .image-caption {
 		max-width: 60%;
-		color: #666;
-		font-size: 0.8em;
 	}
+		#news-story .image-caption p {
+			color: #666;
+			font-size: 0.8em;
+		}
 	#news-story .news-text {
 		width: 70%;
 		margin: 0 auto;
