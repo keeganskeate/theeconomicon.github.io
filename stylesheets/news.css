@@ -298,6 +298,7 @@
 			#news-story .news-image h4 a {
 				color: #fff;
 				padding: 5px;
+				font-size: 0.8em;
 			}
 				#news-story .news-image h4 a:active,
 				#news-story .news-image h4 a:hover {
