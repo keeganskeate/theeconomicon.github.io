@@ -277,20 +277,19 @@
 }
 	#news-story .news-image {
 		position: relative;
-		overflow:hidden;
 		width: 100%;
 	}
 		#news-story .news-image h4 {
 			position: absolute;
 			right: 0;
-			bottom: 0;
+			bottom: 8px;
 			background: rgb(0, 0, 0); /* IE */
 			background: rgba(0, 0, 0, 0.7);
 		}
 			#news-story .news-image h4 a {
 				color: #fff;
 				padding: 0 5px;
-				font-size: 0.6em;
+				font-size: 11px;
 			}
 				#news-story .news-image h4 a:active,
 				#news-story .news-image h4 a:hover {
