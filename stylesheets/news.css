@@ -299,7 +299,7 @@
 				#news-story .news-image h4 a:hover {
 					text-decoration: underline;
 				}
-	#news-story .image-caption p {
+	#news-story .image-caption span {
 		max-width: 60%;
 		color: #666;
 		font-size: 0.8em;
