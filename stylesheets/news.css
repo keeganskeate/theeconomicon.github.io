@@ -275,6 +275,26 @@
 	margin: 2em auto;
 	border-top: 1px solid #e6e6e6;
 }
+	#news-story .news-image {
+		position: relative; 
+		width: 100%;
+	}
+		#news-story .news-image img {
+			width: 100%;
+		}
+		#news-story .news-image h4 {
+			position: absolute;
+			right:0 ;
+			bottom: 0;
+		}
+			#news-story .news-image h4 a {
+				color: #fff;
+				line-spacing: -1px;
+				padding: 5px;
+				background: rgb(0, 0, 0); /* IE */
+				background: rgba(0, 0, 0, 0.7);
+			}
+
 	#news-story .news-text {
 		width: 70%;
 		margin: 0 auto;
