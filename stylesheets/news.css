@@ -292,12 +292,12 @@
 			position: absolute;
 			right:0 ;
 			bottom: 0;
-			padding: 5px;
 			background: rgb(0, 0, 0); /* IE */
 			background: rgba(0, 0, 0, 0.7);
 		}
 			#news-story .news-image h4 a {
 				color: #fff;
+				padding: 5px;
 			}
 				#news-story .news-image h4 a:active,
 				#news-story .news-image h4 a:hover {
