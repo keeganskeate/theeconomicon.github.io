@@ -279,10 +279,14 @@
 		position: relative;
 		width: 100%;
 	}
+		#news-story .news-image img {
+			width: 100%;
+		}
 		#news-story .news-image h4 {
 			position: absolute;
+			height: 25px;
 			right: 0;
-			bottom: 8px;
+			bottom: 10px;
 			background: rgb(0, 0, 0); /* IE */
 			background: rgba(0, 0, 0, 0.7);
 		}
