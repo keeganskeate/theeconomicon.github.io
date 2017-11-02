@@ -279,10 +279,6 @@
 		position: relative; 
 		width: 100%;
 	}
-		#news-story .news-image img {
-			width: 100%;
-			margin-bottom: 7px;
-		}
 		#news-story .news-image h4 {
 			position: absolute;
 			right:0 ;
@@ -293,13 +289,13 @@
 			#news-story .news-image h4 a {
 				color: #fff;
 				padding: 5px;
-				font-size: 0.8em;
+				font-size: 0.6em;
 			}
 				#news-story .news-image h4 a:active,
 				#news-story .news-image h4 a:hover {
 					text-decoration: underline;
 				}
-	#news-story .image-caption span {
+	#news-story .image-caption {
 		max-width: 60%;
 		color: #666;
 		font-size: 0.8em;
