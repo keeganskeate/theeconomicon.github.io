@@ -166,7 +166,7 @@
 
 /* News Carousel */
 #news-carousel {
-	display: none;
+	/*display: none;*/
 }
 	#news-carousel .single-item {
 		width: 100%;
