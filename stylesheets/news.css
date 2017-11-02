@@ -283,11 +283,6 @@
 			width: 100%;
 			margin-bottom: 7px;
 		}
-		#news-story .news-image span {
-			max-width: 60%;
-			color: #666;
-			font-size: 0.8em;
-		}
 		#news-story .news-image h4 {
 			position: absolute;
 			right:0 ;
@@ -304,7 +299,11 @@
 				#news-story .news-image h4 a:hover {
 					text-decoration: underline;
 				}
-
+	#news-story .image-caption p {
+		max-width: 60%;
+		color: #666;
+		font-size: 0.8em;
+	}
 	#news-story .news-text {
 		width: 70%;
 		margin: 0 auto;
