@@ -277,12 +277,12 @@
 }
 	#news-story .news-image {
 		position: relative;
+		overflow: hidden;
 		width: 100%;
 		height: 500px;
 	}
 		#news-story .news-image img {
 			width: 100%;
-			overflow: hidden;
 		}
 		#news-story .news-image h4 {
 			position: absolute;
