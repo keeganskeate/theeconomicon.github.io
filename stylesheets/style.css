@@ -853,19 +853,19 @@ html, body {
 	height: 400px;
 }
 .marquee-text {
-	display: flex;
 	height: 100%;
+	color: #414042;
+	display: flex;
+	text-align: center;
 	flex-direction: column;
 	justify-content: center;
-	text-align: center;
-	color: #414042;
 }
 	.marquee-text h1 {
-		padding-top: 1em;
 		color: #414042;
 		font-size: 3em;
-		line-height: 150%;
 		font-weight: 600;
+		line-height: 150%;
+		margin: 1em 3em 0 3em;
 	}
 	.marquee-text h2 {
 		font-size: 90%;
