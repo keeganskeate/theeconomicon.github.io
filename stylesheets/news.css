@@ -326,7 +326,7 @@
 			font-family: 'Lusitana', serif;
 			font-size: 1.2em;
 			line-height: 175%;
-			padding: 1.25em 0;
+			padding-top: 1.25em;
 		}
 			#news-story .news-text p:first-child:first-letter {
 				color: #2D004F;
@@ -346,6 +346,8 @@
 			}
 		#news-story .news-text .block-quote {
 			width: 80%;
+			margin-top: 1.25em;
+			padding: 0.5em 0.25em;
 			font-size: 1.5em;
 			background: #e6e6e6;
 			border-left: 8px solid #2D004F;
