@@ -293,17 +293,16 @@
 		}*/
 		#news-story .news-image h4 {
 			position: absolute;
-			height: 20px;
 			right: 0;
 			bottom: 0;
 			padding: 5px;
+			vertical-align: middle;
 			background: rgb(0, 0, 0); /* IE */
 			background: rgba(0, 0, 0, 0.7);
 		}
 			#news-story .news-image h4 a {
 				color: #fff;
 				font-size: 10px;
-				vertical-align: middle;
 			}
 				#news-story .news-image h4 a:active,
 				#news-story .news-image h4 a:hover {
