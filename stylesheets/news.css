@@ -287,7 +287,9 @@
 	}
 		#news-story .news-image img {
 			min-width: 100%;
-			min-height: 100%
+			min-height: 100%;
+			width: auto;
+			height: auto;
 		}
 		#news-story .news-image h4 {
 			position: absolute;
