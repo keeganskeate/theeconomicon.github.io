@@ -54,11 +54,6 @@
 		});
 	});
 	
-	// Lazy loading for images
-	$(function() {
-		$('.lazy').lazy();
-	});
-
 	// Disable animations/transitions until page has loaded.
 	$(function() {
 		var	$window = $(window),
@@ -75,6 +70,11 @@
 			offsetY: -15,
 			hoverDelay: 0
 		});
+	});
+	
+	// Lazy loading for images
+	$(function() {
+		$('.lazy').lazy();
 	});
 		
 })(jQuery);
