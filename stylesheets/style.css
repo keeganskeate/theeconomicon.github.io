@@ -865,7 +865,8 @@ html, body {
 		font-size: 3em;
 		font-weight: 600;
 		line-height: 150%;
-		margin: 1em 3em 0 3em;
+		margin: 0 2em;
+		padding-top: 2em;
 	}
 	.marquee-text h2 {
 		font-size: 90%;
