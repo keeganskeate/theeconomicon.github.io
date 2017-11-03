@@ -347,14 +347,6 @@
 			#news-story .news-text a:hover {
 				text-decoration: underline;
 			}
-		#news-story .news-text .block-quote {
-			width: 80%;
-			padding: 0.5em;
-			margin: 1.25em auto 0 auto;
-			font-size: 1.5em;
-			background: #e6e6e6;
-			border-left: 8px solid #2D004F;
-		}
 		#news-story .news-text .video {
 			width: 75%;
 			height: 300px;
@@ -362,6 +354,18 @@
 			line-height: 175%;
 			padding-top: 1.25em;
 		}
+		#news-story .news-text .block-quote {
+			width: 85%;
+			padding: 0.5em;
+			margin: 1.25em auto 0 auto;
+			font-size: 1.5em;
+			background: #e6e6e6;
+			border-left: 8px solid #2D004F;
+		}
+			#news-story .news-text .block-quote i {
+				color: #2D004F;
+			}
+		
 @media only screen and (max-width: 980px){#news-story{margin-top:0;}}
 @media only screen and (max-width: 980px){#news-story .news-text{width:90%;}}
 @media only screen and (max-width: 980px){#news-story .news-image{height: 400px;}}
