@@ -359,6 +359,8 @@
 			width: 75%;
 			height: 300px;
 			margin: 0 auto;
+			line-height: 175%;
+			padding-top: 1.25em;
 		}
 @media only screen and (max-width: 980px){#news-story{margin-top:0;}}
 @media only screen and (max-width: 980px){#news-story .news-text{width:90%;}}
