@@ -286,7 +286,6 @@
 		justify-content: center;
 	}
 		#news-story .news-image img {
-			flex-shrink: 0;
 			min-width: 100%;
 			min-height: 100%
 		}
@@ -297,11 +296,11 @@
 			bottom: 0;
 			vertical-align: middle;
 			background: rgb(0, 0, 0); /* IE */
-			background: rgba(0, 0, 0, 0.6);
+			background: rgba(0, 0, 0, 0.7);
 		}
 			#news-story .news-image h4 a {
 				color: #fff;
-				padding: 5px;
+				margin: 5px;
 				font-size: 10px;
 			}
 				#news-story .news-image h4 a:active,
