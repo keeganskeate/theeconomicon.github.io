@@ -870,6 +870,16 @@ html, body {
 	.marquee-text h2 {
 		font-size: 90%;
 	}
+	.marquee-text h6 {
+		font-size: 90%;
+	}
+		.marquee-text h6 a {
+			color: #14a76c;
+		}
+			.marquee-text h6 a:active,
+			.marquee-text h6 a:hover {
+				color: #006A3F;
+			}
 	.marquee-text a {
 		padding-top: 1em;
 	}
