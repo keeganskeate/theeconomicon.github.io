@@ -280,31 +280,30 @@
 		position: relative;
 		width: 100%;
 		height: 575px;
-		display: flex;
-		overflow: hidden;
-		align-items: center;
-		justify-content: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
 	}
-		#news-story .news-image img {
+		/*#news-story .news-image img {
 			position: absolute;
 			top: 0;
 			min-width: 100%;
 			min-height: 100%;
 			height: auto;
-		}
+		}*/
 		#news-story .news-image h4 {
 			position: absolute;
 			height: 20px;
 			right: 0;
 			bottom: 0;
 			padding: 5px;
-			line-height: 18px;
 			background: rgb(0, 0, 0); /* IE */
 			background: rgba(0, 0, 0, 0.7);
 		}
 			#news-story .news-image h4 a {
 				color: #fff;
 				font-size: 10px;
+				vertical-align: middle;
 			}
 				#news-story .news-image h4 a:active,
 				#news-story .news-image h4 a:hover {
