@@ -303,7 +303,7 @@
 					text-decoration: underline;
 				}
 	#news-story .image-caption {
-		max-width: 70%;
+		width: 70%;
 	}
 		#news-story .image-caption p {
 			color: #666;
@@ -358,3 +358,4 @@
 @media only screen and (max-width: 980px){#news-story{margin-top:0;}}
 @media only screen and (max-width: 980px){#news-story .news-text{width:90%;}}
 @media only screen and (max-width: 980px){#news-story .news-image{height: 350px;}}
+@media only screen and (max-width: 980px){#news-story .image-caption{width: 100%;}}
