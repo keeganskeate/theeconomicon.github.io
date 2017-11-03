@@ -298,13 +298,13 @@
 			height: 20px;
 			right: 0;
 			bottom: 0;
-			vertical-align: middle;
+			padding: 5px;
+			line-height: 18px;
 			background: rgb(0, 0, 0); /* IE */
 			background: rgba(0, 0, 0, 0.7);
 		}
 			#news-story .news-image h4 a {
 				color: #fff;
-				margin: 5px;
 				font-size: 10px;
 			}
 				#news-story .news-image h4 a:active,
