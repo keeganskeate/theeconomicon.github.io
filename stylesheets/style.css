@@ -873,3 +873,7 @@ html, body {
 	.marquee-text a {
 		padding-top: 1em;
 	}
+/* Balance Text */
+.balance-text {
+      text-wrap: balance;
+  }
