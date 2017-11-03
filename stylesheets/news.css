@@ -275,6 +275,7 @@
 	margin: 2em auto;
 	border-top: 1px solid #e6e6e6;
 }
+/* Image */
 	#news-story .news-image {
 		position: relative;
 		overflow: hidden;
@@ -291,7 +292,7 @@
 			bottom: 0;
 			vertical-align: middle;
 			background: rgb(0, 0, 0); /* IE */
-			background: rgba(0, 0, 0, 0.7);
+			background: rgba(0, 0, 0, 0.6);
 		}
 			#news-story .news-image h4 a {
 				color: #fff;
@@ -309,6 +310,7 @@
 			color: #666;
 			font-size: 0.8em;
 		}
+/* Text */
 	#news-story .news-text {
 		width: 70%;
 		margin: 0 auto;
