@@ -351,11 +351,12 @@
 			width: 75%;
 			height: 300px;
 			margin: 0 auto;
+			font-size: 1.2em;
 			line-height: 175%;
 			padding-top: 1.25em;
 		}
 		#news-story .news-text .block-quote {
-			width: 90%;
+			width: 85%;
 			padding: 0.5em;
 			margin: 1.25em auto 0 auto;
 			font-size: 1.5em;
