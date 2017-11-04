@@ -72,6 +72,11 @@
 		});
 	});
 	
+// Lazy loading for images
+$(function() {
+	$('.lazy').Lazy();
+});
+	
 })(jQuery);
 
 // Back-to-top Button
@@ -90,9 +95,4 @@ jQuery(document).ready(function() {
 		jQuery('html, body').animate({scrollTop: 0}, duration);
 		return false;
 	});
-});
-
-// Lazy loading for images
-$(function() {
-	$('.lazy').lazy();
 });
