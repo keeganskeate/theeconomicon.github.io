@@ -344,6 +344,9 @@
 			#news-story .news-text .bottom-padded {
 				padding-bottom: 1.25em;
 			}
+			#news-story .news-text .no-padding {
+				padding: 0;
+			}
 		#news-story .news-text a {
 			color: #14a76c;
 		}
