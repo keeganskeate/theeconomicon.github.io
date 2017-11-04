@@ -71,12 +71,7 @@
 			hoverDelay: 0
 		});
 	});
-	
-// Lazy loading for images
-$(function() {
-	$('.lazy').Lazy();
-});
-	
+		
 })(jQuery);
 
 // Back-to-top Button
