@@ -341,14 +341,14 @@
 			#news-story .news-text .lettrine:first-letter {
 				color: #2D004F;
 				float: left;
-				font-size: 375%;
-				line-height: 80%;
+				font-size: 350%;
+				line-height: 60%;
 				padding-top: 4px;
 				padding-right: 8px;
 				padding-left: 3px;
 			}
 		#news-story .news-text a {
-			color: #14a76c;
+			color: #2199E8;
 		}
 			#news-story .news-text a:active,
 			#news-story .news-text a:hover {
