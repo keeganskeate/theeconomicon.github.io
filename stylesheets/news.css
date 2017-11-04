@@ -332,7 +332,13 @@
 			line-height: 150%;
 			padding-top: 1.25em;
 		}
-			#news-story .news-text p:first-child:first-letter {
+			#news-story .news-text .bottom-padded {
+				padding-bottom: 1.25em;
+			}
+			#news-story .news-text .no-padding {
+				padding: 0;
+			}
+			#news-story .news-text .lettrine:first-letter {
 				color: #2D004F;
 				float: left;
 				font-size: 375%;
@@ -340,12 +346,6 @@
 				padding-top: 4px;
 				padding-right: 8px;
 				padding-left: 3px;
-			}
-			#news-story .news-text .bottom-padded {
-				padding-bottom: 1.25em;
-			}
-			#news-story .news-text .no-padding {
-				padding: 0;
 			}
 		#news-story .news-text a {
 			color: #14a76c;
