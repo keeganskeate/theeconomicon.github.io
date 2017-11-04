@@ -1,6 +1,6 @@
 // Lazy loading for images
 (function($) {
-  $(function() {
-    $('.lazy').Lazy();
-  });
+    $(function() {
+        $('.lazy').Lazy();
+    });
 })(jQuery);
