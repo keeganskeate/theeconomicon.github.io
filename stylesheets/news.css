@@ -350,7 +350,6 @@
 		#news-story .news-text a {
 			color: #2199E8;
 			line-height: 1.2em;
-			display: inline-block;
 		}
 			#news-story .news-text a:after {
 				content: '';
