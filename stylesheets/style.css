@@ -288,7 +288,7 @@ html, body {
 				vertical-align: bottom;
 				border-bottom: 2px solid transparent;
 			}
-				#nav > ul > li a:after {
+				/*#nav > ul > li a:after {
 					content: '';
 					display: block;
 					height: 2px;
@@ -302,12 +302,12 @@ html, body {
 					#nav > ul > li a:hover:after {
 						width: 100%;
 						background: #14a76c;
-					}
+					}*/
 
-				/*#nav > ul > li:active > a,
+				#nav > ul > li:active > a,
 				#nav > ul > li:hover > a {
 					border-bottom: 2px solid #14a76c;
-				}*/
+				}
 				#nav > ul > li:active > a > i,
 				#nav > ul > li:hover > a > i {
 					color: #14a76c;
@@ -892,7 +892,7 @@ html, body {
 	}
 		.marquee-text h6 a {
 			color: #2199E8;
-			line-height: 100%;
+			line-height: 110%;
 			display: inline-block;
 		}
 			.marquee-text h6 a:after {
