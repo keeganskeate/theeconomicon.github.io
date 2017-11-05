@@ -876,9 +876,21 @@ html, body {
 		font-size: 90%;
 	}
 		.marquee-text h6 a {
-			color: #14a76c;
+			color: #2199E8;
+			display: inline-block;
 		}
-			.marquee-text h6 a:active,
-			.marquee-text h6 a:hover {
-				color: #006A3F;
+			.marquee-text h6 a:after {
+				content: '';
+				display: block;
+				height: 3px;
+				width: 0;
+				margin: auto;
+				background: transparent;
+				transition: width .3s ease, background .3s ease;
+				-webkit-transition: width .3s ease, background .3s ease;
+				-moz-transition: width .3s ease, background .3s ease;
 			}
+				.marquee-text h6 a:hover:after {
+					width: 100%;
+					background: #2199E8;
+				}
