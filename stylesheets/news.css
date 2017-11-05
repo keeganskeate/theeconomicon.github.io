@@ -313,6 +313,7 @@
 	#news-story .news-text {
 		width: 70%;
 		margin: 0 auto;
+		white-space: pre-wrap;
 	}
 		#news-story .news-text h1 {
 			color: #2D004F;
@@ -350,6 +351,7 @@
 		#news-story .news-text a {
 			color: #2199E8;
 			line-height: 1.2em;
+			display: inline-block;
 		}
 			#news-story .news-text a:after {
 				content: '';
