@@ -893,7 +893,7 @@ html, body {
 	}
 		.marquee-text h6 a {
 			color: #2199E8;
-			line-height: 110%;
+			line-height: 125%;
 			display: inline-block;
 		}
 			.marquee-text h6 a:after {
