@@ -284,19 +284,34 @@ html, body {
 			#nav > ul > li a {
 				display: table-cell;
 				height: inherit;
-				vertical-align: bottom;
-				/*padding-bottom: 0px;*/
-				border-bottom: 2px solid transparent;
 				color: #414042;
+				vertical-align: bottom;
+				border-bottom: 2px solid transparent;
 			}
-				#nav > ul > li:active > a,
+				#nav > ul > li a:after {
+					content: '';
+					display: block;
+					height: 2px;
+					width: 0;
+					margin: auto;
+					background: transparent;
+					transition: width .4s ease, background .4s ease;
+					-webkit-transition: width .4s ease, background .4s ease;
+					-moz-transition: width .4s ease, background .4s ease;
+				}
+					#nav > ul > li a:hover:after {
+						width: 100%;
+						background: #14a76c;
+					}
+
+				/*#nav > ul > li:active > a,
 				#nav > ul > li:hover > a {
 					border-bottom: 2px solid #14a76c;
+				}*/
+				#nav > ul > li:active > a > i,
+				#nav > ul > li:hover > a > i {
+					color: #14a76c;
 				}
-					#nav > ul > li:active > a > i,
-					#nav > ul > li:hover > a > i {
-						color: #14a76c;
-					}
 			#nav > ul > li a.top-row {
 				font-size: 80%;
 			}
