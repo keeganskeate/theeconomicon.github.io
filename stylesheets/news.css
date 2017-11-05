@@ -355,8 +355,8 @@
 				color: #01516e;
 			}
 		#news-story .news-text .video {
-			width: 75%;
-			height: 300px;
+			width: 100%;
+			height: 420px;
 			margin: 0 auto;
 			font-size: 1.2em;
 			line-height: 175%;
