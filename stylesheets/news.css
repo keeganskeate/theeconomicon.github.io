@@ -288,14 +288,14 @@
 			position: absolute;
 			right: 0;
 			bottom: 0;
-			padding: 1px 5px;
+			padding: 2px 5px;
 			line-height: 10px;
 			background: rgb(0, 0, 0);
 			background: rgba(0, 0, 0, 0.5);
 		}
 			#news-story .news-image h4 a {
 				color: #fff;
-				font-size: 8px;
+				font-size: 9px;
 			}
 	#news-story .image-caption {
 		width: 70%;
