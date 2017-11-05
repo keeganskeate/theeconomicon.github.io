@@ -297,10 +297,6 @@
 				color: #fff;
 				font-size: 8px;
 			}
-				#news-story .news-image h4 a:active,
-				#news-story .news-image h4 a:hover {
-					text-decoration: underline;
-				}
 	#news-story .image-caption {
 		width: 70%;
 	}
