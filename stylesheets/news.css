@@ -344,7 +344,8 @@
 				padding-left: 3px;
 			}
 		#news-story .news-text a {
-			color: #2199E8;
+			/*color: #2199E8;*/
+			color: #76c4e2;
 		}
 			#news-story .news-text a:active,
 			#news-story .news-text a:hover {
