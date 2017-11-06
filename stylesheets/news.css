@@ -345,12 +345,12 @@
 			}
 		#news-story .news-text a {
 			color: #2199E8;
-			line-height: 0.9em;
+			text-decoration: underline;
 		}
-			#news-story .news-text a:active,
+			/*#news-story .news-text a:active,
 			#news-story .news-text a:hover {
 				border-bottom: 2px solid #2199E8;
-			}
+			}*/
 		#news-story .news-text .video {
 			width: 100%;
 			height: 420px;
