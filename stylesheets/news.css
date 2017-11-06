@@ -348,7 +348,7 @@
 		}
 			#news-story .news-text a:active,
 			#news-story .news-text a:hover {
-				border-bottom: #EE464F;
+				color: #EE464F;
 			}
 		#news-story .news-text .video {
 			width: 100%;
