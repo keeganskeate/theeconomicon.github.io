@@ -371,6 +371,9 @@
 		#news-story .news-text .update {
 			font-style: italic;
 		}
+		#news-story .news-text .icon-divider {
+			width: 100%;
+		}
 		
 @media only screen and (max-width: 980px){#news-story{margin-top:0;}}
 @media only screen and (max-width: 980px){#news-story .news-text{width:90%;}}
