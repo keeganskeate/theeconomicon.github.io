@@ -310,6 +310,9 @@
 		width: 70%;
 		margin: 0 auto;
 	}
+		#news-story .news-text i {
+			font-style: italic;
+		}
 		#news-story .news-text h1 {
 			color: #2D004F;
 			font-size: 1.5em;
@@ -369,9 +372,6 @@
 			#news-story .news-text blockquote i {
 				color: #2D004F;
 			}
-		#news-story .news-text .update {
-			font-style: italic;
-		}
 		#news-story .news-text .icon-divider {
 			width: 100%;
 		}
