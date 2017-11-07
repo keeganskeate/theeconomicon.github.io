@@ -324,6 +324,7 @@
 		}
 		#news-story .news-text p {
 			font-family: 'Lusitana', serif;
+			color: #111;
 			font-size: 18px;
 			line-height: 1.8em;
 			padding-top: 1.5em;
