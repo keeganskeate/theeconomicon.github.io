@@ -345,7 +345,7 @@
 			}
 		#news-story .news-text a {
 			/*color: #2199E8;*/
-			color: #76c4e2;
+			color: #326891;
 		}
 			#news-story .news-text a:active,
 			#news-story .news-text a:hover {
@@ -368,6 +368,9 @@
 			#news-story .news-text blockquote i {
 				color: #2D004F;
 			}
+		#news-story .news-text .update {
+			font-style: italic;
+		}
 		
 @media only screen and (max-width: 980px){#news-story{margin-top:0;}}
 @media only screen and (max-width: 980px){#news-story .news-text{width:90%;}}
