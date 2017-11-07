@@ -325,8 +325,8 @@
 		#news-story .news-text p {
 			font-family: 'Lusitana', serif;
 			/*color: #111;*/
-			font-size: 1.4em;
-			line-height: 1.8em;
+			font-size: 1.3em;
+			line-height: 1.6em;
 			padding-top: 1.5em;
 		}
 			#news-story .news-text .bottom-padded {
@@ -338,7 +338,7 @@
 			#news-story .news-text .lettrine:first-letter {
 				color: #2D004F;
 				float: left;
-				font-size: 375%;
+				font-size: 360%;
 				line-height: 90%;
 				padding-top: 4px;
 				padding-right: 8px;
