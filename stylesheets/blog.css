@@ -89,7 +89,8 @@
 
 			#blog-archive .article-info .read-more:active,
 			#blog-archive .article-info .read-more:hover {
-				color: #EE464F;
+				/*color: #EE464F;*/
+				text-decoration: underline;
 			}
 		#blog-archive .publishing-info span {
 			color: #414042;
