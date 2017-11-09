@@ -78,7 +78,7 @@
 			}
 				#news .news-story-info p > a:active,
 				#news .news-story-info p > a:hover {
-					color: #EE464F;
+					text-decoration: underline;
 				}
 		#news .news-story-info h3 {
 			margin: 0;
