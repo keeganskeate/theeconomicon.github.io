@@ -84,6 +84,7 @@
 		}
 		#blog-archive .article-info .read-more {
 			color: #477DCA;
+			font-size: 0.8em;
 		}
 
 			#blog-archive .article-info .read-more:active,
