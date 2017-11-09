@@ -144,6 +144,11 @@
 			#blog-post .blog-text .no-padding {
 				padding: 0;
 			}
+			#blog-post .blog-text .itemization {
+				width: 80%;
+				margin: 0 auto;
+				
+			}
 			#blog-post .blog-text .lettrine:first-letter {
 				color: #2D004F;
 				float: left;
