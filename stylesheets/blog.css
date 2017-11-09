@@ -85,6 +85,11 @@
 			color: #EE464F;
 			border-radius: 3px;
 			border: 1px solid #EE464F;
+			-webkit-transition: all .3s ease;
+			-moz-transition: all .3s ease;
+			-ms-transition: all .3s ease;
+			-o-transition: all .3s ease;
+			transition: all .3s ease;
 		}
 
 			#blog-archive .article-info .read-more:active,
