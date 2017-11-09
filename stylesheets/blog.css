@@ -147,7 +147,6 @@
 			#blog-post .blog-text .itemization {
 				width: 80%;
 				margin: 0 auto;
-				
 			}
 			#blog-post .blog-text .lettrine:first-letter {
 				color: #2D004F;
@@ -163,7 +162,7 @@
 	}
 		#blog-post .blog-text a:active,
 		#blog-post .blog-text a:hover {
-			color: #EE464F;
+			text-decoration: underline;
 		}
 	#blog-post .blog-text blockquote {
 		width: 100%;
