@@ -293,6 +293,7 @@
 	}
 		#news-story .news-image .zoom {
 			position: absolute;
+			display: none;
 			left: 15px;
 			bottom: 15px;
 			padding: 5px;
@@ -311,6 +312,10 @@
 				color: #fff;
 				font-size: 18px;
 			}
+				#news-story .news-image:active .zoom,
+				#news-story .news-image:hover .zoom {
+					display: block;
+				}
 		/*#news-story .news-image h4 {
 			position: absolute;
 			right: 0;
