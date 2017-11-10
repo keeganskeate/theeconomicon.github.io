@@ -296,7 +296,7 @@
 			width: 100%;
 			height: 575px;
 		}
-		#zoom {
+		#news-story .news-image .zoom {
 			position: absolute;
 			opacity: 0;
 			filter: alpha(opacity=0);
@@ -317,13 +317,13 @@
 			-o-transition: opacity 0.3s ease-in; 
 			transition: opacity 0.3s ease-in;
 		}
-			#zoom i {
+			#news-story .news-image .zoom i {
 				color: #fff;
 				font-size: 20px;
 				font-weight: 200;
 			}
-				#news-story .news-image:active > #zoom,
-				#news-story .news-image:hover > #zoom {
+				#news-story .news-image:active .zoom,
+				#news-story .news-image:hover .zoom {
 					opacity: 1.0;
 					filter: alpha(opacity=100);
 				}
