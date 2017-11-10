@@ -26,11 +26,13 @@
 	<script src="../javascripts/skel-layers.min.js"></script>
 	<script src="../javascripts/main.js"></script>
 	<script>
-		$('.single-popup').magnificPopup({ 
-			type: 'image',
-			removalDelay: 300,
-			mainClass: 'mfp-with-fade',
-			closeOnContentClick: true
+		$(document).ready(function() {
+			$('.single-popup').magnificPopup({ 
+				type: 'image',
+				removalDelay: 300,
+				mainClass: 'mfp-with-fade',
+				closeOnContentClick: true
+			});
 		});
 	</script>
 	<!--<script src="../javascripts/lazy.js"></script>-->
