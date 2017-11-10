@@ -335,12 +335,13 @@
 				font-size: 10px;
 			}*/
 	#news-story .image-caption {
-		width: 50%;
+		margin-top: 8px;
+		width: 55%;
 	}
 		#news-story .image-caption p {
 			color: #666;
 			font-size: 0.95em;
-			line-height: 1.05em;
+			line-height: 1.25em;
 			font-family: 'Lusitana', serif;
 		}
 			#news-story .image-caption .credit {
