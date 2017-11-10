@@ -292,8 +292,9 @@
 		background-position: 50% 50%;
 	}
 		#news-story .news-image .modal {
+			z-index: 999;
 			width: 100%;
-			height: 100%;
+			height: 575px;
 		}
 		#news-story .news-image .zoom {
 			position: absolute;
@@ -412,5 +413,5 @@
 		
 @media only screen and (max-width: 980px){#news-story{margin-top:0;}}
 @media only screen and (max-width: 980px){#news-story .news-text{width:90%;}}
-@media only screen and (max-width: 980px){#news-story .news-image{height: 400px;}}
+@media only screen and (max-width: 980px){#news-story .news-image, #news-story .news-image .modal{height: 400px;}}
 @media only screen and (max-width: 980px){#news-story .image-caption{width: 100%;}}
