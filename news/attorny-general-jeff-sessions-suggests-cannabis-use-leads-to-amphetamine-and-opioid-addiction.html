@@ -23,6 +23,14 @@
 	<script src="../javascripts/skel.min.js"></script>
 	<script src="../javascripts/skel-layers.min.js"></script>
 	<script src="../javascripts/main.js"></script>
+	<script>
+		$('.single-popup').magnificPopup({ 
+			type: 'image',
+			removalDelay: 300,
+			mainClass: 'mfp-with-fade',
+			closeOnContentClick: true
+		});
+	</script>
 	<!--<script src="../javascripts/lazy.js"></script>-->
 <!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="57x57" href="../images/favicon/apple-icon-57x57.png">
@@ -281,13 +289,5 @@
 	<a href="#" class="back-to-top"><img src="../images/up-caret.png" style="width:15px; height:15px;"></a>
 <!-- Additional Javascript -->
 	<script src="../javascripts/jquery.magnific-popup.js"></script>
-	<script>
-		$('.single-popup').magnificPopup({ 
-			type: 'image',
-			removalDelay: 300,
-			mainClass: 'mfp-with-fade',
-			closeOnContentClick: true
-		});
-	</script>
 </body>
 </html>
