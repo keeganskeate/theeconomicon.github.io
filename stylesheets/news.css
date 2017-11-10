@@ -283,7 +283,7 @@
 	border-top: 1px solid #e6e6e6;
 }
 /* Image */
-	#news-story .news-image {
+	/*#news-story .news-image {
 		position: relative;
 		width: 100%;
 		height: 575px;
@@ -303,7 +303,7 @@
 			#news-story .news-image h4 a {
 				color: #fff;
 				font-size: 10px;
-			}
+			}*/
 	#news-story .image-caption {
 		width: 70%;
 	}
@@ -312,6 +312,10 @@
 			font-size: 0.95em;
 			font-family: 'Lusitana', serif;
 		}
+			#news-story .image-caption .credit {
+				font-size: 0.8em;
+				color: #999;
+			}
 /* Text */
 	#news-story .news-text {
 		width: 70%;
