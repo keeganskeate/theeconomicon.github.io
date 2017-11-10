@@ -134,6 +134,7 @@
 	}
 	#blog-post .blog-text p {
 		font-family: 'Lusitana', serif;
+		word-wrap: break-word;
 		font-size: 18px;
 		line-height: 1.8em;
 		padding-top: 1.5em;
@@ -183,3 +184,6 @@
 
 @media only screen and (max-width: 980px){#blog-post{margin-top:0;}}
 @media only screen and (max-width: 980px){#blog-post .blog-text{width: 90%;}}
+
+/* Popup Images */
+
