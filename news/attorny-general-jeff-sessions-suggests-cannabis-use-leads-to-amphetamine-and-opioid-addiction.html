@@ -14,6 +14,7 @@
 <!-- Style Sheets -->
 	<link rel="stylesheet" href="../stylesheets/style.css">
 	<link rel="stylesheet" href="../stylesheets/news.css">
+	<link rel="stylesheet" href="../stylesheets/modal.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Javascript -->
 	<script src="../javascripts/jquery.min.js"></script>
@@ -22,7 +23,7 @@
 	<script src="../javascripts/skel.min.js"></script>
 	<script src="../javascripts/skel-layers.min.js"></script>
 	<script src="../javascripts/main.js"></script>
-	<script src="../javascripts/lazy.js"></script>
+	<!--<script src="../javascripts/lazy.js"></script>-->
 <!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="57x57" href="../images/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="../images/favicon/apple-icon-60x60.png">
@@ -88,7 +89,7 @@
 		<section class="column">
 			<div id="news-story">
 				<div class="news-image" style="background-image:url('/images/fentanyl_alt_large.jpg');">
-					<a class="modal" href="#"></a>
+					<a class="modal single-popup" href="/images/fentanyl_alt_large.jpg"></a>
 					<a class="zoom" href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
 				</div>
 				<div class="image-caption">
@@ -278,5 +279,15 @@
 	</div>
 <!-- Back to top Button -->
 	<a href="#" class="back-to-top"><img src="../images/up-caret.png" style="width:15px; height:15px;"></a>
+<!-- Additional Javascript -->
+	<script src="../javascripts/jquery.magnific-popup.js"></script>
+	<script>
+		$('.single-popup').magnificPopup({ 
+			type: 'image',
+			removalDelay: 300,
+			mainClass: 'mfp-with-fade',
+			closeOnContentClick: true
+		});
+	</script>
 </body>
 </html>
