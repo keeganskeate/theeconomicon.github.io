@@ -111,7 +111,7 @@
 }
 
 .mfp-preloader {
-  color: #CCC;
+  color: #fff;
   position: absolute;
   top: 50%;
   width: auto;
@@ -122,7 +122,7 @@
   z-index: 1044;
 }
   .mfp-preloader a {
-    color: #CCC;
+    color: #fff;
   }
     .mfp-preloader a:hover {
       color: #FFF;
