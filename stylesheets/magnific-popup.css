@@ -7,8 +7,9 @@
   z-index: 1042;
   overflow: hidden;
   position: fixed;
-  background: #0b0b0b;
-  opacity: 0.8; }
+  background: #fff;
+  opacity: 0.8;
+}
 
 .mfp-wrap {
   top: 0;
@@ -56,9 +57,11 @@
   cursor: progress; }
 
 .mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
-  cursor: -moz-zoom-out;
+  cursor: pointer;
+  /*cursor: -moz-zoom-out;
   cursor: -webkit-zoom-out;
-  cursor: zoom-out; }
+  cursor: zoom-out;*/
+}
 
 .mfp-zoom {
   cursor: pointer;
@@ -129,22 +132,24 @@ button::-moz-focus-inner {
   position: absolute;
   right: 0;
   top: 0;
-  text-decoration: none;
   text-align: center;
   opacity: 0.65;
   padding: 0 0 18px 10px;
   color: #FFF;
-  font-style: normal;
   font-size: 28px;
-  font-family: Arial, Baskerville, monospace; }
+  border-radius: 50%;
+  background: #ccc;
+}
   .mfp-close:hover,
   .mfp-close:focus {
-    opacity: 1; }
+    opacity: 1;
+  }
   .mfp-close:active {
-    top: 1px; }
+    top: 1px;
+  }
 
-.mfp-close-btn-in .mfp-close {
-  color: #333; }
+/*.mfp-close-btn-in .mfp-close {
+  color: #333; }*/
 
 .mfp-image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close {
@@ -152,7 +157,8 @@ button::-moz-focus-inner {
   right: -6px;
   text-align: right;
   padding-right: 6px;
-  width: 100%; }
+  width: 100%;
+}
 
 .mfp-counter {
   position: absolute;
