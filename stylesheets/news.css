@@ -320,9 +320,8 @@
 		}
 			#news-story .news-image .zoom i {
 				color: #fff;
-				font-size: 20px;
+				font-size: 18px;
 				line-height: 20px;
-				font-weight: 200;
 			}
 				#news-story .news-image:active .zoom,
 				#news-story .news-image:hover .zoom {
