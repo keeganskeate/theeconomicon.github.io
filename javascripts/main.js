@@ -90,10 +90,4 @@ jQuery(document).ready(function() {
 		jQuery('html, body').animate({scrollTop: 0}, duration);
 		return false;
 	});
-	jQuery('.single-popup').magnificPopup({ 
-				type: 'image',
-				removalDelay: 300,
-				mainClass: 'mfp-with-fade',
-				closeOnContentClick: true
-			});
 });
