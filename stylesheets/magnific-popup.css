@@ -75,12 +75,12 @@
   cursor: auto;
 }
 
-.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+/*.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
   cursor: pointer;
   /*cursor: -moz-zoom-out;
   cursor: -webkit-zoom-out;
   cursor: zoom-out;*/
-}
+}*/
 
 .mfp-zoom {
   cursor: pointer;
