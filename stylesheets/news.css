@@ -308,7 +308,7 @@
 			text-align: center;
 			border-radius: 6px;
 			background: rgb(0, 0, 0);
-			background: rgba(0, 0, 0, 0.5);
+			background: rgba(0, 0, 0, 0.25);
 			border: 1px solid rgba(200,200,200,0.8);
 			-webkit-backface-visibility: hidden;
 			-webkit-transition: opacity 0.3s ease-in; 
@@ -317,6 +317,11 @@
 			-o-transition: opacity 0.3s ease-in; 
 			transition: opacity 0.3s ease-in;
 		}
+			#news-story .news-image .zoom:active,
+			#news-story .news-image .zoom:focus,
+			#news-story .news-image .zoom:hover {
+				background: rgba(0, 0, 0, 0.5);
+			}
 			#news-story .news-image .zoom i {
 				color: #fff;
 				font-size: 18px;
