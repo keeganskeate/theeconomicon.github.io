@@ -12,6 +12,7 @@
   position: fixed;
   background: #fff;
   opacity: 0.8;
+  cursor: pointer;
 }
 
 /* Wraps and Containers */
@@ -139,36 +140,35 @@
 /* Close Button */
 
 button.mfp-close {
-  overflow: visible;
-  cursor: pointer;
-  background: transparent;
   border: 0;
-  -webkit-appearance: none;
-  display: block;
-  outline: none;
   padding: 0;
+  outline: none;
   z-index: 1046;
+  display: block;
+  cursor: pointer;
   box-shadow: none;
+  overflow: visible;
+  background: transparent;
+  -webkit-appearance: none;
   touch-action: manipulation;
 }
 
 button::-moz-focus-inner {
-  padding: 0;
   border: 0;
+  padding: 0;
 }
 
 .mfp-close {
-  width: 44px;
-  height: 44px;
-  line-height: 44px;
-  position: absolute;
-  right: 0;
   top: 0;
-  text-align: center;
+  right: 0;
+  width: 25px;
+  height: 25px;
+  color: #fff;
   opacity: 0.65;
-  padding: 0 0 18px 10px;
-  color: #FFF;
-  font-size: 28px;
+  font-size: 20px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
 }
   .mfp-close:hover,
   .mfp-close:focus {
@@ -177,16 +177,14 @@ button::-moz-focus-inner {
   .mfp-close:active {
     top: 1px;
   }
-
-.mfp-image-holder .mfp-close,
-.mfp-iframe-holder .mfp-close {
-  color: #FFF;
-  right: 0;
-  text-align: center;
-  padding: 2px;
-  border-radius: 50%;
-  background: #ccc;
-}
+  .mfp-image-holder .mfp-close,
+  .mfp-iframe-holder .mfp-close {
+    right: 0;
+    color: #fff;
+    background: #ccc;
+    border-radius: 50%;
+    text-align: center;
+  }
 
 /*.mfp-close-btn-in .mfp-close {
   color: #333; }*/
@@ -208,9 +206,9 @@ button::-moz-focus-inner {
   padding-bottom: 40px;
 }
   .mfp-iframe-holder .mfp-content {
-    line-height: 0;
     width: 100%;
     max-width: 900px;
+    line-height: 0;
   }
   .mfp-iframe-holder .mfp-close {
     top: -40px;
