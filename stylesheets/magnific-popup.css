@@ -199,7 +199,7 @@ button::-moz-focus-inner {
   white-space: nowrap;
 }*/
 
-/* iFrame code */
+/* iFrame code
 
 .mfp-iframe-holder {
   padding-top: 40px;
@@ -229,7 +229,7 @@ button::-moz-focus-inner {
     height: 100%;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     background: #000;
-  }
+  }*/
 
 /* Main image in popup */
 img.mfp-img {
@@ -279,6 +279,8 @@ img.mfp-img {
   width: 100%;
   cursor: auto;
 }
+
+/* Caption */
 
 .mfp-title {
   text-align: left;
@@ -341,17 +343,3 @@ img.mfp-img {
     padding: 0;
   }
 }
-
-/*@media all and (max-width: 900px) {
-  .mfp-arrow {
-    -webkit-transform: scale(0.75);
-    transform: scale(0.75); }
-  .mfp-arrow-left {
-    -webkit-transform-origin: 0;
-    transform-origin: 0; }
-  .mfp-arrow-right {
-    -webkit-transform-origin: 100%;
-    transform-origin: 100%; }
-  .mfp-container {
-    padding-left: 6px;
-    padding-right: 6px; } }*/
