@@ -93,10 +93,11 @@
 				#news .news-story-info h3 a:hover {
 					color: #477DCA;
 				}
-		#news .publishing-info {
-			height: 0.8em;
-		}
+		/*#news .publishing-info {
+			vertical-align: top;
+		}*/
 			#news .publishing-info span {
+				top: 0;
 				color: #414042;
 				font-size: 0.8em;
 				padding-right: 15px;
