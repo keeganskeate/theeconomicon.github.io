@@ -287,6 +287,9 @@
 	margin: 2em auto;
 }
 /* Image */
+#news-story .news-image-container {
+	max-width: 100%;
+}
 	#news-story .news-image {
 		position: relative;
 		cursor: pointer;
@@ -338,7 +341,6 @@
 					filter: alpha(opacity=100);
 				}
 	#news-story .image-caption {
-		position: relative;
 		margin-top: 8px;
 		width: 55%;
 	}
