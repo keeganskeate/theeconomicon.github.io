@@ -288,12 +288,13 @@
 }
 /* Image */
 #news-story .news-image-container {
+	margin: 0 auto;
 	max-width: 100%;
 }
 	#news-story .news-image {
 		position: relative;
 		cursor: pointer;
-		margin: 0 auto;
+		width: inherit;
 		max-width: 100%;
 		background-size: cover;
 		background-repeat: no-repeat;
