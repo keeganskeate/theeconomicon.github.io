@@ -71,22 +71,8 @@
 
 /* Zoom Controls */
 
-.mfp-zoom-out-cur {
-  cursor: auto;
-}
-
-/*.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+.mfp-zoom-out-cur .mfp-bg {
   cursor: pointer;
-  /*cursor: -moz-zoom-out;
-  cursor: -webkit-zoom-out;
-  cursor: zoom-out;*/
-}*/
-
-.mfp-zoom {
-  cursor: pointer;
-  cursor: -webkit-zoom-in;
-  cursor: -moz-zoom-in;
-  cursor: zoom-in;
 }
 
 /* Miscellaneous */
@@ -152,12 +138,10 @@ button.mfp-close {
   -webkit-appearance: none;
   touch-action: manipulation;
 }
-
 button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
-
 .mfp-close {
   top: 10px;
   right: 0;
@@ -175,7 +159,7 @@ button::-moz-focus-inner {
     opacity: 1;
   }
   .mfp-close:active {
-    top: 1px;
+    top: 12px;
   }
   .mfp-image-holder .mfp-close,
   .mfp-iframe-holder .mfp-close {
