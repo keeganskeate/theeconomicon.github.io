@@ -311,7 +311,7 @@
 			filter: alpha(opacity=0);
 			width: 40px;
 			height: 40px;
-			left: 15px;
+			right: 15px;
 			bottom: 15px;
 			padding: 5px 10px;
 			text-align: center;
