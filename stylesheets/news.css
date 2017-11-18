@@ -423,6 +423,16 @@
 		#news-story .news-text .icon-divider {
 			width: 100%;
 		}
+		#news-story .news-text .figure {
+			margin: 0 auto;
+			text-align: center;
+		}
+			#news-story .news-text .figure h3 {
+				color: #2D004F;
+				font-size: 1.2em;
+				font-weight: 700;
+				line-height: 150%;
+			}
 		
 @media only screen and (max-width: 980px){#news-story {margin-top:0;}}
 @media only screen and (max-width: 980px){#news-story .news-text {width:90%;}}
