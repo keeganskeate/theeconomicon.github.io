@@ -434,10 +434,11 @@
 				line-height: 150%;
 			}
 			#news-story .news-text .figure p {
+				padding: 0;
 				color: #999;
+				text-align: left;
 				font-size: 0.8em;
 				line-height: 1.25em;
-				text-align: left;
 			}
 		
 @media only screen and (max-width: 980px){#news-story {margin-top:0;}}
