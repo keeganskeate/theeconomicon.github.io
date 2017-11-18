@@ -433,6 +433,11 @@
 				font-weight: 700;
 				line-height: 150%;
 			}
+			#news-story .news-text .figure p {
+				color: #666;
+				font-size: 0.95em;
+				line-height: 1.25em;
+			}
 		
 @media only screen and (max-width: 980px){#news-story {margin-top:0;}}
 @media only screen and (max-width: 980px){#news-story .news-text {width:90%;}}
