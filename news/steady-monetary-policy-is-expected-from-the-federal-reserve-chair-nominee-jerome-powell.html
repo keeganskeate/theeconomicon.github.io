@@ -25,7 +25,6 @@
 	<script src="../javascripts/main.js"></script>
 	<script src="../javascripts/modal.js"></script>
 	<script src="../javascripts/jquery.dropotron.min.js"></script>
-	<script src="https://www.w3schools.com/lib/w3.js"></script> <!-- Including External HTML -->
 	<!--<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.6/jquery.lazy.min.js"></script>-->
 	<!--<script src="../javascripts/lazy.js"></script>-->
 <!-- Favicon -->
@@ -137,7 +136,12 @@
 					<!-- Federal Funds Chart -->
 					<div class="figure">
 						<h3>Federal Funds Target Rate</h3>
-						<!--<img src="../images/fed-funds-rate.png" style="width:100%;">-->
+						<img src="../images/fed-funds-rate.png" style="width:100%;">
+						<svg viewBox="0 0 676 293">
+							<image xlink:href="../images/fed-funds-rate.svg"
+							       src="../images/fed-funds-rate.png" 
+							       width="100%"/>
+						</svg>
 						
 						<p>
 							The federal funds target rate until Dec. 15, 2008 and 
@@ -154,8 +158,11 @@
 					<!-- Inflation -->
 					<div class="figure">
 						<h3>Inflation</h3>
-						<img src="../images/inflation.png" style="width:100%;">
-						<!--<div w3-include-html="../images/inflation_figure/inflation.html"></div>-->
+						<svg viewBox="0 0 676 293">
+							<image xlink:href="../images/inflation.svg"
+							       src="../images/inflation.png" 
+							       width="100%"/>
+						</svg>
 						<p>
 							Year-over-year change in the prices of personal consumption expenditures.<br>
 							Data Source: U.S. Bureau of Economic Analysis; Federal Reserve
@@ -256,9 +263,5 @@
 <!-- Back to top Button -->
 	<a href="#" class="back-to-top"><img src="../images/up-caret.png" style="width:15px; height:15px;"></a>
 <!-- Additional Javascript -->
-	<!-- Calls External HTML -->
-	<script>
-		w3.includeHTML();
-	</script>
 </body>
 </html>
