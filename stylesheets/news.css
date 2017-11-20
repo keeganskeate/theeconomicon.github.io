@@ -375,6 +375,12 @@
 			font-weight: 700;
 			line-height: 150%;
 		}
+		#news-story .news-text h3 {
+			color: #2D004F;
+			font-size: 1.0em;
+			font-weight: 700;
+			line-height: 150%;
+		}
 		#news-story .news-text p {
 			font-family: 'Lusitana', serif;
 			font-size: 17px;
