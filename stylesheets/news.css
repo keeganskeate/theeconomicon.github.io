@@ -373,6 +373,7 @@
 			line-height: 150%;
 		}
 		#news-story .news-text h3 {
+			padding-top: 1.5em;
 			color: #2D004F;
 			font-size: 1.0em;
 			font-weight: 700;
@@ -395,8 +396,8 @@
 			#news-story .news-text .lettrine:first-letter {
 				color: #2D004F;
 				float: left;
-				font-size: 375%;
-				line-height: 85%;
+				font-size: 360%;
+				line-height: 80%;
 				padding-top: 4px;
 				padding-right: 8px;
 				padding-left: 3px;
