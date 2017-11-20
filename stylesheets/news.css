@@ -377,8 +377,10 @@
 		}
 		#news-story .news-text p {
 			font-family: 'Lusitana', serif;
-			font-size: 18px;
-			line-height: 1.8em;
+			font-size: 17px;
+			font-size: 1.0625rem;
+			line-height: 26px;
+			line-height: 1.625rem;
 			padding-top: 1.5em;
 		}
 			#news-story .news-text .bottom-padded {
