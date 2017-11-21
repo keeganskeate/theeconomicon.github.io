@@ -105,9 +105,179 @@
 					color: #477DCA;
 				}
 
-/* Red: #EE464F; */
+/* Blog Story */
+#story {
+	position: relative;
+	margin: 2em auto;
+}
+/* Story Image */
+#story .image-container {
+	margin: 0 auto;
+	max-width: 100%;
+}
+	#story .image {
+		position: relative;
+		cursor: pointer;
+		width: inherit;
+		max-width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+	}
+		#story .image .modal {
+			width: 100%;
+			height: 100%;
+			z-index: 999;
+		}
+		#story .image .zoom {
+			position: absolute;
+			opacity: 0;
+			filter: alpha(opacity=0);
+			width: 40px;
+			height: 40px;
+			right: 15px;
+			bottom: 15px;
+			padding: 5px 10px;
+			text-align: center;
+			border-radius: 6px;
+			background: rgb(0, 0, 0);
+			background: rgba(0, 0, 0, 0.25);
+			border: 1px solid rgba(200,200,200,0.8);
+			-webkit-backface-visibility: hidden;
+			-webkit-transition: opacity 0.3s ease-in; 
+			-moz-transition: opacity 0.3s ease-in;
+			-ms-transition: opacity 0.3s ease-in;
+			-o-transition: opacity 0.3s ease-in; 
+			transition: opacity 0.3s ease-in;
+		}
+			#story .image .zoom:active,
+			#story .image .zoom:focus,
+			#story .image .zoom:hover {
+				background: rgba(0, 0, 0, 0.5);
+			}
+			#story .image .zoom i {
+				color: #fff;
+				font-size: 18px;
+				line-height: 20px;
+			}
+				#story .image:active .zoom,
+				#story .image:hover .zoom {
+					opacity: 1.0;
+					filter: alpha(opacity=100);
+				}
+	#story .image-caption {
+		margin-top: 8px;
+		width: 55%;
+	}
+		#story .image-caption p {
+			color: #666;
+			font-size: 0.95em;
+			line-height: 1.25em;
+			font-family: 'Lusitana', serif;
+		}
+			#story .image-caption .credit {
+				font-size: 0.8em;
+				color: #999;
+			}
+/* Story Text */
+	#story .text {
+		width: 70%;
+		margin: 0 auto;
+	}
+		#story .text i {
+			font-style: italic;
+		}
+		#story .text h1 {
+			color: #2D004F;
+			font-size: 1.5em;
+			font-weight: 700;
+			line-height: 150%;
+		}
+		#story .text h2 {
+			color: #2D004F;
+			font-size: 1.2em;
+			font-weight: 700;
+			line-height: 150%;
+		}
+		#story .text h3 {
+			color: #2D004F;
+			font-size: 1.0em;
+			font-weight: 700;
+			line-height: 150%;
+		}
+		#story .text p {
+			padding-top: 1.5em;
+			font-family: 'Lusitana', serif;
+			font-size: 18px;
+			font-size: 1.0625rem;
+			line-height: 26px;
+			line-height: 1.625rem;
+		}
+			#story .text .bottom-padded {
+				padding-bottom: 1.5em;
+			}
+			#story .text .no-padding {
+				padding: 0;
+			}
+			#story .text .lettrine:first-letter {
+				color: #2D004F;
+				float: left;
+				font-size: 360%;
+				line-height: 80%;
+				padding-top: 4px;
+				padding-right: 8px;
+				padding-left: 3px;
+			}
+		#story .text a {
+			color: #477DCA;
+		}
+			#story .text a:active,
+			#story .text a:hover {
+				text-decoration: underline;
+			}
+		#story .text .video {
+			width: 100%;
+			height: 420px;
+			margin: 0 auto;
+			font-size: 1.2em;
+			line-height: 175%;
+		}
+		#story .text blockquote {
+			width: 100%;
+			padding: 0.5em 0.5em 0.5em 2em;
+			margin: 0 auto;
+			background: #f5f7f8;
+			border-left: 8px solid #2D004F;
+		}
+			#story .text blockquote i {
+				color: #2D004F;
+			}
+		#story .text .icon-divider {
+			width: 100%;
+		}
+		#story .text .figure {
+			margin: 0 auto;
+			text-align: center;
+		}
+			#story .text .figure h3 {
+				color: #2D004F;
+				font-weight: 700;
+				line-height: 150%;
+			}
+			#story .text .figure p {
+				padding: 0;
+				color: #999;
+				text-align: left;
+				font-size: 0.8em;
+				line-height: 1.25em;
+			}
+		
+@media only screen and (max-width: 980px){#story {margin-top:0;}}
+@media only screen and (max-width: 980px){#story .text {width:90%;}}
+@media only screen and (max-width: 980px){#story .image {height: 400px;}}
+@media only screen and (max-width: 980px){#story .image-caption {width: 100%;}}
 
-/* Blog Post */
+/* Blog Post
 #blog-post {
 	position: relative;
 	margin: 2em auto;
@@ -176,14 +346,5 @@
 		width: 100%;
 	}
 
-/* Share Buttons */
-#share-buttons {
-	position: relative;
-	margin: 2em auto;
-}
-
 @media only screen and (max-width: 980px){#blog-post{margin-top:0;}}
 @media only screen and (max-width: 980px){#blog-post .blog-text{width: 90%;}}
-
-/* Popup Images */
-
