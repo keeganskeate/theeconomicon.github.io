@@ -626,6 +626,7 @@ html, body {
 		display: inline-block;
 		text-align: center;
 		color: #fff;
+		font-weight: 700;
 		background: #14a76c;
 		border-radius: 4px;
 		padding: 0 1.25em;
@@ -771,13 +772,14 @@ html, body {
 		#row .title h1 {
 			font-family: 'Sanchez', serif;
 			font-size: 1.05em;
-			color: #000;
+			font-weight: 700;
+			color: #111;
 		}
 		#row .title h2 {
 			font-family: 'Sanchez', serif;
 			font-size: 1.3em;
-			font-weight: 400;
-			color: #000;
+			font-weight: 700;
+			color: #111;
 		}
 	#row .features {
 		position: relative;
@@ -815,7 +817,8 @@ html, body {
 			color: #5d5e5e;
 		}
 		#row .feature-text h3 a {
-			color: #000;
+			color: #111;
+			font-weight: 700;
 			font-size: 1.15em;
 			display: inline-block;
 		}
