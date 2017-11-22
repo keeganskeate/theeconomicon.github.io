@@ -747,108 +747,103 @@ html, body {
 		color: #fff;
 	}
 
-/* Sub Pages */
-.subpage #nav .active-page {
-	border-bottom: 2px solid #14a76c;
-}
-
 /* Attribute Row */
-#row .column {
-	position: relative;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-}
-#row .attribute {
-	position: relative;
-	height: 500px;
-	width: 33%;
-	top: 0;
-	border: 2px solid #e7e7e7;
-	border-radius: 4px;
-}
-#row .title {
-	height: 25%;
-	padding: 3em 1.5em 1.0em 1.5em;
-	border-bottom: 2px solid #e7e7e7;
-	border-radius: 4px;
-}
-	#row .title h1 {
-		font-family: 'Sanchez', serif;
-		font-size: 1.05em;
-		color: #000;
+	#row .column {
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
 	}
-	#row .title h2 {
-		font-family: 'Sanchez', serif;
-		font-size: 1.3em;
-		font-weight: 400;
-		color: #000;
+	#row .attribute {
+		position: relative;
+		height: 500px;
+		width: 33%;
+		top: 0;
+		border: 2px solid #e7e7e7;
+		border-radius: 4px;
 	}
-#row .features {
-	position: relative;
-	height: 75%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-}
-#row .feature {
-	position: relative;
-	height: 125px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: left;
-}
-#row .feature-icon {
-	margin-right: 1.6em;
-	box-shadow: inset 0 0 0 99999px rgba(255,255,255,0.2);
-}
-	#row .feature-icon span {
-		font-size: 4em;
+	#row .title {
+		height: 25%;
+		padding: 3em 1.5em 1.0em 1.5em;
+		border-bottom: 2px solid #e7e7e7;
+		border-radius: 4px;
 	}
-	#row .attribute:active .feature-icon,
-	#row .attribute:hover .feature-icon {
-		box-shadow: none;
-	}
-#row .feature-text {
-	width: 60%;
-}
-	#row .feature-text p {
-		margin-top: .25em;
-		font-size: 0.95em;
-		line-height: 1.6;
-		color: #5d5e5e;
-	}
-	#row .feature-text h3 a {
-		color: #000;
-		font-size: 1.15em;
-		display: inline-block;
-	}
-		#row .feature-text h3 a:after {
-			content: '';
-			display: block;
-			height: 3px;
-			width: 0;
-			background: transparent;
-			transition: width .4s ease, background .4s ease;
-			-webkit-transition: width .4s ease, background .4s ease;
-			-moz-transition: width .4s ease, background .4s ease;
+		#row .title h1 {
+			font-family: 'Sanchez', serif;
+			font-size: 1.05em;
+			color: #000;
 		}
-			#row .feature-text h3 .underline-1:hover:after {
-				width: 100%;
-				background: #8176b5;
+		#row .title h2 {
+			font-family: 'Sanchez', serif;
+			font-size: 1.3em;
+			font-weight: 400;
+			color: #000;
+		}
+	#row .features {
+		position: relative;
+		height: 75%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+	#row .feature {
+		position: relative;
+		height: 125px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: left;
+	}
+	#row .feature-icon {
+		margin-right: 1.6em;
+		box-shadow: inset 0 0 0 99999px rgba(255,255,255,0.2);
+	}
+		#row .feature-icon span {
+			font-size: 4em;
+		}
+		#row .attribute:active .feature-icon,
+		#row .attribute:hover .feature-icon {
+			box-shadow: none;
+		}
+	#row .feature-text {
+		width: 60%;
+	}
+		#row .feature-text p {
+			margin-top: .25em;
+			font-size: 0.95em;
+			line-height: 1.6;
+			color: #5d5e5e;
+		}
+		#row .feature-text h3 a {
+			color: #000;
+			font-size: 1.15em;
+			display: inline-block;
+		}
+			#row .feature-text h3 a:after {
+				content: '';
+				display: block;
+				height: 3px;
+				width: 0;
+				background: transparent;
+				transition: width .4s ease, background .4s ease;
+				-webkit-transition: width .4s ease, background .4s ease;
+				-moz-transition: width .4s ease, background .4s ease;
 			}
-			#row .feature-text h3 .underline-2:hover:after {
-				width: 100%;
-				background: #76c4e2;
-			}
-			#row .feature-text h3 .underline-3:hover:after {
-				width: 100%;
-				background: #f69259;
-			}
+				#row .feature-text h3 .underline-1:hover:after {
+					width: 100%;
+					background: #8176b5;
+				}
+				#row .feature-text h3 .underline-2:hover:after {
+					width: 100%;
+					background: #76c4e2;
+				}
+				#row .feature-text h3 .underline-3:hover:after {
+					width: 100%;
+					background: #f69259;
+				}
 
 @media only screen and (max-width: 980px){ #row .column{ display:block; height:auto;}}
-@media only screen and (max-width: 980px){ #row .attribute{ width:auto; margin-bottom:1em;}}
+@media only screen and (max-width: 980px){ #row .attribute{ width:auto;}}
 
 /* Marquee */
 .wrapper.marquee-style {
@@ -904,3 +899,7 @@ html, body {
 					width: 100%;
 					background: #2199E8;
 				}
+/* Sub Pages */
+.subpage #nav .active-page {
+	border-bottom: 2px solid #14a76c;
+}
