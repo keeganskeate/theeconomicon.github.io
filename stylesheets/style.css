@@ -285,6 +285,7 @@ html, body {
 				display: table-cell;
 				height: inherit;
 				color: #414042;
+				font-weight: 400;
 				vertical-align: bottom;
 				border-bottom: 2px solid transparent;
 			}
@@ -346,7 +347,10 @@ html, body {
 				#nav ul > li.split:hover > a{
 					border-bottom: 2px solid transparent;
 				}
-
+/* Sub Pages */
+	#nav .active-page {
+		border-bottom: 2px solid #14a76c;
+	}
 /* Dropotron */
 	.dropotron {
 		top: 2em;
@@ -757,14 +761,14 @@ html, body {
 	}
 	#row .attribute {
 		position: relative;
-		height: 500px;
+		height: 600px;
 		width: 33%;
 		top: 0;
 		border: 2px solid #e7e7e7;
 		border-radius: 4px;
 	}
 	#row .title {
-		height: 25%;
+		height: 20%;
 		padding: 3em 1.5em 1.0em 1.5em;
 		border-bottom: 2px solid #e7e7e7;
 		border-radius: 4px;
@@ -772,14 +776,14 @@ html, body {
 		#row .title h1 {
 			font-family: 'Sanchez', serif;
 			font-size: 1.05em;
-			font-weight: 700;
-			color: #111;
+			font-weight: 600;
+			color: #2A2D34;
 		}
 		#row .title h2 {
 			font-family: 'Sanchez', serif;
 			font-size: 1.3em;
-			font-weight: 700;
-			color: #111;
+			font-weight: 600;
+			color: #2A2D34;
 		}
 	#row .features {
 		position: relative;
@@ -790,7 +794,7 @@ html, body {
 	}
 	#row .feature {
 		position: relative;
-		height: 125px;
+		height: 160px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -817,8 +821,8 @@ html, body {
 			color: #5d5e5e;
 		}
 		#row .feature-text h3 a {
-			color: #111;
-			font-weight: 700;
+			color: #2A2D34;
+			font-weight: 600;
 			font-size: 1.15em;
 			display: inline-block;
 		}
@@ -827,6 +831,7 @@ html, body {
 				display: block;
 				height: 3px;
 				width: 0;
+				margin: auto;
 				background: transparent;
 				transition: width .4s ease, background .4s ease;
 				-webkit-transition: width .4s ease, background .4s ease;
@@ -849,10 +854,6 @@ html, body {
 @media only screen and (max-width: 980px){ #row .attribute{ width:auto;}}
 
 /* Marquee */
-.wrapper.marquee-style {
-	padding: 0;
-	height: 400px;
-}
 .marquee {
 	position: absolute;
 	display: inline-block;
@@ -860,49 +861,49 @@ html, body {
 	width: 100%;
 	height: 400px;
 }
-.marquee-text {
-	height: 100%;
-	color: #414042;
-	display: flex;
-	text-align: center;
-	flex-direction: column;
-	justify-content: center;
-}
-	.marquee-text h1 {
+	.wrapper .marquee-style {
+		padding: 0;
+		height: 400px;
+	}
+	.marquee-text {
+		height: 100%;
 		color: #414042;
-		font-size: 3em;
-		font-weight: 600;
-		line-height: 150%;
-		margin: 0 2em;
-		padding-top: 2em;
+		display: flex;
+		text-align: center;
+		flex-direction: column;
+		justify-content: center;
 	}
-	.marquee-text h2 {
-		font-size: 90%;
-	}
-	.marquee-text h6 {
-		font-size: 90%;
-	}
-		.marquee-text h6 a {
-			color: #2199E8;
-			line-height: 125%;
-			display: inline-block;
+		.marquee-text h1 {
+			color: #414042;
+			font-size: 3em;
+			font-weight: 600;
+			line-height: 150%;
+			margin: 0 2em;
+			padding-top: 2em;
 		}
-			.marquee-text h6 a:after {
-				content: '';
-				display: block;
-				height: 1px;
-				width: 0;
-				margin: auto;
-				background: transparent;
-				transition: width .3s ease, background .3s ease;
-				-webkit-transition: width .3s ease, background .3s ease;
-				-moz-transition: width .3s ease, background .3s ease;
+		.marquee-text h2 {
+			font-size: 90%;
+		}
+		.marquee-text h6 {
+			font-size: 90%;
+		}
+			.marquee-text h6 a {
+				color: #2199E8;
+				line-height: 125%;
+				display: inline-block;
 			}
-				.marquee-text h6 a:hover:after {
-					width: 100%;
-					background: #2199E8;
+				.marquee-text h6 a:after {
+					content: '';
+					display: block;
+					height: 1px;
+					width: 0;
+					margin: auto;
+					background: transparent;
+					transition: width .3s ease, background .3s ease;
+					-webkit-transition: width .3s ease, background .3s ease;
+					-moz-transition: width .3s ease, background .3s ease;
 				}
-/* Sub Pages */
-.subpage #nav .active-page {
-	border-bottom: 2px solid #14a76c;
-}
+					.marquee-text h6 a:hover:after {
+						width: 100%;
+						background: #2199E8;
+					}
