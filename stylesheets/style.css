@@ -855,8 +855,9 @@ html, body {
 
 /* Marquee */
 .wrapper .marquee-style {
+	position: relative;
 	padding: 0;
-	height: 400px;
+	/*height: 400px;*/
 }
 .marquee {
 	position: absolute;
