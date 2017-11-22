@@ -794,8 +794,8 @@ html, body {
 		background: url('/images/style/tessellation_small.png') no-repeat center center;
 		background-size:cover;
 	}
-		#row .attribute:active #row .title-background,
-		#row .attribute:hover #row .title-background {
+		#row .title-background:active,
+		#row .title-background:hover {
 			opacity: 1.0;
 			filter: alpha(opacity=100);
 		}
