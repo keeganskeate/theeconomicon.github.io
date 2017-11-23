@@ -792,7 +792,7 @@ html, body {
 				color: #2A2D34;
 			}
 	#row .title .title-background {
-		position: relative;
+		position: absolute;
 		z-index: 1;
 		width: 100%;
 		height: inherit;
@@ -804,8 +804,8 @@ html, body {
 		-moz-transition: opacity .33s ease-in-out;
 		-webkit-transition: opacity .33s ease-in-out;
 	}
-		#row .title .title-background:active,
-		#row .title .title-background:hover {
+		#row .title:active .title-background,
+		#row .title:hover .title-background {
 			opacity: 1.0;
 			filter: alpha(opacity=100);
 		}
