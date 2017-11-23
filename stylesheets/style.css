@@ -769,21 +769,25 @@ html, body {
 	}
 	#row .title {
 		height: 20%;
-		padding: 3em 1.5em 1.0em 1.5em;
 		border-bottom: 2px solid #e7e7e7;
 		border-radius: 4px;
 	}
+		#row .title .text {
+			padding: 3em 1.5em 1.0em 1.5em;
+		}
 		#row .title h1 {
 			font-family: 'Sanchez', serif;
 			font-size: 1.05em;
 			font-weight: 600;
 			color: #2A2D34;
+			z-index: 99;
 		}
 		#row .title h2 {
 			font-family: 'Sanchez', serif;
 			font-size: 1.3em;
 			font-weight: 600;
 			color: #2A2D34;
+			z-index: 99;
 		}
 	#row .title .title-background {
 		position: absolute;
