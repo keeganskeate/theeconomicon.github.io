@@ -796,19 +796,11 @@ html, body {
 		z-index: 1;
 		width: 100%;
 		height: inherit;
-		opacity: 0.0;
-		filter: alpha(opacity=0);
 		background: url('/images/style/tessellation_small.png') no-repeat center center;
 		background-size:cover;
-		transition: opacity .33s ease-in-out;
-		-moz-transition: opacity .33s ease-in-out;
-		-webkit-transition: opacity .33s ease-in-out;
+		opacity: 0.75;
+		filter: alpha(opacity=75);
 	}
-		#row .title:active .title-background,
-		#row .title:hover .title-background {
-			opacity: 1.0;
-			filter: alpha(opacity=100);
-		}
 	#row .features {
 		position: relative;
 		height: 75%;
