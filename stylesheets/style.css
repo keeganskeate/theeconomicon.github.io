@@ -773,29 +773,30 @@ html, body {
 		border-radius: 4px;
 	}
 		#row .title .text {
+			z-index: 99;
+			width: 100%;
+			height: inherit;
 			padding: 3em 1.5em 1.0em 1.5em;
 		}
-		#row .title h1 {
-			font-family: 'Sanchez', serif;
-			font-size: 1.05em;
-			font-weight: 600;
-			color: #2A2D34;
-			z-index: 99;
-		}
-		#row .title h2 {
-			font-family: 'Sanchez', serif;
-			font-size: 1.3em;
-			font-weight: 600;
-			color: #2A2D34;
-			z-index: 99;
-		}
+			#row .title h1 {
+				font-family: 'Sanchez', serif;
+				font-size: 1.05em;
+				font-weight: 600;
+				color: #2A2D34;
+			}
+			#row .title h2 {
+				font-family: 'Sanchez', serif;
+				font-size: 1.3em;
+				font-weight: 600;
+				color: #2A2D34;
+			}
 	#row .title .title-background {
 		position: absolute;
-		width: inherit;
+		z-index: 1;
+		width: 100%;
 		height: inherit;
 		opacity: 0.0;
 		filter: alpha(opacity=0);
-		z-index: 1;
 		background: url('/images/style/tessellation_small.png') no-repeat center center;
 		background-size:cover;
 	}
