@@ -773,7 +773,8 @@ html, body {
 		border-radius: 4px;
 	}
 		#row .title .text {
-			z-index: 99;
+			position: relative;
+			z-index: 2;
 			width: 100%;
 			height: inherit;
 			padding: 3em 1.5em 1.0em 1.5em;
@@ -791,7 +792,7 @@ html, body {
 				color: #2A2D34;
 			}
 	#row .title .title-background {
-		position: absolute;
+		position: relative;
 		z-index: 1;
 		width: 100%;
 		height: inherit;
