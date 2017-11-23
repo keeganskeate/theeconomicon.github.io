@@ -799,6 +799,9 @@ html, body {
 		filter: alpha(opacity=0);
 		background: url('/images/style/tessellation_small.png') no-repeat center center;
 		background-size:cover;
+		transition: opacity .33s ease-in-out;
+		-moz-transition: opacity .33s ease-in-out;
+		-webkit-transition: opacity .33s ease-in-out;
 	}
 		#row .title .title-background:active,
 		#row .title .title-background:hover {
@@ -853,9 +856,9 @@ html, body {
 				width: 0;
 				margin: auto;
 				background: transparent;
-				transition: width .4s ease, background .4s ease;
-				-webkit-transition: width .4s ease, background .4s ease;
-				-moz-transition: width .4s ease, background .4s ease;
+				transition: width .33s ease-in-out, background .33s ease-in-out;
+				-moz-transition: width .33s ease-in-out, background .33s ease-in-out;
+				-webkit-transition: width .33s ease-in-out, background .33s ease-in-out;
 			}
 				#row .feature-text h3 .underline-1:hover:after {
 					width: 100%;
