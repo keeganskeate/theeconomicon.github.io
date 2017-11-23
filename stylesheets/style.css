@@ -785,7 +785,7 @@ html, body {
 			font-weight: 600;
 			color: #2A2D34;
 		}
-	#row .title-background {
+	#row .title .title-background {
 		position: absolute;
 		width: 100%;
 		height: 100%;
@@ -794,8 +794,8 @@ html, body {
 		background: url('/images/style/tessellation_small.png') no-repeat center center;
 		background-size:cover;
 	}
-		#row .title-background:active,
-		#row .title-background:hover {
+		#row .title .title-background:active,
+		#row .title .title-background:hover {
 			opacity: 1.0;
 			filter: alpha(opacity=100);
 		}
