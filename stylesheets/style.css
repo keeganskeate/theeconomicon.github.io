@@ -336,7 +336,7 @@ b {
 				top: 50%;
 				transform: translateY(-50%);
 				-webkit-transform: translateY(-50%);
-				height: 60px;
+				height: 50px;
 				margin-left: 1.3em;
 			}			
 				#nav > ul > li.company-logo:active > a,
