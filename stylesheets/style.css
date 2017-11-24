@@ -273,7 +273,7 @@ b {
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.12);*/
 }
 	#nav > ul {
-		padding: 10px 0;
+		padding: 6px 0;
 		height: inherit;
 		list-style-type: none;
 		vertical-align: bottom;
@@ -293,6 +293,7 @@ b {
 				display: table-cell;
 				height: inherit;
 				color: #414042;
+				font-size: 90%;
 				font-weight: 400;
 				vertical-align: bottom;
 				border-bottom: 2px solid transparent;
@@ -335,8 +336,7 @@ b {
 				top: 50%;
 				transform: translateY(-50%);
 				-webkit-transform: translateY(-50%);
-				height: 40px;
-				padding: 6px 0;
+				height: 60px;
 				margin-left: 1.3em;
 			}			
 				#nav > ul > li.company-logo:active > a,
