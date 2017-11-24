@@ -122,21 +122,21 @@ b {
 .wrapper {
 	padding: 0;
 }
-	.wrapper .carousel-style {
+	.wrapper.carousel-style {
 		padding: 0;
 		height: 543px;
 	}
-	.wrapper .banner-style {
+	.wrapper.banner-style {
 		padding: 0;
 	}
-	.wrapper .end-style {
+	.wrapper.end-style {
 		padding: 0;
 	}
 
 /* Slick Carousel */
 #carousel-container {
 	display: none;
-	transform: translateY(-80px);
+	transform: translateY(-72px);
 }
 	.slick-dots{
 		bottom: 10px;
