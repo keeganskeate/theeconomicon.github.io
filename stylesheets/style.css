@@ -388,9 +388,12 @@ b {
 		transition: 0.33s ease;
 	}
 		.dropotron > li {
-			line-height: 2.25em;
-			padding: 0 0.5em;
+			padding: 12px 10px;
+			border-bottom: 1px solid #dfe8f3;
 		}
+			.dropotron > li.bottom-item {
+				border-bottom: none;
+			}
 			.dropotron > li > a {
 				color: #414042;
 			}
@@ -399,22 +402,24 @@ b {
 			}
 				.dropotron > li:active,
 				.dropotron > li:hover{
-					background: #f5f6f7;
+					/*background: #f5f6f7;*/
+					background: rgba(17,157,255,0.05);
+					color: #119DFF;
 				}
-				.dropotron > li:active > a > i,
-				.dropotron > li:hover > a > i{
-					color: #14a76c;
+				.dropotron > li:active > a,
+				.dropotron > li:hover > a {
+					color: #119DFF;
 				}
 	.dropotron.level-0 {
 		margin-left: 0em;
-		font-weight: 300;
+		font-weight: 400;
 		font-size: 90%;
 		letter-spacing: 0;
 	}
 		.dropotron.level-1 {
 			margin-left: 0em;
 			margin-top: 1em;
-			font-weight: 300;
+			font-weight: 400;
 			font-size: 90%;
 			letter-spacing: 0;
 		}
