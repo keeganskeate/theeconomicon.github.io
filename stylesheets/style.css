@@ -402,14 +402,14 @@ b {
 				margin-right: 3px;
 			}
 				.dropotron > li:active,
-				.dropotron > li:hover{
+				.dropotron > li:hover {
 					background: rgba(17,157,255,0.05);
 					color: #119DFF;
 				}
-				/*.dropotron > li:active > a,
+				.dropotron > li:active > a,
 				.dropotron > li:hover > a {
 					color: #119DFF;
-				}*/
+				}
 	.dropotron.level-0 {
 		margin-left: 0em;
 		font-weight: 400;
