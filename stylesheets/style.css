@@ -346,7 +346,6 @@ b {
 			#nav ul > li.split {
 				clear: right;
 				float: right;
-				padding: 3px 0;
 			}
 				#nav ul > li.split > a {
 					display: inline-block;
