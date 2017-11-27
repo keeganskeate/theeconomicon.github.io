@@ -506,7 +506,159 @@ b {
 @media only screen and (max-width: 980px){ .content-section{ margin:0 1em; width:auto; }}
 @media only screen and (max-width: 980px){ .banner .content-bin .left-padded{ padding-left: 0;}}
 
+@import url("http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800");
+
 /* Footer */
+#footer {	
+	margin: 0 auto;
+	background: #181818;
+	font-family: 'Montserrat', sans-serif;
+}
+  #footer .column {
+   max-width: 25%;
+  }
+  #footer .bordered {
+    padding: 24px 0;
+    border-top: solid 1px #000;
+  }
+  #footer a {
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+  }
+  #footer .logo {
+      margin-bottom: 12px;
+      width: 245px;
+      height: 35px;
+      background: url('/images/The-Economicon-logo-white-sprite.svg') no-repeat left top;
+      background-size: 100% 200%;
+    }
+      #footer .logo:active,
+      #footer .logo:hover {
+        background-position: 0 -35px;
+      }
+  #footer .mobile-only {
+    display: none;
+  }
+@media only screen and (max-width: 980px){#footer .mobile-only{display:block;}}
+@media only screen and (max-width: 980px){#footer .fullscreen-only{display:none;}}
+
+/* Index */
+  #footer .index {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 12px 0;
+  }
+    #footer .index ul{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    #footer .index li {
+      margin-bottom: 12px;
+    }
+    #footer .index h3 {
+      color: #d4d4d4;
+      font-size: 16px;
+      font-weight: 300;
+      margin: 18px 0 12px 0;
+    }
+    #footer .index a {
+      color: #919191;
+      font-size: 13px;
+      font-weight: 300;
+      letter-spacing: .2px;
+      line-height: 13px;
+      text-decoration: none;
+    }
+      #footer .index a:active,
+      #footer .index a:hover {
+        color: #14a76c;
+      }
+@media only screen and (max-width: 980px){#footer .index{justify-content: space-evenly;}} 
+/* Disclaimer and Mobile Blurb */
+#footer .disclaimer {
+  padding: 24px 0 12px 0;
+}
+    #footer .blurb p,
+    #footer .disclaimer p {
+      margin: 0;
+      padding: 0;
+      color: #7f7f7f;
+      font-size: 12px;
+      line-height: 19px;
+    }
+    #footer .blurb .social {
+      display: flex;
+      justify-content: center;
+      margin:12px auto 0 auto;
+    }
+      #footer .blurb .social a {
+        margin-right: 22px;
+        font-size: 25px;
+        color: #919191;
+      }
+        #footer .blurb .social a:active,
+        #footer .blurb .social a:hover {
+          color: #14a76c;
+        }
+
+/* Copyright */
+  #footer .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #7f7f7f;
+    font-size: 11px;
+    line-height: 12px;
+  }
+  @media only screen and (max-width: 980px){ #footer .copyright{ flex-direction:column;}}
+    #footer .copyright .left {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+    }
+    #footer .copyright .right {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0;
+    }
+    #footer .copyright ul {
+      list-style: none;
+		  padding: 0;
+    }
+    #footer .copyright a {
+      color: #7f7f7f;
+      font-size: 11px;
+      line-height: 12px;
+      letter-spacing: .2px;
+      text-decoration: none;
+    }
+      #footer .copyright a:active,
+      #footer .copyright a:hover {
+        color: #14a76c;
+      }
+    #footer .copyright span {
+      margin: 0 8px;
+    }
+    #footer .copyright .home-icon {
+      margin: 0;
+      width: 25px;
+      height: 25px;
+      background: url('/images/The-Economicon-icon-sprite.svg') no-repeat left top;
+      background-size: 100% 200%;
+    }
+      #footer .copyright .home-icon:active,
+      #footer .copyright .home-icon:hover {
+        background-position: 0 -25px;
+      }
+@media only screen and (max-width: 980px){ #footer .copyright .right{ order: 1; padding-top: 12px;}}
+@media only screen and (max-width: 980px){ #footer .copyright .left{ order: 2; padding-top: 12px;}}
+@media only screen and (max-width: 980px){ #footer .copyright .home-icon{ order: 3;}}
+
+/* Footer
 #footer {
 	margin: 0 auto;
 	padding-top: 2em;
@@ -573,7 +725,7 @@ b {
 @media only screen and (max-width: 980px){ #footer .index-bin div{ float:none;}}
 @media only screen and (max-width: 980px){ #footer .index-section{ margin:0 1em;width:auto; }}
 
-/* Copyright */
+/* Copyright
 	#copyright {
 		position: relative;
 		display: flex;
@@ -613,14 +765,14 @@ b {
 
 @media only screen and (max-width: 980px){ #copyright ul > li { display:block; width:auto;}}
 /*@media only screen and (max-width: 980px){ #copyright ul.left, #copyright ul.right { float:none;}}*/
-@media only screen and (max-width: 980px){ #copyright ul.left {text-align:left;} }
+/*@media only screen and (max-width: 980px){ #copyright ul.left {text-align:left;} }
 @media only screen and (max-width: 980px){ #copyright ul.right {text-align:right;} }
 @media only screen and (max-width: 980px){ #copyright ul.left > li, #copyright ul.right > li { margin:0 1em;}}
 
 		#copyright ul.left > li.split {
 			clear: right;
 			float: right;
-		}
+		}*/
 /* Beta Button */
 	input[type="submit"],
 	input[type="reset"],
