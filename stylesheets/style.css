@@ -576,10 +576,11 @@ b {
       #footer .index a:hover {
         color: #14a76c;
       }
-@media only screen and (max-width: 980px){#footer .index{justify-content: space-evenly;}} 
+@media only screen and (max-width: 980px){#footer .index{justify-content: space-evenly;}}
+
 /* Disclaimer and Mobile Blurb */
 	#footer .disclaimer {
-		padding: 24px 0 12px 0;
+		padding: 24px 0;
 	}
 		#footer .blurb p,
 		#footer .disclaimer p {
@@ -607,7 +608,7 @@ b {
         #footer .blurb .social a:hover {
           color: #14a76c;
         }
-
+@media only screen and (max-width: 980px){#footer .disclaimer{padding-bottom: 12px;}}
 /* Copyright */
   #footer .copyright {
     display: flex;
