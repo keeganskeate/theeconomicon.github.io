@@ -403,7 +403,7 @@ b {
 			}
 				.dropotron > li:active,
 				.dropotron > li:hover {
-					background: rgba(45,0,79,0.05);
+					background: rgba(20,167,108,0.05);
 				}
 				.dropotron > li:active > a,
 				.dropotron > li:hover > a {
