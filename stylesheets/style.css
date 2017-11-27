@@ -511,13 +511,13 @@ b {
 /* Footer */
 #footer {
 	margin: 0 auto;
-	padding: 24px 15%;
+	padding: 24px 0;
 	background: #181818;
 	font-family: 'Montserrat', sans-serif;
 }
 	#footer .narrow {
 		min-width: 15%;
-		max-width: 25%;
+		max-width: 30%;
 	}
   #footer .bordered {
     padding: 24px 0;
