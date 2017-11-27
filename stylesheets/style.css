@@ -515,9 +515,10 @@ b {
 	background: #181818;
 	font-family: 'Montserrat', sans-serif;
 }
-  #footer .narrow {
-   max-width: 25%;
-  }
+	#footer .narrow {
+		min-width: 15%;
+		max-width: 25%;
+	}
   #footer .bordered {
     padding: 24px 0;
     border-top: solid 1px #000;
