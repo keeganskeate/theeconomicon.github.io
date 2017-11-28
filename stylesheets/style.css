@@ -527,6 +527,9 @@ b {
 		#footer .logo:hover {
 			background-position: 0 -50px;
 		}
+		#footer .logo:hover:after {
+			background: transparent;
+		}
 	#footer .mobile-only {
 		display: none;
 	}
@@ -612,6 +615,9 @@ b {
 				#footer .blurb .social a:hover {
 					color: #14a76c;
 				}
+				#footer .blurb .social a:hover:after {
+					background: transparent;
+				}
 @media only screen and (max-width: 980px){#footer .disclaimer{padding-bottom: 12px;}}
 
 /* Copyright */
@@ -677,6 +683,9 @@ b {
 			#footer .copyright .home-icon:active,
 			#footer .copyright .home-icon:hover {
 				background-position: 0 -25px;
+			}
+			#footer .copyright .home-icon:hover:after {
+				background: transparent;
 			}
 @media only screen and (max-width: 980px){ #footer .copyright{ flex-direction:column;}}
 @media only screen and (max-width: 980px){ #footer .copyright .right{ order: 1; padding-top: 12px;}}
