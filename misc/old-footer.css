@@ -1,0 +1,115 @@
+/* Footer
+#footer {
+	margin: 0 auto;
+	padding-top: 2em;
+	text-align: center;
+	background: #176599;
+}
+	#footer ul{
+		list-style: none;
+		padding: 0em;
+	}
+	#footer h3{
+		padding: 0;
+		margin-bottom: 14px;
+		text-align: left;
+		font-size: 1.0rem;
+		line-height: 0.6875rem;
+		font-weight: 600;
+		color:  #fff;
+	}
+	#footer .index-section {
+		display: inline-block;
+		overflow: hidden;
+		padding: 1.3em 0;
+		margin: auto;
+		width: 25%;
+	}
+	#footer .index-wrap {
+		float: left;
+		position: relative;
+		left: 50%;
+	}
+	#footer .index-item {
+		float: left;
+		position: relative;
+		left: -50%;
+	}
+	#footer .index-bin {
+		display: inline-block;
+		margin: auto;
+		width: 100%;
+		overflow: auto;
+	}
+		#footer	.index-bin div {
+			position:relative;
+			float: left;
+			text-align: left;
+			vertical-align: top;
+		}
+		#footer .index-bin li{
+			line-height: 1.6em;
+		}
+			#footer .index-bin li > a {
+				text-align: left;
+				line-height: 1rem;
+				font-size: 0.75rem;
+				font-weight: 400;
+				color: #fff;
+			}
+				#footer .index-bin li > a:hover {
+					color: #B2E522;
+				}
+
+@media only screen and (max-width: 980px){ #footer .index-bin{ display:block; width:auto;}}
+@media only screen and (max-width: 980px){ #footer .index-bin div{ float:none;}}
+@media only screen and (max-width: 980px){ #footer .index-section{ margin:0 1em;width:auto; }}
+
+/* Copyright
+	#copyright {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+		padding: 0.65em 0;
+		border-top: 1px solid #ccc;
+	}
+		#copyright ul {
+			display: inline-block;
+		}
+			#copyright ul.left {
+				float: left;
+			}
+			#copyright ul.right {
+				float: right;
+			}
+				#copyright ul.left > li {
+					margin-right: 1.3em;
+				}
+				#copyright ul.right > li {
+					margin-left: 1.3em;
+				}
+		#copyright ul > li {
+			display: inline;
+		}
+		#copyright ul > li > a {
+			color: #fff;
+			font-size: 65%;
+			font-weight: 300;
+			text-decoration: none;
+		}
+			#copyright ul > li > a:hover {
+				color: #B2E522;
+			}
+
+@media only screen and (max-width: 980px){ #copyright ul > li { display:block; width:auto;}}
+/*@media only screen and (max-width: 980px){ #copyright ul.left, #copyright ul.right { float:none;}}*/
+/*@media only screen and (max-width: 980px){ #copyright ul.left {text-align:left;} }
+@media only screen and (max-width: 980px){ #copyright ul.right {text-align:right;} }
+@media only screen and (max-width: 980px){ #copyright ul.left > li, #copyright ul.right > li { margin:0 1em;}}
+
+		#copyright ul.left > li.split {
+			clear: right;
+			float: right;
+		}*/
