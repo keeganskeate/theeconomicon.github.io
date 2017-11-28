@@ -502,6 +502,7 @@ b {
 
 /* Footer */
 #footer {
+	max-width: 1344px;
 	margin: 0 auto;
 	padding: 24px 0;
 	background: #181818;
