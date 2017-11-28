@@ -583,7 +583,7 @@ b {
 		#footer .blurb .social {
 			display: flex;
 			justify-content: center;
-			margin: 24px auto 0 auto;
+			padding: 24px auto 0 auto;
 		}
 			#footer .blurb .social a {
 				margin-right: 22px;
