@@ -25,6 +25,7 @@
 	<script src="../javascripts/skel-layers.min.js"></script>
 	<script src="../javascripts/main.js"></script>
 	<script src="../javascripts/modal.js"></script>
+	<script> $(function(){$("#common-header").load("../layout/common-header.html");}); </script>
 <!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="57x57" href="../images/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="../images/favicon/apple-icon-60x60.png">
@@ -48,32 +49,7 @@
 <body class="subpage">
 <!-- Header -->	
 	<div class="wrapper marquee-style">
-		<div id="header" class="StickyHeader">
-			<section class="column">
-				<h1><a href="#" id="mobile-logo" title="The Economicon">The Economicon<i class="fa fa-copyright" style="font-size:12px; vertical-align: top;"></i></a></h1>
-				<nav id="nav">
-					<ul>
-						<li class="company-logo"><a href="http://www.theeconomicon.com/" title="Homepage" style="background: url('../images/The-Economicon-logo-new.png') no-repeat left center; width: 350px; height: 50px;" aria-label="The Economicon"></a></li>
-						<li><a class="top-row" href="#" aria-label="Search"><i class="fa fa-search" aria-hidden="true" title="Search"></i></a></li>
-						<li><a class="top-row" href="#">Donate</a></li>
-						<li><a class="top-row" href="#">Contact</a></li>
-						<li><a class="top-row" href="#">Documentation</a></li>
-						<li><a class="top-row" href="#">Blog</a></li>
-						<li class="split"><a class="button download" href="#" title="Download Cannalytics"><img src="/images/Cannalytics-icon.png" style="width:11px; height:15px; margin-right:3px; transform: translateY(2px);"> Download</a></li>
-						<li><a href="/about">About</a></li>
-						<li><a href="/journal-of-the-cannabis-industry">Whitepapers</a></li>
-						<li><a href="#">Products <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-							<ul>
-								<li><a href="#"><i class="fa fa-book" aria-hidden="true"></i> The Journal of the Cannabis Industry</a></li>
-								<li><a href="#"><i class="fa fa-window-restore" aria-hidden="true"></i> Cannalytics Enterprise Platform</a></li>
-								<li><a href="#"><i class="fa fa-line-chart" aria-hidden="true"></i> Cannalytics 500 Index Funds</a></li>
-								<li><a href="#"><i class="fa fa-comments" aria-hidden="true"></i> Business Intelligence</a></li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
-			</section>
-		</div>
+		<div id="common-header"></div>
 <!-- Marquee -->
 		<div class="marquee" style="background: url('/images/tessellation.png') no-repeat top center; background-size:cover;">
 			<div class="marquee-text">
@@ -128,84 +104,9 @@
 			</div>
 		</section>
 	</div>
-<!-- Footer -->
-	<div class="wrapper end-style">
-		<div id="footer">
-			<section class="column">
-				<div class="index-bin">
-					<div class="index-section">
-						<div class="index-wrap">
-						<div class="index-item">
-							<h3>Comapny</h3>
-						<ul>
-							<li><a href="/about#about-us">About Us</a></li>
-							<li><a href="/about#contact">Contact Us</a></li>
-							<li><a href="/about#investing">For Investors</a></li>
-							<li><a href="/about#job-opportunities">Job Opportunities</a></li>
-						</ul>
-						</div>
-						</div>
-					</div>
-					<div class="index-section">
-						<div class="index-wrap">
-						<div class="index-item">
-							<h3>Business Services</h3>
-							<ul>
-								<li><a href="/services#forecasting">Forecasting</a></li>
-								<li><a href="/services#price-analysis">Price Analysis</a></li>
-								<li><a href="/services#cost-analysis">Cost Analysis</a></li>
-								<li><a href="/services#consumer-demand">Consumer Demand</a></li>
-							</ul>
-						</div>
-						</div>
-					</div>
-					<div class="index-section">
-						<div class="index-wrap">
-						<div class="index-item">
-							<h3>Journal</h3>
-							<ul>
-								<li><a href="/journal-of-the-cannabis-industry#current-issue">Current Issue</a></li>
-								<li><a href="/journal-of-the-cannabis-industry#submissions">Submissions</a></li>
-								<li><a href="/journal-of-the-cannabis-industry#advertising">Advertising</a></li>
-								<li><a href="/journal-of-the-cannabis-industry#mobile-application">Mobile Application</a></li>
-							</ul>
-						</div>
-						</div>
-					</div>
-					<div class="index-section">
-						<div class="index-wrap">
-						<div class="index-item">
-							<h3>Subscribe</h3>
-							<ul>
-								<li><a href="/journal-of-the-cannabis-industry#print-delivery">Print Delivery</a></li>
-								<li><a href="/journal-of-the-cannabis-industry#digital-subscriptions">Digital Subscriptions</a></li>
-								<li><a href="/journal-of-the-cannabis-industry#email-newsletter">Email Newsletter</a></li>
-								<li><a href="/journal-of-the-cannabis-industry#corporate-subscriptions">Corporate Subscriptions</a></li>
-							</ul>
-						</div>
-						</div>
-					</div>
-				</div>			
-<!-- Copyright -->
-				<div id="copyright">
-					<ul class="left">
-						<li><a href="legal/copyright.pdf" title="View Copyright"><i class="fa fa-copyright"></i> 2017 The Economicon</a></li>
-						<li><a href="legal/privacy-policy.pdf" title="View the Privacy Policy">Privacy</a></li>
-						<li><a href="legal/terms-of-service.pdf" title="View the Terms of Service">Terms</a></li>
-						<li><a href="#" title="Get help">Help</a></li>
-						<!--<li><a href="legal/terms-of-sale.pdf">Terms of Sale</a></li>-->
-					</ul>
-					<a href="http://www.theeconomicon.com/" title="Home"><img src="../images/The-Economicon-icon-white.png" style="width:50px; height:50px;"></a>
-					<ul class="right">
-						<li><a href="#">Blog</a></li>
-						<li><a href="/about#contact">Contact</a></li>
-						<li><a href="/journal-of-the-cannabis-industry#subscriptions">Subscriptions</a></li>
-						<li><a href="/journal-of-the-cannabis-industry#advertising">Advertise</a></li>
-					</ul>
-				</div>	
-			</section>
-		</div>
-	</div>
+<!-- Common Footer -->
+	<script> $(function(){$("#common-footer").load("/layout/common-footer.html");}); </script>
+	<div id="common-footer"></div>
 <!-- Back to top Button -->
 	<a href="#" class="back-to-top"><img src="../images/up-caret.png" style="width:15px; height:15px;"></a>
 <!-- Additional Javascript -->
