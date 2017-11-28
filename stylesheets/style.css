@@ -120,17 +120,10 @@ b {
 
 /* Wrappers */
 .wrapper {
-	padding: 0;
+	padding: 0 20px;
 }
 	.wrapper.carousel-style {
-		padding: 0;
 		height: 543px;
-	}
-	.wrapper.banner-style {
-		padding: 0;
-	}
-	.wrapper.end-style {
-		padding: 0;
 	}
 
 /* Slick Carousel */
@@ -285,7 +278,7 @@ b {
 			position: relative;
 			display: inline-block;
 			float: right;
-			margin-right: 1.3em;
+			margin-left: 1.3em;
 			height: 30px;
 			text-decoration: none;
 		}
@@ -337,7 +330,7 @@ b {
 				transform: translateY(-50%);
 				-webkit-transform: translateY(-50%);
 				height: 50px;
-				margin-left: 1.3em;
+				margin-left: 0;
 			}			
 				#nav > ul > li.company-logo:active > a,
 				#nav > ul > li.company-logo:hover > a {
@@ -506,7 +499,6 @@ b {
 @media only screen and (max-width: 980px){ .content-section{ margin:0 1em; width:auto; }}
 @media only screen and (max-width: 980px){ .banner .content-bin .left-padded{ padding-left: 0;}}
 
-@import url("http://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800");
 
 /* Footer */
 #footer {
@@ -519,10 +511,10 @@ b {
 		min-width: 15%;
 		max-width: 30%;
 	}
-  #footer .bordered {
-    padding: 24px 0;
-    border-top: solid 1px #000;
-  }
+	#footer .bordered {
+		padding: 24px 0;
+		border-top: solid 1px #000;
+	}
   #footer a {
     -webkit-transition: color .2s ease-in-out;
     -moz-transition: color .2s ease-in-out;
@@ -609,6 +601,7 @@ b {
           color: #14a76c;
         }
 @media only screen and (max-width: 980px){#footer .disclaimer{padding-bottom: 12px;}}
+
 /* Copyright */
   #footer .copyright {
     display: flex;
@@ -662,145 +655,6 @@ b {
 @media only screen and (max-width: 980px){ #footer .copyright .left{ order: 2; padding-top: 12px;}}
 @media only screen and (max-width: 980px){ #footer .copyright .home-icon{ order: 3;}}
 
-/* Footer
-#footer {
-	margin: 0 auto;
-	padding-top: 2em;
-	text-align: center;
-	background: #176599;
-}
-	#footer ul{
-		list-style: none;
-		padding: 0em;
-	}
-	#footer h3{
-		padding: 0;
-		margin-bottom: 14px;
-		text-align: left;
-		font-size: 1.0rem;
-		line-height: 0.6875rem;
-		font-weight: 600;
-		color:  #fff;
-	}
-	#footer .index-section {
-		display: inline-block;
-		overflow: hidden;
-		padding: 1.3em 0;
-		margin: auto;
-		width: 25%;
-	}
-	#footer .index-wrap {
-		float: left;
-		position: relative;
-		left: 50%;
-	}
-	#footer .index-item {
-		float: left;
-		position: relative;
-		left: -50%;
-	}
-	#footer .index-bin {
-		display: inline-block;
-		margin: auto;
-		width: 100%;
-		overflow: auto;
-	}
-		#footer	.index-bin div {
-			position:relative;
-			float: left;
-			text-align: left;
-			vertical-align: top;
-		}
-		#footer .index-bin li{
-			line-height: 1.6em;
-		}
-			#footer .index-bin li > a {
-				text-align: left;
-				line-height: 1rem;
-				font-size: 0.75rem;
-				font-weight: 400;
-				color: #fff;
-			}
-				#footer .index-bin li > a:hover {
-					color: #B2E522;
-				}
-
-@media only screen and (max-width: 980px){ #footer .index-bin{ display:block; width:auto;}}
-@media only screen and (max-width: 980px){ #footer .index-bin div{ float:none;}}
-@media only screen and (max-width: 980px){ #footer .index-section{ margin:0 1em;width:auto; }}
-
-/* Copyright
-	#copyright {
-		position: relative;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		width: 100%;
-		padding: 0.65em 0;
-		border-top: 1px solid #ccc;
-	}
-		#copyright ul {
-			display: inline-block;
-		}
-			#copyright ul.left {
-				float: left;
-			}
-			#copyright ul.right {
-				float: right;
-			}
-				#copyright ul.left > li {
-					margin-right: 1.3em;
-				}
-				#copyright ul.right > li {
-					margin-left: 1.3em;
-				}
-		#copyright ul > li {
-			display: inline;
-		}
-		#copyright ul > li > a {
-			color: #fff;
-			font-size: 65%;
-			font-weight: 300;
-			text-decoration: none;
-		}
-			#copyright ul > li > a:hover {
-				color: #B2E522;
-			}
-
-@media only screen and (max-width: 980px){ #copyright ul > li { display:block; width:auto;}}
-/*@media only screen and (max-width: 980px){ #copyright ul.left, #copyright ul.right { float:none;}}*/
-/*@media only screen and (max-width: 980px){ #copyright ul.left {text-align:left;} }
-@media only screen and (max-width: 980px){ #copyright ul.right {text-align:right;} }
-@media only screen and (max-width: 980px){ #copyright ul.left > li, #copyright ul.right > li { margin:0 1em;}}
-
-		#copyright ul.left > li.split {
-			clear: right;
-			float: right;
-		}*/
-/* Beta Button */
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	.button.beta {
-		cursor: pointer;
-		text-decoration: none;
-		display: flex;
-		align-items: center;
-		text-align: center;
-		vertical-align: middle;
-		height: 30px;
-		font-size: 12pt;
-		padding: 0.25em 1.5em;
-		color: #fff;
-		background: #14a76c;
-		border-radius: 4px;
-	}
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		input[type="button"]:hover,
-		.button.beta:hover {
-			background: #006A3F;
-		}
 /* Download Button */
 	input[type="submit"],
 	input[type="reset"],
@@ -822,31 +676,6 @@ b {
 		.button.download:hover {
 			background: #006A3F;
 		}
-/* Tip Button */
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	.button.tip {
-		cursor: pointer;
-		text-decoration: none;
-		display: inline-block;
-		text-align: center;
-		margin-top: 20px;
-		padding: 0.72em 2.75em;
-		font-size: 0.975em;
-		color: #131516;
-		background: #fff;
-		border: 1px solid #131516;
-		border-radius: 4px;
-	}
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		input[type="button"]:hover,
-		.button.tip:hover {
-			border-color: #14a76c;
-			color: #14a76c;
-		}
-
 /* Back to top Button */
 .back-to-top {
 	position: fixed;
