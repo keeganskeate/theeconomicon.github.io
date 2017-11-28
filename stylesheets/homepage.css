@@ -1,0 +1,200 @@
+/* Attribute Row */
+	#row .column {
+		position: relative;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+	#row .attribute {
+		position: relative;
+		height: 600px;
+		width: 33%;
+		top: 0;
+		border: 2px solid #e7e7e7;
+		border-radius: 4px;
+	}
+	#row .title {
+		height: 20%;
+		border-bottom: 2px solid #e7e7e7;
+		border-radius: 4px;
+	}
+		#row .title .text {
+			position: relative;
+			z-index: 2;
+			width: 100%;
+			height: inherit;
+			padding: 3em 1.5em 1.0em 1.5em;
+		}
+			#row .title h1 {
+				font-family: 'Sanchez', serif;
+				font-size: 1.05em;
+				font-weight: 600;
+				color: #2A2D34;
+			}
+			#row .title h2 {
+				font-family: 'Sanchez', serif;
+				font-size: 1.3em;
+				font-weight: 600;
+				color: #2A2D34;
+			}
+	#row .title .title-background {
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		height: inherit;
+		background: url('/images/style/tessellation_small.png') no-repeat center center;
+		background-size:cover;
+		opacity: 0.75;
+		filter: alpha(opacity=75);
+	}
+	#row .features {
+		position: relative;
+		height: 75%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+	#row .feature {
+		position: relative;
+		height: 160px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: left;
+	}
+	#row .feature-icon {
+		margin-right: 1.6em;
+		box-shadow: inset 0 0 0 99999px rgba(255,255,255,0.2);
+	}
+		#row .feature-icon span {
+			font-size: 4em;
+		}
+		#row .attribute:active .feature-icon,
+		#row .attribute:hover .feature-icon {
+			box-shadow: none;
+		}
+	#row .feature-text {
+		width: 60%;
+	}
+		#row .feature-text p {
+			margin-top: .25em;
+			font-size: 0.95em;
+			line-height: 1.6;
+			color: #5d5e5e;
+		}
+		#row .feature-text h3 a {
+			color: #2A2D34;
+			font-weight: 600;
+			font-size: 1.15em;
+			display: inline-block;
+		}
+			#row .feature-text h3 a:after {
+				content: '';
+				display: block;
+				height: 3px;
+				width: 0;
+				margin: auto;
+				background: transparent;
+				transition: width .33s ease-in-out, background .33s ease-in-out;
+				-moz-transition: width .33s ease-in-out, background .33s ease-in-out;
+				-webkit-transition: width .33s ease-in-out, background .33s ease-in-out;
+			}
+				#row .feature-text h3 .underline-1:hover:after {
+					width: 100%;
+					background: #8176b5;
+				}
+				#row .feature-text h3 .underline-2:hover:after {
+					width: 100%;
+					background: #76c4e2;
+				}
+				#row .feature-text h3 .underline-3:hover:after {
+					width: 100%;
+					background: #f69259;
+				}
+
+@media only screen and (max-width: 980px){ #row .column{ display:block; height:auto;}}
+@media only screen and (max-width: 980px){ #row .attribute{ width:auto;}}
+
+
+/* Banner */
+.banner {
+	display: block;
+	padding-top: 2em;
+	text-align: center;
+	color: inherit;
+}
+	.banner .container {
+		margin: 0 auto;
+		padding: 0em 0em;
+	}
+	.banner hr {
+		height: 1px;
+		background-color: #ccc;
+		color: #ccc;
+		border: 0 none;
+		margin: 5px auto;
+	}
+	.banner .content-section {
+		display: inline-block;
+		overflow: hidden;
+		padding: 1em 0;
+		margin: auto;
+		width: 50%;
+	}
+	.banner .content-wrap {
+		float: left;
+		position: relative;
+		left: 50%;
+	}
+	.banner .content-item {
+		float: left;
+		position: relative;
+		left: -50%;
+	}
+	.banner .content-bin {
+		display: inline-block;
+		margin: auto;
+		width: 80%;
+		overflow: auto;
+	}
+		.banner .content-bin div {
+			position: relative;
+			float: left;
+			vertical-align: top;
+		}
+		.banner .content-bin ul {
+			list-style: none;
+			text-align: left;
+		}
+			.banner .content-bin ul > li {
+				padding-bottom: 5px;	
+			}
+				.banner .content-bin ul > li > a {
+					color: #131516;
+					font-weight: bold;
+				}
+		.banner .content-bin h1 {
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 1.6em;
+			line-height: 140%;
+			padding-bottom: 15px;
+		}
+			.subpage .banner .content-bin h1 {
+				height: 50px;
+			}
+		.banner .content-bin p {
+			display: block;
+			text-align: left;
+			line-height: 125%;
+			font-family: 'Lusitana', serif;
+		}
+			.banner .content-bin a:active,
+			.banner .content-bin a:hover{
+				color: #14a76c;
+			}
+
+@media only screen and (max-width: 980px){ .banner .content-bin{ display:block; width:auto;}}
+@media only screen and (max-width: 980px){ .banner .content-bin div{ float:none;}}
+@media only screen and (max-width: 980px){ .content-section{ margin:0 1em; width:auto; }}
+@media only screen and (max-width: 980px){ .banner .content-bin .left-padded{ padding-left: 0;}}
