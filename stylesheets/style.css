@@ -437,7 +437,7 @@ b {
 			letter-spacing: 0;
 		}
 /* Marquee */
-.wrapper .marquee-style {
+.wrapper.marquee-style {
 	position: relative;
 	padding: 0;
 	height: 400px;
