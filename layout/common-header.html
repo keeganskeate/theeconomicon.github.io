@@ -32,3 +32,23 @@
 		</nav>
 	</section>
 </div>
+<script>
+	// Sticky header with slide down effect
+	$(function() {
+		$("#header").before($(".StickyHeader").clone().addClass("fixed"));
+		$(window).scroll(function(){
+			if ($(window).scrollTop() >= 200) {
+				$('.StickyHeader.fixed').addClass('slideDown');
+			} else{
+				$('.StickyHeader.fixed').removeClass('slideDown');
+			}
+		});
+	});
+	// Initiate Dropdowns.
+	$(function() {
+		$('#nav > ul').dropotron({
+			offsetY: -15,
+			hoverDelay: 0
+		});
+	});
+</script>
