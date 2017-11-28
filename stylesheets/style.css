@@ -304,11 +304,10 @@ b {
 						width: 100%;
 						background: #14a76c;
 					}
-
-				#nav > ul > li:active > a,
+				/*#nav > ul > li:active > a,
 				#nav > ul > li:hover > a {
 					border-bottom: 2px solid #14a76c;
-				}
+				}*/
 				#nav > ul > li:active > a > i,
 				#nav > ul > li:hover > a > i {
 					color: #14a76c;
@@ -321,6 +320,9 @@ b {
 					color: #14a76c;
 					border-bottom: 2px solid transparent;
 				}
+					#nav > ul > li a.top-row:hover:after {
+						background: transparent;
+					}
 			#nav ul li.company-logo {
 				position: relative;
 				float: left;
@@ -334,6 +336,9 @@ b {
 				#nav > ul > li.company-logo:hover > a {
 					border-bottom: 2px solid transparent;
 				}
+					#nav > ul > li.company-logo > a:hover:after {
+						background: transparent;
+					}
 			#nav ul > li.split {
 				clear: right;
 				float: right;
