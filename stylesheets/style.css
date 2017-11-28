@@ -281,7 +281,7 @@ b {
 			text-decoration: none; /*Check if needed */
 		}
 			#nav > ul > li a {
-				display: table-cell;
+				display: inline-block;
 				height: inherit;
 				color: #414042;
 				font-size: 90%;
@@ -289,21 +289,21 @@ b {
 				vertical-align: bottom;
 				border-bottom: 2px solid transparent;
 			}
-				/*#nav > ul > li a:after {
+				#nav > ul > li a:after {
 					content: '';
 					display: block;
 					height: 2px;
 					width: 0;
 					margin: auto;
 					background: transparent;
-					transition: width .4s ease, background .4s ease;
-					-webkit-transition: width .4s ease, background .4s ease;
-					-moz-transition: width .4s ease, background .4s ease;
+					transition: width .2s ease, background .2s ease;
+					-webkit-transition: width .2s ease, background .2s ease;
+					-moz-transition: width .2s ease, background .2s ease;
 				}
 					#nav > ul > li a:hover:after {
 						width: 100%;
 						background: #14a76c;
-					}*/
+					}
 
 				#nav > ul > li:active > a,
 				#nav > ul > li:hover > a {
