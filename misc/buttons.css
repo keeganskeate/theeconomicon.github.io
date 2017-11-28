@@ -1,0 +1,49 @@
+/* Beta Button */
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button.beta {
+		cursor: pointer;
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		vertical-align: middle;
+		height: 30px;
+		font-size: 12pt;
+		padding: 0.25em 1.5em;
+		color: #fff;
+		background: #14a76c;
+		border-radius: 4px;
+	}
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		.button.beta:hover {
+			background: #006A3F;
+		}
+    
+    /* Tip Button */
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	.button.tip {
+		cursor: pointer;
+		text-decoration: none;
+		display: inline-block;
+		text-align: center;
+		margin-top: 20px;
+		padding: 0.72em 2.75em;
+		font-size: 0.975em;
+		color: #131516;
+		background: #fff;
+		border: 1px solid #131516;
+		border-radius: 4px;
+	}
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		.button.tip:hover {
+			border-color: #14a76c;
+			color: #14a76c;
+		}
