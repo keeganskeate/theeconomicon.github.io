@@ -492,6 +492,9 @@ b {
 						background: #2199E8;
 					}
 /* Footer */
+.wrapper.dark {
+	background: #181818;
+}
 #footer {
 	max-width: 1344px;
 	margin: 0 auto;
