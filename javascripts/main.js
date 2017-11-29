@@ -41,19 +41,7 @@
 			}
 		}
 	});
-	
-	// Sticky header with slide down effect
-	$(function() {
-		$("#header").before($(".StickyHeader").clone().addClass("fixed"));
-		$(window).scroll(function(){
-			if ($(window).scrollTop() >= 200) {
-				$('.StickyHeader.fixed').addClass('slideDown');
-			} else{
-				$('.StickyHeader.fixed').removeClass('slideDown');
-			}
-		});
-	});
-	
+		
 	// Disable animations/transitions until page has loaded.
 	$(function() {
 		var	$window = $(window),
@@ -64,14 +52,6 @@
 			});
 	});
 	
-	// Initiate Dropdowns.
-	$(function() {
-		$('#nav > ul').dropotron({
-			offsetY: -15,
-			hoverDelay: 0
-		});
-	});
-		
 })(jQuery);
 
 // Back-to-top Button
