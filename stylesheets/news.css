@@ -449,3 +449,9 @@
 @media only screen and (max-width: 980px){#news-story .news-text {width:90%;}}
 @media only screen and (max-width: 980px){#news-story .news-image {height: 400px;}}
 @media only screen and (max-width: 980px){#news-story .image-caption {width: 100%;}}
+
+/* Discussion */
+	#news-story .discussion {
+		width: 70%;
+		margin: 0 auto;
+	}
