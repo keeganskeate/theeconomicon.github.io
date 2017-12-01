@@ -103,7 +103,17 @@ a {
 b {
 	font-weight: 600;
 }
-
+/* Selection Color */
+	a::selection,
+	p::selection,
+	span::selection {
+		background: #14a76c;
+	}
+	a::-moz-selection,
+	p::-moz-selection,
+	span::-moz-selection {
+		background: #14a76c;
+	}
 /* Containers */
 .container {
 	min-width: 840px;
