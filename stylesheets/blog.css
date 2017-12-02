@@ -277,6 +277,12 @@
 @media only screen and (max-width: 980px){#story .image {height: 400px;}}
 @media only screen and (max-width: 980px){#story .image-caption {width: 100%;}}
 
+/* Discussion */
+	#story .discussion {
+		width: 70%;
+		margin: 0 auto;
+	}
+
 /* Blog Post
 #blog-post {
 	position: relative;
