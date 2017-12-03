@@ -101,6 +101,7 @@
 				#blog-archive .publishing-info span > a:hover {
 					color: #477DCA;
 				}
+@media only screen and (max-width: 980px){#blog-archive .article-image {height: 350px;}}
 @media only screen and (max-width: 980px){#blog-archive .articles {justify-content:center;}}
 @media only screen and (max-width: 980px){#blog-archive .articles .article {width:80%; margin-bottom:2em;}}
 /* Blog Story */
