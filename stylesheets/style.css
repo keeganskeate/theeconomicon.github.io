@@ -627,6 +627,10 @@ b {
 				#footer .blurb .social a:hover:after {
 					background: transparent;
 				}
+				#footer .blurb .social .github:active,
+				#footer .blurb .social .github:hover {
+					color: #f34f29;
+				}
 @media only screen and (max-width: 980px){#footer .disclaimer{padding-bottom: 12px;}}
 
 /* Copyright */
