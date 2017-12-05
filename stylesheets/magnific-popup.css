@@ -147,6 +147,7 @@ button.mfp-close {
         .mfp-image-holder .mfp-close,
         .mfp-iframe-holder .mfp-close {
             right: -12px;
+            padding: 1px 0;
             background: #000;
             border-radius: 50%;
             text-align: center;
