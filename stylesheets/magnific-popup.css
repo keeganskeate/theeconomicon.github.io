@@ -132,29 +132,29 @@ button.mfp-close {
         padding: 0;
     }
     .mfp-close {
-        top: 26px;
-        right: -26px;
-        width: 26px;
-        height: 26px;
+        top: 24px;
+        right: -24px;
+        width: 24px;
+        height: 24px;
         color: #fff;
-        opacity: 0.25;
-        filter: alpha(opacity=25);
-        font-size: 26px;
-        line-height: 26px;
+        opacity: 0.50;
+        filter: alpha(opacity=50);
+        font-size: 24px;
+        line-height: 24px;
         position: absolute;
         text-align: center;
     }
         .mfp-image-holder .mfp-close,
         .mfp-iframe-holder .mfp-close {
-            right: -13px;
+            right: -12px;
             background: #000;
             border-radius: 50%;
             text-align: center;
         }
         .mfp-close:hover,
         .mfp-close:focus {
-            opacity: 0.5;
-            filter: alpha(opacity=50);
+            opacity: 0.75;
+            filter: alpha(opacity=75);
         }
 
 /* Main image in popup */
