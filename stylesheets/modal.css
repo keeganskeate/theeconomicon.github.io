@@ -2,66 +2,66 @@
 
 .mfp-with-fade {
 
-  /* Properties */
-  .mfp-content,
-  &.mfp-bg {
-    opacity: 0;
-    cursor: auto;
-    background: #fff;
-    -webkit-backface-visibility: hidden;
-    -webkit-transition: opacity 0.3s ease-out; 
-    -moz-transition: opacity 0.3s ease-out; 
-    -o-transition: opacity 0.3s ease-out; 
-    transition: opacity 0.3s ease-out;
-  }
-  
-/* Caption */
- .mfp-title  { 
-   color: #111;
-}
-
-/* Background */
-&.mfp-bg {
-  cursor: pointer;
-}
-
-/* Close button */
-.mfp-close {
-  position: absolute;
-  bottom: 0;
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
-  font-size: 25px;
-  color: #fff;
-  border-radius: 50%;
-  background: #ccc;
-}
-  .mfp-close:active,
-  .mfp-close:hover,
-  .mfp-close:focus {
-    opacity: 1;
-    background: #666;
-  }
-.mfp-image-holder .mfp-close,
-.mfp-iframe-holder .mfp-close {
-  cursor: pointer;
-  text-align: center;
-  padding: 0 5px;
-}
-  
-  /* Open state */
-  &.mfp-ready {
-   .mfp-content {
-      opacity: 1;
-    }
-  }
-  /* Closed state */
-  &.mfp-removing {
+/* Properties */
     .mfp-content,
     &.mfp-bg {
-      opacity: 0;
+        opacity: 0;
+        cursor: auto;
+        background: #fff;
+        -webkit-backface-visibility: hidden;
+        -webkit-transition: opacity 0.3s ease-out; 
+        -moz-transition: opacity 0.3s ease-out; 
+        -o-transition: opacity 0.3s ease-out; 
+        transition: opacity 0.3s ease-out;
     }
-  }
+  
+/* Caption */
+    .mfp-title  { 
+        color: #111;
+    }
+
+/* Background */
+    &.mfp-bg {
+        cursor: pointer;
+    }
+
+/* Close button */
+    .mfp-image-holder .mfp-close,
+    .mfp-iframe-holder .mfp-close {
+        cursor: pointer;
+        text-align: center;
+        padding: 0 5px;
+    }
+    .mfp-close {
+        position: absolute;
+        bottom: 0;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 25px;
+        color: #fff;
+        border-radius: 50%;
+        background: #ccc;
+    }
+        .mfp-close:active,
+        .mfp-close:hover,
+        .mfp-close:focus {
+            opacity: 1;
+            background: #666;
+        }
+
+/* Open state */
+    &.mfp-ready {
+        .mfp-content {
+            opacity: 1;
+        }
+    }
+/* Closed state */
+    &.mfp-removing {
+        .mfp-content,
+        &.mfp-bg {
+            opacity: 0;
+        }
+    }
 }
 
