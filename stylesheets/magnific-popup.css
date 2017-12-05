@@ -3,125 +3,114 @@
 /* Background */
 
 .mfp-bg {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1042;
-  overflow: hidden;
-  position: fixed;
-  background: #fff;
-  opacity: 0.8;
-  cursor: pointer;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1042;
+    overflow: hidden;
+    position: fixed;
+    background: #fff;
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 /* Wraps and Containers */
 
 .mfp-wrap {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1043;
-  position: fixed;
-  outline: none !important;
-  -webkit-backface-visibility: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1043;
+    position: fixed;
+    outline: none !important;
+    -webkit-backface-visibility: hidden;
 }
-
 .mfp-container {
-  text-align: center;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  padding: 0 8px;
-  box-sizing: border-box;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 0 8px;
+    box-sizing: border-box;
 }
-
 .mfp-container:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
-
 .mfp-align-top .mfp-container:before {
-  display: none;
+    display: none;
 }
-
 .mfp-content {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 auto;
-  text-align: left;
-  z-index: 1045;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    text-align: left;
+    z-index: 1045;
 }
-
 .mfp-inline-holder .mfp-content,
 .mfp-ajax-holder .mfp-content {
-  width: 100%;
-  cursor: auto;
+    width: 100%;
+    cursor: auto;
 }
 
 .mfp-ajax-cur {
-  cursor: progress;
+    cursor: progress;
 }
 
 /* Zoom Controls */
 
 .mfp-zoom-out-cur .mfp-bg {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 /* Miscellaneous */
 
 .mfp-auto-cursor .mfp-content {
-  cursor: auto;
+    cursor: auto;
 }
-
 .mfp-close,
 .mfp-preloader,
 .mfp-counter {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
 }
-
 .mfp-loading.mfp-figure {
-  display: none;
+    display: none;
 }
-
 .mfp-hide {
-  display: none !important;
+    display: none !important;
 }
-
-.mfp-preloader {
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  text-align: center;
-  margin-top: -0.8em;
-  left: 8px;
-  right: 8px;
-  z-index: 1044;
-}
-  .mfp-preloader a {
-    color: #fff;
-  }
-    .mfp-preloader a:hover {
-      color: #FFF;
-    }
-
-.mfp-s-ready .mfp-preloader {
-  display: none;
-}
-
 .mfp-s-error .mfp-content {
-  display: none;
+    display: none;
 }
+.mfp-s-ready .mfp-preloader {
+    display: none;
+}
+.mfp-preloader {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    text-align: center;
+    margin-top: -0.8em;
+    left: 8px;
+    right: 8px;
+    z-index: 1044;
+}
+    .mfp-preloader a {
+        color: #fff;
+    }
+        .mfp-preloader a:hover {
+            color: #FFF;
+        }
 
 /* Close Button */
 
@@ -166,7 +155,6 @@ button.mfp-close {
         border-radius: 50%;
         text-align: center;
     }
-
 
 /* Main image in popup */
 
@@ -220,17 +208,15 @@ img.mfp-img {
 /* Caption */
 
 .mfp-title {
-  text-align: left;
-  line-height: 18px;
-  color: #F3F3F3;
-  word-wrap: break-word;
-  padding-right: 36px;
+    text-align: left;
+    line-height: 18px;
+    color: #F3F3F3;
+    word-wrap: break-word;
+    padding-right: 36px;
 }
-
 .mfp-image-holder .mfp-content {
     max-width: 100%;
 }
-
 .mfp-gallery .mfp-image-holder .mfp-figure {
     cursor: pointer;
 }
