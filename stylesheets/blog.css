@@ -229,10 +229,11 @@
 			}
 		#story .text a {
 			color: #477DCA;
+			border-bottom: 0.0625rem solid #dcdcdc;
 		}
 			#story .text a:active,
 			#story .text a:hover {
-				text-decoration: underline;
+				border-color: #477DCA;
 			}
 		#story .text .video {
 			width: 100%;
