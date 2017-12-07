@@ -221,9 +221,9 @@
 			#story .text .lettrine:first-letter {
 				color: #2D004F;
 				float: left;
-				font-size: 360%;
+				font-size: 525%;
 				line-height: 80%;
-				padding-top: 4px;
+				padding-top: 6px;
 				padding-right: 8px;
 				padding-left: 3px;
 			}
