@@ -403,10 +403,11 @@
 			}
 		#news-story .news-text a {
 			color: #477DCA;
+			border-bottom: 0.0625rem solid #dcdcdc;
 		}
 			#news-story .news-text a:active,
 			#news-story .news-text a:hover {
-				text-decoration: underline;
+				border-color: #477DCA;
 			}
 		#news-story .news-text .video {
 			width: 100%;
