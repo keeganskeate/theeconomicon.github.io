@@ -448,6 +448,7 @@ b {
 			font-size: 90%;
 			letter-spacing: 0;
 		}
+
 /* Marquee */
 .wrapper.marquee-style {
 	position: relative;
@@ -503,6 +504,8 @@ b {
 						width: 100%;
 						background: #2199E8;
 					}
+@media only screen and (max-width: 980px){.marquee-text h1{padding-top:1em;}}
+
 /* Footer */
 .wrapper.dark {
 	background: #181818;
