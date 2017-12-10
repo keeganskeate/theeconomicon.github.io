@@ -643,7 +643,7 @@ b {
 				}
 					#footer .blurb .social .disqus-icon:active,
 					#footer .blurb .social .disqus-icon:hover {
-						background-position: 0 -22px;
+						background-position: 0 -30px;
 					}
 @media only screen and (max-width: 980px){#footer .disclaimer{padding-bottom: 12px;}}
 
