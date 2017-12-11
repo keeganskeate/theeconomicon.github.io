@@ -212,7 +212,6 @@
 		#news-carousel .slide-content h3 a:active,
 		#news-carousel .slide-content h3 a:hover {
 			text-decoration: underline;
-			/*color: #2D004F;*/
 		}
 	#news-carousel .slide-info span {
 		padding-right: 15px;
@@ -223,7 +222,7 @@
 		}
 			#news-carousel .slide-info span > a:active,
 			#news-carousel .slide-info span > a:hover {
-				color: #2D004F;
+				text-decoration: underline;
 			}
 /* Slide Button */
 	#news-carousel .slide-link {
