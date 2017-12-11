@@ -1,18 +1,13 @@
 #archives {
-	position: relative;
-	display: block;
-	width: 70%;
-	margin: 0.5em auto;
+	width: 80%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
-	#archives .column {
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-	}
 	#archives .article {
 		width: 100%;
-		margin-top: 1em;
-		padding-bottom: 1em;
+		padding: 4em 0;
 		border-bottom: 1px solid #e6e6e6;
 	}
 		#archives .article:last-child {
