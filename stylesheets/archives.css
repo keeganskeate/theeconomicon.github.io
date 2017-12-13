@@ -1,18 +1,27 @@
-#archives {
+/*#archives {
 	width: 80%;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+}*/
+#archives {
+	position: relative;
+	margin: 1em auto;
 }
+	#archives .column {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
 	#archives .date {
 		margin-top: 2em;
 		color: #e6e6e6;
 	}
 	#archives .article {
 		width: 100%;
-		margin-top: 2em;
-		padding-bottom: 4em;
+		margin-top: 1em;
+		padding-bottom: 1em;
 		border-bottom: 1px solid #e6e6e6;
 	}
 		#archives .article:last-child {
