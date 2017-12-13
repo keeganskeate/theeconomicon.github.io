@@ -1,27 +1,17 @@
-/*#archives {
-	width: 80%;
-	margin: 0 auto;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-}*/
+
 #archives {
 	position: relative;
-	margin: 1em auto;
+	margin: 0 auto;
 }
 	#archives .column {
 		display: flex;
 		align-items: center;
 		flex-direction: column;
 	}
-	#archives .date {
-		position: absolute;
-		color: #cccccc;
-	}
 	#archives .article {
 		width: 100%;
-		margin-top: 1em;
-		padding-bottom: 1em;
+		margin-top: 4em;
+		padding-bottom: 4em;
 		border-bottom: 1px solid #e6e6e6;
 	}
 		#archives .article:last-child {
