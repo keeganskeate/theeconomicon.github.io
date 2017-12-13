@@ -15,8 +15,8 @@
 		flex-direction: column;
 	}
 	#archives .date {
-		margin-top: 2em;
-		color: #e6e6e6;
+		position: absolute;
+		color: #cccccc;
 	}
 	#archives .article {
 		width: 100%;
