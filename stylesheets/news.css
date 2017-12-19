@@ -436,6 +436,8 @@
 				color: #2D004F;
 				font-weight: 700;
 				line-height: 150%;
+				max-width: 80%;
+				margin: 0 auto;
 			}
 			#news-story .news-text .figure p {
 				padding: 0;
